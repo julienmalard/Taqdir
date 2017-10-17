@@ -144,28 +144,27 @@ if so == 'Windows':
 Ahora cosas normales de instalación.
 """
 
-with open('tikon/versión.txt') as archivo_versión:
+with open('PyMarkSim/تبدیل.txt', 'r', encoding='utf8') as archivo_versión:
     تبدیل = archivo_versión.read().strip()
 
+
 setup(
-    name='پیمرکسم',
+    name='PyMarkSim',
     version=تبدیل,
     packages=find_packages(),
-    url='https://.readthedocs.io',
-    download_url='https://github.com/julienmalard/Tikon',
+    url='https://pymarksim.readthedocs.io',
+    download_url='https://github.com/julienmalard/PyMarksim',
     license='GNU 3',
     author='ژولئیں ژاں ملار',
     author_email='julien.malard@mail.mcgill.ca',
-    description='Modelos de redes agroecológicas',
-    long_description='Tiko\'n es una herramienta para desarrollar modelos de agroecología (relaciones tróficas'
-                     'entre insectos, enfermedades, y plantas). Está escrito para permitir la integración de modelos'
-                     'de cultivos existentes.',
-    requires=['pymc', 'numpy', 'matplotlib', 'scipy', 'SALib'],
+    description='',
+    long_description='',
+    requires=['numpy'],
     classifiers=[
-        'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
     ],
     package_data={
         # Incluir estos documentos de los paquetes:
-        '': ['*.csv', 'versión.txt', '*.json', 'Interfaz/*.png', 'Interfaz/*.jpg', 'Interfaz/*.png'],
+        '': ['*.CLI', 'تبدیل.txt'],
     },
 )

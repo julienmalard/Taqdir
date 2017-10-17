@@ -1,0 +1,31 @@
+# Archivos que git debería ignorar. Inspirado por el de SciPy.
+# Archivos de PyCharm #
+#######################
+.idea/
+.settings/
+*.tmp
+
+# Código compilado #
+###################
+*.py[ocd]
+
+# Archivos de Python #
+######################
+# Metadatos "Egg"
+*.egg-info
+# configuración distutils
+site.cfg
+setup.cfg
+
+dist/
+build/
+
+# Archivos de VENSIM #
+######################
+*.vdf
+*.tin
+
+
+docs/.tx/*
+__pycache__/
+docs/source/_static/
