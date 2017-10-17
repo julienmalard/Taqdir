@@ -1,0 +1,9 @@
+پیمرکسم
+======
+
+Koma ri ajtikonela'.
+
+Xtz'ib'axik koma'
+-----------------
+Julien Malard k'in Marcela Rojas
+julien.malard@mail.mcgill.ca
