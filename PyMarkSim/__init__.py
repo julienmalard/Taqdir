@@ -4,7 +4,7 @@ from pkg_resources import resource_filename as وسائل_کا_نام
 from warnings import warn as انتباہ
 
 
-with open('PyMarkSim/تبدیل.txt', 'r', encoding='utf8') as archivo_versión:
+with open(وسائل_کا_نام('PyMarkSim', 'تبدیل.txt'), 'r', encoding='utf8') as archivo_versión:
     __تبدیل__ = archivo_versión.read().strip()
 
 __version__ = __تبدیل__
