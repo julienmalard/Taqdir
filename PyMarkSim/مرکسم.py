@@ -5,6 +5,7 @@ import calendar
 from pkg_resources import resource_filename as وسائل_کا_نام
 from PyMarkSim import لغت_قابو
 
+#
 مسل_مرکسم = لغت_قابو['مسل_مرکسم']  #
 path_gcm_data = os.path.join(مسل_مرکسم, 'gcm5data')  #
 
