@@ -144,12 +144,12 @@ if so == 'Windows':
 Ahora cosas normales de instalación.
 """
 
-with open('PyMarkSim/تبدیل.txt', 'r', encoding='utf8') as archivo_versión:
+with open('Taqdir/تبدیل.txt', 'r', encoding='utf8') as archivo_versión:
     تبدیل = archivo_versión.read().strip()
 
 
 setup(
-    name='PyMarkSim',
+    name='Taqdir',
     version=تبدیل,
     packages=find_packages(),
     url='https://pymarksim.readthedocs.io',
