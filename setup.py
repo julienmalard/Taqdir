@@ -144,12 +144,12 @@ if so == 'Windows':
 Ahora cosas normales de instalación.
 """
 
-with open('Taqdir/تبدیل.txt', 'r', encoding='utf8') as archivo_versión:
+with open('taqdir/تبدیل.txt', 'r', encoding='utf8') as archivo_versión:
     تبدیل = archivo_versión.read().strip()
 
 
 setup(
-    name='Taqdir',
+    name='taqdir',
     version=تبدیل,
     packages=find_packages(),
     url='https://pymarksim.readthedocs.io',
@@ -159,7 +159,7 @@ setup(
     author_email='julien.malard@mail.mcgill.ca',
     description='',
     long_description='',
-    requires=['numpy'],
+    requires=['numpy', 'pandas'],
     classifiers=[
         'Programming Language :: Python :: 3.6',
     ],
