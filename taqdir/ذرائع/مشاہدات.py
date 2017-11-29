@@ -105,12 +105,12 @@ class سال_مشا(ذریعہ):
             if c in ['بارش']:
                 اعداد_سال[i, :] = اعداد_سال[i] / días_en_año
 
-        for د in range(ش_دن):
+        for _ in range(ش_دن):
             n_año = تاریخ.year - سال_شروع
-            اعداد_دن.loc[د] = اعداد_سال[n_año]
-            د += 1
+            اعداد_دن.loc[تاریخ] = اعداد_سال[n_año]
+            تاریخ += ft.timedelta(1)
 
-        return اعداد_دن
+        return اعداد_دن  # para hacer: سے, تک,
 
 
 def gen_bd(archivo):

@@ -43,7 +43,6 @@ class مقام(ذریعہ):
         ل_ذریعہ = {
             'مرکسم٥': مرکسم٥,
             'مرکسم٣': مرکسم٣,
-            'مشاہدات': خود.مشاہدات
         }
 
         if ترجیحات is None:
@@ -51,12 +50,16 @@ class مقام(ذریعہ):
 
         if not lím_prefs:
             for ت in prefs_auto:
-                if ت not in ترجیحات:
+                if ت not in ترجیحات and ت not in [type(x) for x in ترجیحات]:
                     ترجیحات.append(ت)
 
         for ب, ت in enumerate(ترجیحات):
             if isinstance(ت, str):
                 ترجیحات[ب] = ل_ذریعہ[ت]
+
+        for ب, ت in enumerate(ترجیحات):
+            if isinstance(ت, type):
+                ترجیحات[ب] = ت(چوڑائی=خود.چوڑائی, طول=خود.طول, بلندی=خود.بلندی)
 
         for م in خود.مشاہدات:
             if م not in ترجیحات:
@@ -76,11 +79,11 @@ class مقام(ذریعہ):
                 break
 
         if len(لاپتہ_تاریخ):
-            avisar('Faltan اعداد_دن para las fechas siguientes:\n\t{}'.format(لاپتہ_تاریخ))
+            avisar('Faltan datos para las fechas siguientes:\n\t{}'.format(لاپتہ_تاریخ))
 
         return خود.اعداد_دن
 
-    def _اعداد_پیدا_کرنا(خود, سے, تک, usar_caché):
+    def _اعداد_پیدا_کرنا(خود, سے, تک, ار_سی_پی, n_rep, usar_caché):
         pass
 
     def _اعداد_جوڈنا(خود, datos):
