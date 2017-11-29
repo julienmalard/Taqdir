@@ -5,14 +5,14 @@ import pandas as pd
 from taqdir.Fuentes.Fuente import Fuente
 from taqdir.Fuentes.مشاہدات import ObsDiario
 from taqdir.Fuentes.مرکسم٥ import مرکسم٥
-from taqdir.Fuentes.Marksim3 import Marksim3
+from taqdir.Fuentes.مرکسم٣ import مرکسم٣
 
 
 class مقام(Fuente):
     def __init__(símismo, چوڑائی, طول, بلندی):
         super().__init__(چوڑائی=چوڑائی, طول=طول, بلندی=بلندی)
 
-        símismo.observados = []
+        símismo.مشاہدات = []
 
     def مشاہدہ_کرنا(símismo, مشاہد):
         """
@@ -23,10 +23,10 @@ class مقام(Fuente):
         :rtype:
         """
 
-        símismo.observados.append(مشاہد)
+        símismo.مشاہدات.append(مشاہد)
 
     def borrar_obs(símismo):
-        símismo.observados.clear()
+        símismo.مشاہدات.clear()
 
     def prep_datos(símismo, fecha_inic, fecha_final, rcp, n_rep=1,
                    prefs=None, lím_prefs=False, usar_caché=True, regenerar=True):
@@ -37,22 +37,27 @@ class مقام(Fuente):
         fechas_interés = (fecha_inic, fecha_final)
         fechas_faltan = [fechas_interés]
 
-        prefs_auto = [مرکسم٥, Marksim3]
+        prefs_auto = [مرکسم٥, مرکسم٣]
 
         d_fuentes = {
-            'MarkSim5': مرکسم٥,
-            'Marksim3': Marksim3,
-            'Observados': símismo.observados
+            'مرکسم٥': مرکسم٥,
+            'مرکسم٣': مرکسم٣,
+            'مشاہدات': símismo.مشاہدات
         }
 
         if prefs is None:
             prefs = prefs_auto
 
+        if not lím_prefs:
+            for p in prefs_auto:
+                if p not in prefs:
+                    prefs.append(p)
+
         for i, p in enumerate(prefs):
             if isinstance(p, str):
                 prefs[i] = d_fuentes[p]
 
-        for o in símismo.observados:
+        for o in símismo.مشاہدات:
             if o not in prefs:
                 prefs.insert(0, o)
 

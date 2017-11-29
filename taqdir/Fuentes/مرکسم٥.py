@@ -1,22 +1,25 @@
 from taqdir.Fuentes.Fuente import Fuente
 from datetime import datetime, date
-import os
+import os, re
+import numpy as np
 from subprocess import run as چلو
 import numpy as نمپی
 from pkg_resources import resource_filename as وسائل_کا_نام
 from taqdir import لغت_قابو
 
 مسل_مرکسم = لغت_قابو['مسل_مرکسم']  #
-path_gcm_data = os.path.join(مسل_مرکسم, 'gcm5data')  #
+dir_marksim = os.path.join(os.path.split(مسل_مرکسم)[0])
+path_gcm_data = os.path.join(dir_marksim, 'gcm5data')  #
 
 #
 راستہ_سانچے = وسائل_کا_نام('taqdir', 'سانچے.CLI')
+
 
 class مرکسم٥(Fuente):
 
     rango_potencial = (2013, 2099)
 
-    def gen_datos(خود, de, hasta, ار_سی_پی, n_rep, recalc=True):
+    def gen_datos(خود, de, hasta, ار_سی_پی, n_rep, usar_caché):
         """
 
         :param de:
@@ -27,8 +30,8 @@ class مرکسم٥(Fuente):
         :type ار_سی_پی:
         :param n_rep:
         :type n_rep:
-        :param recalc:
-        :type recalc:
+        :param usar_caché:
+        :type usar_caché:
         :return:
         :rtype:
         """
@@ -50,37 +53,48 @@ class مرکسم٥(Fuente):
             سانچے[س] = قطار.format(LAT=خود.چوڑائی, LONG=خود.طول, ELEV=خود.بلندی)
 
         #
-        راستہ_موجودہ = os.path.dirname(os.path.realpath(__file__))
+        راستہ_موجودہ = dir_marksim
 
         #
-        with open(os.path.join(راستہ_موجودہ, 'PYTH.CLI'), 'w') as م:
+        with open(os.path.join(راستہ_موجودہ, 'TQDR.CLI'), 'w') as م:
             م.write(''.join(سانچے))
 
         # ہر سال کے لئے...
         for سال in range(پہلا_سال, آخرا_سال + 1):
 
             #
-            args = dict(
-                مسل_مرکسم=مسل_مرکسم,
-                راستہ_١=path_gcm_data,
-                راستہ_٢=راستہ_موجودہ,
-                سانچے='11111111111111111',
-                ار_سی_پی=ار_سی_پی,
-                سال=سال,
-                تکرار=1,
-                بھیج=1313
-            )
+            mks_output_file_name = 'TQDR{0}01.WTG'.format(str(سال)[-2:])
+            mks_output_dir = os.path.join(راستہ_موجودہ, 'TQDR', '11111111111111111', ار_سی_پی, str(سال))
+            mks_output_file = os.path.join(mks_output_file_name)
 
-            #
-            فرمان = '{مسل_مرکسم} {راستہ_١} {راستہ_٢} {سانچے} {ار_سی_پی} {سال} {تکرار} {بھیج}'.format(**args)
+            if usar_caché and os.path.isdir(mks_output_dir):
+                archs_caché = [x for x in os.listdir(mks_output_dir)
+                               if re.match(r'[A-Z]{4}[0-9]{2}01\.WT[GH]$', x) is not None]
+                if len(archs_caché):
+                    mks_output_file = archs_caché[np.random.randint(len(archs_caché))]
+                else:
+                    usar_caché = False
 
-            #
-            چلو(فرمان)
+            if not usar_caché:
+                #
+                args = dict(
+                    مسل_مرکسم=مسل_مرکسم,
+                    راستہ_١=path_gcm_data,
+                    راستہ_٢=راستہ_موجودہ,
+                    سانچے='11111111111111111',
+                    ار_سی_پی=ار_سی_پی,
+                    سال=سال,
+                    تکرار=1,
+                    بھیج=1313
+                )
 
-            #
-            mks_output_file_name = 'PYTH{0}01.WTG'.format(str(سال)[-2:])
-            mks_output_file = os.path.join(راستہ_موجودہ, 'PYTH', '11111111111111111', ار_سی_پی, str(سال),
-                                           mks_output_file_name)
+                #
+                فرمان = '{مسل_مرکسم} {راستہ_١} {راستہ_٢} {سانچے} {ار_سی_پی} {سال} {تکرار} {بھیج}'.format(**args)
+
+                #
+                چلو(فرمان)
+
+
 
             #
             with open(mks_output_file, 'r') as م:
