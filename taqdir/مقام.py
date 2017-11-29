@@ -2,10 +2,10 @@ from warnings import warn as avisar
 
 import pandas as pd
 
-from taqdir.Fuentes.ذریعہ import ذریعہ
-from taqdir.Fuentes.مشاہدات import ObsDiario, ObsMensuales, ObsAnuales
-from taqdir.Fuentes.مرکسم٥ import مرکسم٥
-from taqdir.Fuentes.مرکسم٣ import مرکسم٣
+from taqdir.ذرائع.ذریعہ import ذریعہ
+from taqdir.ذرائع.مشاہدات import دن_مشا, مہنہ_مشا, سال_مشا
+from taqdir.ذرائع.مرکسم٥ import مرکسم٥
+from taqdir.ذرائع.مرکسم٣ import مرکسم٣
 
 
 class مقام(ذریعہ):
@@ -19,7 +19,7 @@ class مقام(ذریعہ):
         """
 
         :param مشاہد:
-        :type مشاہد: ObsDiario | ObsMensuales | ObsAnuales
+        :type مشاہد: ObsDiario | ObsMensuales | سال_مشا
         :return:
         :rtype:
         """

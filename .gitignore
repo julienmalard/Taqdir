@@ -20,10 +20,9 @@ setup.cfg
 dist/
 build/
 
-# Archivos de VENSIM #
-######################
-*.vdf
-*.tin
+
+
+*.log
 
 
 docs/.tx/*

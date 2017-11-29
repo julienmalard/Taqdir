@@ -1,7 +1,21 @@
-from taqdir.Fuentes.ذریعہ import ذریعہ
+from taqdir.ذرائع.ذریعہ import ذریعہ
+from datetime import datetime, date
+import os, re
+import numpy as np
+from subprocess import run as چلو
+import numpy as نمپی
+from pkg_resources import resource_filename as وسائل_کا_نام
+from taqdir import لغت_قابو
+
+مسل_مرکسم = لغت_قابو['مسل_مرکسم']  #
+dir_marksim = os.path.join(os.path.split(مسل_مرکسم)[0])
+path_gcm_data = os.path.join(dir_marksim, 'gcm5data')  #
+
+#
+راستہ_سانچے = وسائل_کا_نام('taqdir', 'سانچے.CLI')
 
 
-class مرکسم٣(ذریعہ):
+class مرکسم٥(ذریعہ):
 
     rango_potencial = (2013, 2099)
 
