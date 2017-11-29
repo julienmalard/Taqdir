@@ -1,32 +1,101 @@
-from taqdir.Fuentes.Fuente import Fuente
+from taqdir.Fuentes.ذریعہ import ذریعہ
 import os
 import numpy as np
 import csv
 import pandas as pd
+import datetime as ft
 
+class ObsDiario(ذریعہ):
 
-class ObsDiario(Fuente):
-
-    def __init__(símismo, archivo, c_fecha, c_temp_prom=None, c_temp_mín=None, c_temp_máx=None, c_rad_sol=None):
+    def __init__(símismo, archivo, c_fecha, cols_datos):
 
         super().__init__(چوڑائی=None, طول=None, بلندی=None)
 
-        símismo.nombres_cols = {'بارش': c_temp_prom,
-                                'درجہ_حرارت_کم': c_temp_mín,
-                                'درجہ_حرارت_زیادہ': c_temp_máx,
-                                'شمسی_تابکاری': c_rad_sol}
+        símismo.nombres_cols = cols_datos
 
-        símismo.bd = gen_bd(archivo)
-        símismo.días = símismo.bd.obt_días(col=c_fecha)
-        símismo.rango_potencial = (símismo.días[0], símismo.días[1])
+        símismo.اعداد = gen_bd(archivo)
+        símismo.دن = símismo.اعداد.obt_días(col=c_fecha)
+        símismo.rango_potencial = (símismo.دن[0], símismo.دن[1][-1] + símismo.دن[0])
 
-    def _gen_datos(símismo, de, hasta, **kwargs):
+    def _اعداد_پیدا_کرنا(símismo, سے, تک, **kwargs):
 
         v_cols = [símismo.nombres_cols[x] for x in símismo.cols_día]
 
-        datos = pd.DataFrame(símismo.bd.obt_datos(cols=v_cols), columns=v_cols)
+        اعداد = pd.DataFrame(símismo.اعداد.obt_datos(cols=v_cols), columns=v_cols)
 
-        return datos
+        return اعداد
+
+
+class ObsMensuales(ذریعہ):
+
+    def __init__(símismo, archivo, cols_datos, c_meses, c_años):
+
+        super().__init__(چوڑائی=None, طول=None, بلندی=None)
+
+        símismo.nombres_cols = cols_datos
+
+        símismo.اعداد = gen_bd(archivo)
+        سال = símismo.اعداد.obt_datos(cols=c_años)
+        مہینہ = símismo.اعداد.obt_datos(cols=c_meses)
+        fecha_mín =
+        fecha_máx =
+
+        símismo.rango_potencial = (fecha_mín, fecha_máx)
+
+    def _اعداد_پیدا_کرنا(símismo, سے, تک, **kwargs):
+        v_cols = [símismo.nombres_cols[x] for x in símismo.cols_día]
+
+        اعداد_مہینہ = símismo.اعداد.obt_datos(cols=v_cols)
+
+        ش_دن = (símismo.rango_potencial[1] - símismo.rango_potencial[0]).days
+
+        datos_diarios = np.zeros(len(v_cols), ش_دن)
+
+        تاریخ = símismo.rango_potencial[0]
+        سال_شروع = تاریخ.year
+        for د in range(ش_دن):
+            n_mes = (تاریخ.year - سال_شروع) * 12 + تاریخ.month - 1
+            datos_diarios[:, د] = اعداد_مہینہ[n_mes]
+            د += 1
+
+        اعداد_دن = pd.DataFrame(datos_diarios, columns=v_cols)
+
+        return اعداد_دن
+
+
+class ObsAnuales(ذریعہ):
+
+    def __init__(símismo, archivo, cols_datos, c_años):
+
+        super().__init__(چوڑائی=None, طول=None, بلندی=None)
+
+        símismo.nombres_cols = cols_datos
+
+        símismo.اعداد = gen_bd(archivo)
+        símismo.سال = símismo.اعداد.obt_datos(cols=c_años)
+
+        símismo.rango_potencial = (ft.datetime(year=min(símismo.سال), month=1, day=1),
+                                   ft.datetime(year=max(símismo.سال), month=1, day=1))
+
+    def _اعداد_پیدا_کرنا(símismo, سے, تک, **kwargs):
+
+        v_cols = [símismo.nombres_cols[x] for x in símismo.cols_día]
+
+        اعداد_سال = símismo.اعداد.obt_datos(cols=v_cols)
+
+        ش_دن = (símismo.rango_potencial[1] - símismo.rango_potencial[0]).days
+        
+        datos_diarios = np.zeros(len(v_cols), ش_دن)
+        تاریخ = símismo.rango_potencial[0]
+        سال_شروع = símismo.سال.min()
+        for د in range(ش_دن):
+            n_mes = (تاریخ.year - سال_شروع) * 12 + تاریخ.month - 1
+            datos_diarios[:, د] = اعداد_مہینہ[n_mes]
+            د += 1
+        
+        اعداد_دن = pd.DataFrame(datos_diarios, columns=v_cols)
+
+        return اعداد_دن
 
 
 def gen_bd(archivo):
@@ -48,7 +117,7 @@ def gen_bd(archivo):
 
 class BD(object):
     """
-    Una superclase para lectores de bases de datos.
+    Una superclase para lectores de bases de اعداد_دن.
     """
 
     def __init__(símismo, archivo):
@@ -116,7 +185,7 @@ class BD(object):
     @staticmethod
     def leer_fechas(lista_fechas):
         """
-        Esta función toma una lista de datos de fecha en formato de texto y detecta 1) la primera fecha de la lista,
+        Esta función toma una lista de اعداد_دن de fecha en formato de texto y detecta 1) la primera fecha de la lista,
         y 2) la posición relativa de cada fecha a esta.
 
         :param lista_fechas: Una lista con las fechas en formato de texto
@@ -127,7 +196,7 @@ class BD(object):
 
         """
 
-        # Una lista de lso formatos de fecha posibles. Esta función intentará de leer los datos de fechas con cada
+        # Una lista de lso formatos de fecha posibles. Esta función intentará de leer los اعداد_دن de fechas con cada
         # formato en esta lista y, si encuentra un que funciona, parará allí.
         separadores = ['-', '/', ' ', '.']
 
@@ -140,7 +209,7 @@ class BD(object):
 
         formatos_posibles = [x.format(s) for s in separadores for x in f]
 
-        # Primero, si los datos de fechas están en formato simplemente numérico...
+        # Primero, si los اعداد_دن de fechas están en formato simplemente numérico...
         if all([x.isdigit() for x in lista_fechas]):
 
             # Entonces, no conocemos la fecha inicial
@@ -169,14 +238,14 @@ class BD(object):
 
             # Si todavía no lo hemos logrado, tenemos un problema.
             if fechas is None:
-                raise ValueError('No puedo leer los datos de fechas. ¿Mejor le eches un vistazo a tu base de datos?')
+                raise ValueError('No puedo leer los اعداد_دن de fechas. ¿Mejor le eches un vistazo a tu base de اعداد_دن?')
 
             else:
                 # Pero si está bien, ya tenemos que encontrar la primera fecha y calcular la posición relativa de las
                 # otras con referencia en esta.
 
-                # La primera fecha de la base de datos. Este paso se queda un poco lento, así que para largas bases de
-                # datos podría ser útil suponer que la primera fila también contiene la primera fecha.
+                # La primera fecha de la base de اعداد_دن. Este paso se queda un poco lento, así que para largas bases de
+                # اعداد_دن podría ser útil suponer que la primera fila también contiene la primera fecha.
                 fecha_inic_datos = min(fechas)
 
                 # Si tenemos prisa, mejor lo hagamos así:
@@ -193,7 +262,7 @@ class BD(object):
 
 class BDtexto(BD):
     """
-    Una clase para leer bases de datos en formato texto delimitado por comas (.csv).
+    Una clase para leer bases de اعداد_دن en formato texto delimitado por comas (.csv).
     """
 
     def calc_n_obs(símismo):
@@ -201,7 +270,7 @@ class BDtexto(BD):
 
         :rtype: int
         """
-        with open(símismo.archivo) as d:
+        with open(símismo.archivo, encoding='UTF8') as d:
             n_filas = sum(1 for f in d if len(f)) - 1  # Sustrayemos la primera fila
 
         return n_filas
@@ -219,7 +288,7 @@ class BDtexto(BD):
 
         m_datos = np.empty((len(cols), símismo.n_obs))
 
-        with open(símismo.archivo) as d:
+        with open(símismo.archivo, encoding='UTF8') as d:
             lector = csv.DictReader(d)
             for n_f, f in enumerate(lector):
                 m_datos[:, n_f] = [float(f[c]) if f[c] != '' else np.nan for c in cols]
@@ -242,7 +311,7 @@ class BDtexto(BD):
 
         l_datos = [['']*símismo.n_obs]*len(cols)
 
-        with open(símismo.archivo) as d:
+        with open(símismo.archivo, encoding='UTF8') as d:
             lector = csv.DictReader(d)
             for n_f, f in enumerate(lector):
                 for i_c, c in enumerate(cols):
@@ -260,7 +329,7 @@ class BDtexto(BD):
         :rtype: list[str]
         """
 
-        with open(símismo.archivo) as d:
+        with open(símismo.archivo, encoding='UTF8') as d:
             lector = csv.reader(d)
 
             nombres_cols = next(lector)
@@ -270,7 +339,7 @@ class BDtexto(BD):
 
 class BDsql(BD):
     """
-    Una clase para leer bases de datos en formato SQL.
+    Una clase para leer bases de اعداد_دن en formato SQL.
     """
 
     def calc_n_obs(símismo):

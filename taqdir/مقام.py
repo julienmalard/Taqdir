@@ -2,94 +2,98 @@ from warnings import warn as avisar
 
 import pandas as pd
 
-from taqdir.Fuentes.Fuente import Fuente
-from taqdir.Fuentes.مشاہدات import ObsDiario
+from taqdir.Fuentes.ذریعہ import ذریعہ
+from taqdir.Fuentes.مشاہدات import ObsDiario, ObsMensuales, ObsAnuales
 from taqdir.Fuentes.مرکسم٥ import مرکسم٥
 from taqdir.Fuentes.مرکسم٣ import مرکسم٣
 
 
-class مقام(Fuente):
-    def __init__(símismo, چوڑائی, طول, بلندی):
+class مقام(ذریعہ):
+
+    def __init__(خود, چوڑائی, طول, بلندی):
         super().__init__(چوڑائی=چوڑائی, طول=طول, بلندی=بلندی)
 
-        símismo.مشاہدات = []
+        خود.مشاہدات = []
 
-    def مشاہدہ_کرنا(símismo, مشاہد):
+    def مشاہدہ_کرنا(خود, مشاہد):
         """
 
         :param مشاہد:
-        :type مشاہد: ObsDiario
+        :type مشاہد: ObsDiario | ObsMensuales | ObsAnuales
         :return:
         :rtype:
         """
 
-        símismo.مشاہدات.append(مشاہد)
+        خود.مشاہدات.append(مشاہد)
 
-    def borrar_obs(símismo):
-        símismo.مشاہدات.clear()
+    def borrar_obs(خود):
+        خود.مشاہدات.clear()
 
-    def prep_datos(símismo, fecha_inic, fecha_final, rcp, n_rep=1,
-                   prefs=None, lím_prefs=False, usar_caché=True, regenerar=True):
+    def اعداد_تیاری(خود, پہلہ_تاریخ, آخرا_تاریخ, rcp, n_rep=1,
+                    ترجیحات=None, lím_prefs=False, usar_caché=True, regenerar=True):
 
-        símismo.datos = pd.DataFrame(index=pd.date_range(fecha_inic, fecha_final),
-                                     columns=símismo.cols_día)
+        خود.اعداد_دن = pd.DataFrame(index=pd.date_range(پہلہ_تاریخ, آخرا_تاریخ),
+                                    columns=خود.cols_día)
 
-        fechas_interés = (fecha_inic, fecha_final)
-        fechas_faltan = [fechas_interés]
+        تاریخ_چاہئے = (پہلہ_تاریخ, آخرا_تاریخ)
+        لاپتہ_تاریخ = [تاریخ_چاہئے]
 
         prefs_auto = [مرکسم٥, مرکسم٣]
 
-        d_fuentes = {
+        ل_ذریعہ = {
             'مرکسم٥': مرکسم٥,
             'مرکسم٣': مرکسم٣,
-            'مشاہدات': símismo.مشاہدات
+            'مشاہدات': خود.مشاہدات
         }
 
-        if prefs is None:
-            prefs = prefs_auto
+        if ترجیحات is None:
+            ترجیحات = prefs_auto
 
         if not lím_prefs:
-            for p in prefs_auto:
-                if p not in prefs:
-                    prefs.append(p)
+            for ت in prefs_auto:
+                if ت not in ترجیحات:
+                    ترجیحات.append(ت)
 
-        for i, p in enumerate(prefs):
-            if isinstance(p, str):
-                prefs[i] = d_fuentes[p]
+        for ب, ت in enumerate(ترجیحات):
+            if isinstance(ت, str):
+                ترجیحات[ب] = ل_ذریعہ[ت]
 
-        for o in símismo.مشاہدات:
-            if o not in prefs:
-                prefs.insert(0, o)
+        for م in خود.مشاہدات:
+            if م not in ترجیحات:
+                ترجیحات.insert(0, م)
 
-        for fuente in prefs:
+        for ذرع in ترجیحات:
 
-            for fchs in fechas_faltan.copy():
-                fechas_f = intersec_rangos(fchs, fuente.rango_potencial)
-                fechas_faltan = act_l_rangos(l_rangos=fechas_faltan, rango_sust=fechas_f)
+            for تاریخ in لاپتہ_تاریخ.copy():
+                fechas_f = intersec_rangos(تاریخ, ذرع.rango_potencial)
+                لاپتہ_تاریخ = act_l_rangos(l_rangos=لاپتہ_تاریخ, rango_sust=fechas_f)
 
-                datos = fuente.obt_datos(*fechas_f, rcp=rcp, n_rep=n_rep, usar_caché=usar_caché, regenerar=regenerar)
+                اعداد = ذرع.اعداد_پانا(*fechas_f, rcp=rcp, n_rep=n_rep, usar_caché=usar_caché, regenerar=regenerar)
 
-                símismo._agregar_datos(datos)
+                خود._اعداد_جوڈنا(اعداد)
 
-            if len(fechas_faltan) == 0:
+            if len(لاپتہ_تاریخ) == 0:
                 break
 
-        if len(fechas_faltan):
-            avisar('Faltan datos para las fechas siguientes:\n\t{}'.format(fechas_faltan))
+        if len(لاپتہ_تاریخ):
+            avisar('Faltan اعداد_دن para las fechas siguientes:\n\t{}'.format(لاپتہ_تاریخ))
 
-        return símismo.datos
+        return خود.اعداد_دن
 
-    def _agregar_datos(símismo, datos):
-        símismo.datos.update(datos)
+    def _اعداد_پیدا_کرنا(خود, سے, تک, usar_caché):
+        pass
 
-    def cargar_datos(símismo, archivo, cols_datos, fecha, mes, año):
-        símismo.datos = pd.read_csv(archivo, index_col='UID')
+    def _اعداد_جوڈنا(خود, datos):
+        خود.اعداد_دن.update(datos)
 
-    def guardar_datos(símismo, archivo=None):
-        if archivo is None:
+    def cargar_datos(خود, archivo, cols_datos, fecha, mes, año):
+        خود.اعداد_دن = pd.read_csv(archivo, index_col='UID')
+
+    def guardar_datos(خود, مسل=None):
+        if مسل is None:
             raise ValueError
 
-        símismo.datos.to_csv(archivo, sep='\t', encoding='utf-8')
+        خود.اعداد_دن.to_csv(مسل, sep='\t', encoding='utf-8')
 
 
 def intersec_rangos(rango1, rango2):

@@ -1,4 +1,4 @@
-from taqdir.Fuentes.Fuente import Fuente
+from taqdir.Fuentes.ذریعہ import ذریعہ
 from datetime import datetime, date
 import os, re
 import numpy as np
@@ -15,17 +15,17 @@ path_gcm_data = os.path.join(dir_marksim, 'gcm5data')  #
 راستہ_سانچے = وسائل_کا_نام('taqdir', 'سانچے.CLI')
 
 
-class مرکسم٥(Fuente):
+class مرکسم٥(ذریعہ):
 
     rango_potencial = (2013, 2099)
 
-    def gen_datos(خود, de, hasta, ار_سی_پی, n_rep, usar_caché):
+    def _اعداد_پیدا_کرنا(خود, سے, تک, ار_سی_پی, n_rep, usar_caché):
         """
 
-        :param de:
-        :type de: datetime | date
-        :param hasta:
-        :type hasta: datetime | date
+        :param سے:
+        :type سے: datetime | date
+        :param تک:
+        :type تک: datetime | date
         :param ار_سی_پی:
         :type ار_سی_پی:
         :param n_rep:
@@ -36,8 +36,8 @@ class مرکسم٥(Fuente):
         :rtype:
         """
 
-        پہلا_سال = de.year
-        آخرا_سال = hasta.year
+        پہلا_سال = سے.year
+        آخرا_سال = تک.year
 
         #
         if آخرا_سال < پہلا_سال:
@@ -118,8 +118,8 @@ class مرکسم٥(Fuente):
             درجہ_حرارت_اوسط = نمپی.add(درجہ_حرارت_زیادہ, درجہ_حرارت_کم) / 2
 
             خود.اعداد = {
-                'دن': {
-                    'دن': دن,
+                'مہینہ': {
+                    'مہینہ': دن,
                     'شمسی_تابکاری': شمسی_تابکاری,
                     'درجہ_حرارت_زیادہ': درجہ_حرارت_زیادہ,
                     'درجہ_حرارت_کم': درجہ_حرارت_کم,
