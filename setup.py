@@ -165,6 +165,6 @@ setup(
     ],
     package_data={
         # Incluir estos documentos de los paquetes:
-        '': ['*.CLI', 'تبدیل.txt'],
+        '': ['*.CLI', 'تبدیل.txt', 'مسل_مرکسم.json'],
     },
 )
