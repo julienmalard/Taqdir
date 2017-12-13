@@ -1,12 +1,12 @@
 import calendar
 import os
 import re
-from datetime import datetime, date
+from datetime import datetime as تاریخوقت
+from datetime import date as تاریخ
 from subprocess import run as چلو
 
-import numpy as np
 import numpy as نمپی
-import pandas as pd
+import pandas as پاندس
 from pkg_resources import resource_filename as وسائل_کا_نام
 
 from taqdir import لغت_قابو
@@ -22,15 +22,15 @@ path_gcm_data = os.path.join(dir_marksim, 'gcm5data')  #
 
 class مرکسم٥(ذریعہ):
 
-    rango_potencial = (date(1, 1, 1), date(2099, 1, 1))
+    rango_potencial = (تاریخ(1, 1, 1), تاریخ(2099, 1, 1))
 
     def _اعداد_پیدا_کرنا(خود, سے, تک, ار_سی_پی, n_rep, usar_caché):
         """
 
         :param سے:
-        :type سے: datetime | date
+        :type سے: تاریخوقت | تاریخ
         :param تک:
-        :type تک: datetime | date
+        :type تک: تاریخوقت | تاریخ
         :param ار_سی_پی:
         :type ار_سی_پی:
         :param n_rep:
@@ -70,11 +70,10 @@ class مرکسم٥(ذریعہ):
 
         tx_rcp = 'rcp' + str(ار_سی_پی).replace('.', '')
 
-        اعداد_دن = pd.DataFrame(index=pd.date_range(سے, تک), columns=خود.cols_día)
+        اعداد_دن = پاندس.DataFrame(index=پاندس.date_range(سے, تک), columns=خود.cols_día)
 
         # ہر سال کے لئے...
         for سال in range(پہلا_سال, آخرا_سال + 1):
-
 
             if سال < 2015:
                 if calendar.isleap(سال):
@@ -89,7 +88,7 @@ class مرکسم٥(ذریعہ):
                 archs_caché = [x for x in os.listdir(mks_output_dir)
                                if re.match(r'[A-Z]{4}[0-9]{2}01\.WT[GH]$', x) is not None]
                 if len(archs_caché):
-                    mks_output_file = archs_caché[np.random.randint(len(archs_caché))]
+                    mks_output_file = archs_caché[نمپی.random.randint(len(archs_caché))]
                 else:
                     usar_caché = False
             else:
@@ -97,7 +96,7 @@ class مرکسم٥(ذریعہ):
 
             if not usar_caché:
                 #
-                args = dict(
+                متاغیرات = dict(
                     مسل_مرکسم=مسل_مرکسم,
                     راستہ_١=path_gcm_data,
                     راستہ_٢=راستہ_موجودہ,
@@ -109,7 +108,7 @@ class مرکسم٥(ذریعہ):
                 )
 
                 #
-                فرمان = '{مسل_مرکسم} {راستہ_١} {راستہ_٢} {سانچے} {ار_سی_پی} {سال} {تکرار} {بھیج}'.format(**args)
+                فرمان = '{مسل_مرکسم} {راستہ_١} {راستہ_٢} {سانچے} {ار_سی_پی} {سال} {تکرار} {بھیج}'.format(**متاغیرات)
 
                 #
                 چلو(فرمان)
@@ -137,21 +136,21 @@ class مرکسم٥(ذریعہ):
             #
             درجہ_حرارت_اوسط = نمپی.add(درجہ_حرارت_زیادہ, درجہ_حرارت_کم) / 2
 
-            f_inic = date(سال, 1, 1)
-            f_final = date(سال, 12, 31)
+            تاریخ_شروع = تاریخ(سال, 1, 1)
+            تاریخ_ختم = تاریخ(سال, 12, 31)
             if سال == پہلا_سال:
-                d_i = سے.timetuple().tm_yday - 1
+                دن_ش = سے.timetuple().tm_yday - 1
             else:
-                d_i = 0
+                دن_ش = 0
             if سال == آخرا_سال:
-                d_f = تک.timetuple().tm_yday
+                دن_خ = تک.timetuple().tm_yday
             else:
-                d_f = None
+                دن_خ = None
             if calendar.isleap(سال):
-                datos = np.array([بارش, شمسی_تابکاری, درجہ_حرارت_زیادہ, درجہ_حرارت_کم, درجہ_حرارت_اوسط]).T
-                datos = np.insert(datos, 58, datos[59], axis=0)
+                اعداد = نمپی.array([بارش, شمسی_تابکاری, درجہ_حرارت_زیادہ, درجہ_حرارت_کم, درجہ_حرارت_اوسط]).T
+                اعداد = نمپی.insert(اعداد, 58, اعداد[59], axis=0)
             else:
-                datos = np.array([بارش, شمسی_تابکاری, درجہ_حرارت_زیادہ, درجہ_حرارت_کم, درجہ_حرارت_اوسط]).T
-            اعداد_دن[f_inic:f_final] = datos[d_i:d_f,]
+                اعداد = نمپی.array([بارش, شمسی_تابکاری, درجہ_حرارت_زیادہ, درجہ_حرارت_کم, درجہ_حرارت_اوسط]).T
+            اعداد_دن[تاریخ_شروع:تاریخ_ختم] = اعداد[دن_ش:دن_خ,]
 
         return اعداد_دن
