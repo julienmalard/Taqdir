@@ -9,15 +9,15 @@ import numpy as نمپی
 import pandas as پاندس
 from pkg_resources import resource_filename as وسائل_کا_نام
 
-from taqdir import لغت_قابو
-from taqdir.ذرائع.ذریعہ import ذریعہ
+from taqdiră import لغت_قابو
+from taqdiră.ذرائع.ذریعہ import ذریعہ
 
 مسل_مرکسم = لغت_قابو['مسل_مرکسم']  #
 dir_marksim = os.path.join(os.path.split(مسل_مرکسم)[0])
 path_gcm_data = os.path.join(dir_marksim, 'gcm5data')  #
 
 #
-راستہ_سانچے = وسائل_کا_نام('taqdir', 'سانچے.CLI')
+راستہ_سانچے = وسائل_کا_نام('taqdiră', 'سانچے.CLI')
 
 
 class مرکسم٥(ذریعہ):

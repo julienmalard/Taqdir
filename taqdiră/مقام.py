@@ -2,10 +2,10 @@ from warnings import warn as avisar
 
 import pandas as pd
 
-from taqdir.ذرائع.ذریعہ import ذریعہ
-from taqdir.ذرائع.مشاہدات import دن_مشا, مہنہ_مشا, سال_مشا
-from taqdir.ذرائع.مرکسم٥ import مرکسم٥
-from taqdir.ذرائع.مرکسم٣ import مرکسم٣
+from taqdiră.ذرائع.ذریعہ import ذریعہ
+from taqdiră.ذرائع.مشاہدات import دن_مشا, مہنہ_مشا, سال_مشا
+from taqdiră.ذرائع.مرکسم٥ import مرکسم٥
+from taqdiră.ذرائع.مرکسم٣ import مرکسم٣
 
 
 class مقام(ذریعہ):

@@ -3,14 +3,14 @@ from subprocess import run as چلو
 import numpy as نمپی
 import calendar
 from pkg_resources import resource_filename as وسائل_کا_نام
-from taqdir import لغت_قابو
+from taqdiră import لغت_قابو
 
 #
 مسل_مرکسم = لغت_قابو['مسل_مرکسم']  #
 path_gcm_data = os.path.join(مسل_مرکسم, 'gcm5data')  #
 
 #
-راستہ_سانچے = وسائل_کا_نام('taqdir', 'سانچے.CLI')
+راستہ_سانچے = وسائل_کا_نام('taqdiră', 'سانچے.CLI')
 
 
 class مقام(object):
