@@ -1,4 +1,4 @@
-from taqdiră.ذرائع.ذریعہ import ذریعہ
+from taqdir.ذرائع.ذریعہ import ذریعہ
 
 
 class مرکسم٣(ذریعہ):

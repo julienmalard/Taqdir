@@ -1,5 +1,5 @@
 import calendar
-from taqdiră.ذرائع.ذریعہ import ذریعہ
+from taqdir.ذرائع.ذریعہ import ذریعہ
 import os
 import re
 import numpy as np
