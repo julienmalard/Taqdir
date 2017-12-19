@@ -14,7 +14,7 @@ from taqdir.ذرائع.ذریعہ import ذریعہ
 
 مسل_مرکسم = لغت_قابو['مسل_مرکسم']  #
 dir_marksim = os.path.join(os.path.split(مسل_مرکسم)[0])
-path_gcm_data = os.path.join(dir_marksim, 'gcm5data')  #
+راستہ_اعداد_اع_گر_نم = os.path.join(dir_marksim, 'gcm5data')  # علمی گردش کی نمونہ کا راستہ
 
 #
 راستہ_سانچے = وسائل_کا_نام('taqdir', 'سانچے.CLI')
@@ -47,12 +47,15 @@ class مرکسم٥(ذریعہ):
         #
         if آخرا_سال < پہلا_سال:
             raise ValueError('پہلا سال اکر سال کے پہلہ ینا ہے.')
-        if پہلا_سال < 2013:
-            سانچے_نمونہ = '00000000000000000'
-        else:
-            سانچے_نمونہ = '11111111111111111'
+
         if آخرا_سال > 2099:
             raise ValueError('سال ٢٠١٢ اور ٢٠٩٩ کے بچ میں ہونے پڑتے ہیں.')
+
+        #
+        راستہ_موجودہ = os.path.join(dir_marksim, 'CLI_TQDR')
+
+        if not os.path.isdir(راستہ_موجودہ):
+            os.makedirs(راستہ_موجودہ)
 
         with open(راستہ_سانچے) as م:
             سانچے = م.readlines()
@@ -62,10 +65,7 @@ class مرکسم٥(ذریعہ):
             سانچے[س] = قطار.format(LAT=round(خود.چوڑائی, 1), LONG=round(خود.طول, 1), ELEV=round(خود.بلندی, 1))
 
         #
-        راستہ_موجودہ = os.path.join(dir_marksim, 'CLI')
-
-        #
-        with open(os.path.join(راستہ_موجودہ, 'TQDR.CLI'), 'w+') as م:
+        with open(os.path.join(راستہ_موجودہ, 'TQDR.CLI'), 'w') as م:
             م.write(''.join(سانچے))
 
         tx_rcp = 'rcp' + str(ار_سی_پی).replace('.', '')
@@ -75,14 +75,21 @@ class مرکسم٥(ذریعہ):
         # ہر سال کے لئے...
         for سال in range(پہلا_سال, آخرا_سال + 1):
 
-            if سال < 2015:
+            if سال < 2013:
                 if calendar.isleap(سال):
                     سال_مارکسم = 2016
                 else:
-                    سال_مارکسم = 2015
+                    سال_مارکسم = 2013
+            else:
+                سال_مارکسم = سال
             #
-            mks_output_file = 'TQDR{0}01.WTG'.format(str(سال_مارکسم)[-2:])
-            mks_output_dir = os.path.join(راستہ_موجودہ, '_'.join(('TQDR', سانچے_نمونہ, tx_rcp, str(سال_مارکسم))))
+            if سال < 2013:
+                سانچے_نمونہ = '00000000000000000'
+            else:
+                سانچے_نمونہ = '11111111111111111'
+
+            mks_output_file = 'TQDR0101.WTG'
+            mks_output_dir = os.path.join(راستہ_موجودہ, '_'.join(('TQDR', سانچے_نمونہ, tx_rcp, str(سال))))
 
             if usar_caché and os.path.isdir(mks_output_dir):
                 archs_caché = [x for x in os.listdir(mks_output_dir)
@@ -98,12 +105,12 @@ class مرکسم٥(ذریعہ):
                 #
                 متاغیرات = dict(
                     مسل_مرکسم=مسل_مرکسم,
-                    راستہ_١=path_gcm_data,
+                    راستہ_١=راستہ_اعداد_اع_گر_نم,
                     راستہ_٢=راستہ_موجودہ,
                     سانچے=سانچے_نمونہ,
                     ار_سی_پی=tx_rcp,
                     سال=سال_مارکسم,
-                    تکرار=1,
+                    تکرار=10,
                     بھیج=1313
                 )
 
@@ -113,7 +120,8 @@ class مرکسم٥(ذریعہ):
                 #
                 چلو(فرمان)
 
-
+                if سال_مارکسم != سال:
+                    os.rename(mks_output_dir[:-4] + str(سال_مارکسم), mks_output_dir)
 
             #
             with open(os.path.join(mks_output_dir, mks_output_file), 'r') as م:

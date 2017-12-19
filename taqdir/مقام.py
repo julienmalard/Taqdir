@@ -6,7 +6,8 @@ from taqdir.ذرائع.ذریعہ import ذریعہ
 from taqdir.ذرائع.مشاہدات import دن_مشا, مہنہ_مشا, سال_مشا
 from taqdir.ذرائع.مرکسم٥ import مرکسم٥
 from taqdir.ذرائع.مرکسم٣ import مرکسم٣
-
+from datetime import date
+from taqdir.شمار import tx_a_núm
 
 class مقام(ذریعہ):
 
@@ -19,7 +20,7 @@ class مقام(ذریعہ):
         """
 
         :param مشاہد:
-        :type مشاہد: ObsDiario | ObsMensuales | سال_مشا
+        :type مشاہد: دن_مشا | مہنہ_مشا | سال_مشا
         :return:
         :rtype:
         """
@@ -35,7 +36,10 @@ class مقام(ذریعہ):
         خود.اعداد_دن = pd.DataFrame(index=pd.date_range(پہلہ_تاریخ, آخرا_تاریخ),
                                     columns=خود.cols_día)
 
-        تاریخ_چاہئے = (پہلہ_تاریخ, آخرا_تاریخ)
+        تاریخ_چاہئے = [tx_a_núm(پہلہ_تاریخ), tx_a_núm(آخرا_تاریخ)]
+        for ش, تا in enumerate(تاریخ_چاہئے):
+            if isinstance(تا, int):
+                تاریخ_چاہئے[ش] = date(year=تا, month=1, day=1)
         لاپتہ_تاریخ = [تاریخ_چاہئے]
 
         prefs_auto = [مرکسم٥, مرکسم٣]
@@ -168,7 +172,7 @@ def act_l_rangos(l_rangos, rango_sust):
             l_final.append(u)
         else:
 
-            r_nuevo = dif_rangos(r_i, u)
+            r_nuevo = dif_rangos(tuple(r_i), u)
 
             if r_nuevo is None:
                 pass
