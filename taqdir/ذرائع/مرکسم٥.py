@@ -21,22 +21,21 @@ dir_marksim = os.path.join(os.path.split(مسل_مرکسم)[0])
 
 
 class مرکسم٥(ذریعہ):
+    ممکنہ_تاریخیں = (تاریخ(1, 1, 1), تاریخ(2099, 1, 1))
 
-    rango_potencial = (تاریخ(1, 1, 1), تاریخ(2099, 1, 1))
-
-    def _اعداد_پیدا_کرنا(خود, سے, تک, ار_سی_پی, n_rep, usar_caché):
+    def _اعداد_پیدا_کرنا(خود, سے, تک, ر_ح_را, ش_ترکار, پہلہ_ہونےولے_اشتمال):
         """
 
         :param سے:
         :type سے: تاریخوقت | تاریخ
         :param تک:
         :type تک: تاریخوقت | تاریخ
-        :param ار_سی_پی:
-        :type ار_سی_پی:
-        :param n_rep:
-        :type n_rep:
-        :param usar_caché:
-        :type usar_caché:
+        :param ر_ح_را: رشتہدار حراستی کے راسبہ
+        :type ر_ح_را:
+        :param ش_ترکار:
+        :type ش_ترکار:
+        :param پہلہ_ہونےولے_اشتمال:
+        :type پہلہ_ہونےولے_اشتمال:
         :return:
         :rtype:
         """
@@ -68,9 +67,9 @@ class مرکسم٥(ذریعہ):
         with open(os.path.join(راستہ_موجودہ, 'TQDR.CLI'), 'w') as م:
             م.write(''.join(سانچے))
 
-        tx_rcp = 'rcp' + str(ار_سی_پی).replace('.', '')
+        متن_ر_ح_را = 'rcp' + str(ر_ح_را).replace('.', '')
 
-        اعداد_دن = پاندس.DataFrame(index=پاندس.date_range(سے, تک), columns=خود.cols_día)
+        اعداد_دن = پاندس.DataFrame(index=پاندس.date_range(سے, تک), columns=خود.دن_ستون)
 
         # ہر سال کے لئے...
         for سال in range(پہلا_سال, آخرا_سال + 1):
@@ -88,27 +87,27 @@ class مرکسم٥(ذریعہ):
             else:
                 سانچے_نمونہ = '11111111111111111'
 
-            mks_output_file = 'TQDR0101.WTG'
-            mks_output_dir = os.path.join(راستہ_موجودہ, '_'.join(('TQDR', سانچے_نمونہ, tx_rcp, str(سال))))
+            مسل_پیداوار_مرکسم = 'TQDR0101.WTG'
+            راستہ_پیداوار_مرکسم = os.path.join(راستہ_موجودہ, '_'.join(('TQDR', سانچے_نمونہ, متن_ر_ح_را, str(سال))))
 
-            if usar_caché and os.path.isdir(mks_output_dir):
-                archs_caché = [x for x in os.listdir(mks_output_dir)
-                               if re.match(r'[A-Z]{4}[0-9]{2}01\.WT[GH]$', x) is not None]
-                if len(archs_caché):
-                    mks_output_file = archs_caché[نمپی.random.randint(len(archs_caché))]
+            if پہلہ_ہونےولے_اشتمال and os.path.isdir(راستہ_پیداوار_مرکسم):
+                پہلہ_سے_مسلیں = [x for x in os.listdir(راستہ_پیداوار_مرکسم)
+                                 if re.match(r'[A-Z]{4}[0-9]{2}01\.WT[GH]$', x) is not None]
+                if len(پہلہ_سے_مسلیں):
+                    مسل_پیداوار_مرکسم = پہلہ_سے_مسلیں[نمپی.random.randint(len(پہلہ_سے_مسلیں))]
                 else:
-                    usar_caché = False
+                    پہلہ_ہونےولے_اشتمال = False
             else:
-                usar_caché = False
+                پہلہ_ہونےولے_اشتمال = False
 
-            if not usar_caché:
+            if not پہلہ_ہونےولے_اشتمال:
                 #
                 متاغیرات = dict(
                     مسل_مرکسم=مسل_مرکسم,
                     راستہ_١=راستہ_اعداد_اع_گر_نم,
                     راستہ_٢=راستہ_موجودہ,
                     سانچے=سانچے_نمونہ,
-                    ار_سی_پی=tx_rcp,
+                    ار_سی_پی=متن_ر_ح_را,
                     سال=سال_مارکسم,
                     تکرار=10,
                     بھیج=1313
@@ -121,10 +120,10 @@ class مرکسم٥(ذریعہ):
                 چلو(فرمان)
 
                 if سال_مارکسم != سال:
-                    os.rename(mks_output_dir[:-4] + str(سال_مارکسم), mks_output_dir)
+                    os.rename(راستہ_پیداوار_مرکسم[:-4] + str(سال_مارکسم), راستہ_پیداوار_مرکسم)
 
             #
-            with open(os.path.join(mks_output_dir, mks_output_file), 'r') as م:
+            with open(os.path.join(راستہ_پیداوار_مرکسم, مسل_پیداوار_مرکسم), 'r') as م:
                 #
                 عنوان = ''
                 while '@DATE' not in عنوان:
@@ -135,7 +134,6 @@ class مرکسم٥(ذریعہ):
                 پیداوار = م.readlines()
 
             #
-            # دن = [int(ب.split()[ستون_کا_نام.index('@DATE')][2:]) for ب in پیداوار]
             شمسی_تابکاری = نمپی.array([float(ب.split()[ستون_کا_نام.index('SRAD')]) for ب in پیداوار if ب != '\n'])
             درجہ_حرارت_زیادہ = نمپی.array([float(ب.split()[ستون_کا_نام.index('TMAX')]) for ب in پیداوار if ب != '\n'])
             درجہ_حرارت_کم = نمپی.array([float(ب.split()[ستون_کا_نام.index('TMIN')]) for ب in پیداوار if ب != '\n'])
@@ -154,11 +152,17 @@ class مرکسم٥(ذریعہ):
                 دن_خ = تک.timetuple().tm_yday
             else:
                 دن_خ = None
+
+            اعداد = نمپی.array([بارش, شمسی_تابکاری, درجہ_حرارت_زیادہ, درجہ_حرارت_کم, درجہ_حرارت_اوسط]).T
             if calendar.isleap(سال):
-                اعداد = نمپی.array([بارش, شمسی_تابکاری, درجہ_حرارت_زیادہ, درجہ_حرارت_کم, درجہ_حرارت_اوسط]).T
                 اعداد = نمپی.insert(اعداد, 58, اعداد[59], axis=0)
+                if دن_خ is None:
+                    دن_خ = 366
             else:
                 اعداد = نمپی.array([بارش, شمسی_تابکاری, درجہ_حرارت_زیادہ, درجہ_حرارت_کم, درجہ_حرارت_اوسط]).T
-            اعداد_دن[تاریخ_شروع:تاریخ_ختم] = اعداد[دن_ش:دن_خ,]
+                if دن_خ is None:
+                    دن_خ = 365
+
+            اعداد_دن[تاریخ_شروع:تاریخ_ختم] = اعداد[دن_ش:دن_خ, ]
 
         return اعداد_دن

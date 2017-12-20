@@ -1,7 +1,7 @@
 import re
 
 
-def tx_a_núm(texto):
+def متن_سے_شمار(texto):
     """
     Esta función toma texto de un número en cualquier idioma y lo cambia a un número Python.
 

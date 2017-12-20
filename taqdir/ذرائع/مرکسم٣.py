@@ -3,21 +3,21 @@ from taqdir.ذرائع.ذریعہ import ذریعہ
 
 class مرکسم٣(ذریعہ):
 
-    rango_potencial = NotImplemented
+    ممکنہ_تاریخیں = NotImplemented
 
-    def _اعداد_پیدا_کرنا(خود, سے, تک, ار_سی_پی, n_rep, usar_caché):
+    def _اعداد_پیدا_کرنا(خود, سے, تک, ر_ح_را, ش_ترکار, پہلہ_ہونےولے_اشتمال):
         """
 
         :param سے:
         :type سے: datetime | date
         :param تک:
         :type تک: datetime | date
-        :param ار_سی_پی:
-        :type ار_سی_پی:
-        :param n_rep:
-        :type n_rep:
-        :param usar_caché:
-        :type usar_caché:
+        :param ر_ح_را:
+        :type ر_ح_را:
+        :param ش_ترکار:
+        :type ش_ترکار:
+        :param پہلہ_ہونےولے_اشتمال:
+        :type پہلہ_ہونےولے_اشتمال:
         :return:
         :rtype:
         """
