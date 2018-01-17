@@ -11,13 +11,19 @@ from taqdir.شمار import متن_سے_شمار
 
 class دن_مشا(ذریعہ):
 
-    def __init__(خود, مسل, س_تاریخ, س_اعداد):
+    def __init__(خود, مسل, س_تاریخ, س_اعداد, تبادلوں):
         super().__init__(چوڑائی=None, طول=None, بلندی=None)
 
         خود.نام_شتونیں = س_اعداد
+        خود.تبادلوں = تبادلوں
 
-        خود.اعداد = gen_bd(مسل)
-        خود.دن = خود.اعداد.دنوں_پانا(شتون=س_تاریخ)
+        خود.اعداد = اعداد_و_شمار_بنانا(مسل)
+
+        for ن in س_اعداد.values():
+            if ن not in خود.اعداد.نام_ستونیں:
+                raise ValueError('')
+
+        خود.دن = خود.اعداد.تاریخیں_پانا(شتون=س_تاریخ)
         خود.ممکنہ_تاریخیں = (خود.دن[0], خود.دن[1][-1] + خود.دن[0])
 
     def _اعداد_پیدا_کرنا(خود, سے, تک, **kwargs):
@@ -25,18 +31,27 @@ class دن_مشا(ذریعہ):
 
         اعداد = پاندس.DataFrame(خود.اعداد.اعداد_پانا(شتونیں=شتونیں), columns=شتونیں)
 
-        return اعداد
+        for م, ش in خود.تبادلوں.items():
+            اعداد[م] = اعداد[م] * ش
+
+        return اعداد  # para hacer: سے, تک,
 
 
 class مہنہ_مشا(ذریعہ):
 
-    def __init__(خود, مسل, س_اعداد, س_مہینہ, س_سال):
+    def __init__(خود, مسل, س_اعداد, س_مہینہ, س_سال, تبادلوں, combin=None):
 
         super().__init__(چوڑائی=None, طول=None, بلندی=None)
 
         خود.نام_ستونیں = س_اعداد
+        خود.تبادلوں = تبادلوں
+        خود.combin = combin
 
-        خود.اعداد = gen_bd(مسل)
+        خود.اعداد = اعداد_و_شمار_بنانا(مسل)
+        for ن in س_اعداد.values():
+            if ن not in خود.اعداد.نام_ستونیں:
+                raise ValueError('')
+
         خود.سال = خود.اعداد.اعداد_پانا(شتونیں=س_سال, prec_dec=0)
         خود.مہینہ = خود.اعداد.اعداد_پانا(شتونیں=س_مہینہ, prec_dec=0)
         سال_کم = خود.سال.min()
@@ -49,40 +64,54 @@ class مہنہ_مشا(ذریعہ):
         خود.ممکنہ_تاریخیں = (تاریخ_کم, تاریخ_زیادہ)
 
     def _اعداد_پیدا_کرنا(خود, سے, تک, **kwargs):
-        v_cols = [x for x in خود.دن_ستون if x in خود.نام_ستونیں]
-        v_cols_extrn = [خود.نام_ستونیں[x] for x in v_cols]
+        ف_سوتون = [x for x in خود.دن_ستون if x in خود.نام_ستونیں]
+        ف_سوتون_باہر = [خود.نام_ستونیں[x] for x in ف_سوتون]
 
-        اعداد_مہینہ = خود.اعداد.اعداد_پانا(شتونیں=v_cols_extrn)
+        اعداد_مہینہ = خود.اعداد.اعداد_پانا(شتونیں=ف_سوتون_باہر)
 
         ش_دن = (خود.ممکنہ_تاریخیں[1] - خود.ممکنہ_تاریخیں[0]).days + 1
 
-        اعداد_دن = پاندس.DataFrame(index=پاندس.date_range(*خود.ممکنہ_تاریخیں), columns=v_cols)
+        اعداد_دن = پاندس.DataFrame(index=پاندس.date_range(*خود.ممکنہ_تاریخیں), columns=ف_سوتون)
 
-        دن_مہینا_میں = [calendar.monthrange(سا, م)[1] for م, سا in zip(خود.مہینہ, خود.سال)]
+        دن_مہینا_میں = [calendar.monthrange(سال, م)[1] for م, سال in zip(خود.مہینہ, خود.سال)]
 
-        for i, c in enumerate(v_cols_extrn):
-            if c in ['بارش']:
-                اعداد_مہینہ[i, :] = اعداد_مہینہ[i] / دن_مہینا_میں
+        for ش, س in enumerate(ف_سوتون_باہر):
+            if س in ['بارش']:
+                اعداد_مہینہ[ش, :] = اعداد_مہینہ[ش] / دن_مہینا_میں
 
         تاریخ = خود.ممکنہ_تاریخیں[0]
         سال_شروع = تاریخ.year
+        مہینہ_سروع = تاریخ.month
         for _ in range(ش_دن):
-            n_mes = (تاریخ.year - سال_شروع) * 12 + تاریخ.month - 1
-            اعداد_دن.loc[تاریخ] = اعداد_مہینہ[n_mes]
+            ش_مہینہ = (تاریخ.year - سال_شروع) * 12 + (تاریخ.month - مہینہ_سروع)
+            اعداد_دن.loc[تاریخ] = اعداد_مہینہ[ش_مہینہ]
+
+            for م in اعداد_دن:
+                if خود.تریقہ_جمع[م] == 'رقم':
+                    اعداد_دن.loc[تاریخ][م] = اعداد_دن.loc[تاریخ][م] / calendar.monthrange(تاریخ.year, تاریخ.month)[1]
+
             تاریخ += ft.timedelta(days=1)
 
-        return اعداد_دن
+        for م, ش in خود.تبادلوں.items():
+            اعداد_دن[م] = اعداد_دن[م] * ش
+
+        return اعداد_دن  # para hacer: سے, تک,
 
 
 class سال_مشا(ذریعہ):
 
-    def __init__(خود, مسل, س_اعداد, س_سال):
+    def __init__(خود, مسل, س_اعداد, س_سال, تبادلوں):
 
         super().__init__(چوڑائی=None, طول=None, بلندی=None)
 
         خود.نام_شتونیں = س_اعداد
+        خود.تبادلوں = تبادلوں
 
-        خود.اعداد = gen_bd(مسل)
+        خود.اعداد = اعداد_و_شمار_بنانا(مسل)
+        for ن in س_اعداد.values():
+            if ن not in خود.اعداد.نام_ستونیں:
+                raise ValueError('')
+
         خود.سال = خود.اعداد.اعداد_پانا(شتونیں=س_سال)
 
         خود.ممکنہ_تاریخیں = (ft.datetime(year=min(خود.سال), month=1, day=1),
@@ -90,37 +119,45 @@ class سال_مشا(ذریعہ):
 
     def _اعداد_پیدا_کرنا(خود, سے, تک, **kwargs):
 
-        v_cols = [خود.نام_شتونیں[x] for x in خود.دن_ستون]
+        ف_ستون = [خود.نام_شتونیں[x] for x in خود.دن_ستون]
 
-        اعداد_سال = خود.اعداد.اعداد_پانا(شتونیں=v_cols)
+        اعداد_سال = خود.اعداد.اعداد_پانا(شتونیں=ف_ستون)
 
         ش_دن = (خود.ممکنہ_تاریخیں[1] - خود.ممکنہ_تاریخیں[0]).days
 
-        اعداد_دن = پاندس.DataFrame(index=پاندس.date_range(*خود.ممکنہ_تاریخیں), columns=v_cols)
+        اعداد_دن = پاندس.DataFrame(index=پاندس.date_range(*خود.ممکنہ_تاریخیں), columns=ف_ستون)
         تاریخ = خود.ممکنہ_تاریخیں[0]
         سال_شروع = خود.سال.min()
 
         سال_میں_دن_شمار = [366 if calendar.isleap(x) else 365 for x in خود.سال]
 
-        for i, c in enumerate(v_cols):
-            if c in ['بارش']:
-                اعداد_سال[i, :] = اعداد_سال[i] / سال_میں_دن_شمار
+        for ش, س in enumerate(ف_ستون):
+            if س in ['بارش']:
+                اعداد_سال[ش, :] = اعداد_سال[ش] / سال_میں_دن_شمار
 
         for _ in range(ش_دن):
-            n_año = تاریخ.year - سال_شروع
-            اعداد_دن.loc[تاریخ] = اعداد_سال[n_año]
+            ش_سال = تاریخ.year - سال_شروع
+            اعداد_دن.loc[تاریخ] = اعداد_سال[ش_سال]
+
+            for م in اعداد_دن:
+                if خود.تریقہ_جمع[م] == 'رقم':
+                    اعداد_دن.loc[تاریخ][م] = اعداد_دن.loc[تاریخ][م] / calendar.monthrange(تاریخ.year, تاریخ.month)[1]
+
             تاریخ += ft.timedelta(1)
+
+        for م, ش in خود.تبادلوں.items():
+            اعداد_دن[م] = اعداد_دن[م] * ش
 
         return اعداد_دن  # para hacer: سے, تک,
 
 
-def gen_bd(مسل):
+def اعداد_و_شمار_بنانا(مسل):
     """
 
     :param مسل:
     :type مسل: str
     :return:
-    :rtype: BD
+    :rtype: اعداد_و_شمار
     """
     ext = os.path.splitext(مسل)[1]
     if ext == '.txt' or ext == '.csv':
@@ -131,9 +168,9 @@ def gen_bd(مسل):
         raise ValueError
 
 
-class BD(object):
+class اعداد_و_شمار(object):
     """
-    Una superclase para lectores de bases de اعداد_دن.
+    Una superclase para lectores de bases de datos.
     """
 
     def __init__(خود, مسل):
@@ -143,8 +180,9 @@ class BD(object):
             raise FileNotFoundError
 
         خود.n_obs = خود.calc_n_obs()
+        خود.نام_ستونیں = خود.نام_ستونیں_پانا()
 
-    def نام_شتونیں_پانا(خود):
+    def نام_ستونیں_پانا(خود):
         """
 
         :return:
@@ -174,7 +212,7 @@ class BD(object):
         """
         raise NotImplementedError
 
-    def دنوں_پانا(خود, شتون):
+    def تاریخیں_پانا(خود, شتون):
         """
 
         :param شتون:
@@ -203,7 +241,7 @@ class BD(object):
     @staticmethod
     def تاریخیں_پڑنا(lista_fechas):
         """
-        Esta función toma una lista de اعداد_دن de fecha en formato de texto y detecta 1) la primera fecha de la lista,
+        Esta función toma una lista de datos de fecha en formato de texto y detecta 1) la primera fecha de la lista,
         y 2) la posición relativa de cada fecha a esta.
 
         :param lista_fechas: Una lista con las fechas en formato de texto
@@ -214,7 +252,7 @@ class BD(object):
 
         """
 
-        # Una lista de lso formatos de fecha posibles. Esta función intentará de leer los اعداد_دن de fechas con cada
+        # Una lista de lso formatos de fecha posibles. Esta función intentará de leer los datos de fechas con cada
         # formato en esta lista y, si encuentra un que funciona, parará allí.
         separadores = ['-', '/', ' ', '.']
 
@@ -227,7 +265,7 @@ class BD(object):
 
         formatos_posibles = [x.format(s) for s in separadores for x in f]
 
-        # Primero, si los اعداد_دن de fechas están en formato simplemente numérico...
+        # Primero, si los datos de fechas están en formato simplemente numérico...
         if all([x.isdigit() for x in lista_fechas]):
 
             # Entonces, no conocemos la fecha inicial
@@ -257,14 +295,14 @@ class BD(object):
             # Si todavía no lo hemos logrado, tenemos un problema.
             if fechas is None:
                 raise ValueError(
-                    'No puedo leer los اعداد_دن de fechas. ¿Mejor le eches un vistazo a tu base de اعداد_دن?')
+                    'No puedo leer los datos de fechas. ¿Mejor le eches un vistazo a tu base de datos?')
 
             else:
                 # Pero si está bien, ya tenemos que encontrar la primera fecha y calcular la posición relativa de las
                 # otras con referencia en esta.
 
-                # La primera fecha de la base de اعداد_دن. Este paso se queda un poco lento, así que para largas bases de
-                # اعداد_دن podría ser útil suponer que la primera fila también contiene la primera fecha.
+                # La primera fecha de la base de datos. Este paso se queda un poco lento, así que para largas bases de
+                # datos podría ser útil suponer que la primera fila también contiene la primera fecha.
                 fecha_inic_datos = min(fechas)
 
                 # Si tenemos prisa, mejor lo hagamos así:
@@ -279,9 +317,9 @@ class BD(object):
         return fecha_inic_datos, vec_fch_núm
 
 
-class BDtexto(BD):
+class BDtexto(اعداد_و_شمار):
     """
-    Una clase para leer bases de اعداد_دن en formato texto delimitado por comas (.csv).
+    Una clase para leer bases de datos en formato texto delimitado por comas (.csv).
     """
 
     def calc_n_obs(خود):
@@ -349,7 +387,7 @@ class BDtexto(BD):
 
         return l_datos
 
-    def نام_شتونیں_پانا(خود):
+    def نام_ستونیں_پانا(خود):
         """
 
         :return:
@@ -364,9 +402,9 @@ class BDtexto(BD):
         return nombres_cols
 
 
-class BDsql(BD):
+class BDsql(اعداد_و_شمار):
     """
-    Una clase para leer bases de اعداد_دن en formato SQL.
+    Una clase para leer bases de datos en formato SQL.
     """
 
     def calc_n_obs(خود):
@@ -374,6 +412,14 @@ class BDsql(BD):
 
         :return:
         :rtype:
+        """
+        pass
+
+    def نام_ستونیں_پانا(خود):
+        """
+
+        :return:
+        :rtype: list[str]
         """
         pass
 
@@ -398,13 +444,3 @@ class BDsql(BD):
         :rtype:
         """
         pass
-
-    def نام_شتونیں_پانا(خود):
-        """
-
-        :return:
-        :rtype:
-        """
-        pass
-
-
