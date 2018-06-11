@@ -5,7 +5,6 @@ import pandas as pd
 from taqdir.ذرائع.ذریعہ import ذریعہ
 from taqdir.ذرائع.مشاہدات import دن_مشا, مہنہ_مشا, سال_مشا
 from taqdir.ذرائع.مرکسم٥ import مرکسم٥
-from taqdir.ذرائع.مرکسم٣ import مرکسم٣
 from datetime import date
 from taqdir.شمار import متن_سے_شمار
 
@@ -46,11 +45,10 @@ class مقام(ذریعہ):
                 تاریخ_چاہئے[ش] = date(year=تا, month=1, day=1)
         لاپتہ_تاریخ = [تاریخ_چاہئے]
 
-        ترجیحات_خود = [مرکسم٥, مرکسم٣]
+        ترجیحات_خود = [مرکسم٥]
 
         ل_ذریعہ = {
             'مرکسم٥': مرکسم٥,
-            'مرکسم٣': مرکسم٣,
         }
 
         if ترجیحات is None:
