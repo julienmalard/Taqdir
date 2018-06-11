@@ -349,7 +349,8 @@ class BDtexto(اعداد_و_شمار):
         with open(خود.مسل, encoding='UTF8') as d:
             lector = csv.DictReader(d)
             for n_f, f in enumerate(lector):
-                m_datos[:, n_f] = [متن_سے_شمار(f[c]) if f[c] != '' else نمپی.nan for c in شتونیں]
+                ll_شتونیں = [next(x for x in f if x.strip() == c) for c in شتونیں]
+                m_datos[:, n_f] = [متن_سے_شمار(f[c].strip()) if f[c].strip() != '' else نمپی.nan for c in ll_شتونیں]
 
         if prec_dec is not None:
             if prec_dec == 0:
@@ -376,7 +377,8 @@ class BDtexto(اعداد_و_شمار):
             lector = csv.DictReader(d)
             for n_f, f in enumerate(lector):
                 for i_c, c in enumerate(شتونیں):
-                    l_datos[i_c][n_f] = f[c]
+                    ll = next(x for x in f if x.strip() == c)
+                    l_datos[i_c][n_f] = f[ll].strip()
 
         if len(شتونیں) == 1:
             l_datos = l_datos[0]
@@ -395,7 +397,7 @@ class BDtexto(اعداد_و_شمار):
 
             nombres_cols = next(lector)
 
-        return nombres_cols
+        return [c.strip() for c in nombres_cols]
 
 
 class BDsql(اعداد_و_شمار):
