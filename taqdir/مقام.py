@@ -5,7 +5,7 @@ import pandas as pd
 from taqdir.ذرائع.ذریعہ import ذریعہ
 from taqdir.ذرائع.مشاہدات import دن_مشا, مہنہ_مشا, سال_مشا
 from taqdir.ذرائع.مرکسم٥ import مرکسم٥
-from datetime import date
+from datetime import date as تاریخ, timedelta
 from taqdir.شمار import متن_سے_شمار
 
 
@@ -73,8 +73,8 @@ class مقام(ذریعہ):
 
         for ذرع in ترجیحات:
 
-            for تاریخ in لاپتہ_تاریخ.copy():
-                تاریخ_ذرائع = intersec_rangos(تاریخ, ذرع.ممکنہ_تاریخیں)
+            for تا in لاپتہ_تاریخ.copy():
+                تاریخ_ذرائع = intersec_rangos(تا, ذرع.ممکنہ_تاریخیں)
                 لاپتہ_تاریخ = act_l_rangos(l_rangos=لاپتہ_تاریخ, rango_sust=تاریخ_ذرائع)
 
                 اعداد = ذرع.اعداد_پانا(*تاریخ_ذرائع, ر_ح_را=ر_ح_را, ش_ترکار=ش_ترکار, usar_caché=پہلہ_ہونےولے_اشتمال,
@@ -149,12 +149,12 @@ def dif_rangos(rango1, rango2):
         return
     else:
         if mín1 == mín2:
-            return máx2, máx1
+            return máx2 + timedelta(days=1), máx1
         else:
             if máx1 == máx2:
                 return mín1, mín2
             else:
-                return [(mín1, mín2), (máx2, máx1)]
+                return [(mín1, mín2), (máx2 + timedelta(days=1), máx1)]
 
 
 def act_l_rangos(l_rangos, rango_sust):
