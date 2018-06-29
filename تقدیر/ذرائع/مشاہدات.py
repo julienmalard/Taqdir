@@ -5,8 +5,8 @@ import os
 
 import numpy as نمپی
 import pandas as پاندس
-from taqdir.ذرائع.ذریعہ import ذریعہ
-from taqdir.شمار import متن_سے_شمار
+from تقدیر.ذرائع.ذریعہ import ذریعہ
+from تقدیر.شمار import متن_سے_شمار
 
 
 class دن_مشا(ذریعہ):

@@ -2,11 +2,11 @@ from warnings import warn as avisar
 
 import pandas as pd
 
-from taqdir.ذرائع.ذریعہ import ذریعہ
-from taqdir.ذرائع.مشاہدات import دن_مشا, مہنہ_مشا, سال_مشا
-from taqdir.ذرائع.مرکسم٥ import مرکسم٥
+from تقدیر.ذرائع.ذریعہ import ذریعہ
+from تقدیر.ذرائع.مشاہدات import دن_مشا, مہنہ_مشا, سال_مشا
+from تقدیر.ذرائع.مرکسم٥ import مرکسم٥
 from datetime import date as تاریخ, timedelta
-from taqdir.شمار import متن_سے_شمار
+from تقدیر.شمار import متن_سے_شمار
 
 
 class مقام(ذریعہ):

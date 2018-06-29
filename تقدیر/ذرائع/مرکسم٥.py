@@ -9,15 +9,15 @@ import numpy as نمپی
 import pandas as پاندس
 from pkg_resources import resource_filename as وسائل_کا_نام
 
-from taqdir import لغت_قابو
-from taqdir.ذرائع.ذریعہ import ذریعہ
+from تقدیر import لغت_قابو
+from تقدیر.ذرائع.ذریعہ import ذریعہ
 
 مسل_مرکسم = لغت_قابو['مسل_مرکسم']  #
 dir_marksim = os.path.join(os.path.split(مسل_مرکسم)[0])
 راستہ_اعداد_اع_گر_نم = os.path.join(dir_marksim, 'gcm5data')  # علمی گردش کی نمونہ کا راستہ
 
 #
-راستہ_سانچے = وسائل_کا_نام('taqdir', 'سانچے.CLI')
+راستہ_سانچے = وسائل_کا_نام('تقدیر', 'سانچے.CLI')
 
 
 class مرکسم٥(ذریعہ):
