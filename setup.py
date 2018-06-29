@@ -13,11 +13,11 @@ with open('تقدیر/تبدیل.txt', 'r', encoding='utf8') as archivo_versión
 
 
 setup(
-    name='تقدیر',
+    name='taqdir',
     version=تبدیل,
     packages=find_packages(),
-    url='https://تقدیر.readthedocs.io',
-    download_url='https://github.com/julienmalard/تقدیر',
+    url='https://taqdir.readthedocs.io',
+    download_url='https://github.com/julienmalard/taqdir',
     license='GNU 3',
     author='ژولئیں ژاں ملار',
     author_email='julien.malard@mail.mcgill.ca',
