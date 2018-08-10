@@ -1,11 +1,3 @@
-import os
-import platform
-import shutil
-import sys
-import urllib.request
-from subprocess import run
-from warnings import warn as avisar
-
 from setuptools import setup, find_packages
 
 with open('تقدیر/تبدیل.txt', 'r', encoding='utf8') as archivo_versión:
@@ -19,7 +11,7 @@ setup(
     url='https://taqdir.readthedocs.io',
     download_url='https://github.com/julienmalard/taqdir',
     license='GNU 3',
-    author='ژولئیں ژاں ملار',
+    author='ژولئیں ژاں ملار (Julien Jean Malard)',
     author_email='julien.malard@mail.mcgill.ca',
     description='',
     long_description='',
