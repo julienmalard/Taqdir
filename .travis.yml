@@ -1,0 +1,22 @@
+language: python
+python:
+- "3.6"
+
+os:
+- linux
+
+install:
+- pip install --upgrade pip setuptools wheel
+- pip install -r زروریاں.txt
+- pip install coveralls codecov
+- python setup.py sdist bdist_wheel
+- pip install taqdir --no-index --find-links=./dist
+- rm -r تقدیر
+
+script:
+- cd امتحان
+- coverage run -m unittest
+
+after_success:
+- coveralls --rcfile=.coveragerc
+- codecov
