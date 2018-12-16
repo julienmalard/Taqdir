@@ -1,0 +1,3 @@
+
+class ذریعہ(object):
+    pass
