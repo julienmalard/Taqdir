@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
+from எண்ணிக்கை import எண்ணுக்கு
 
-with open('تقدیر/تبدیل.txt', 'r', encoding='utf8') as archivo_versión:
-    تبدیل = archivo_versión.read().strip()
-
+with open('تقدیر/تبدیل.txt', 'r', encoding='utf8') as تبدیل_کی_دستاویز:
+    تبدیل = எண்ணுக்கு(تبدیل_کی_دستاویز.read().strip())
 
 setup(
     name='taqdir',
@@ -15,12 +15,12 @@ setup(
     author_email='julien.malard@mail.mcgill.ca',
     description='',
     long_description='',
-    requires=['numpy', 'pandas'],
+    install_requires=['numpy', 'pandas', 'ennikkai'],
+    setup_requires=['ennikkai'],
     classifiers=[
         'Programming Language :: Python :: 3.6',
     ],
     package_data={
-        # Incluir estos documentos de los paquetes:
-        '': ['*.CLI', 'تبدیل.txt', 'مسل_مرکسم.json'],
+        '': ['تبدیل.txt'],
     },
 )
