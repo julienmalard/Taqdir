@@ -11,11 +11,11 @@ setup(
     url='https://taqdir.readthedocs.io',
     download_url='https://github.com/julienmalard/taqdir',
     license='GNU 3',
-    author='ژولئیں ژاں ملار (Julien Jean Malard)',
+    author='ژولئیں ژاں ملاغ (Julien Jean Malard)',
     author_email='julien.malard@mail.mcgill.ca',
     description='',
     long_description='',
-    install_requires=['numpy', 'pandas', 'ennikkai'],
+    install_requires=['numpy', 'pandas', 'ennikkai', 'selenium'],
     setup_requires=['ennikkai'],
     classifiers=[
         'Programming Language :: Python :: 3.6',

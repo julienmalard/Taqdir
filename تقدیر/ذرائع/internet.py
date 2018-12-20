@@ -28,7 +28,7 @@ for año in l_años:
         driver.get("http://gisweb.ciat.cgiar.org/MarkSimGCM/#tabs-3")
         assert "MarkSim" in driver.title
 
-        tx_rcp = 'ر_ح_را' + str(rcp).replace('.', '')
+        tx_rcp = 'rcp' + str(rcp).replace('.', '')
         print(tx_rcp)
 
         ingr_lat = driver.find_element_by_name('latitude')
