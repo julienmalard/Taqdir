@@ -1,99 +1,87 @@
 import os
 import shutil
-import tempfile
 import time
 import zipfile
 
 from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
-from எண்ணிக்கை import எண்ணுக்கு
 
-from تقدیر۲.ذریعہ import ذریعہ
-from .مرکسم۵ import _خاکے_مرکسم
+from .مرکسم۵ import مرکسم۵
 
 
-class مرکسم۵_جال(ذریعہ):
+class مرکسم۵_جال(مرکسم۵):
 
     def __init__(خود):
 
-        خود.profile = webdriver.FirefoxProfile()
-        خود.profile.set_preference('browser.download.folderList', 2)  # custom location
-        خود.profile.set_preference('browser.download.manager.showWhenStarting', False)
-        خود.tmp = tempfile.mkdtemp()
-        خود.profile.set_preference('browser.download.dir', خود.tmp)
-        خود.profile.set_preference('browser.helperApps.neverAsk.saveToDisk', 'application/zip')
+        super().__init__()
 
-    def آدادوشمار_پانا(خود, سے, تک, چوڑائی, طول, بلندی, خاکے='۸۔۵ََ'):
+        خود.اختیار_فایئرفاکس = webdriver.FirefoxProfile()
+        خود.اختیار_فایئرفاکس.set_preference('browser.download.folderList', 2)
+        خود.اختیار_فایئرفاکس.set_preference('browser.download.manager.showWhenStarting', False)
+        خود.اختیار_فایئرفاکس.set_preference('browser.download.dir', خود.راستہ)
+        خود.اختیار_فایئرفاکس.set_preference('browser.helperApps.neverAsk.saveToDisk', 'application/zip')
 
-        خاکے = எண்ணுக்கு(خاکے)
-        if خاکے not in _خاکے_مرکسم:
-            return
-        else:
-            خاکے = 'rcp' + str(خاکے).replace('.', '')
+    def _کوائف_بنانا(خود, سلسلہ_سال, چوڑائی, طول, خاکے):
 
-        سالیں = range(سے.year, تک.year + 1)
+        نام = 'TQDR'
+        راستہ_نتیجہ = os.path.join(خود.راستہ, '{}.zip'.format(نام))
 
-        TQDR = 'TQDR'
-        descarg = os.path.join(خود.tmp, '{}.zip'.format(TQDR))
+        for سال in سلسلہ_سال:
 
-        for سال in سالیں:
+            فایئرفاکس = webdriver.Firefox(firefox_profile=خود.اختیار_فایئرفاکس)
+            فایئرفاکس.get("http://gisweb.ciat.cgiar.org/MarkSimGCM/#tabs-3")
+            assert "MarkSim" in فایئرفاکس.title
 
-            driver = webdriver.Firefox(firefox_profile=خود.profile)
-            driver.get("http://gisweb.ciat.cgiar.org/MarkSimGCM/#tabs-3")
-            assert "MarkSim" in driver.title
+            فایئرفاکس.find_element_by_name('latitude').send_keys(str(طول))
 
-            driver.find_element_by_name('latitude').send_keys(str(طول))
+            فایئرفاکس.find_element_by_name('longitude').send_keys(str(چوڑائی))
 
-            driver.find_element_by_name('longitude').send_keys(str(چوڑائی))
+            فایئرفاکس.find_element_by_name('place').send_keys(نام)
 
-            driver.find_element_by_name('place').send_keys(TQDR)
+            فایئرفاکس.find_element_by_link_text('Select All Models').click()
 
-            driver.find_element_by_link_text('Select All Models').click()
+            فایئرفاکس.find_element_by_xpath('//input[@value="{}"]'.format(خاکے)).click()
 
-            driver.find_element_by_xpath('//input[@value="{}"]'.format(خاکے)).click()
+            فایئرفاکس.find_element_by_name('yearsimulation').send_keys(str(سال))
 
-            driver.find_element_by_name('yearsimulation').send_keys(str(سال))
+            فایئرفاکس.find_element_by_name('numrep').send_keys(str(10))
 
-            driver.find_element_by_name('numrep').send_keys(str(n_reps))
+            فایئرفاکس.find_element_by_id('BtnRun').click()
 
-            driver.find_element_by_id('BtnRun').click()
+            if os.path.isfile(راستہ_نتیجہ):
+                os.remove(راستہ_نتیجہ)
 
-            if os.path.isfile(descarg):
-                os.remove(descarg)
-
-            listo = False
-            while not listo:
+            تئیار = False
+            while not تئیار:
                 try:
-                    driver.find_element_by_xpath('/html/body/table[2]/tbody/tr[1]/td[1]/form/div[2]/img')
-                    listo = True
+                    فایئرفاکس.find_element_by_xpath('/html/body/table[2]/tbody/tr[1]/td[1]/form/div[2]/img')
+                    تئیار = True
                 except NoSuchElementException:
                     pass
 
-            listo = False
-            while not listo:
+            تسویر = None
+            while not تسویر:
                 try:
-                    img = driver.find_element_by_xpath('//a[img/@src="images/zip-icon.jpg"]')
-                    img.click()
-                    listo = True
-                except:
+                    تسویر = فایئرفاکس.find_element_by_xpath('//a[img/@src="images/zip-icon.jpg"]')
+                    تسویر.click()
+                except NoSuchElementException:
                     pass
 
             time.sleep(1)
-            img.click()
+            تسویر.click()
 
-            while not os.path.isfile(descarg):
+            while not os.path.isfile(راستہ_نتیجہ):
                 pass
 
-            nombre_dir = 'TQDR_11111111111111111_{}_{}'.format(خاکے, سال)
-            direc_final = os.path.join(خود.tmp, nombre_dir)
-            if os.path.isdir(direc_final):
-                shutil.rmtree(direc_final)
+            راستہ_کا_نام = os.path.join(خود.راستہ, 'TQDR_11111111111111111_{}_{}'.format(خاکے, سال))
+            if os.path.isdir(راستہ_کا_نام):
+                shutil.rmtree(راستہ_کا_نام)
 
-            os.makedirs(direc_final)
+            os.makedirs(راستہ_کا_نام)
 
-            with zipfile.ZipFile(descarg) as az:
-                az.extractall(path=direc_final)
+            with zipfile.ZipFile(راستہ_نتیجہ) as az:
+                az.extractall(path=راستہ_کا_نام)
 
-            os.remove(descarg)
+            os.remove(راستہ_نتیجہ)
 
-            driver.close()
+            فایئرفاکس.close()

@@ -15,7 +15,7 @@ setup(
     author_email='julien.malard@mail.mcgill.ca',
     description='',
     long_description='',
-    install_requires=['numpy', 'pandas', 'ennikkai', 'selenium'],
+    install_requires=['numpy', 'pandas', 'ennikkai', 'selenium', 'pcse', 'chardet'],
     setup_requires=['ennikkai'],
     classifiers=[
         'Programming Language :: Python :: 3.6',
