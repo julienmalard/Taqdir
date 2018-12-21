@@ -1,4 +1,3 @@
-import pandas as pd
 from pcse.db import NASAPowerWeatherDataProvider
 
 from تقدیر۲.ذریعہ import ذریعہ
