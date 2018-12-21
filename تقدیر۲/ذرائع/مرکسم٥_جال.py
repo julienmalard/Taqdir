@@ -4,16 +4,16 @@ import time
 import zipfile
 
 from selenium import webdriver
-from selenium.common.exceptions import NoSuchElementException
+from selenium.common.exceptions import NoSuchElementException, WebDriverException
 
 from .مرکسم۵ import مرکسم۵
 
 
 class مرکسم۵_جال(مرکسم۵):
 
-    def __init__(خود):
+    def __init__(خود, نمونہ='11111111111111111'):
 
-        super().__init__()
+        super().__init__(نمونہ)
 
         خود.اختیار_فایئرفاکس = webdriver.FirefoxProfile()
         خود.اختیار_فایئرفاکس.set_preference('browser.download.folderList', 2)
@@ -21,7 +21,7 @@ class مرکسم۵_جال(مرکسم۵):
         خود.اختیار_فایئرفاکس.set_preference('browser.download.dir', خود.راستہ)
         خود.اختیار_فایئرفاکس.set_preference('browser.helperApps.neverAsk.saveToDisk', 'application/zip')
 
-    def _کوائف_بنانا(خود, سلسلہ_سال, چوڑائی, طول, خاکے):
+    def _کوائف_بنانا(خود, سلسلہ_سال, چوڑائی, طول, بلندی, خاکے):
 
         نام = 'TQDR'
         راستہ_نتیجہ = os.path.join(خود.راستہ, '{}.zip'.format(نام))
@@ -29,8 +29,10 @@ class مرکسم۵_جال(مرکسم۵):
         for سال in سلسلہ_سال:
 
             فایئرفاکس = webdriver.Firefox(firefox_profile=خود.اختیار_فایئرفاکس)
-            فایئرفاکس.get("http://gisweb.ciat.cgiar.org/MarkSimGCM/#tabs-3")
-            assert "MarkSim" in فایئرفاکس.title
+            try:
+                فایئرفاکس.get("http://gisweb.ciat.cgiar.org/MarkSimGCM/#tabs-3")
+            except WebDriverException:
+                return
 
             فایئرفاکس.find_element_by_name('latitude').send_keys(str(طول))
 
@@ -38,7 +40,16 @@ class مرکسم۵_جال(مرکسم۵):
 
             فایئرفاکس.find_element_by_name('place').send_keys(نام)
 
-            فایئرفاکس.find_element_by_link_text('Select All Models').click()
+            if خود.نمونہ == '11111111111111111':
+                فایئرفاکس.find_element_by_link_text('Select All Models').click()
+            else:
+                ف_نمونہ = [
+                    'bcc1', 'bcc2', 'CSIR', 'FIOE', 'GFD1', 'GFD2', 'GFD3', 'GIS1', 'GIS2', 'HadG', 'IPS1', 'IPS2',
+                    'MIR2', 'MIR3', 'MIR1', 'MRIC', 'NorE'
+                ]
+                for ن, نام in zip(خود.نمونہ, ف_نمونہ):
+                    if int(ن):
+                        فایئرفاکس.find_element_by_id('chkbx_' + نام).click()
 
             فایئرفاکس.find_element_by_xpath('//input[@value="{}"]'.format(خاکے)).click()
 
