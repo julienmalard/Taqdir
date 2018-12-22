@@ -3,6 +3,8 @@ from datetime import date
 
 import pandas as pd
 
+from .ذریعہ import ذریعہ
+
 
 class کوائف(object):
     def __init__(خود, سے, تک, اعداد=None):
@@ -18,8 +20,11 @@ class کوائف(object):
         اعداد: pd.DataFrame
             پہلہ سے ھونے طالے اعدادو شمار۔
         """
-        ستون = ['بارش', 'شمسی_تابکاری', 'درجہ_حرارت_زیادہ', 'درجہ_حرارت_کم', 'درجہ_حرارت_اوسط']
-        خود.اعداد = pd.DataFrame(اعداد, columns=ستون, index=pd.period_range(سے, تک))
+
+        خود.اعداد = pd.DataFrame(اعداد, columns=ذریعہ.ستون, index=pd.period_range(سے, تک))
+        if اعداد is not None:
+            خود.اعداد.combine_first(اعداد)
+
         خود.سے = سے
         خود.تک = تک
         خود._بھرنا()
