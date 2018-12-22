@@ -20,13 +20,8 @@ setup.cfg
 dist/
 build/
 
-
-
 *.log
-
-
-docs/.tx/*
 __pycache__/
-docs/source/_static/
 
-PYTH.CLI
+اختیارے.json
+
