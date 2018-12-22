@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
-from எண்ணிக்கை import எண்ணுக்கு
+from எண்ணிக்கை import உரைக்கு
 
-with open('تقدیر/تبدیل.txt', 'r', encoding='utf8') as تبدیل_کی_دستاویز:
-    تبدیل = எண்ணுக்கு(تبدیل_کی_دستاویز.read().strip())
+with open('تقدیر۲/تبدیل.txt', 'r', encoding='utf8') as تبدیل_کی_دستاویز:
+    تبدیل = உரைக்கு(تبدیل_کی_دستاویز.read().strip(), 'latin', 'ار')
 
 setup(
     name='taqdir',
