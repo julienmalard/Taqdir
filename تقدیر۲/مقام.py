@@ -1,5 +1,5 @@
-from .کوائف import کوائف
 from .ذرائع import مرکسم۵_جال, مرکسم۵, ناسا
+from .کوائف import کوائف
 
 
 class مقام(object):

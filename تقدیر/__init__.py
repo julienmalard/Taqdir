@@ -1,7 +1,8 @@
 import json
 import os
-from pkg_resources import resource_filename as وسائل_کا_نام
 from warnings import warn as انتباہ
+
+from pkg_resources import resource_filename as وسائل_کا_نام
 
 with open(وسائل_کا_نام('تقدیر', 'تبدیل.txt'), 'r', encoding='utf8') as archivo_versión:
     __تبدیل__ = archivo_versión.read().strip()
@@ -30,7 +31,6 @@ if os.path.isdir(مسل_مرکسم):
     # اگر نہیں ہے، تو اسے جوڑنا.
     مسل_مرکسم = os.path.join(مسل_مرکسم, 'MarkSim_Standalone_v2.exe')
 
-
 # اگر اب تک مسل سہی نہیں ہے، تو تکلیف ہوتی ہے.
 if not os.path.isfile(مسل_مرکسم):
     if مسل_مرکسم == "":
@@ -40,7 +40,6 @@ if not os.path.isfile(مسل_مرکسم):
 
 
 def مرکسم_وضاحت_کریں(راستہ):
-
     if not os.path.isfile(راستہ):
         if os.path.isdir(راستہ):
             راستہ = os.path.join(راستہ, 'MarkSim_Standalone_v2.exe')

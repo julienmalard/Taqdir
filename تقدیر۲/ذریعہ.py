@@ -8,7 +8,7 @@ class ذریعہ(object):
         raise NotImplementedError
 
     def _پاندس_بنانا(خود, سے, تک):
-        اعداد_پاندس = pd.DataFrame(columns=list(خود.ستون), index=pd.period_range(سے, تک))
+        اعداد_پاندس = pd.DataFrame(columns=list(خود.ستون), index=pd.period_range(سے, تک), dtype=float)
         return اعداد_پاندس
 
 
@@ -28,9 +28,20 @@ class ذریعہ_نکتہ(ذریعہ):
             return
 
         اعداد_پاندس = خود._پاندس_بنانا(سے, تک)
-        خود._کوائف_بھرنا(اعداد_پاندس)
+
+        خود._کوائف_بھرنا(اعداد_پاندس, خود._کوائف_بنانا())
 
         return اعداد_پاندس
+
+    def _کوائف_بھرنا(khud, adad, naye):
+        if naye.index.freq == 'D':
+            adad.fillna(naye, inplace=True)
+        elif naye.index.freq == 'M':
+            raise NotImplementedError
+        elif naye.index.freq == 'Y':
+            raise NotImplementedError
+        else:
+            raise ValueError(naye.index)
 
     def _نام_ستون(خود, ستون):
         try:
@@ -38,5 +49,5 @@ class ذریعہ_نکتہ(ذریعہ):
         except KeyError:
             return ستون
 
-    def _کوائف_بھرنا(خود, اعداد_پاندس):
+    def _کوائف_بنانا(خود):
         raise NotImplementedError

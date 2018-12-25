@@ -1,7 +1,7 @@
 import os
 from subprocess import run as چلو
+
 import numpy as نمپی
-import calendar
 from pkg_resources import resource_filename as وسائل_کا_نام
 from تقدیر import لغت_قابو
 

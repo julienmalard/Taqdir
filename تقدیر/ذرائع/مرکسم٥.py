@@ -1,14 +1,12 @@
 import calendar
 import os
 import re
-from datetime import datetime as تاریخوقت
 from datetime import date as تاریخ
 from subprocess import run as چلو
 
 import numpy as نمپی
 import pandas as پاندس
 from pkg_resources import resource_filename as وسائل_کا_نام
-
 from تقدیر import لغت_قابو
 from تقدیر.ذرائع.ذریعہ import ذریعہ
 
