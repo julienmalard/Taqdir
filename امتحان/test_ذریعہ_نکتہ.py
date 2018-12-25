@@ -1,6 +1,7 @@
 import os
 import unittest
 
+import numpy as np
 import pandas as pd
 import pandas.testing as pdt
 from تقدیر۲.ذرائع import جسان, سی_اس_وی, دیسات
@@ -72,7 +73,7 @@ from எண்ணிக்கை import உரைக்கு
     پای_جسان, columns=[س for س in پای_جسان if س != 'تاریخ'],
     index=pd.PeriodIndex([உரைக்கு(تا, 'latin') for تا in پای_جسان['تاریخ']], freq='D')
 )
-اعداد['درجہ_حرارت_اوسط'] = (اعداد['درجہ_حرارت_زیادہ']+اعداد['درجہ_حرارت_کم'])/2
+اعداد['درجہ_حرارت_اوسط'] = np.nan
 
 
 class امتحان_ذریعہ_نکتہ(unittest.TestCase):
@@ -100,15 +101,19 @@ class امتحان_ذریعہ_نکتہ(unittest.TestCase):
             with خود.subTest(نام):
                 pdt.assert_frame_equal(ذریہ.کوائف_پانا('۲۰۱۳۰۱۰۱', '۲۰۱۳۰۱۰۹', *خود.جگہ), اعداد, check_like=True)
 
-    def test_bolandi_sahi_nahin(خود):
-        pass
+    def test_بلندی_سحی_نہیں(خود):
+        for نام, ذریہ in خود.ذرائے.items():
+            with خود.subTest(نام):
+                خود.assertIsNone(ذریہ.کوائف_پانا('۲۰۱۳۰۱۰۱', '۲۰۱۳۰۱۰۹', *خود.جگہ[:-1], بلندی=-10))
 
-    def test_khake_sahi_nahin(خود):
-        pass
+    def test_خاکے_سہی_نہیں(خود):
+        for نام, ذریہ in خود.ذرائع_خاکے.items():
+            with خود.subTest(نام):
+                خود.assertIsNone(ذریہ.کوائف_پانا('۲۰۱۳۰۱۰۱', '۲۰۱۳۰۱۰۹', *خود.جگہ, خاکے='۸۔۰'))
 
-
-def _اعداد_ایک_ھی(امتحان, پاندس۱, پاندس۲):
-    امتحان.assertSetEqual(set(پاندس۱), set(پاندس۲))
-    pdt.assert_index_equal(پاندس۱.index, پاندس۲.index)
-    for s in پاندس۱:
-        pdt.assert_series_equal(پاندس۱[s], پاندس۲[s])
+    def testسہی_خاکے_(خود):
+        for نام, ذریہ in خود.ذرائع_خاکے.items():
+            with خود.subTest(نام):
+                pdt.assert_frame_equal(
+                    ذریہ.کوائف_پانا('۲۰۱۳۰۱۰۱', '۲۰۱۳۰۱۰۹', *خود.جگہ, خاکے='۲۔۶'), اعداد, check_like=True
+                )

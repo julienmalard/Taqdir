@@ -5,11 +5,11 @@ from subprocess import run as چلاو
 
 import numpy as np
 from pkg_resources import resource_filename as وسائل_کا_نام
-from tradssat import WTHFile
 from تقدیر۲.ذریعہ import ذریعہ
 from எண்ணிக்கை import எண்ணுக்கு
 
-from .دیسات import دیسات_سے_بھرنا
+from tradssat import WTHFile
+from .دیسات import دیسات_سے_پڑھنا
 
 _خاکے_مرکسم = [0, 2.6, 4.5, 6.0, 8.5]
 
@@ -48,7 +48,7 @@ class مرکسم۵(ذریعہ):
             if راستہ is not None:
                 مسل = _مسل_پانا(راستہ)
                 if مسل is not None:
-                    دیسات_سے_بھرنا(WTHFile(مسل), اعداد_پاندس, سال=سال)
+                    اعداد_پاندس.fillna(دیسات_سے_پڑھنا(WTHFile(مسل), سال=سال))
 
         return اعداد_پاندس
 
