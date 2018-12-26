@@ -27,7 +27,7 @@ class سی_اس_وی(ذریعہ_نکتہ):
 
             for ل in پڑھنےوالا:
                 تاریخ = ل[next(س for س in ل if س.strip() == ستون_تاریخ.strip())]
-                تاریخیں.append(تاریخ)
+                تاریخیں.append(تاریخ.strip())
 
                 for س, س_پا in ف_ستون:
                     if س in ل:
