@@ -82,8 +82,7 @@ class کوائف(object):
         """
         if سارے:
             return خود.اعداد[خود.اعداد.isnull().all(axis=1)].index
-        else:
-            return خود.اعداد[خود.اعداد.isnull().any(axis=1)].index
+        return خود.اعداد[خود.اعداد.isnull().any(axis=1)].index
 
     def لکھنا(خود, راستہ, نام='تقدیر', وضع='.csv'):
         """

@@ -1,3 +1,4 @@
+import numpy as np
 import pandas as pd
 
 
@@ -33,21 +34,38 @@ class ذریعہ_نکتہ(ذریعہ):
 
         return اعداد_پاندس
 
-    def _کوائف_بھرنا(khud, adad, naye):
-        if naye.index.freq == 'D':
-            adad.fillna(naye, inplace=True)
-        elif naye.index.freq == 'M':
-            raise NotImplementedError
-        elif naye.index.freq == 'Y':
-            raise NotImplementedError
+    @staticmethod
+    def _کوائف_بھرنا(اعداد, نئے):
+        if نئے.index.freq == 'D':
+            اعداد.fillna(نئے, inplace=True)
+        elif نئے.index.freq == 'M':
+            for م in نئے.index:
+                جہاں = np.logical_and(اعداد.index.month == م.month, اعداد.index.year == م.year)
+                اعداد.loc[جہاں, نئے.columns] = نئے.loc[م].values
+        elif نئے.index.freq == 'Y':
+            for س in نئے.index:
+                جہاں = اعداد.index.year == س.year
+                اعداد.loc[جہاں, نئے.columns] = نئے.loc[س].values
         else:
-            raise ValueError(naye.index)
+            raise ValueError(نئے.index)
 
     def _نام_ستون(خود, ستون):
         try:
             return خود.تبدل_ستون[ستون]
         except KeyError:
             return ستون
+
+    @staticmethod
+    def _تاریخوں_بنانا(تاریخیں):
+        تاریخ = تاریخیں[0]
+        لمبای = len(str(تاریخ))
+        if لمبای == 4:
+            ھر = 'Y'
+        elif لمبای <= 7:
+            ھر = 'M'
+        else:
+            ھر = 'D'
+        return pd.PeriodIndex(تاریخیں, freq=ھر)
 
     def _کوائف_بنانا(خود):
         raise NotImplementedError
