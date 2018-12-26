@@ -39,8 +39,10 @@ class دیسات_ماھانہ(ذریعہ_نکتہ):
         اعداد = {س: خود.کوائف_دیسات.get_value(مت) for س, مت in ستون.items()}
         سال = خود.کوائف_دیسات.get_value('yr')
         مہینہ = خود.کوائف_دیسات.get_value('mo')
-
-        return pd.DataFrame(index=pd.PeriodIndex(freq='M'))
+        return pd.DataFrame(
+            اعداد,
+            index=pd.PeriodIndex([str(س) + str(م).rjust(2, '0') for س, م in zip(سال, مہینہ)], freq='M')
+        )
 
 
 def دیسات_سے_پڑھنا(مسل, سال):

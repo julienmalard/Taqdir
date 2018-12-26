@@ -36,7 +36,7 @@ class سی_اس_وی(ذریعہ_نکتہ):
                         ق = எ(ل[س].strip())
                         اعداد[س_پا].append(ق)
 
-        return pd.DataFrame(اعداد, index=pd.PeriodIndex(تاریخیں, freq='D'))
+        return pd.DataFrame(اعداد, index=خود._تاریخوں_بنانا(تاریخیں))
 
 
 def _ضابطہ_بندی(مسل):
