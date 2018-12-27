@@ -2,7 +2,8 @@ import json
 import os
 import shutil
 import tempfile
-
+import datetime
+import pandas as pd
 راستہ_اختیارے = os.path.join(os.path.split(__file__)[0], 'اختیارے.json')
 try:
     with open(راستہ_اختیارے, 'r', encoding='utf8') as م:
@@ -35,3 +36,12 @@ def مسل_رکھنا(متن, مسل):
         os.replace(مسل_شروع.name, مسل)
     else:
         shutil.move(مسل_شروع.name, مسل)
+
+
+def تاریخ_بنانا(تاریخ):
+    if isinstance(تاریخ, datetime.datetime):
+        return تاریخ.date()
+    elif isinstance(تاریخ, datetime.date):
+        return تاریخ
+    else:
+        return pd.to_datetime(تاریخ).date()
