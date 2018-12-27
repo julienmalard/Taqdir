@@ -4,3 +4,4 @@ ennikkai
 selenium
 pcse
 chardet
+requests
