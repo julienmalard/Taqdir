@@ -9,9 +9,9 @@ import requests
 راستہ_مرکسم۵ = راستہ_مرکسم_پانا()
 
 try:
-    جال = requests.head("http://gisweb.ciat.cgiar.org/MarkSimGCM/#tabs-3").status_code == 200
+    جالبینی_رسائی = requests.head("http://gisweb.ciat.cgiar.org/MarkSimGCM/#tabs-3").status_code == 200
 except requests.exceptions.ConnectionError:
-    جال = False
+    جالبینی_رسائی = False
 
 ذرائع = []
 if راستہ_مرکسم۵:
@@ -19,7 +19,7 @@ if راستہ_مرکسم۵:
 else:
     انتباہ('مرکسم ۵ کا راستہ نھیں ملی۔')
 
-if جال:
+if جالبینی_رسائی:
     ذرائع.append(مرکسم۵_جال())
 else:
     انتباہ('جال میں مرکسم ۵ نھیں ملی۔')
