@@ -1,14 +1,15 @@
 from pcse.db import NASAPowerWeatherDataProvider
 
 from تقدیر۲.ذریعہ import ذریعہ
+from تقدیر۲.کام import تاریخ_بنانا
 
 
 class ناسا(ذریعہ):
     def کوائف_پانا(خود, سے, تک, چوڑائی, طول, بلندی, خاکے='۸۔۵ََ'):
         ذریعہ_ناسا = NASAPowerWeatherDataProvider(latitude=چوڑائی, longitude=طول, force_update=False)
 
-        سے = max(ذریعہ_ناسا.first_date, سے)
-        تک = min(ذریعہ_ناسا.last_date, تک)
+        سے = max(ذریعہ_ناسا.first_date, تاریخ_بنانا(سے))
+        تک = min(ذریعہ_ناسا.last_date, تاریخ_بنانا(تک))
 
         اعداد_پاندس = خود._پاندس_بنانا(سے, تک)
 
