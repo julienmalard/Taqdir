@@ -8,8 +8,8 @@ import pandas.testing as pdt
 import requests
 from selenium import webdriver
 from selenium.common.exceptions import WebDriverException
-from تقدیر۲.ذرائع import مرکسم۵, مرکسم۵_جال
-from تقدیر۲.ذرائع.مرکسم۵ import راستہ_مرکسم_پانا
+from تقدیر.ذرائع import مرکسم۵, مرکسم۵_جال
+from تقدیر.ذرائع.مرکسم۵ import راستہ_مرکسم_پانا
 
 راستہ_مرکسم۵ = راستہ_مرکسم_پانا()
 

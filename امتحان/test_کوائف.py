@@ -6,8 +6,8 @@ from datetime import date, timedelta
 import numpy as np
 import numpy.testing as npt
 import pandas as pd
-from تقدیر۲.ذریعہ import ذریعہ
-from تقدیر۲.کوائف import کوائف
+from تقدیر.ذریعہ import ذریعہ
+from تقدیر.کوائف import کوائف
 
 
 class امتحان_کوائف(unittest.TestCase):

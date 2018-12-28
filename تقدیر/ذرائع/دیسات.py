@@ -1,7 +1,7 @@
 import datetime
 
 import pandas as pd
-from تقدیر۲.ذریعہ import ذریعہ_نکتہ
+from تقدیر.ذریعہ import ذریعہ_نکتہ
 
 from tradssat import WTHFile, MTHFile
 

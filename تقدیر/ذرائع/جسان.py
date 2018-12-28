@@ -2,7 +2,7 @@ import json
 
 import pandas as pd
 from chardet import UniversalDetector
-from تقدیر۲.ذریعہ import ذریعہ_نکتہ
+from تقدیر.ذریعہ import ذریعہ_نکتہ
 
 
 class جسان(ذریعہ_نکتہ):
