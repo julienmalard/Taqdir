@@ -1,6 +1,5 @@
 import calendar
 import os
-import platform
 import tempfile
 from subprocess import run as چلاو
 
@@ -114,7 +113,7 @@ class مرکسم۵(ذریعہ):
 
             حکم = '{مسل_مرکسم} {راستہ_١} {راستہ_٢} {سانچے} {خاکے} {سال} {تکرار} {بھیج}'.format(**متاغیرات)
 
-            چلاو(('python3 ' if platform.system() != 'Windows' else 'python ') + حکم, shell=True)
+            چلاو(حکم, shell=True)
 
             os.rename(راستہ_پیداوار_مرکسم, راستہ_اسلی)
 
