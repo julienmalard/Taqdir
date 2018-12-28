@@ -19,7 +19,10 @@ class مرکسم۵_جال(مرکسم۵):
         راستہ_مسل = os.path.join(راستہ_نتیجہ, '{}.zip'.format(جگہ))
 
         for سال in سلسلہ_سال:
-            اختیار_فایئرفاکس = webdriver.FirefoxProfile()
+            try:
+                اختیار_فایئرفاکس = webdriver.FirefoxProfile()
+            except WebDriverException:
+                return
             اختیار_فایئرفاکس.set_preference('browser.download.folderList', 2)
             اختیار_فایئرفاکس.set_preference('browser.download.manager.showWhenStarting', False)
             اختیار_فایئرفاکس.set_preference('browser.helperApps.neverAsk.saveToDisk', 'application/zip')

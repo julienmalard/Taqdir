@@ -5,6 +5,8 @@ from warnings import warn as انتباہ
 import pandas as pd
 import pandas.testing as pdt
 import requests
+from selenium import webdriver
+from selenium.common.exceptions import WebDriverException
 from تقدیر۲.ذرائع import مرکسم۵, مرکسم۵_جال
 from تقدیر۲.ذرائع.مرکسم۵ import راستہ_مرکسم_پانا
 
@@ -12,7 +14,8 @@ from تقدیر۲.ذرائع.مرکسم۵ import راستہ_مرکسم_پانا
 
 try:
     جالبینی_رسائی = requests.head("http://gisweb.ciat.cgiar.org/MarkSimGCM/#tabs-3").status_code == 200
-except requests.exceptions.ConnectionError:
+    webdriver.Firefox()
+except (requests.exceptions.ConnectionError, WebDriverException):
     جالبینی_رسائی = False
 
 ذرائع = []
