@@ -2,6 +2,7 @@ from pcse.db import NASAPowerWeatherDataProvider
 
 from تقدیر.ذریعہ import ذریعہ
 from تقدیر.کام import تاریخ_بنانا
+from تقدیر.کوائف import کوائف
 
 
 class ناسا(ذریعہ):
@@ -27,4 +28,4 @@ class ناسا(ذریعہ):
 
         اعداد_پاندس.شمسی_تابکاری *= 1e-6
 
-        return اعداد_پاندس
+        return کوائف(اعداد_پاندس)

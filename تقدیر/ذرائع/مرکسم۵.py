@@ -7,6 +7,7 @@ import numpy as np
 from pkg_resources import resource_filename as وسائل_کا_نام
 from تقدیر.ذریعہ import ذریعہ
 from تقدیر.کام import اختیارہ_پانا, اختیارہ_رکھنا
+from تقدیر.کوائف import کوائف
 from எண்ணிக்கை import எண்ணுக்கு as எ, உரைக்கு as உ
 
 from tradssat import WTHFile
@@ -24,7 +25,7 @@ class مرکسم۵(ذریعہ):
         خود.راستے = راستے_نتائج_مرکسم()
 
         نمونہ = ''.join([உ(ن, 'ار') for ن in نمونہ])
-        if not len(نمونہ) == 17 and len(نمونہ.replace('۰', '').replace('۱', '')):
+        if len(نمونہ) != 17 or len(نمونہ.replace('۰', '').replace('۱', '')):
             raise ValueError(نمونہ)
         خود.نمونے = نمونہ
 
@@ -62,7 +63,7 @@ class مرکسم۵(ذریعہ):
                 if مسل is not None:
                     اعداد_پاندس.fillna(دیسات_سے_پڑھنا(WTHFile(مسل), سال=سال), inplace=True)
 
-        return اعداد_پاندس
+        return کوائف(اعداد_پاندس)
 
     def _کوائف_بنانا(خود, سلسلہ_سال, چوڑائی, طول, بلندی, خاکے, سانچے_نمونہ):
 

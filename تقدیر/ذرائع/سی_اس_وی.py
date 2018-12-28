@@ -2,7 +2,7 @@ import csv
 
 import pandas as pd
 from chardet import UniversalDetector
-from تقدیر.ذریعہ import ذریعہ_نکتہ
+from تقدیر.ذریعہ_نکتہ import ذریعہ_نکتہ
 from எண்ணிக்கை import எண்ணுக்கு as எ
 
 
