@@ -3,11 +3,13 @@ import unittest
 import pandas as pd
 import pandas.testing as pdt
 import requests
+from pcse.db import NASAPowerWeatherDataProvider
 from تقدیر۲.ذرائع import ناسا
 
 try:
     جالبینی_رسائی = requests.head("https://power.larc.nasa.gov/cgi-bin/v1/DataAccess.py").status_code == 200
-except requests.exceptions.ConnectionError:
+    NASAPowerWeatherDataProvider(latitude=11.02, longitude=76.96, force_update=False)
+except (requests.exceptions.ConnectionError, KeyError):
     جالبینی_رسائی = False
 وجہ = 'ناسا کا جالبین پنہ اب دستیاب نہیں۔'
 

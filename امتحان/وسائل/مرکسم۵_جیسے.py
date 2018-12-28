@@ -11,7 +11,6 @@ import sys
 
 
 def بنیادی(راستہ, سانچے, خاکے, سال, تکرار):
-    print(راستہ, سانچے, خاکے, سال, تکرار)
     مسلیں = [مسل for مسل in os.listdir(راستہ) if os.path.splitext(مسل)[1].upper() == '.CLI']
     for مسل in مسلیں:
         جگہ = os.path.splitext(مسل)[0]
