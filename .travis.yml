@@ -1,22 +1,27 @@
 language: python
 python:
-  - "3.6"
-
+- '3.6'
 os:
-  - linux
-
+- linux
 install:
-  - pip install --upgrade pip setuptools wheel
-  - pip install -r زروریاں.txt
-  - pip install coveralls codecov
-  - python setup.py sdist bdist_wheel
-  - pip install taqdir --no-index --find-links=./dist
-  - rm -r تقدیر
-
+- pip install --upgrade pip setuptools wheel
+- pip install -r زروریاں.txt
+- pip install coveralls codecov
+- python setup.py sdist bdist_wheel
+- pip install taqdir --no-index --find-links=./dist
+- rm -r تقدیر
 script:
-  - cd امتحان
-  - coverage run -m unittest
-
+- cd امتحان
+- coverage run -m unittest
 after_success:
-  - coveralls --rcfile=.coveragerc
-  - codecov
+- coveralls --rcfile=.coveragerc
+- codecov
+deploy:
+  provider: pypi
+  user: julien.malard
+  password:
+    secure: ToCNDWJuqWUCcCCJnxr4FyhYH/VQ1pNyCaOGmZeDEPZgymqOfAn0wEy56oZoq7GPFAl15xExa2MBZiOe9c0yutANPUIh2XUQUs0mlZJ+U/aAkk7SyjyFc/WpGWALHsbAgUHLF81aSTk+zVIlBK5EXWd4rPmeW6A5dQGXAuQW/KVtwQ/jtWl+Jve4Z9rYICp+5CRl8zaKgG7HAbapZIve9MvhOAbn1mUiA7rMi6Q0F2DSOWHqd7KKDIw5PUKOh2IPaIi5Dkk9DyNZuq7AJvJRNeeq1wet97SUNQd4IzG5YxVi/rSTK46EpmLlVclidaxeF2efS+lzpNNNv1OiGjaenuE3lIA1ztzIltdYao0KHFeTTGP3AraenpVMG/foTowdvhnaWt7Ace1SsWzePI0tp7cksuusC1ASLsHHeP45Z1UVoPKjNePPEoz76T/t37+2OMcj2sXLUngKg1r400ukGJf50aZm02KHb7rZcqTqc4eIBvaJmtfi/mwQXxia1TlYeVitwoclRC78O8lKbC4Zob2Aq5iGOg5S/41bam81OYqyku5miDnzw6IubveTDx7m2buWeabwHuVCYs1ievl0DWYQ946NpEBclDxb6dYepDa/pZdjRcd/uPYxyGqpj51WKScu20hVBgwtMKSPoi7dfaQxq7T3zyiwSO3OTKpXk00=
+  distributions: sdist bdist_wheel
+  skip_existing: true
+  on:
+    tags: true
