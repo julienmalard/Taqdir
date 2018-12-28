@@ -1,7 +1,7 @@
 from pcse.db import NASAPowerWeatherDataProvider
 
-from تقدیر۲.ذریعہ import ذریعہ
-from تقدیر۲.کام import تاریخ_بنانا
+from تقدیر.ذریعہ import ذریعہ
+from تقدیر.کام import تاریخ_بنانا
 
 
 class ناسا(ذریعہ):

@@ -5,8 +5,8 @@ from subprocess import run as چلاو
 
 import numpy as np
 from pkg_resources import resource_filename as وسائل_کا_نام
-from تقدیر۲.ذریعہ import ذریعہ
-from تقدیر۲.کام import اختیارہ_پانا, اختیارہ_رکھنا
+from تقدیر.ذریعہ import ذریعہ
+from تقدیر.کام import اختیارہ_پانا, اختیارہ_رکھنا
 from எண்ணிக்கை import எண்ணுக்கு as எ, உரைக்கு as உ
 
 from tradssat import WTHFile

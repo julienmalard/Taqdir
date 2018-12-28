@@ -4,7 +4,7 @@ import unittest
 import numpy as np
 import pandas as pd
 import pandas.testing as pdt
-from تقدیر۲.ذرائع import جسان, سی_اس_وی, دیسات, دیسات_ماھانہ
+from تقدیر.ذرائع import جسان, سی_اس_وی, دیسات, دیسات_ماھانہ
 from எண்ணிக்கை import உரைக்கு
 
 راستہ = os.path.split(__file__)[0]

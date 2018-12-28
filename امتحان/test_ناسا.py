@@ -4,7 +4,7 @@ import pandas as pd
 import pandas.testing as pdt
 import requests
 from pcse.db import NASAPowerWeatherDataProvider
-from تقدیر۲.ذرائع import ناسا
+from تقدیر.ذرائع import ناسا
 
 try:
     جالبینی_رسائی = requests.head("https://power.larc.nasa.gov/cgi-bin/v1/DataAccess.py").status_code == 200
