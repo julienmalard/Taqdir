@@ -5,3 +5,4 @@ selenium
 pcse
 chardet
 requests
+tradssat
