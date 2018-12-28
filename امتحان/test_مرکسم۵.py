@@ -1,4 +1,5 @@
 import os
+import platform
 import unittest
 from warnings import warn as انتباہ
 
@@ -22,7 +23,9 @@ except (requests.exceptions.ConnectionError, WebDriverException):
 if راستہ_مرکسم۵:
     ذرائع.append(مرکسم۵())
 else:
-    ذرائع.append(مرکسم۵(os.path.join(os.path.split(__file__)[0], 'وسائل/مرکسم۵_جیسے.py')))
+    ذرائع.append(مرکسم۵(
+        ('python3 ' if platform.system() != 'Windows' else 'python ') + os.path.join(os.path.split(__file__)[0],
+                                                                                     'وسائل/مرکسم۵_جیسے.py')))
     انتباہ('مرکسم ۵ کا راستہ نھیں ملی۔')
 
 if جالبینی_رسائی:
