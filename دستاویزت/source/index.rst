@@ -3,14 +3,33 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-تقدیر کی دستاوہزات پر  خوش آمدید!
+تقدیر کی دستاویزات پر  خوش آمدید!
 =================================
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: شروعات
+   تنصیب
+شروعات   
+   شکری
 
+.. toctree::
+   :maxdepth: 2
+   :caption:  نمونے
+   تنصیب
+   شکری
 
+.. toctree::
+   :maxdepth: 2
+   :caption:  ترقی
+   تنصیب
+   شکری
+
+.. toctree::
+   :maxdepth: 2
+   :caption: برنامج کاری مواجہ
+   تنصیب
+   شکری
 
 اشاریہ اور جدول
 ===============
