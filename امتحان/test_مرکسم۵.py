@@ -44,11 +44,11 @@ class امتحان_مرکسم۵(unittest.TestCase):
 
     @staticmethod
     def _پورا(سے, تک, اعداد):
-        pdt.assert_index_equal(اعداد.اعداد.dropna(how='all').index, pd.period_range(سے, تک, freq='D'))
+        pdt.assert_index_equal(اعداد.روزانہ().dropna(how='all').index, pd.period_range(سے, تک, freq='D'))
 
     def _خالی(خود, اعداد):
         if اعداد is not None:
-            خود.assertEqual(len(اعداد.اعداد.dropna(how='all').index), 0)
+            خود.assertEqual(len(اعداد.روزانہ().dropna(how='all').index), 0)
 
     def test_کوائف_پانا(خود):
         سے, تک = '۲۰۵۰۱۲۰۱', '۲۰۵۱۰۱۱۵'

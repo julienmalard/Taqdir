@@ -4,7 +4,7 @@ import unittest
 import pandas as pd
 import pandas.testing as pdt
 from تقدیر.ذرائع import جسان, سی_اس_وی, دیسات, دیسات_ماھانہ
-from எண்ணிக்கை import உரைக்கு
+from எண்ணிக்கை import உரைக்கு as உ
 
 راستہ = os.path.split(__file__)[0]
 
@@ -26,7 +26,7 @@ class امتحان_ذریعہ_نکتہ(unittest.TestCase):
         }
         قسم.اعداد = pd.DataFrame(
             پای_جسان, columns=[س for س in پای_جسان if س != 'تاریخ'],
-            index=pd.PeriodIndex([உரைக்கு(تا, 'latin') for تا in پای_جسان['تاریخ']], freq='D')
+            index=pd.PeriodIndex([உ(تا, 'latin') for تا in پای_جسان['تاریخ']], freq='D')
         )
         قسم.اعداد['درجہ_حرارت_اوسط'] = (قسم.اعداد["درجہ_حرارت_زیادہ"] + قسم.اعداد["درجہ_حرارت_کم"]) / 2
 
@@ -54,7 +54,7 @@ class امتحان_ذریعہ_نکتہ(unittest.TestCase):
     def test_کوائف_پانا(خود):
         for نام, ذریعہ in خود.ذرائع.items():
             with خود.subTest(نام):
-                pdt.assert_frame_equal(ذریعہ.کوائف_پانا(خود.سے, خود.تک, *خود.جگہ).اعداد, خود.اعداد, check_like=True)
+                pdt.assert_frame_equal(ذریعہ.کوائف_پانا(خود.سے, خود.تک, *خود.جگہ).روزانہ(), خود.اعداد, check_like=True)
 
     def test_بلندی_سحی_نہیں(خود):
         for نام, ذریعہ in خود.ذرائع.items():
@@ -70,7 +70,7 @@ class امتحان_ذریعہ_نکتہ(unittest.TestCase):
         for نام, ذریعہ in خود.ذرائع_خاکے.items():
             with خود.subTest(نام):
                 pdt.assert_frame_equal(
-                    ذریعہ.کوائف_پانا(خود.سے, خود.تک, *خود.جگہ, خاکے='۲۔۶').اعداد, خود.اعداد, check_like=True
+                    ذریعہ.کوائف_پانا(خود.سے, خود.تک, *خود.جگہ, خاکے='۲۔۶').روزانہ(), خود.اعداد, check_like=True
                 )
 
 

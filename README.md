@@ -4,17 +4,24 @@
 [![Coverage Status](https://coveralls.io/repos/github/julienmalard/Taqdir/badge.svg?branch=master)](https://coveralls.io/github/julienmalard/Taqdir?branch=master)
 [![CodeFactor](https://www.codefactor.io/repository/github/julienmalard/taqdir/badge)](https://www.codefactor.io/repository/github/julienmalard/taqdir)
 
-تقد ير ايک آلہ ہے جو پايتھون ميں بنايا گيا ہے۔
-تقد ير آب و ہوا کی تبد يلی کی پيشن گو ئی کے اعدادا و شمار جی سی ايم کے ويب صفے سے نقل کرتا ہے۔
- ہم نے اسے تقد ير کا نام ديا ہے کيو نکہ ہم سمجتھے ہيں کہ آب و ہوا کی تبد يلی ميں تقد ير کو ئی نہيں ہے،
-سوا ئے انسانيت کی بے و قوفی کے۔
+
 
 # مصنفین
-ژولیئں ملر
+[ژولیئں ملاغ](https://www.researchgate.net/profile/Julien_Malard)
 julien.malard@mail.mcgill.ca
-https://www.researchgate.net/profile/Julien_Malard
 
-محمّد انعام اظہر بیگ
+
+[محمّد انعام اظہر بیگ](https://www.researchgate.net/profile/Azhar_Baig)
 muhammad.baig@mail.mcgill.ca
-https://www.researchgate.net/profile/Azhar_Baig
 
+```python
+from تقدیر.مقام import مقام
+
+میرا_مقام = مقام(چوڑائی=11.02, طول=76.96, بلندی=1)
+کو = میرا_مقام.کوائف_پانا(سے='۲۰۱۸۰۱۰۱', تک='۲۰۱۷۰۱۰۱')
+کو.لاپتہ()
+کو.روزانہ()
+کو.ماہانہ()
+کو.سالانہ()
+کو.لکھنا()
+```
