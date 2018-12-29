@@ -1,4 +1,5 @@
 from setuptools import setup, find_packages
+
 from எண்ணிக்கை import உரைக்கு as உ
 
 with open('تقدیر/تبدیل.txt', 'r', encoding='utf8') as تبدیل_کی_دستاویز:
@@ -22,5 +23,6 @@ setup(
     ],
     package_data={
         '': ['**/*.txt'],
+        'تقدیر': ['*.txt']
     },
 )
