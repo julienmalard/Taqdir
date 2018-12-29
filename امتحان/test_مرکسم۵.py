@@ -23,13 +23,12 @@ except (requests.exceptions.ConnectionError, WebDriverException):
 def مرکسم_۵_بنانا(نمونہ='۱۱۱۱۱۱۱۱۱۱۱۱۱۱۱۱۱'):
     if راستہ_مرکسم۵:
         return مرکسم۵()
-    else:
-        انتباہ('مرکسم ۵ کا راستہ نھیں ملی۔')
-        return مرکسم۵(
-            ('python3 ' if platform.system() != 'Windows' else 'python ')
-            + os.path.join(os.path.split(__file__)[0], 'وسائل/مرکسم۵_جیسے.py'),
-            نمونہ=نمونہ
-        )
+    انتباہ('مرکسم ۵ کا راستہ نھیں ملی۔')
+    return مرکسم۵(
+        ('python3 ' if platform.system() != 'Windows' else 'python ')
+        + os.path.join(os.path.split(__file__)[0], 'وسائل/مرکسم۵_جیسے.py'),
+        نمونہ=نمونہ
+    )
 
 
 class امتحان_مرکسم۵(unittest.TestCase):
