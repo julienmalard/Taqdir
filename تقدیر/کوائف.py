@@ -7,6 +7,9 @@ from .ذریعہ import ذریعہ
 
 
 class کوائف(object):
+    """
+    آبوہوا کے کوائف۔
+    """
     def __init__(خود, اعداد, سے=None, تک=None):
         """
         خالی (یا نہ خالی) کوائف بانانا۔
@@ -63,6 +66,7 @@ class کوائف(object):
         Returns
         -------
         pd.DataFrame
+            کوائف کے ماہانہ اوسط۔
         """
         return خود.اعداد.resample('M').mean()
 
@@ -73,6 +77,7 @@ class کوائف(object):
         Returns
         -------
         pd.DataFrame
+            کوائف کے سالانہ اوسط۔
         """
         return خود.اعداد.resample('Y').mean()
 
@@ -104,7 +109,7 @@ class کوائف(object):
         نام: str
             مسل کا نام۔
         وضع: str
-            مسل کا وضع۔
+            مسل کا وضع۔ `.csv` یا `.json` ہو سکتا ہیے۔
 
         """
         if not os.path.isdir(راستہ):

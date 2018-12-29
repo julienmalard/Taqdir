@@ -7,14 +7,14 @@
 [![CodeFactor](https://www.codefactor.io/repository/github/julienmalard/taqdir/badge)](https://www.codefactor.io/repository/github/julienmalard/taqdir)
 [![Maintainability](https://api.codeclimate.com/v1/badges/d1e4113d31c354cb6f20/maintainability)](https://codeclimate.com/github/julienmalard/Taqdir/maintainability)
 
-## یہ کیا ہیے؟
+## تقدیر کیا ہیے؟
 تقدیر آبوہوا میں تبدیلی کے کوائف پایتھون کو لیتے ھیں۔
 
 ## اسکا نام کیوں  ہیے تقدیر؟
 تکہ ہم بھول نہ جائں کہ آبوہوا میں تبدیلی کی بات میں کوئی تقدیر نہیں ہیے،
 شاید انسانیت کی خود کی بیوکوف کے علاوہ۔
 
-## اشتمال کیسا کرنا؟
+## استمال کیسا کرنا؟
 
 پہلہ ایک مقام بنانا جینکے کوائف ہمہیں چاییئے۔ بعاد میں اسّے کوائف ماں گنی۔ بس۔
 
@@ -49,7 +49,7 @@ from تقدیر.ذرائع import سی_اس_وی
 
 مشاہدات دیسات اور جسان سے بھی پڑھی جا سکتی ہیں۔
 
-## 
+## تقدیر کام کیسا کارتا ہیے؟
 اگر آپنے تقدیر کو مشاہدات دیئے ہیں، تقدیر پہلہ سے ھی کوائف وہاں سے اٹھائگا۔
 بعاد مرکسم (مستقبل کے لئے) اور ناسا (ماضی کے لئے) سے کوائف ڈھونڈے کی کوشیش کریگا۔
 

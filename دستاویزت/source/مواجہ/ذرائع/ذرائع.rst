@@ -1,0 +1,11 @@
+ذرائع
+=====
+
+.. autoclass:: تقدیر.ذرائع.مرکسم۵
+   :members:
+
+.. autoclass:: تقدیر.ذرائع.مرکسم٥_جال
+   :members:
+
+.. autoclass:: تقدیر.ذرائع.ناسا
+   :members:

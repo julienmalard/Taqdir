@@ -6,7 +6,7 @@ from تقدیر.کوائف import کوائف
 
 
 class ناسا(ذریعہ):
-    def کوائف_پانا(خود, سے, تک, چوڑائی, طول, بلندی, خاکے='۸۔۵ََ'):
+    def کوائف_پانا(خود, سے, تک, چوڑائی, طول, بلندی, خاکے='۸۔۵'):
         ذریعہ_ناسا = NASAPowerWeatherDataProvider(latitude=چوڑائی, longitude=طول, force_update=False)
 
         سے = max(ذریعہ_ناسا.first_date, تاریخ_بنانا(سے))
