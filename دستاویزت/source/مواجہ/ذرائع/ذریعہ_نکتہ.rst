@@ -9,3 +9,6 @@
 
 .. autoclass:: تقدیر.ذرائع.دیسات
    :members:
+
+.. autoclass:: تقدیر.ذرائع.دیسات_ماھانہ
+   :members:
