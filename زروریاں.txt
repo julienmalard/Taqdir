@@ -1,2 +1,8 @@
 numpy
 pandas
+ennikkai
+selenium
+pcse
+chardet
+requests
+tradssat

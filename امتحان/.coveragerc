@@ -1,0 +1,9 @@
+[run]
+source = تقدیر
+
+[report]
+exclude_lines =
+    پراگما: مت دکھنا
+    def __repr__
+    raise NotImplementedError
+    if __name__ == .__main__.:

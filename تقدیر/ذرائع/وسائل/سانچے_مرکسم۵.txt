@@ -1,0 +1,3 @@
+*CLIMATE : TEMP
+@ INSI      LAT     LONG  ELEV   TAV   AMP  SRAY  TMXY  TMNY  RAIY
+  TEMP {LAT:>8.3f} {LONG:>8.3f} {ELEV:>5.0f}   -99   -99   -99   -99   -99   -99
