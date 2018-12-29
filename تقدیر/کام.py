@@ -41,6 +41,6 @@ def مسل_رکھنا(متن, مسل):
 def تاریخ_بنانا(تاریخ):
     if isinstance(تاریخ, datetime.datetime):
         return تاریخ.date()
-    elif isinstance(تاریخ, datetime.date):
+    if isinstance(تاریخ, datetime.date):
         return تاریخ
     return pd.to_datetime(تاریخ).date()
