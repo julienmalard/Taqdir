@@ -9,27 +9,31 @@
 .. toctree::
    :maxdepth: 2
    :caption: شروعات
+
    تنصیب
-شروعات   
-   شکری
+   شروعات
+   شکریہ
 
 .. toctree::
    :maxdepth: 2
    :caption:  نمونے
+
    تنصیب
-   شکری
+   شکریہ
 
 .. toctree::
    :maxdepth: 2
-   :caption:  ترقی
+   :caption: ترقی
+
    تنصیب
-   شکری
+   شکریہ
 
 .. toctree::
    :maxdepth: 2
    :caption: برنامج کاری مواجہ
+
    تنصیب
-   شکری
+   شکریہ
 
 اشاریہ اور جدول
 ===============
