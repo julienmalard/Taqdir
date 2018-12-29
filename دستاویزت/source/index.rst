@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to تقدیر's documentation!
+تقدیر کی دستاوہزات پر  خوش آمدید!
 =================================
 
 .. toctree::
@@ -12,8 +12,8 @@ Welcome to تقدیر's documentation!
 
 
 
-Indices and tables
-==================
+اشاریہ اور جدول
+===============
 
-* :ref:`genindex`
-* :ref:`search`
+* :ref:`اشاریہ <genindex>`
+* :ref:`کھوج <search>`

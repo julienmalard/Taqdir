@@ -5,12 +5,12 @@ from subprocess import run as چلاو
 
 import numpy as np
 from pkg_resources import resource_filename as وسائل_کا_نام
+
+from tradssat import WTHFile
 from تقدیر.ذریعہ import ذریعہ
 from تقدیر.کام import اختیارہ_پانا, اختیارہ_رکھنا
 from تقدیر.کوائف import کوائف
 from எண்ணிக்கை import எண்ணுக்கு as எ, உரைக்கு as உ
-
-from tradssat import WTHFile
 from .دیسات import دیسات_سے_پڑھنا
 
 _خاکے_مرکسم = [0, 2.6, 4.5, 6.0, 8.5]
@@ -112,9 +112,10 @@ class مرکسم۵(ذریعہ):
                 بھیج=1313
             )
 
-            حکم = '{مسل_مرکسم} {راستہ_١} {راستہ_٢} {سانچے} {خاکے} {سال} {تکرار} {بھیج}'.format(**متاغیرات)
-
-            چلاو(حکم, shell=True)
+            حکم = [str(م) for م in متاغیرات.values()]
+            if not os.path.isfile(حکم[0]) and ' ' in حکم[0]:
+                حکم = حکم[0].split(' ', maxsplit=1) + حکم[1:]
+            چلاو(حکم)
 
             os.rename(راستہ_پیداوار_مرکسم, راستہ_اسلی)
 
