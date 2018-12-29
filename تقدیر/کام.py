@@ -29,7 +29,7 @@ def مسل_رکھنا(متن, مسل):
         مسل_شروع.write(متن)
 
         راستہ = os.path.split(مسل)[0]
-        if len(راستہ) and not os.path.isdir(راستہ):  # pragma: sin cobertura
+        if راستہ and not os.path.isdir(راستہ):  # pragma: sin cobertura
             os.makedirs(os.path.split(مسل)[0])
 
     if os.path.splitdrive(مسل_شروع.name)[0] == os.path.splitdrive(مسل)[0]:
@@ -43,5 +43,4 @@ def تاریخ_بنانا(تاریخ):
         return تاریخ.date()
     elif isinstance(تاریخ, datetime.date):
         return تاریخ
-    else:
-        return pd.to_datetime(تاریخ).date()
+    return pd.to_datetime(تاریخ).date()

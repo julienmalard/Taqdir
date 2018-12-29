@@ -10,5 +10,3 @@ class ذریعہ(object):
     def _پاندس_بنانا(خود, سے, تک):
         اعداد_پاندس = pd.DataFrame(columns=list(خود.ستون), index=pd.period_range(سے, تک), dtype=float)
         return اعداد_پاندس
-
-
