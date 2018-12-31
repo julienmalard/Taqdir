@@ -97,7 +97,8 @@ html_static_path = ['_static']
 
 
 def setup(app):
-    app.add_stylesheet('theme.css')
+    app.add_stylesheet('موضوع.css')
+    app.add_stylesheet('تبدیل.css')
     app.add_javascript('جاواسکرپت.js')
 
 # Custom sidebar templates, must be a dictionary that maps document names
