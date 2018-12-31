@@ -3,13 +3,14 @@ from datetime import date
 
 import pandas as pd
 
-from .ذریعہ import ذریعہ
+from تقدیر.کام import متاغیرات
 
 
 class کوائف(object):
     """
     آبوہوا کے کوائف۔
     """
+
     def __init__(خود, اعداد, سے=None, تک=None):
         """
         خالی (یا نہ خالی) کوائف بانانا۔
@@ -30,7 +31,7 @@ class کوائف(object):
         سے = سے or اعداد.index.min()
         تک = تک or اعداد.index.max()
 
-        خود.اعداد = pd.DataFrame(columns=ذریعہ.ستون, index=pd.period_range(سے, تک))
+        خود.اعداد = pd.DataFrame(columns=متاغیرات, index=pd.period_range(سے, تک))
         if اعداد is not None:
             خود.اعداد = خود.اعداد.combine_first(اعداد)
         خود.اعداد = خود.اعداد[سے:تک]

@@ -1,7 +1,4 @@
-import numpy as np
-import pandas as pd
 from تقدیر import ذریعہ
-from تقدیر.کوائف import کوائف
 
 
 class ذریعہ_نکتہ(ذریعہ):
@@ -19,26 +16,7 @@ class ذریعہ_نکتہ(ذریعہ):
         if خود.خاکے is not None and خاکے is not None and خود.خاکے != خاکے:
             return
 
-        اعداد_پاندس = خود._پاندس_بنانا(سے, تک)
-
-        خود._کوائف_بھرنا(اعداد_پاندس, خود._کوائف_بنانا())
-
-        return کوائف(اعداد_پاندس)
-
-    @staticmethod
-    def _کوائف_بھرنا(اعداد, نئے):
-        if نئے.index.freq == 'D':
-            اعداد.fillna(نئے, inplace=True)
-        elif نئے.index.freq == 'M':
-            for م in نئے.index:
-                جہاں = np.logical_and(اعداد.index.month == م.month, اعداد.index.year == م.year)
-                اعداد.loc[جہاں, نئے.columns] = نئے.loc[م].values
-        elif نئے.index.freq == 'Y':
-            for س in نئے.index:
-                جہاں = اعداد.index.year == س.year
-                اعداد.loc[جہاں, نئے.columns] = نئے.loc[س].values
-        else:
-            raise ValueError(نئے.index)
+        return super().کوائف_پانا(سے, تک, چوڑائی, طول, بلندی, خاکے='۸۔۵')
 
     def _نام_ستون(خود, ستون):
         try:
@@ -46,17 +24,5 @@ class ذریعہ_نکتہ(ذریعہ):
         except KeyError:
             return ستون
 
-    @staticmethod
-    def _تاریخوں_بنانا(تاریخیں):
-        تاریخ = تاریخیں[0]
-        لمبای = len(str(تاریخ))
-        if لمبای == 4:
-            ھر = 'Y'
-        elif لمبای <= 7:
-            ھر = 'M'
-        else:
-            ھر = 'D'
-        return pd.PeriodIndex(تاریخیں, freq=ھر)
-
-    def _کوائف_بنانا(خود):
+    def _کوائف_بنانا(خود, سے, تک, چوڑائی, طول, بلندی, خاکے):
         raise NotImplementedError
