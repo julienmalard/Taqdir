@@ -3,4 +3,7 @@ function myFunction() {
   var att = document.createAttribute("dir");
   att.value = "rtl";
   h1.setAttributeNode(att);
-}
+};
+window.onload = function() {
+  myFunction();
+};
