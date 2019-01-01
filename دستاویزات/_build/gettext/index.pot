@@ -1,0 +1,78 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) ژولیئں ملاغ، محمّد اظہر انعام بیگ، ۲۰۱۸+
+# This file is distributed under the same license as the تقدیر package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: تقدیر 1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-01 15:17-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/index.rst:7
+msgid "تقدیر کی دستاویزات پر  خوش آمدید!"
+msgstr ""
+
+#: ../../source/index.rst:10
+msgid "تقدیر کیا ہیے؟"
+msgstr ""
+
+#: ../../source/index.rst:11
+msgid "تقدیر آبوہوا میں تبدیلی کے کوائف پایتھون کو لیتا ھیں۔"
+msgstr ""
+
+#: ../../source/index.rst:14
+msgid "اسکا نام کیوں  ہیے تقدیر؟"
+msgstr ""
+
+#: ../../source/index.rst:15
+msgid "تکہ ہم بھول نہ جائں کہ آبوہوا میں تبدیلی کی بات میں کوئی تقدیر نہیں ہیے، شاید انسانیت کی خود کی بیوکوف کے علاوہ۔"
+msgstr ""
+
+#: ../../source/index.rst:19
+msgid "تقدیر کام کیسا کارتا ہیے؟"
+msgstr ""
+
+#: ../../source/index.rst:20
+msgid "اگر آپنے تقدیر کو مشاہدات دیئے ہیں، تقدیر پہلہ سے ھی کوائف وہاں سے اٹھائگا۔ بعاد مرکسم (مستقبل کے لئے) اور ناسا (ماضی کے لئے) سے کوائف ڈھونڈے کی کوشیش کریگا۔"
+msgstr ""
+
+#: ../../source/index.rst:24
+msgid "اشاریہ"
+msgstr ""
+
+#: ../../source/index.rst:25
+msgid "شروعات"
+msgstr ""
+
+#: ../../source/index.rst:33
+msgid "نمونے"
+msgstr ""
+
+#: ../../source/index.rst:40
+msgid "ترقی"
+msgstr ""
+
+#: ../../source/index.rst:47
+msgid "برنامج کاری مواجہ"
+msgstr ""
+
+#: ../../source/index.rst:54
+msgid "اشاریہ اور جدول"
+msgstr ""
+
+#: ../../source/index.rst:56
+msgid ":ref:`اشاریہ <genindex>`"
+msgstr ""
+
+#: ../../source/index.rst:57
+msgid ":ref:`کھوج <search>`"
+msgstr ""
+
