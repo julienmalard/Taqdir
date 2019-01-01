@@ -4,7 +4,7 @@
 .. autoclass:: تقدیر.ذرائع.مرکسم۵
    :members:
 
-.. autoclass:: تقدیر.ذرائع.مرکسم٥_جال
+.. autoclass:: تقدیر.ذرائع.مرکسم۵_جال
    :members:
 
 .. autoclass:: تقدیر.ذرائع.ناسا

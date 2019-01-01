@@ -25,7 +25,7 @@ class ذریعہ(object):
             جگہ کی چوڑائی۔
         طول: float | int
             جگہ کی طول۔
-        بلندی: float | int
+        بلندی: None | float | int
             جگہ کی بلندی۔
         خاکے: None | str
              آبوہوا کی تبدیلی کا خاکے۔
@@ -81,4 +81,25 @@ class ذریعہ(object):
         return pd.PeriodIndex(تاریخیں, freq=ھر)
 
     def _کوائف_بنانا(خود, سے, تک, چوڑائی, طول, بلندی, خاکے):
+        """
+
+        Parameters
+        ----------
+        سے: datetime.date | str
+            وہ تاریخ جب سے کوائف چاہئے۔
+        تک: datetime.date | str
+            وہ تاریخ جب تک کوائف چاہئے۔
+        چوڑائی: float | int
+            جگہ کی چوڑائی۔
+        طول: float | int
+            جگہ کی طول۔
+        بلندی: None | float | int
+            جگہ کی بلندی۔
+        خاکے: None | str
+             آبوہوا کی تبدیلی کا خاکے۔
+
+        Returns
+        -------
+
+        """
         raise NotImplementedError

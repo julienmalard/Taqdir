@@ -1,0 +1,66 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) ژولیئں ملاغ، محمّد اظہر انعام بیگ، ۲۰۱۸+
+# This file is distributed under the same license as the تقدیر package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: تقدیر 1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-01 15:17-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/شروعات.rst:2
+msgid "شروعات"
+msgstr ""
+
+#: ../../source/شروعات.rst:5
+msgid "تنصیب"
+msgstr ""
+
+#: ../../source/شروعات.rst:7
+msgid "تقدیر کہ تنصیب کرنا بہت اسان ہیے۔"
+msgstr ""
+
+#: ../../source/شروعات.rst:9
+msgid ":command:`pip install taqdir`"
+msgstr ""
+
+#: ../../source/شروعات.rst:11
+msgid "سب سے نئا والا تقدیر گتھب سے مل سکتا ہیے:"
+msgstr ""
+
+#: ../../source/شروعات.rst:13
+msgid ":command:`pip install git+git://github.com/julienmalard/taqdir.git@master`"
+msgstr ""
+
+#: ../../source/شروعات.rst:17
+msgid "استعمال کیسا کرنا؟"
+msgstr ""
+
+#: ../../source/شروعات.rst:18
+msgid "پہلہ ایک مقام بنانا جینکے کوائف ہمہیں چاییئے۔ بعاد میں اسّے کوائف ماں گنی۔ بس۔"
+msgstr ""
+
+#: ../../source/شروعات.rst:39
+msgid "اگر آپکے پاس مشاہدات کے کوائف ہیں تو یہ بھی جوڑی جا سکتی ہیں۔"
+msgstr ""
+
+#: ../../source/شروعات.rst:51
+msgid "مشاہدات دیسات اور جسان سے بھی پڑی جا سکتی ہیں۔"
+msgstr ""
+
+#: ../../source/شروعات.rst:56
+msgid "تقدیر کام کیسا کارتا ہیے؟"
+msgstr ""
+
+#: ../../source/شروعات.rst:58
+msgid "اگر آپنے تقدیر کو مشاہدات دیئے ہیں، تقدیر پہلہ سے ھی کوائف وہاں سے اٹھائگا۔ بعاد مرکسم (مستقبل کے لئے) اور ناسا (ماضی کے لئے) سے کوائف ڈھونڈے کی کوشیش کریگا۔"
+msgstr ""
+
