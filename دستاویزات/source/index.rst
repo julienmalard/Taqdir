@@ -3,6 +3,23 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+.. image:: _static/تسویر.png
+   :width: 250px
+   :alt: تقدیر کا تسویر
+   :align: center
+
+.. image:: https://travis-ci.org/julienmalard/Taqdir.svg?branch=master
+   :target: https://travis-ci.org/julienmalard/Taqdir
+.. image:: https://coveralls.io/repos/github/julienmalard/Taqdir/badge.svg?branch=master
+   :target: https://coveralls.io/github/julienmalard/Taqdir?branch=master
+.. image:: https://readthedocs.org/projects/taqdir/badge/?version=latest
+   :target: https://taqdir.readthedocs.io/ur/latest/?badge=latest
+
+.. image:: https://www.codefactor.io/repository/github/julienmalard/taqdir/badge
+   :target: https://www.codefactor.io/repository/github/julienmalard/taqdir
+.. image:: https://api.codeclimate.com/v1/badges/d1e4113d31c354cb6f20/maintainability
+   :target: https://codeclimate.com/github/julienmalard/Taqdir/maintainability
+
 تقدیر کی دستاویزات پر  خوش آمدید!
 =================================
 
