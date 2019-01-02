@@ -13,6 +13,7 @@
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
 import os
+
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 import تقدیر
@@ -101,6 +102,7 @@ def setup(app):
     app.add_stylesheet('تبدیل.css')
     app.add_javascript('جاواسکرپت.js')
 
+
 # Custom sidebar templates, must be a dictionary that maps document names
 # to template names.
 #
@@ -110,7 +112,7 @@ def setup(app):
 # 'searchbox.html']``.
 #
 # html_sidebars = {}
-
+html_logo = "source/_static/تسویر.png"
 
 # -- Options for HTMLHelp output ---------------------------------------------
 
