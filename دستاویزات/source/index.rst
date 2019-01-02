@@ -8,6 +8,9 @@
    :alt: تقدیر کا تسویر
    :align: center
 
+تقدیر کی دستاویزات پر  خوش آمدید!
+=================================
+
 .. image:: https://travis-ci.org/julienmalard/Taqdir.svg?branch=master
    :target: https://travis-ci.org/julienmalard/Taqdir
 .. image:: https://coveralls.io/repos/github/julienmalard/Taqdir/badge.svg?branch=master
@@ -19,9 +22,6 @@
    :target: https://www.codefactor.io/repository/github/julienmalard/taqdir
 .. image:: https://api.codeclimate.com/v1/badges/d1e4113d31c354cb6f20/maintainability
    :target: https://codeclimate.com/github/julienmalard/Taqdir/maintainability
-
-تقدیر کی دستاویزات پر  خوش آمدید!
-=================================
 
 تقدیر کیا ہیے؟
 --------------
