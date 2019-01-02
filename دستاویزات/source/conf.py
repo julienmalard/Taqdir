@@ -185,3 +185,5 @@ epub_title = project
 epub_exclude_files = ['search.html']
 
 # -- Extension configuration -------------------------------------------------
+locale_dirs = ['_locale/']
+gettext_compact = False
