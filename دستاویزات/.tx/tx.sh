@@ -10,8 +10,12 @@ git_setup() {
 
 commit_translation_files() {
   git checkout -b $TX_BRANCH
-  git add locale/*.po
+  cd دستاویزات
+  make gettext
+  sphinx-intl update -p build/gettext
+  git add source/_locale/*.po
   git commit -m "Translation update from Transifex" -m "[ci skip]"
+  cd ..
 }
 
 push_translation_files() {
