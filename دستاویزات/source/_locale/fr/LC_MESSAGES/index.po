@@ -23,11 +23,11 @@ msgstr ""
 
 #: ../../source/index.rst:7
 msgid "تقدیر کی دستاویزات پر  خوش آمدید!"
-msgstr "Bienvenue à la documentation de Taqdir!"
+msgstr "Bienvenue à la documentation de Taqdir !"
 
 #: ../../source/index.rst:10
 msgid "تقدیر کیا ہیے؟"
-msgstr "Qu'est-ce que Taqdir?"
+msgstr "Qu'est-ce que Taqdir ?"
 
 #: ../../source/index.rst:11
 msgid "تقدیر آبوہوا میں تبدیلی کے کوائف پایتھون کو لیتا ھیں۔"
