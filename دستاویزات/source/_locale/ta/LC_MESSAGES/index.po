@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: تقدیر 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-02 16:21-0500\n"
+"POT-Creation-Date: 2019-01-03 15:13-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,7 +26,7 @@ msgid "تقدیر کیا ہیے؟"
 msgstr ""
 
 #: ../../source/index.rst:28
-msgid "تقدیر آبوہوا میں تبدیلی کے کوائف پایتھون کو لیتا ھیں۔"
+msgid "تقدیر آبوہوا میں تبدیلی کے کوائف پایتھون کو لیتا ہیے۔"
 msgstr ""
 
 #: ../../source/index.rst:31
@@ -40,45 +40,72 @@ msgid ""
 msgstr ""
 
 #: ../../source/index.rst:36
-msgid "تقدیر کام کیسا کارتا ہیے؟"
+msgid "مجھے کیوں تقدیر کی ذرورت ہوگی؟"
 msgstr ""
 
 #: ../../source/index.rst:37
 msgid ""
-"اگر آپنے تقدیر کو مشاہدات دیئے ہیں، تقدیر پہلہ سے ھی کوائف وہاں سے "
-"اٹھائگا۔ بعاد مرکسم (مستقبل کے لئے) اور ناسا (ماضی کے لئے) سے کوائف "
-"ڈھونڈے کی کوشیش کریگا۔"
+"کیا آپکو آبوہوا تبدیلیوں کے ساتھ کام کرنا ہیے، پر پاتا نہیں ہیے کہ "
+"کوائف کہاں سے ملیں؟"
+msgstr ""
+
+#: ../../source/index.rst:38
+msgid "یا کیا آپکے پاس کوائف ہیں، پر ۱۰ مختلف جگہ میں؟"
+msgstr ""
+
+#: ../../source/index.rst:39
+msgid ""
+"شاید مرکسم کا استعمال کرنا ہیے، پر ھاتھ سے مرکسم کے نتیجہ کے ۲۰۰ مسل "
+"پڑھنا نہیں؟"
 msgstr ""
 
 #: ../../source/index.rst:41
+msgid "تقدیر میں سب اسان ہو جاتا ہیے۔"
+msgstr ""
+
+#: ../../source/index.rst:43
+msgid ""
+"آپکے پاس کوائف نہیں ہیں؟ تقدیر انہیں آپکے لئے ڈھونڈ پائگا، مستقبل کے "
+"ہو، ماضی کے ہو۔"
+msgstr ""
+
+#: ../../source/index.rst:44
+msgid ""
+"آپکے پاس مختلف جگہ میں کہائف ہیں؟ تقدیر انہیں سب جوڑیگا اور بعاد میں "
+"لاپتہ دن کے کوائف آپکے لئے ڈھونڈیگا۔"
+msgstr ""
+
+#: ../../source/index.rst:45
+msgid ""
+"آپکے پاس ماہانہ کوائف ہیں، پر روزانہ چاہئے؟ یا روزانہ ہیں پر ماہانہ "
+"چاہئے؟ کوئی بات نہیں۔"
+msgstr ""
+
+#: ../../source/index.rst:48
 msgid "اشاریہ"
 msgstr ""
 
-#: ../../source/index.rst:42
+#: ../../source/index.rst:49
 msgid "شروعات"
 msgstr ""
 
-#: ../../source/index.rst:50
+#: ../../source/index.rst:57
 msgid "نمونے"
 msgstr ""
 
-#: ../../source/index.rst:57
+#: ../../source/index.rst:64
 msgid "ترقی"
 msgstr ""
 
-#: ../../source/index.rst:64
-msgid "برنامج کاری مواجہ"
-msgstr ""
-
-#: ../../source/index.rst:71
+#: ../../source/index.rst:78
 msgid "اشاریہ اور جدول"
 msgstr ""
 
-#: ../../source/index.rst:73
+#: ../../source/index.rst:80
 msgid ":ref:`اشاریہ <genindex>`"
 msgstr ""
 
-#: ../../source/index.rst:74
+#: ../../source/index.rst:81
 msgid ":ref:`کھوج <search>`"
 msgstr ""
 
