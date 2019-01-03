@@ -43,23 +43,23 @@
    :maxdepth: 2
    :caption: شروعات
 
-   شروعات
-   متاغیرات
-   شکریہ
+   shuruat
+   mtagirat
+   shukriya
 
 .. toctree::
    :maxdepth: 2
    :caption:  نمونے
 
-   نمونے/مرکسم۵
-   نمونے/مشاہدات
+   nmune/mrksm5
+   nmune/mshahdat
 
 .. toctree::
    :maxdepth: 2
    :caption: ترقی
 
-   ترقی/نئے_ذرائع
-   ترقی/ترجمہ
+   trqi/nae_zrae
+   trqi/trjmh
 
 .. toctree::
    :maxdepth: 2
