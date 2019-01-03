@@ -19,27 +19,9 @@ source_file = build/gettext/index.pot
 source_lang = en
 type = PO
 
-[tqdyr.mtagirat]
-file_filter = source/_locale/<lang>/LC_MESSAGES/mtagirat.po
-source_file = build/gettext/mtagirat.pot
-source_lang = en
-type = PO
-
 [tqdyr.trqi--nae_zrae]
 file_filter = source/_locale/<lang>/LC_MESSAGES/trqi/nae_zrae.po
 source_file = build/gettext/trqi/nae_zrae.pot
-source_lang = en
-type = PO
-
-[tqdyr.trqi--trjumh]
-file_filter = source/_locale/<lang>/LC_MESSAGES/trqi/trjumh.po
-source_file = build/gettext/trqi/trjumh.pot
-source_lang = en
-type = PO
-
-[tqdyr.nmune--mrksm]
-file_filter = source/_locale/<lang>/LC_MESSAGES/nmune/mrksm.po
-source_file = build/gettext/nmune/mrksm.pot
 source_lang = en
 type = PO
 

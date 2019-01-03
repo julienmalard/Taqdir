@@ -22,17 +22,10 @@ script:
 after_success:
   - coveralls --rcfile=.coveragerc
   - codecov
+  - ./دستاویزات/.tx/tx.sh push
+  - ./دستاویزات/.tx/tx.sh pull
 
 deploy:
-  - provider: script
-    script: ./دستاویزات/.tx/tx.sh pushh
-    on:
-      branch: $TX_BRANCH
-
-  - provider: script
-    script: ./دستاویزات/.tx/tx.sh pull
-    on:
-      tags: true
 
   - provider: pypi
     user: julien.malard
