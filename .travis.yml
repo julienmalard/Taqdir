@@ -22,8 +22,10 @@ script:
 after_success:
   - coveralls --rcfile=.coveragerc
   - codecov
-  - .tx/tx.sh push
-  - .tx/tx.sh pull
+  - cd ..
+  - cd دستاویزات
+  - sh .tx/tx.sh push
+  - sh .tx/tx.sh pull
 
 deploy:
 
