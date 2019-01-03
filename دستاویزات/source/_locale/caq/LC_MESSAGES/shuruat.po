@@ -1,0 +1,84 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) ژولیئں ملاغ، محمّد اظہر انعام بیگ، ۲۰۱۸+
+# This file is distributed under the same license as the تقدیر package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: تقدیر 1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-03 15:13-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/shuruat.rst:2
+msgid "شروعات"
+msgstr ""
+
+#: ../../source/shuruat.rst:5
+msgid "تنصیب"
+msgstr ""
+
+#: ../../source/shuruat.rst:7
+msgid "تقدیر کہ تنصیب کرنا بہت اسان ہیے۔"
+msgstr ""
+
+#: ../../source/shuruat.rst:9
+msgid ":command:`pip install taqdir`"
+msgstr ""
+
+#: ../../source/shuruat.rst:11
+msgid "سب سے نئا والا تقدیر گتھب سے مل سکتا ہیے:"
+msgstr ""
+
+#: ../../source/shuruat.rst:13
+msgid ":command:`pip install git+git://github.com/julienmalard/taqdir.git@master`"
+msgstr ""
+
+#: ../../source/shuruat.rst:16
+msgid "تقدیر کام کیسا کارتا ہیے؟"
+msgstr ""
+
+#: ../../source/shuruat.rst:17
+msgid ""
+"اگر آپکے پاس مشاہدات ہیں، تقدیر پہلہ سے ھی کوائف وہاں سے ئٹھایگا۔ بعاد "
+"مرکسم (مستقبل کے لئے) اور ناسا (ماضی کے لئے) سے کوائف ڈھونڈنے کی کوشیش "
+"کریگا۔"
+msgstr ""
+
+#: ../../source/shuruat.rst:21
+msgid "استعمال کیسا کرنا؟"
+msgstr ""
+
+#: ../../source/shuruat.rst:22
+msgid "پہلہ ایک مقام بنانا جینکے کوائف ہمہیں چاییئے۔ بعاد اسّے کوائف ماں گنا۔ بس۔"
+msgstr ""
+
+#: ../../source/shuruat.rst:43
+msgid "اگر آپکے پاس مشاہدات کے کوائف ہیں تو یہ بھی جوڑی جا سکتی ہیں۔"
+msgstr ""
+
+#: ../../source/shuruat.rst:55
+msgid "مشاہدات دیسات اور جسان سے بھی پڑی جا سکتی ہیں۔"
+msgstr ""
+
+#~ msgid ""
+#~ "اگر آپنے تقدیر کو مشاہدات دیئے "
+#~ "ہیں، تقدیر پہلہ سے ھی کوائف وہاں"
+#~ " سے اٹھائگا۔ بعاد مرکسم (مستقبل کے"
+#~ " لئے) اور ناسا (ماضی کے لئے) سے"
+#~ " کوائف ڈھونڈے کی کوشیش کریگا۔"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "پہلہ ایک مقام بنانا جینکے کوائف "
+#~ "ہمہیں چاییئے۔ بعاد میں اسّے کوائف "
+#~ "ماں گنی۔ بس۔"
+#~ msgstr ""
+

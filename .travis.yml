@@ -25,9 +25,10 @@ after_success:
 
 deploy:
   - provider: script
-    script: ./دستاویزات/.tx/tx.sh push
+    script: ./دستاویزات/.tx/tx.sh pushh
     on:
       branch: $TX_BRANCH
+
   - provider: script
     script: ./دستاویزات/.tx/tx.sh pull
     on:
