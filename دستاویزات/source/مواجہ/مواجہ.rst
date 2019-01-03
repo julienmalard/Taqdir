@@ -5,6 +5,6 @@
 .. toctree::
    :maxdepth: 2
 
-   مقام
-   ذریعہ
-   کوائف
+   mqam
+   zriya
+   koaef
