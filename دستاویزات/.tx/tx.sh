@@ -12,6 +12,7 @@ commit_translation_files() {
   git checkout -b $TX_BRANCH
   cd دستاویزات
   make gettext
+  sphinx-intl update-txconfig-resources
   sphinx-intl update -p build/gettext
   git add source/_locale/*.po
   git commit -m "Translation update from Transifex" -m "[ci skip]"

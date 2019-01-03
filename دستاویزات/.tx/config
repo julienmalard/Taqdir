@@ -49,3 +49,21 @@ source_file = build/gettext/nmune/mshahdat.pot
 source_lang = en
 type = PO
 
+[tqdyr.malumat]
+file_filter = source/_locale/<lang>/LC_MESSAGES/malumat.po
+source_file = build/gettext/malumat.pot
+source_lang = en
+type = PO
+
+[tqdyr.trqi--trjmh]
+file_filter = source/_locale/<lang>/LC_MESSAGES/trqi/trjmh.po
+source_file = build/gettext/trqi/trjmh.pot
+source_lang = en
+type = PO
+
+[tqdyr.nmune--mrksm5]
+file_filter = source/_locale/<lang>/LC_MESSAGES/nmune/mrksm5.po
+source_file = build/gettext/nmune/mrksm5.pot
+source_lang = en
+type = PO
+
