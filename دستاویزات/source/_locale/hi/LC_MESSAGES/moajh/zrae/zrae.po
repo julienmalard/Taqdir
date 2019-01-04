@@ -1,0 +1,44 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) ژولیئں ملاغ، محمّد اظہر انعام بیگ، ۲۰۱۸+
+# This file is distributed under the same license as the تقدیر package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: تقدیر 1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-04 18:56+0000\n"
+"PO-Revision-Date: 2019-01-04 17:18+0000\n"
+"Language-Team: Hindi (https://www.transifex.com/qatikon/teams/94867/hi/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hi\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../source/moajh/zrae/zrae.rst:2
+msgid "ذرائع"
+msgstr ""
+
+#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذرائع/مرکسم۵.pydocstring
+#: of تقدیر.ذرائع.مرکسم۵:1
+msgid ""
+"یہ ذریعہ آپکے سنگنک پر ہونے والے مرکسم ۵ سے آوہوا تبدیلی کے کوائف پاتا "
+"ہیے۔"
+msgstr ""
+
+#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذرائع/مرکسم٥_جال.pydocstring
+#: of تقدیر.ذرائع.مرکسم۵_جال:1
+msgid ""
+"یہ ذریعہ مرکسم ۵ کے `جلبینی پنے "
+"<http://gisweb.ciat.cgiar.org/MarkSimGCM/#tabs-3>`_ سے آوہوا تبدیلی کے "
+"کوائف پاتا ہیے۔"
+msgstr ""
+
+#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذرائع/ناسا.pydocstring
+#: of تقدیر.ذرائع.ناسا:1
+msgid ""
+"یہ ذریعہ ناسا کے `پنے <https://power.larc.nasa.gov/cgi-"
+"bin/v1/DataAccess.py>`_ سے آوہوا مشاہدات کے کوائف پاتا ہیے۔"
+msgstr ""

@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) ژولیئں ملاغ، محمّد اظہر انعام بیگ، ۲۰۱۸+
 # This file is distributed under the same license as the تقدیر package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: تقدیر 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-03 15:13-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-01-04 18:56+0000\n"
+"PO-Revision-Date: 2019-01-04 17:22+0000\n"
+"Language-Team: Hindi (https://www.transifex.com/qatikon/teams/94867/hi/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Language: hi\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../source/malumat.rst:2
 msgid "معلمات"
@@ -61,11 +61,11 @@ msgstr ""
 msgid ":class:`~تقدیر.ذرائع.مرکسم۵`"
 msgstr ""
 
-#: ../../source/malumat.rst:1
+#: ../../source/malumat.rst:1 ../../source/malumat.rst:1
 msgid "۰، ۲۔۶، ۴۔۵، ۶۔۰، ۸۔۵"
 msgstr ""
 
-#: ../../source/malumat.rst:1
+#: ../../source/malumat.rst:1 ../../source/malumat.rst:1
 msgid "۲۰۹۵ تک"
 msgstr ""
 
@@ -75,8 +75,8 @@ msgstr ""
 
 #: ../../source/malumat.rst:16
 msgid ""
-"تقدیر میں اور بھی ذرائع ہیں جو مسل سے کوائف پڈھتے ہیں۔ یہ مشاہدات کے لئے "
-"کام کے ہیں۔"
+"تقدیر میں اور بھی ذرائع ہیں جو مسل سے کوائف پڈھتے ہیں۔ یہ مشاہدات کے لئے کام"
+" کے ہیں۔"
 msgstr ""
 
 #: ../../source/malumat.rst:18
@@ -104,7 +104,8 @@ msgid "تقدیر میں ان متاغیرات دستیاب ہیں۔"
 msgstr ""
 
 #: ../../source/malumat.rst:32
-msgid "خیال رکھنا کہ ہو سکتا ہیے کہ سارے ذرائع میں سارے متاغیرات دستیاب نہ ہو۔"
+msgid ""
+"خیال رکھنا کہ ہو سکتا ہیے کہ سارے ذرائع میں سارے متاغیرات دستیاب نہ ہو۔"
 msgstr ""
 
 #: ../../source/malumat.rst:1
@@ -155,6 +156,7 @@ msgstr ""
 msgid "درجہ_حرارت_زیادہ"
 msgstr ""
 
+#: ../../source/malumat.rst:1 ../../source/malumat.rst:1
 #: ../../source/malumat.rst:1
 msgid "سلسیوس"
 msgstr ""
@@ -174,4 +176,3 @@ msgstr ""
 #: ../../source/malumat.rst:1
 msgid "درجہ_حرارت_اوسط"
 msgstr ""
-

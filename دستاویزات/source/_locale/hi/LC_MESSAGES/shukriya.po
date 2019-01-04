@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) ژولیئں ملاغ، محمّد اظہر انعام بیگ، ۲۰۱۸+
 # This file is distributed under the same license as the تقدیر package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: تقدیر 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-03 15:13-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-01-04 18:56+0000\n"
+"PO-Revision-Date: 2019-01-03 20:29+0000\n"
+"Language-Team: Hindi (https://www.transifex.com/qatikon/teams/94867/hi/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Language: hi\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../source/shukriya.rst:2
 msgid "شکریہ"
@@ -30,10 +30,10 @@ msgid "`ژولیئں ملاغ <https://www.researchgate.net/profile/Julien_Malar
 msgstr ""
 
 #: ../../source/shukriya.rst:8
-msgid "`محمّد انعام اظہر بیگ <https://www.researchgate.net/profile/Azhar_Baig>`_"
+msgid ""
+"`محمّد انعام اظہر بیگ <https://www.researchgate.net/profile/Azhar_Baig>`_"
 msgstr ""
 
 #: ../../source/shukriya.rst:11
 msgid "ترجمہ"
 msgstr ""
-

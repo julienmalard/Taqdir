@@ -1,0 +1,180 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) ژولیئں ملاغ، محمّد اظہر انعام بیگ، ۲۰۱۸+
+# This file is distributed under the same license as the تقدیر package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: تقدیر 1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-04 18:56+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/malumat.rst:2
+msgid "معلمات"
+msgstr "معلمات"
+
+#: ../../source/malumat.rst:5
+msgid "ذرائع"
+msgstr "ذرائع"
+
+#: ../../source/malumat.rst:6
+msgid "تقدیر کی بنیاد ذرائع نیچے دی جاتی ہیں۔"
+msgstr "تقدیر کی بنیاد ذرائع نیچے دی جاتی ہیں۔"
+
+#: ../../source/malumat.rst:8
+msgid "تقدیر کے بنیاد ذرائع"
+msgstr "تقدیر کے بنیاد ذرائع"
+
+#: ../../source/malumat.rst:1
+msgid "ذریعہ"
+msgstr "ذریعہ"
+
+#: ../../source/malumat.rst:1
+msgid "آبوہوا تبدیلی خاکے"
+msgstr "آبوہوا تبدیلی خاکے"
+
+#: ../../source/malumat.rst:1
+msgid "دستیاب سال"
+msgstr "دستیاب سال"
+
+#: ../../source/malumat.rst:1
+msgid ":class:`~تقدیر.ذرائع.ناسا`"
+msgstr ":class:`~تقدیر.ذرائع.ناسا`"
+
+#: ../../source/malumat.rst:1
+msgid "مستقبل"
+msgstr "مستقبل"
+
+#: ../../source/malumat.rst:1
+msgid "~۱۹۸۳ - آج"
+msgstr "~۱۹۸۳ - آج"
+
+#: ../../source/malumat.rst:1
+msgid ":class:`~تقدیر.ذرائع.مرکسم۵`"
+msgstr ":class:`~تقدیر.ذرائع.مرکسم۵`"
+
+#: ../../source/malumat.rst:1 ../../source/malumat.rst:1
+msgid "۰، ۲۔۶، ۴۔۵، ۶۔۰، ۸۔۵"
+msgstr "۰، ۲۔۶، ۴۔۵، ۶۔۰، ۸۔۵"
+
+#: ../../source/malumat.rst:1 ../../source/malumat.rst:1
+msgid "۲۰۹۵ تک"
+msgstr "۲۰۹۵ تک"
+
+#: ../../source/malumat.rst:1
+msgid ":class:`~تقدیر.ذرائع.مرکسم۵_جال`"
+msgstr ":class:`~تقدیر.ذرائع.مرکسم۵_جال`"
+
+#: ../../source/malumat.rst:16
+msgid ""
+"تقدیر میں اور بھی ذرائع ہیں جو مسل سے کوائف پڈھتے ہیں۔ یہ مشاہدات کے لئے کام"
+" کے ہیں۔"
+msgstr ""
+"تقدیر میں اور بھی ذرائع ہیں جو مسل سے کوائف پڈھتے ہیں۔ یہ مشاہدات کے لئے کام"
+" کے ہیں۔"
+
+#: ../../source/malumat.rst:18
+msgid ":class:`~تقدیر.ذرائع.جسان`"
+msgstr ":class:`~تقدیر.ذرائع.جسان`"
+
+#: ../../source/malumat.rst:19
+msgid ":class:`~تقدیر.ذرائع.دیسات`"
+msgstr ":class:`~تقدیر.ذرائع.دیسات`"
+
+#: ../../source/malumat.rst:20
+msgid ":class:`~تقدیر.ذرائع.سی_اس_وی`"
+msgstr ":class:`~تقدیر.ذرائع.سی_اس_وی`"
+
+#: ../../source/malumat.rst:21
+msgid ":class:`~تقدیر.ذرائع.دیسات_ماھانہ`"
+msgstr ":class:`~تقدیر.ذرائع.دیسات_ماھانہ`"
+
+#: ../../source/malumat.rst:27
+msgid "متاغیرات"
+msgstr "متاغیرات"
+
+#: ../../source/malumat.rst:28
+msgid "تقدیر میں ان متاغیرات دستیاب ہیں۔"
+msgstr "تقدیر میں ان متاغیرات دستیاب ہیں۔"
+
+#: ../../source/malumat.rst:32
+msgid ""
+"خیال رکھنا کہ ہو سکتا ہیے کہ سارے ذرائع میں سارے متاغیرات دستیاب نہ ہو۔"
+msgstr ""
+"خیال رکھنا کہ ہو سکتا ہیے کہ سارے ذرائع میں سارے متاغیرات دستیاب نہ ہو۔"
+
+#: ../../source/malumat.rst:1
+msgid "نام"
+msgstr "نام"
+
+#: ../../source/malumat.rst:1
+msgid "معنی"
+msgstr "معنی"
+
+#: ../../source/malumat.rst:1
+msgid "``تاریخ``"
+msgstr "``تاریخ``"
+
+#: ../../source/malumat.rst:1
+msgid "تاریخ"
+msgstr "تاریخ"
+
+#: ../../source/malumat.rst:1
+msgid "روزنہ (``۲۰۱۸۰۱۰۱``)، مہانہ (``۲۰۱۸۰۱``)، یا سالانہ (``۲۰۱۸``)"
+msgstr "روزنہ (``۲۰۱۸۰۱۰۱``)، مہانہ (``۲۰۱۸۰۱``)، یا سالانہ (``۲۰۱۸``)"
+
+#: ../../source/malumat.rst:1
+msgid "``بارش``"
+msgstr "``بارش``"
+
+#: ../../source/malumat.rst:1
+msgid "بارش"
+msgstr "بارش"
+
+#: ../../source/malumat.rst:1
+msgid "ملیمیٹر"
+msgstr "ملیمیٹر"
+
+#: ../../source/malumat.rst:1
+msgid "``شمسی_تابکاری``"
+msgstr "``شمسی_تابکاری``"
+
+#: ../../source/malumat.rst:1
+msgid "شمسی_تابکاری"
+msgstr "شمسی_تابکاری"
+
+#: ../../source/malumat.rst:1
+msgid "``درجہ_حرارت_زیادہ``"
+msgstr "``درجہ_حرارت_زیادہ``"
+
+#: ../../source/malumat.rst:1
+msgid "درجہ_حرارت_زیادہ"
+msgstr "درجہ_حرارت_زیادہ"
+
+#: ../../source/malumat.rst:1 ../../source/malumat.rst:1
+#: ../../source/malumat.rst:1
+msgid "سلسیوس"
+msgstr "سلسیوس"
+
+#: ../../source/malumat.rst:1
+msgid "``درجہ_حرارت_کم``"
+msgstr "``درجہ_حرارت_کم``"
+
+#: ../../source/malumat.rst:1
+msgid "درجہ_حرارت_کم"
+msgstr "درجہ_حرارت_کم"
+
+#: ../../source/malumat.rst:1
+msgid "``درجہ_حرارت_اوسط``"
+msgstr "``درجہ_حرارت_اوسط``"
+
+#: ../../source/malumat.rst:1
+msgid "درجہ_حرارت_اوسط"
+msgstr "درجہ_حرارت_اوسط"
