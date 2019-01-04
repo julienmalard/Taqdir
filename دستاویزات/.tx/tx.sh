@@ -10,7 +10,7 @@ git_setup() {
 
 commit_translation_files() {
   echo "checkout"
-  git checkout -b $TX_BRANCH
+  git checkout -b transifex
   echo "add"
   git add source/_locale/*.po
   echo "commit"
@@ -22,7 +22,7 @@ push_translation_files() {
   echo $TRAVIS_REPO_SLUG
   git remote add origin-travis https://${GHTOKEN}@github.com/$TRAVIS_REPO_SLUG.git > /dev/null 2>&1
   echo "git push"
-  git push --set-upstream origin-travis $TX_BRANCH
+  git push --set-upstream origin-travis transifex
 }
 
 tx_init() {
