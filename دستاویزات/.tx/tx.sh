@@ -32,7 +32,6 @@ update_translations() {
   rm .tx/config
   sphinx-intl create-txconfig
   sphinx-intl update-txconfig-resources --transifex-project-name tqdyr
-  sphinx-intl update -p build/gettext
 }
 
 tx_push() {
@@ -55,8 +54,9 @@ tx_pull() {
       tx_init
       tx pull --all --force
       FRESH_TRANSLATIONS=$(git diff-index --name-only HEAD --)
-
-      if [ "$TX_COMMIT_TRANSLATIONS" = true ] && [ -n $FRESH_TRANSLATIONS ]
+      echo fresh
+      echo $FRESH_TRANSLATIONS
+      if [ -n $FRESH_TRANSLATIONS ]
         then
           echo "pushing"
           git_setup
