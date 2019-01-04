@@ -10,6 +10,7 @@ git_setup() {
 
 commit_translation_files() {
   git checkout -b $TX_BRANCH
+  git add source/_locale/*.po
   git commit -m "Translation update from Transifex" -m "[ci skip]"
 }
 
@@ -30,7 +31,6 @@ update_translations() {
   make gettext
   sphinx-intl update-txconfig-resources
   sphinx-intl update -p build/gettext
-  git add source/_locale/*.po
 }
 
 tx_push() {
@@ -39,6 +39,7 @@ tx_push() {
   if [ $? -eq 0 ] # && [ $TRAVIS_BRANCH == $TX_BRANCH ]
     then
       tx_init
+      update_translations
       tx push --source --no-interactive
   fi
 }
