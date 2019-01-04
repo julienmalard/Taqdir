@@ -55,7 +55,7 @@ tx_pull() {
       tx pull --all --force
       FRESH_TRANSLATIONS=$(git diff-index --name-only HEAD --)
       echo $FRESH_TRANSLATIONS
-      if [ -z $FRESH_TRANSLATIONS ]
+      if [ -n "$FRESH_TRANSLATIONS" ]
         then
           echo "pushing"
           git_setup
