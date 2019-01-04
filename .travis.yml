@@ -7,7 +7,6 @@ env:
   global:
     - TX_BRANCH="ترقی"
     - TX_TAG="txpull"
-    - TX_COMMIT_TRANSLATIONS=true
 install:
   - pip install --upgrade pip setuptools wheel
   - pip install transifex-client sphinx sphinx-intl
