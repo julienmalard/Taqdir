@@ -14,17 +14,17 @@ install:
   - pip install coveralls codecov
   - python setup.py sdist bdist_wheel
   - pip install taqdir --no-index --find-links=./dist
+script:
+  - cd امتحان
+  - coverage run -m unittest
+
+after_success:
+  - coveralls --rcfile=.coveragerc
+  - codecov
   - cd دستاویزات
   - sh .tx/tx.sh push
   - sh .tx/tx.sh pull
   - cd ..
-  - rm -r تقدیر
-script:
-  - cd امتحان
-  - coverage run -m unittest
-after_success:
-  - coveralls --rcfile=.coveragerc
-  - codecov
 
 deploy:
 
