@@ -9,13 +9,18 @@ git_setup() {
 }
 
 commit_translation_files() {
+  echo "checkout"
   git checkout -b $TX_BRANCH
+  echo "add"
   git add source/_locale/*.po
+  echo "commit"
   git commit -m "Translation update from Transifex" -m "[ci skip]"
 }
 
 push_translation_files() {
+  echo "git remote"
   git remote add origin-travis https://${GHTOKEN}@github.com/$TRAVIS_REPO_SLUG.git > /dev/null 2>&1
+  echo "git push"
   git push --quiet --set-upstream origin-travis $TX_BRANCH
 }
 
