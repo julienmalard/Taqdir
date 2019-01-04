@@ -15,6 +15,10 @@ install:
   - pip install coveralls codecov
   - python setup.py sdist bdist_wheel
   - pip install taqdir --no-index --find-links=./dist
+  - cd دستاویزات
+  - sh .tx/tx.sh push
+  - sh .tx/tx.sh pull
+  - cd ..
   - rm -r تقدیر
 script:
   - cd امتحان
@@ -22,11 +26,6 @@ script:
 after_success:
   - coveralls --rcfile=.coveragerc
   - codecov
-  - cd ..
-  - cd دستاویزات
-  - sh .tx/tx.sh push
-  - sh .tx/tx.sh pull
-
 
 deploy:
 

@@ -10,13 +10,7 @@ git_setup() {
 
 commit_translation_files() {
   git checkout -b $TX_BRANCH
-  cd دستاویزات
-  make gettext
-  sphinx-intl update-txconfig-resources
-  sphinx-intl update -p build/gettext
-  git add source/_locale/*.po
   git commit -m "Translation update from Transifex" -m "[ci skip]"
-  cd ..
 }
 
 push_translation_files() {
@@ -32,10 +26,17 @@ password = $TXTOKEN
 token =" > ~/.transifexrc
 }
 
+update_translations() {
+  make gettext
+  sphinx-intl update-txconfig-resources
+  sphinx-intl update -p build/gettext
+  git add source/_locale/*.po
+}
+
 tx_push() {
   # Only run once, and only on $TX_BRANCH branch
   echo $TRAVIS_JOB_NUMBER | grep "\.1$"
-  if [ $? -eq 0 ] && [ $TRAVIS_BRANCH == $TX_BRANCH ]
+  if [ $? -eq 0 ] # && [ $TRAVIS_BRANCH == $TX_BRANCH ]
     then
       tx_init
       tx push --source --no-interactive
@@ -45,7 +46,7 @@ tx_push() {
 tx_pull() {
   # Only run once, and only for $TX_TAG tag
   echo $TRAVIS_JOB_NUMBER | grep "\.1$"
-  if [ $? -eq 0 ] && [ $TRAVIS_TAG == $TX_TAG ]
+  if [ $? -eq 0 ] # && [ $TRAVIS_TAG == $TX_TAG ]
     then
       tx_init
       tx pull --all --force
