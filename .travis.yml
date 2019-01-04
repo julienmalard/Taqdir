@@ -27,6 +27,7 @@ after_success:
   - sh .tx/tx.sh push
   - sh .tx/tx.sh pull
 
+
 deploy:
 
   - provider: pypi
