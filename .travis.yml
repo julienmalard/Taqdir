@@ -10,7 +10,7 @@ env:
     - TX_COMMIT_TRANSLATIONS=true
 install:
   - pip install --upgrade pip setuptools wheel
-  - pip install transifex-client
+  - pip install transifex-client sphinx sphinx-intl
   - pip install -r زروریاں.txt
   - pip install coveralls codecov
   - python setup.py sdist bdist_wheel
