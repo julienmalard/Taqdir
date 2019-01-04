@@ -1,4 +1,5 @@
 import unittest
+from json import JSONDecodeError
 
 import pandas as pd
 import pandas.testing as pdt
@@ -9,8 +10,8 @@ from تقدیر.ذرائع import ناسا
 جگہ = dict(چوڑائی=11.02, طول=76.96, بلندی=1)
 try:
     NASAPowerWeatherDataProvider(latitude=جگہ['چوڑائی'], longitude=جگہ['طول'], force_update=False)
-    جالبینی_رسائی=True
-except (requests.exceptions.ConnectionError, KeyError):
+    جالبینی_رسائی = True
+except (requests.exceptions.ConnectionError, KeyError, JSONDecodeError):
     جالبینی_رسائی = False
 وجہ = 'ناسا کا جالبین پنہ اب دستیاب نہیں۔'
 
