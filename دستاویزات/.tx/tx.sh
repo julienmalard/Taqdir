@@ -49,11 +49,13 @@ tx_pull() {
   echo $TRAVIS_JOB_NUMBER | grep "\.1$"
   if [ $? -eq 0 ] # && [ $TRAVIS_TAG == $TX_TAG ]
     then
+      echo "pulling"
       tx_init
       tx pull --all --force
       FRESH_TRANSLATIONS=$(git diff-index --name-only HEAD --)
-      if [ "$TX_COMMIT_TRANSLATIONS" = true ] && [ -n $FRESH_TRANSLATIONS ]
+      if [ $TX_COMMIT_TRANSLATIONS = true ] && [ -n $FRESH_TRANSLATIONS ]
         then
+          echo "pushing"
           git_setup
           commit_translation_files
           push_translation_files
