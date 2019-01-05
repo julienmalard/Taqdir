@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the تقدیر package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Julien Malard <julien.malard@mail.mcgill.ca>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: تقدیر 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-05 17:48+0000\n"
+"POT-Creation-Date: 2019-01-05 18:23+0000\n"
 "PO-Revision-Date: 2019-01-03 20:29+0000\n"
+"Last-Translator: Julien Malard <julien.malard@mail.mcgill.ca>, 2019\n"
 "Language-Team: Hindi (https://www.transifex.com/qatikon/teams/94867/hi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,23 +23,23 @@ msgstr ""
 
 #: ../../source/shuruat.rst:2
 msgid "شروعات"
-msgstr ""
+msgstr "शुरूआत"
 
 #: ../../source/shuruat.rst:5
 msgid "تنصیب"
-msgstr ""
+msgstr "स्थापना"
 
 #: ../../source/shuruat.rst:7
 msgid "تقدیر کہ تنصیب کرنا بہت اسان ہیے۔"
-msgstr ""
+msgstr "तक्दीर का स्थापना बहुत असान है।"
 
 #: ../../source/shuruat.rst:9
 msgid ":command:`pip install taqdir`"
-msgstr ""
+msgstr ":command:`pip install taqdir`"
 
 #: ../../source/shuruat.rst:11
 msgid "سب سے نئا والا تقدیر گتھب سے مل سکتا ہیے:"
-msgstr ""
+msgstr "सब से नया वाला तक्दीर सिधे गित्हब से मिल सकता है।"
 
 #: ../../source/shuruat.rst:13
 msgid ""

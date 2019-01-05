@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: تقدیر 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-05 17:48+0000\n"
+"POT-Creation-Date: 2019-01-05 18:23+0000\n"
 "PO-Revision-Date: 2019-01-04 17:18+0000\n"
 "Last-Translator: Julien Malard <julien.malard@mail.mcgill.ca>, 2019\n"
 "Language-Team: French (https://www.transifex.com/qatikon/teams/94867/fr/)\n"
@@ -29,6 +29,8 @@ msgstr "Données"
 msgid ""
 "تقدیر کے سارے نتیجہ :class:`~تقدیر.کوائف.کوائف` کا قسم میں میل جاتے ہیں۔"
 msgstr ""
+"Tous les résultats de taqdir sont données sous forme d'un objet de la classe"
+" :class:`~تقدیر.کوائف.کوائف`."
 
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/کوائف.pydocstring
 #: of تقدیر.کوائف.کوائف:1
@@ -62,7 +64,7 @@ msgstr "La moyenne annuelle des données."
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/کوائف.pydocstring
 #: of تقدیر.کوائف.کوائف.لاپتہ:1
 msgid "لاپتہ کوائف رکھنے والے دن واپس دیگا۔"
-msgstr ""
+msgstr "Retourne les jours qui ont des données manquantes."
 
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/کوائف.pydocstring
 #: of تقدیر.کوائف.کوائف.لاپتہ:6
