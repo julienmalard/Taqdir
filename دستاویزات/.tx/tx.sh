@@ -42,8 +42,11 @@ update_translations() {
 tx_push() {
   # Only run once, and only on $TX_BRANCH branch
   echo $TRAVIS_JOB_NUMBER | grep "\.1$"
+  echo "$TRAVIS_BRANCH"
+  echo "$TX_BRANCH"
   if [ $? -eq 0 ]  && [ "$TRAVIS_BRANCH" = "$TX_BRANCH" ]
     then
+      echo "pushing to transifex"
       tx_init
       update_translations
       tx push --source --no-interactive
@@ -53,7 +56,7 @@ tx_push() {
 tx_pull() {
   # Only run once, and only for $TX_TAG tag
   echo $TRAVIS_JOB_NUMBER | grep "\.1$"
-  if [ $? -eq 0 ] # && [ $TRAVIS_TAG == $TX_TAG ]
+  if [ $? -eq 0 ] # && [ $TRAVIS_TAG = $TX_TAG ]
     then
       echo "pulling"
       tx_init
@@ -62,7 +65,7 @@ tx_pull() {
       echo $FRESH_TRANSLATIONS
       if [ -n "$FRESH_TRANSLATIONS" ]
         then
-          echo "pushing"
+          echo "pushing to github"
           git_setup
           commit_translation_files
           push_translation_files
