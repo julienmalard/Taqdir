@@ -1,0 +1,45 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) ژولیئں ملاغ، محمّد اظہر انعام بیگ، ۲۰۱۸+
+# This file is distributed under the same license as the تقدیر package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Julien Malard <julien.malard@mail.mcgill.ca>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: تقدیر 1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-05 17:30+0000\n"
+"PO-Revision-Date: 2019-01-03 20:29+0000\n"
+"Last-Translator: Julien Malard <julien.malard@mail.mcgill.ca>, 2019\n"
+"Language-Team: French (https://www.transifex.com/qatikon/teams/94867/fr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../../source/shukriya.rst:2
+msgid "شکریہ"
+msgstr "Remerciements"
+
+#: ../../source/shukriya.rst:5
+msgid "تقدیر کی ترقی"
+msgstr "Développement de Taqdir"
+
+#: ../../source/shukriya.rst:7 ../../source/shukriya.rst:12
+msgid "`ژولیئں ملاغ <https://www.researchgate.net/profile/Julien_Malard>`_"
+msgstr "`Julien Malard <https://www.researchgate.net/profile/Julien_Malard>`_"
+
+#: ../../source/shukriya.rst:8
+msgid ""
+"`محمّد انعام اظہر بیگ <https://www.researchgate.net/profile/Azhar_Baig>`_"
+msgstr ""
+"`محمّد انعام اظہر بیگ (Muhammad Azhar Inam Baig) "
+"<https://www.researchgate.net/profile/Azhar_Baig>`_"
+
+#: ../../source/shukriya.rst:11
+msgid "ترجمہ"
+msgstr "Traductions"

@@ -1,0 +1,118 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) ژولیئں ملاغ، محمّد اظہر انعام بیگ، ۲۰۱۸+
+# This file is distributed under the same license as the تقدیر package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Julien Malard <julien.malard@mail.mcgill.ca>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: تقدیر 1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-05 17:30+0000\n"
+"PO-Revision-Date: 2019-01-03 16:31+0000\n"
+"Last-Translator: Julien Malard <julien.malard@mail.mcgill.ca>, 2019\n"
+"Language-Team: Kaqchikel (https://www.transifex.com/qatikon/teams/94867/cak/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: cak\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../source/index.rst:12
+msgid "تقدیر کی دستاویزات پر  خوش آمدید!"
+msgstr "¡Ütz apetïk pa ruwuj Taqdir!"
+
+#: ../../source/index.rst:27
+msgid "تقدیر کیا ہیے؟"
+msgstr "¿Achike ri Taqdir?"
+
+#: ../../source/index.rst:28
+msgid "تقدیر آبوہوا میں تبدیلی کے کوائف پایتھون کو لیتا ہیے۔"
+msgstr ""
+
+#: ../../source/index.rst:31
+msgid "اسکا نام کیوں  ہیے تقدیر؟"
+msgstr "¿Achike rub'eyal Taqdir rub'i'?"
+
+#: ../../source/index.rst:32
+msgid ""
+"تکہ ہم بھول نہ جائں کہ آبوہوا میں تبدیلی کی بات میں کوئی تقدیر نہیں ہیے، "
+"شاید انسانیت کی خود کی بیوکوف کے علاوہ۔"
+msgstr ""
+
+#: ../../source/index.rst:36
+msgid "مجھے کیوں تقدیر کی ذرورت ہوگی؟"
+msgstr ""
+
+#: ../../source/index.rst:37
+msgid ""
+"کیا آپکو آبوہوا تبدیلیوں کے ساتھ کام کرنا ہیے، پر پاتا نہیں ہیے کہ کوائف "
+"کہاں سے ملیں؟"
+msgstr ""
+
+#: ../../source/index.rst:38
+msgid "یا کیا آپکے پاس کوائف ہیں، پر ۱۰ مختلف جگہ میں؟"
+msgstr ""
+
+#: ../../source/index.rst:39
+msgid ""
+"شاید مرکسم کا استعمال کرنا ہیے، پر ھاتھ سے مرکسم کے نتیجہ کے ۲۰۰ مسل پڑھنا "
+"نہیں؟"
+msgstr ""
+
+#: ../../source/index.rst:41
+msgid "تقدیر میں سب اسان ہو جاتا ہیے۔"
+msgstr ""
+
+#: ../../source/index.rst:43
+msgid ""
+"آپکے پاس کوائف نہیں ہیں؟ تقدیر انہیں آپکے لئے ڈھونڈ پائگا، مستقبل کے ہو، "
+"ماضی کے ہو۔"
+msgstr ""
+
+#: ../../source/index.rst:44
+msgid ""
+"آپکے پاس مختلف جگہ میں کہائف ہیں؟ تقدیر انہیں سب جوڑیگا اور بعاد میں لاپتہ "
+"دن کے کوائف آپکے لئے ڈھونڈیگا۔"
+msgstr ""
+
+#: ../../source/index.rst:45
+msgid ""
+"آپکے پاس ماہانہ کوائف ہیں، پر روزانہ چاہئے؟ یا روزانہ ہیں پر ماہانہ چاہئے؟ "
+"کوئی بات نہیں۔"
+msgstr ""
+
+#: ../../source/index.rst:48
+msgid "اشاریہ"
+msgstr ""
+
+#: ../../source/index.rst:49
+msgid "شروعات"
+msgstr ""
+
+#: ../../source/index.rst:57
+msgid "نمونے"
+msgstr "Tz'etb'äl"
+
+#: ../../source/index.rst:64
+msgid "ترقی"
+msgstr "Ruk'iyirisaxïk"
+
+#: ../../source/index.rst:71
+msgid "برنامج کاری مواجہ"
+msgstr ""
+
+#: ../../source/index.rst:78
+msgid "اشاریہ اور جدول"
+msgstr ""
+
+#: ../../source/index.rst:80
+msgid ":ref:`اشاریہ <genindex>`"
+msgstr ""
+
+#: ../../source/index.rst:81
+msgid ":ref:`کھوج <search>`"
+msgstr ""

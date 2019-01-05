@@ -1,0 +1,85 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) ژولیئں ملاغ، محمّد اظہر انعام بیگ، ۲۰۱۸+
+# This file is distributed under the same license as the تقدیر package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: تقدیر 1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-05 17:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/moajh/mqam.rst:2
+msgid "مقام"
+msgstr "مقام"
+
+#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/مقام.pydocstring
+#: of تقدیر.مقام.مقام:1
+msgid "ایک مقام، جیسے آبوہوا کے کوائف چاہئے۔"
+msgstr "ایک مقام، جیسے آبوہوا کے کوائف چاہئے۔"
+
+#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/مقام.pydocstring
+#: of تقدیر.مقام.مقام.کوائف_پانا:1
+msgid "آبوہوا کے کوائف پانا۔"
+msgstr "آبوہوا کے کوائف پانا۔"
+
+#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/مقام.pydocstring
+#: of تقدیر.مقام.مقام.کوائف_پانا:5
+msgid "سے: str | datetime.date"
+msgstr "سے: str | datetime.date"
+
+#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/مقام.pydocstring
+#: of تقدیر.مقام.مقام.کوائف_پانا:6
+msgid "وہ تاریخ جب سے کوائف چاہئے۔"
+msgstr "وہ تاریخ جب سے کوائف چاہئے۔"
+
+#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/مقام.pydocstring
+#: of تقدیر.مقام.مقام.کوائف_پانا:7
+msgid "تک: str | datetime.date"
+msgstr "تک: str | datetime.date"
+
+#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/مقام.pydocstring
+#: of تقدیر.مقام.مقام.کوائف_پانا:8
+msgid "وہ تاریخ جب تک کوائف چاہئے۔"
+msgstr "وہ تاریخ جب تک کوائف چاہئے۔"
+
+#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/مقام.pydocstring
+#: of تقدیر.مقام.مقام.کوائف_پانا:9
+msgid "ذرائع: ذریعہ | list"
+msgstr "ذرائع: ذریعہ | list"
+
+#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/مقام.pydocstring
+#: of تقدیر.مقام.مقام.کوائف_پانا:10
+msgid ""
+"وہ ذرائع جین میں کہائف ڈھونڈنا ہیے۔ یا :class:`~تقدیر.ذریعہ.ذریعہ`، یا انکے "
+"فرست ہو سکتا ہیے۔"
+msgstr ""
+"وہ ذرائع جین میں کہائف ڈھونڈنا ہیے۔ یا :class:`~تقدیر.ذریعہ.ذریعہ`، یا انکے "
+"فرست ہو سکتا ہیے۔"
+
+#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/مقام.pydocstring
+#: of تقدیر.مقام.مقام.کوائف_پانا:12
+msgid "خاکے: str | float"
+msgstr "خاکے: str | float"
+
+#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/مقام.pydocstring
+#: of تقدیر.مقام.مقام.کوائف_پانا:12
+msgid "آبوہوا کی تبدیلی کا خاکے۔"
+msgstr "آبوہوا کی تبدیلی کا خاکے۔"
+
+#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/مقام.pydocstring
+#: of تقدیر.مقام.مقام.کوائف_پانا:16
+msgid "کوائف"
+msgstr "کوائف"
+
+#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/مقام.pydocstring
+#: of تقدیر.مقام.مقام.کوائف_پانا:17
+msgid "آبوہوا کے :class:`~تقدیر.کوائف.کوائف`۔"
+msgstr "آبوہوا کے :class:`~تقدیر.کوائف.کوائف`۔"

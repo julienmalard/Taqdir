@@ -1,0 +1,100 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) ژولیئں ملاغ، محمّد اظہر انعام بیگ، ۲۰۱۸+
+# This file is distributed under the same license as the تقدیر package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: تقدیر 1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-05 17:30+0000\n"
+"PO-Revision-Date: 2019-01-03 20:29+0000\n"
+"Language-Team: Tz’utujil (https://www.transifex.com/qatikon/teams/94867/tzj/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tzj\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../source/shuruat.rst:2
+msgid "شروعات"
+msgstr ""
+
+#: ../../source/shuruat.rst:5
+msgid "تنصیب"
+msgstr ""
+
+#: ../../source/shuruat.rst:7
+msgid "تقدیر کہ تنصیب کرنا بہت اسان ہیے۔"
+msgstr ""
+
+#: ../../source/shuruat.rst:9
+msgid ":command:`pip install taqdir`"
+msgstr ""
+
+#: ../../source/shuruat.rst:11
+msgid "سب سے نئا والا تقدیر گتھب سے مل سکتا ہیے:"
+msgstr ""
+
+#: ../../source/shuruat.rst:13
+msgid ""
+":command:`pip install git+git://github.com/julienmalard/taqdir.git@master`"
+msgstr ""
+
+#: ../../source/shuruat.rst:16
+msgid "تقدیر کام کیسا کارتا ہیے؟"
+msgstr ""
+
+#: ../../source/shuruat.rst:17
+msgid ""
+"اگر آپکے پاس مشاہدات ہیں، تقدیر پہلہ سے ھی کوائف وہاں سے ئٹھایگا۔ بعاد "
+"مرکسم (مستقبل کے لئے) اور ناسا (ماضی کے لئے) سے کوائف ڈھونڈنے کی کوشیش "
+"کریگا۔"
+msgstr ""
+
+#: ../../source/shuruat.rst:21
+msgid "استعمال کیسا کرنا؟"
+msgstr ""
+
+#: ../../source/shuruat.rst:22
+msgid ""
+"پہلہ ایک مقام بنانا جینکے کوائف ہمہیں چاییئے۔ بعاد اسّے کوائف ماں گنا۔ بس۔"
+msgstr ""
+
+#: ../../source/shuruat.rst:24
+msgid ""
+"from تقدیر.مقام import مقام\n"
+"\n"
+"میرا_مقام = مقام(چوڑائی=11.02, طول=76.96, بلندی=1)\n"
+"\n"
+"کو = میرا_مقام.کوائف_پانا(سے='۲۰۱۸۰۱۰۱', تک='۲۰۱۷۰۱۰۱')\n"
+"\n"
+"کو.لاپتہ()  # لاپتہ دنوں کے نام پانا\n"
+"کو.روزانہ()  # روزانہ کوائف، پاندس میں\n"
+"\n"
+"# ماہانہ اور سالانہ کوائف بھی میلیں کے۔\n"
+"کو.ماہانہ()\n"
+"کو.سالانہ()\n"
+"\n"
+"# نتیجہ کو مسل کے تور پر بھی لیکھ سکتے ہیں۔\n"
+"کو.لکھنا('/میرا/راستہ', '.csv')"
+msgstr ""
+
+#: ../../source/shuruat.rst:43
+msgid "اگر آپکے پاس مشاہدات کے کوائف ہیں تو یہ بھی جوڑی جا سکتی ہیں۔"
+msgstr ""
+
+#: ../../source/shuruat.rst:45
+msgid ""
+"from تقدیر.مقام import مقام\n"
+"from تقدیر.ذرائع import سی_اس_وی\n"
+"\n"
+"میرا_مقام = مقام(چوڑائی=11.02, طول=76.96, بلندی=1)\n"
+"مشاہدات = سی_اس_وی('مشاہدات.csv', چوڑائی=11.02, طول=76.96, بلندی=1)\n"
+"کو = میرا_مقام.کوائف_پانا(سے='۲۰۱۸۰۱۰۱', تک='۲۰۱۷۰۱۰۱', ذرائع=مشاہدات)"
+msgstr ""
+
+#: ../../source/shuruat.rst:55
+msgid "مشاہدات دیسات اور جسان سے بھی پڑی جا سکتی ہیں۔"
+msgstr ""
