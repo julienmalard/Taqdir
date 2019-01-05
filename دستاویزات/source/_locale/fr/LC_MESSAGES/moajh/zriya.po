@@ -1,0 +1,153 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) ژولیئں ملاغ، محمّد اظہر انعام بیگ، ۲۰۱۸+
+# This file is distributed under the same license as the تقدیر package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Julien Malard <julien.malard@mail.mcgill.ca>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: تقدیر 1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-04 18:56+0000\n"
+"PO-Revision-Date: 2019-01-04 17:18+0000\n"
+"Last-Translator: Julien Malard <julien.malard@mail.mcgill.ca>, 2019\n"
+"Language-Team: French (https://www.transifex.com/qatikon/teams/94867/fr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../../source/moajh/zriya.rst:2
+msgid "ذریعہ"
+msgstr ""
+
+#: ../../source/moajh/zriya.rst:4
+msgid ""
+"تقدیر میں موختلف قسم کے ذرائع ہیں۔ چاہئے تہ آپ خود اپنے ذرائع بھی :ref:`بنا"
+" <نئے_ذرائع>` سکتی ہیں۔ تقدیر میں ۲ قسم کے ذرائے ہیں: نکتہ کے ذرائع، جو ایک "
+"مقام کہ کوائف ھی دیتے ہیں، اور عام ذرائع، جو ایک رقبعہ یا پورا دنیئہ کے "
+"ذرائع دیتے ہیں۔"
+msgstr ""
+
+#: ../../source/moajh/zriya.rst:14
+msgid "ان دونوں کے بنیادی قسم کے جانکاری نیچے دی گئی ہیں۔"
+msgstr ""
+
+#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ.pydocstring
+#: of تقدیر.ذریعہ._کوائف_بنانا:3
+#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ.pydocstring
+#: of تقدیر.ذریعہ.کوائف_پانا:3
+#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ_نکتہ.pydocstring
+#: of تقدیر.ذریعہ_نکتہ.ذریعہ_نکتہ.کوائف_پانا:3
+msgid "سے: datetime.date | str"
+msgstr ""
+
+#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ.pydocstring
+#: of تقدیر.ذریعہ._کوائف_بنانا:4
+#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ.pydocstring
+#: of تقدیر.ذریعہ.کوائف_پانا:4
+#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ_نکتہ.pydocstring
+#: of تقدیر.ذریعہ_نکتہ.ذریعہ_نکتہ.کوائف_پانا:4
+msgid "وہ تاریخ جب سے کوائف چاہئے۔"
+msgstr ""
+
+#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ.pydocstring
+#: of تقدیر.ذریعہ._کوائف_بنانا:5
+#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ.pydocstring
+#: of تقدیر.ذریعہ.کوائف_پانا:5
+#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ_نکتہ.pydocstring
+#: of تقدیر.ذریعہ_نکتہ.ذریعہ_نکتہ.کوائف_پانا:5
+msgid "تک: datetime.date | str"
+msgstr ""
+
+#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ.pydocstring
+#: of تقدیر.ذریعہ._کوائف_بنانا:6
+#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ.pydocstring
+#: of تقدیر.ذریعہ.کوائف_پانا:6
+#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ_نکتہ.pydocstring
+#: of تقدیر.ذریعہ_نکتہ.ذریعہ_نکتہ.کوائف_پانا:6
+msgid "وہ تاریخ جب تک کوائف چاہئے۔"
+msgstr ""
+
+#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ.pydocstring
+#: of تقدیر.ذریعہ._کوائف_بنانا:7
+#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ.pydocstring
+#: of تقدیر.ذریعہ.کوائف_پانا:7
+#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ_نکتہ.pydocstring
+#: of تقدیر.ذریعہ_نکتہ.ذریعہ_نکتہ.کوائف_پانا:7
+msgid "چوڑائی: float | int"
+msgstr ""
+
+#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ.pydocstring
+#: of تقدیر.ذریعہ._کوائف_بنانا:8
+#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ.pydocstring
+#: of تقدیر.ذریعہ.کوائف_پانا:8
+#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ_نکتہ.pydocstring
+#: of تقدیر.ذریعہ_نکتہ.ذریعہ_نکتہ.کوائف_پانا:8
+msgid "جگہ کی چوڑائی۔"
+msgstr "La latitude de l'endroit."
+
+#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ.pydocstring
+#: of تقدیر.ذریعہ._کوائف_بنانا:9
+#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ.pydocstring
+#: of تقدیر.ذریعہ.کوائف_پانا:9
+#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ_نکتہ.pydocstring
+#: of تقدیر.ذریعہ_نکتہ.ذریعہ_نکتہ.کوائف_پانا:9
+msgid "طول: float | int"
+msgstr "La longitude de l'endroit."
+
+#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ.pydocstring
+#: of تقدیر.ذریعہ._کوائف_بنانا:10
+#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ.pydocstring
+#: of تقدیر.ذریعہ.کوائف_پانا:10
+#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ_نکتہ.pydocstring
+#: of تقدیر.ذریعہ_نکتہ.ذریعہ_نکتہ.کوائف_پانا:10
+msgid "جگہ کی طول۔"
+msgstr "La longitude de l'endroit."
+
+#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ.pydocstring
+#: of تقدیر.ذریعہ._کوائف_بنانا:11
+#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ.pydocstring
+#: of تقدیر.ذریعہ.کوائف_پانا:11
+#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ_نکتہ.pydocstring
+#: of تقدیر.ذریعہ_نکتہ.ذریعہ_نکتہ.کوائف_پانا:11
+msgid "بلندی: None | float | int"
+msgstr ""
+
+#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ.pydocstring
+#: of تقدیر.ذریعہ._کوائف_بنانا:12
+#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ.pydocstring
+#: of تقدیر.ذریعہ.کوائف_پانا:12
+#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ_نکتہ.pydocstring
+#: of تقدیر.ذریعہ_نکتہ.ذریعہ_نکتہ.کوائف_پانا:12
+msgid "جگہ کی بلندی۔"
+msgstr "L'altitude de l'endroit."
+
+#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ.pydocstring
+#: of تقدیر.ذریعہ._کوائف_بنانا:14
+#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ.pydocstring
+#: of تقدیر.ذریعہ.کوائف_پانا:14
+#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ_نکتہ.pydocstring
+#: of تقدیر.ذریعہ_نکتہ.ذریعہ_نکتہ.کوائف_پانا:14
+msgid "خاکے: None | str"
+msgstr ""
+
+#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ.pydocstring
+#: of تقدیر.ذریعہ._کوائف_بنانا:14
+#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ.pydocstring
+#: of تقدیر.ذریعہ.کوائف_پانا:14
+#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ_نکتہ.pydocstring
+#: of تقدیر.ذریعہ_نکتہ.ذریعہ_نکتہ.کوائف_پانا:14
+msgid "آبوہوا کی تبدیلی کا خاکے۔"
+msgstr "Le scénario de changements climatiques."
+
+#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ.pydocstring
+#: of تقدیر.ذریعہ.کوائف_پانا:18
+#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ_نکتہ.pydocstring
+#: of تقدیر.ذریعہ_نکتہ.ذریعہ_نکتہ.کوائف_پانا:18
+msgid "کوائف:"
+msgstr "Données"

@@ -8,7 +8,6 @@ import pandas.testing as pdt
 import requests
 from selenium import webdriver
 from selenium.common.exceptions import WebDriverException
-
 from تقدیر.ذرائع import مرکسم۵, مرکسم۵_جال
 from تقدیر.ذرائع.مرکسم۵ import راستہ_مرکسم_پانا
 
@@ -23,7 +22,7 @@ except (requests.exceptions.ConnectionError, WebDriverException):
 
 def مرکسم_۵_بنانا(نمونہ='۱۱۱۱۱۱۱۱۱۱۱۱۱۱۱۱۱'):
     if راستہ_مرکسم۵:
-        return مرکسم۵()
+        return مرکسم۵(نمونہ=نمونہ)
     انتباہ('مرکسم ۵ کا راستہ نھیں ملا۔')
     پایتھان = sys.executable
     return مرکسم۵(پایتھان + ' ' + os.path.join(os.path.split(__file__)[0], 'وسائل/مرکسم۵_جیسے.py'), نمونہ=نمونہ)

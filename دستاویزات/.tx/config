@@ -1,2 +1,87 @@
 [main]
 host = https://www.transifex.com
+
+[tqdyr.shukriya]
+file_filter = source/_locale/<lang>/LC_MESSAGES/shukriya.po
+source_file = build/gettext/shukriya.pot
+source_lang = en
+type = PO
+
+[tqdyr.malumat]
+file_filter = source/_locale/<lang>/LC_MESSAGES/malumat.po
+source_file = build/gettext/malumat.pot
+source_lang = en
+type = PO
+
+[tqdyr.shuruat]
+file_filter = source/_locale/<lang>/LC_MESSAGES/shuruat.po
+source_file = build/gettext/shuruat.pot
+source_lang = en
+type = PO
+
+[tqdyr.index]
+file_filter = source/_locale/<lang>/LC_MESSAGES/index.po
+source_file = build/gettext/index.pot
+source_lang = en
+type = PO
+
+[tqdyr.trqi--nae_zrae]
+file_filter = source/_locale/<lang>/LC_MESSAGES/trqi/nae_zrae.po
+source_file = build/gettext/trqi/nae_zrae.pot
+source_lang = en
+type = PO
+
+[tqdyr.trqi--trjmh]
+file_filter = source/_locale/<lang>/LC_MESSAGES/trqi/trjmh.po
+source_file = build/gettext/trqi/trjmh.pot
+source_lang = en
+type = PO
+
+[tqdyr.moajh--moajh]
+file_filter = source/_locale/<lang>/LC_MESSAGES/moajh/moajh.po
+source_file = build/gettext/moajh/moajh.pot
+source_lang = en
+type = PO
+
+[tqdyr.moajh--koaef]
+file_filter = source/_locale/<lang>/LC_MESSAGES/moajh/koaef.po
+source_file = build/gettext/moajh/koaef.pot
+source_lang = en
+type = PO
+
+[tqdyr.moajh--mqam]
+file_filter = source/_locale/<lang>/LC_MESSAGES/moajh/mqam.po
+source_file = build/gettext/moajh/mqam.pot
+source_lang = en
+type = PO
+
+[tqdyr.moajh--zriya]
+file_filter = source/_locale/<lang>/LC_MESSAGES/moajh/zriya.po
+source_file = build/gettext/moajh/zriya.pot
+source_lang = en
+type = PO
+
+[tqdyr.moajh--zrae--zriya_nukta]
+file_filter = source/_locale/<lang>/LC_MESSAGES/moajh/zrae/zriya_nukta.po
+source_file = build/gettext/moajh/zrae/zriya_nukta.pot
+source_lang = en
+type = PO
+
+[tqdyr.moajh--zrae--zrae]
+file_filter = source/_locale/<lang>/LC_MESSAGES/moajh/zrae/zrae.po
+source_file = build/gettext/moajh/zrae/zrae.pot
+source_lang = en
+type = PO
+
+[tqdyr.nmune--mshahdat]
+file_filter = source/_locale/<lang>/LC_MESSAGES/nmune/mshahdat.po
+source_file = build/gettext/nmune/mshahdat.pot
+source_lang = en
+type = PO
+
+[tqdyr.nmune--mrksm5]
+file_filter = source/_locale/<lang>/LC_MESSAGES/nmune/mrksm5.po
+source_file = build/gettext/nmune/mrksm5.pot
+source_lang = en
+type = PO
+

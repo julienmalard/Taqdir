@@ -1,0 +1,68 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) ژولیئں ملاغ، محمّد اظہر انعام بیگ، ۲۰۱۸+
+# This file is distributed under the same license as the تقدیر package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: تقدیر 1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-04 18:56+0000\n"
+"PO-Revision-Date: 2019-01-03 20:34+0000\n"
+"Language-Team: Aymara (https://www.transifex.com/qatikon/teams/94867/ay/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ay\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../source/nmune/mrksm5.rst:2
+msgid "مرکسم ۵ کا استعمال"
+msgstr ""
+
+#: ../../source/nmune/mrksm5.rst:4
+msgid ""
+"مرکسم ۵ آبوہوا کی تبدیلیاں کے خاکے کے لحاس سے آبوہوا کے کوائف دیتا ہیے۔ "
+"مرکسم جالبین میں ہیے اور آپ اسکو آپکے خود کے سںگنک پر بھی تنصیب کر سکتے "
+"ہیں۔"
+msgstr ""
+
+#: ../../source/nmune/mrksm5.rst:7
+msgid ""
+"تقدیر دونوں سے کوائف ڈھئنڈ سکتا ہیے، پر سنگنک پر ہونے والا مرکسم ھمیشہ "
+"جالبین کا مرکسم سے جلدی رہیگا۔ اسی لئے، اگر آپ مرکسم کے ساتھ بہت کام کرنے "
+"والے ہیں، بہتر ہوگا کے مرکسم تنصیب کریں۔"
+msgstr ""
+
+#: ../../source/nmune/mrksm5.rst:11
+msgid "جالبین مرکسم کا استعمال"
+msgstr ""
+
+#: ../../source/nmune/mrksm5.rst:12
+msgid ""
+"کچھ بھی کرنے کی زرورت نہیں۔ اگر جالبین دستیاب ہیے، تقدیر کو پتا ہوگا کے کیا "
+"کرنا ہیے۔"
+msgstr ""
+
+#: ../../source/nmune/mrksm5.rst:15
+msgid "سنگنک پر مرکسم کا استعمال"
+msgstr ""
+
+#: ../../source/nmune/mrksm5.rst:16
+msgid ""
+"پہلہ سے ھی آپکو مرکسم کہ تنصیب کرنے پڑیگا۔ بعاد میں تقدیر کہ بتانا ہیے کے "
+"آپکا مرکسم کہاں رکھا ہیے:"
+msgstr ""
+
+#: ../../source/nmune/mrksm5.rst:24
+msgid "مرکسم کے خاص نمونے"
+msgstr ""
+
+#: ../../source/nmune/mrksm5.rst:25
+msgid ""
+"مرکسم ۵ میں ۱۷ مختلف آبوہوا تبدیلیوں کے نمونے ہیں۔ آم تور پر ہم سارے ۱۷ کا"
+" استعمال کریں گے۔ پر اگر آپکو خاص نمونوں کا استعمال کرنا ہیے تو مرکسم کے "
+"ذریعے بناتے پر ھی بتا سکتے ہیں کے آپکو کاون سے نمونے چاہئے۔ یہ جالبین اور "
+"سنگنک کے مرکسم دونوں کے لئے چلیگا۔"
+msgstr ""

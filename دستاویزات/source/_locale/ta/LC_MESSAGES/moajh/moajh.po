@@ -1,0 +1,28 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) ژولیئں ملاغ، محمّد اظہر انعام بیگ، ۲۰۱۸+
+# This file is distributed under the same license as the تقدیر package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: تقدیر 1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-04 18:56+0000\n"
+"PO-Revision-Date: 2019-01-04 17:18+0000\n"
+"Language-Team: Tamil (https://www.transifex.com/qatikon/teams/94867/ta/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ta\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../source/moajh/moajh.rst:2
+msgid "مواجہ"
+msgstr ""
+
+#: ../../source/moajh/moajh.rst:3
+msgid ""
+"تقدیر میں، ایک :class:`~تقدیر.مقام.مقام` موختلف :class:`~تقدیر.ذریعہ.ذریعہ` "
+"سے :class:`~تقدیر.کوائف.کوائف` بناتا ہیے."
+msgstr ""
