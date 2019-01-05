@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: تقدیر 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-05 17:30+0000\n"
+"POT-Creation-Date: 2019-01-05 17:48+0000\n"
 "PO-Revision-Date: 2019-01-04 17:18+0000\n"
 "Last-Translator: Julien Malard <julien.malard@mail.mcgill.ca>, 2019\n"
 "Language-Team: French (https://www.transifex.com/qatikon/teams/94867/fr/)\n"
@@ -80,7 +80,7 @@ msgstr "Le scénario de changements climatiques."
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/مقام.pydocstring
 #: of تقدیر.مقام.مقام.کوائف_پانا:16
 msgid "کوائف"
-msgstr ""
+msgstr "Données"
 
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/مقام.pydocstring
 #: of تقدیر.مقام.مقام.کوائف_پانا:17
