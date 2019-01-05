@@ -1,6 +1,7 @@
 from json import JSONDecodeError
 
 import pandas as pd
+import requests
 from pcse.db import NASAPowerWeatherDataProvider
 from تقدیر import متاغیرات
 from تقدیر.ذریعہ import ذریعہ
