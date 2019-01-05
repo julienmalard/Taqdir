@@ -5,7 +5,7 @@ os:
   - linux
 env:
   global:
-    - TX_BRANCH="trqi"
+    - TX_BRANCH="ترقی"
     - TX_TAG="txpull"
 install:
   - pip install --upgrade pip setuptools wheel
