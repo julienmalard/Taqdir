@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: تقدیر 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-04 18:56+0000\n"
+"POT-Creation-Date: 2019-01-05 17:30+0000\n"
 "PO-Revision-Date: 2019-01-04 17:22+0000\n"
 "Last-Translator: Julien Malard <julien.malard@mail.mcgill.ca>, 2019\n"
 "Language-Team: French (https://www.transifex.com/qatikon/teams/94867/fr/)\n"
@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../source/malumat.rst:2
 msgid "معلمات"
-msgstr ""
+msgstr "Référence"
 
 #: ../../source/malumat.rst:5
 msgid "ذرائع"
@@ -39,43 +39,43 @@ msgstr ""
 
 #: ../../source/malumat.rst:1
 msgid "ذریعہ"
-msgstr ""
+msgstr "Sources"
 
 #: ../../source/malumat.rst:1
 msgid "آبوہوا تبدیلی خاکے"
-msgstr ""
+msgstr "Scénario climatique"
 
 #: ../../source/malumat.rst:1
 msgid "دستیاب سال"
-msgstr ""
+msgstr "Années disponibles"
 
 #: ../../source/malumat.rst:1
 msgid ":class:`~تقدیر.ذرائع.ناسا`"
-msgstr ""
+msgstr ":class:`~تقدیر.ذرائع.ناسا`"
 
 #: ../../source/malumat.rst:1
 msgid "مستقبل"
-msgstr ""
+msgstr "Passé"
 
 #: ../../source/malumat.rst:1
 msgid "~۱۹۸۳ - آج"
-msgstr ""
+msgstr "~1983 - présent"
 
 #: ../../source/malumat.rst:1
 msgid ":class:`~تقدیر.ذرائع.مرکسم۵`"
-msgstr ""
+msgstr ":class:`~تقدیر.ذرائع.مرکسم۵`"
 
 #: ../../source/malumat.rst:1 ../../source/malumat.rst:1
 msgid "۰، ۲۔۶، ۴۔۵، ۶۔۰، ۸۔۵"
-msgstr ""
+msgstr "0, 2.6, 4.5, 6.0, 8.5"
 
 #: ../../source/malumat.rst:1 ../../source/malumat.rst:1
 msgid "۲۰۹۵ تک"
-msgstr ""
+msgstr "jusqu'à 2095"
 
 #: ../../source/malumat.rst:1
 msgid ":class:`~تقدیر.ذرائع.مرکسم۵_جال`"
-msgstr ""
+msgstr ":class:`~تقدیر.ذرائع.مرکسم۵_جال`"
 
 #: ../../source/malumat.rst:16
 msgid ""
@@ -85,98 +85,100 @@ msgstr ""
 
 #: ../../source/malumat.rst:18
 msgid ":class:`~تقدیر.ذرائع.جسان`"
-msgstr ""
+msgstr ":class:`~تقدیر.ذرائع.جسان`"
 
 #: ../../source/malumat.rst:19
 msgid ":class:`~تقدیر.ذرائع.دیسات`"
-msgstr ""
+msgstr ":class:`~تقدیر.ذرائع.دیسات`"
 
 #: ../../source/malumat.rst:20
 msgid ":class:`~تقدیر.ذرائع.سی_اس_وی`"
-msgstr ""
+msgstr ":class:`~تقدیر.ذرائع.سی_اس_وی`"
 
 #: ../../source/malumat.rst:21
 msgid ":class:`~تقدیر.ذرائع.دیسات_ماھانہ`"
-msgstr ""
+msgstr ":class:`~تقدیر.ذرائع.دیسات_ماھانہ`"
 
 #: ../../source/malumat.rst:27
 msgid "متاغیرات"
-msgstr ""
+msgstr "Variables"
 
 #: ../../source/malumat.rst:28
 msgid "تقدیر میں ان متاغیرات دستیاب ہیں۔"
-msgstr ""
+msgstr "Les variables suivantes sont disponibles dans taqdir."
 
 #: ../../source/malumat.rst:32
 msgid ""
 "خیال رکھنا کہ ہو سکتا ہیے کہ سارے ذرائع میں سارے متاغیرات دستیاب نہ ہو۔"
 msgstr ""
+"Veuillez prendre note que toutes ces variables ne sont pas nécessairement "
+"disponibles dans toutes les sources."
 
 #: ../../source/malumat.rst:1
 msgid "نام"
-msgstr ""
+msgstr "Nom"
 
 #: ../../source/malumat.rst:1
 msgid "معنی"
-msgstr ""
+msgstr "Définition"
 
 #: ../../source/malumat.rst:1
 msgid "``تاریخ``"
-msgstr ""
+msgstr "``تاریخ``"
 
 #: ../../source/malumat.rst:1
 msgid "تاریخ"
-msgstr ""
+msgstr "Date"
 
 #: ../../source/malumat.rst:1
 msgid "روزنہ (``۲۰۱۸۰۱۰۱``)، مہانہ (``۲۰۱۸۰۱``)، یا سالانہ (``۲۰۱۸``)"
-msgstr ""
+msgstr "Jour (``20180101``), mois (``201801``), ou année (``2018``)"
 
 #: ../../source/malumat.rst:1
 msgid "``بارش``"
-msgstr ""
+msgstr "``بارش``"
 
 #: ../../source/malumat.rst:1
 msgid "بارش"
-msgstr ""
+msgstr "Précipitation"
 
 #: ../../source/malumat.rst:1
 msgid "ملیمیٹر"
-msgstr ""
+msgstr "mm"
 
 #: ../../source/malumat.rst:1
 msgid "``شمسی_تابکاری``"
-msgstr ""
+msgstr "``شمسی_تابکاری``"
 
 #: ../../source/malumat.rst:1
 msgid "شمسی_تابکاری"
-msgstr ""
+msgstr "Radiation solaire"
 
 #: ../../source/malumat.rst:1
 msgid "``درجہ_حرارت_زیادہ``"
-msgstr ""
+msgstr "``درجہ_حرارت_زیادہ``"
 
 #: ../../source/malumat.rst:1
 msgid "درجہ_حرارت_زیادہ"
-msgstr ""
+msgstr "Température maximale"
 
 #: ../../source/malumat.rst:1 ../../source/malumat.rst:1
 #: ../../source/malumat.rst:1
 msgid "سلسیوس"
-msgstr ""
+msgstr "°C"
 
 #: ../../source/malumat.rst:1
 msgid "``درجہ_حرارت_کم``"
-msgstr ""
+msgstr "``درجہ_حرارت_کم``"
 
 #: ../../source/malumat.rst:1
 msgid "درجہ_حرارت_کم"
-msgstr ""
+msgstr "Température minimale"
 
 #: ../../source/malumat.rst:1
 msgid "``درجہ_حرارت_اوسط``"
-msgstr ""
+msgstr "``درجہ_حرارت_اوسط``"
 
 #: ../../source/malumat.rst:1
 msgid "درجہ_حرارت_اوسط"
-msgstr ""
+msgstr "Température moyenne"
