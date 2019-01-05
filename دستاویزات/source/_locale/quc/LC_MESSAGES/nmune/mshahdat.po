@@ -1,0 +1,68 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) ژولیئں ملاغ، محمّد اظہر انعام بیگ، ۲۰۱۸+
+# This file is distributed under the same license as the تقدیر package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: تقدیر 1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-05 15:21+0000\n"
+"PO-Revision-Date: 2019-01-03 20:34+0000\n"
+"Language-Team: K'iche' (https://www.transifex.com/qatikon/teams/94867/quc/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: quc\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../source/nmune/mshahdat.rst:2
+msgid "مشاہدات کی جوڑای"
+msgstr ""
+
+#: ../../source/nmune/mshahdat.rst:3
+msgid ""
+"اگر آپکے پاس آبوہوا کے مشاہدات ہیں، تقدیر انسے ھی کوائف پانے کی کوشیش "
+"کریگا اسکے پہلہ کے دوسرے ذرائع سے پائں۔ آپکے کوائف جسان، سی اس وی یا دیسات "
+"کے طضع (``.WTH``) کے ہو سکتے ہیں۔"
+msgstr ""
+
+#: ../../source/nmune/mshahdat.rst:19
+msgid ""
+"اس میں پہلہ مشاہدات سے کوائف پاکے، پھر ناسا اہر مرکسم میں باقی کوائف ڈھئنڈے "
+"گا۔ اگر آپکو نہیں چاہئے کے لاپتہ کوائف دوسرے ذرائع سے ڈھونڈیں، ذرائع توپل "
+"میں دینا:"
+msgstr ""
+
+#: ../../source/nmune/mshahdat.rst:27
+msgid "اب، لاپتہ کوائف کے جگہ میں ``np.nan`` ھی ہوگا۔"
+msgstr ""
+
+#: ../../source/nmune/mshahdat.rst:29
+msgid ""
+"اگر آپکے جسان اور سی اس وی کے ستونوں کے نام :ref:`تقدیر کے متاغیرات کے نام "
+"<متاغیرات>` سے مختلف ہیں، کہئی مسلہ نہیں ہیے۔"
+msgstr ""
+
+#: ../../source/nmune/mshahdat.rst:37
+msgid "ماہانہ اور سالانہ کے مشاہدات"
+msgstr ""
+
+#: ../../source/nmune/mshahdat.rst:38
+msgid ""
+"اگر آپکے مشاھدات مہانہ یا سالانہ کے وضع میں ہیں، تقدیر آپکے لئے انسے "
+"روزانہ کوائف بناے گا۔ تقدیر دیسات کے ماہانہ کوائف کے مسل (``.MTH``) کو بھی "
+"پرڈھ لیتا ہیے۔"
+msgstr ""
+
+#: ../../source/nmune/mshahdat.rst:51
+msgid "خاکے کے مشاہدات"
+msgstr ""
+
+#: ../../source/nmune/mshahdat.rst:52
+msgid ""
+"عام تور پر، مشاہدات ماضی کے ھی ہیں۔ پر اگر آپکے پاس مستقبل کے لئے کوائف "
+"ہیں، تو خاکے کے تور پر بھی مشاھدات بنا سکتے ہیں۔ یہ کام کا ہو سکتا ہیے جب "
+"آپکے پاس رقبع کا آبوہوا تبدیلی کا نمونہ کے نتیجے ہیں۔"
+msgstr ""

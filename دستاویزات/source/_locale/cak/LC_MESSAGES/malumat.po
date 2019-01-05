@@ -1,0 +1,178 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) ژولیئں ملاغ، محمّد اظہر انعام بیگ، ۲۰۱۸+
+# This file is distributed under the same license as the تقدیر package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: تقدیر 1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-05 15:21+0000\n"
+"PO-Revision-Date: 2019-01-04 17:22+0000\n"
+"Language-Team: Kaqchikel (https://www.transifex.com/qatikon/teams/94867/cak/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: cak\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../source/malumat.rst:2
+msgid "معلمات"
+msgstr ""
+
+#: ../../source/malumat.rst:5
+msgid "ذرائع"
+msgstr ""
+
+#: ../../source/malumat.rst:6
+msgid "تقدیر کی بنیاد ذرائع نیچے دی جاتی ہیں۔"
+msgstr ""
+
+#: ../../source/malumat.rst:8
+msgid "تقدیر کے بنیاد ذرائع"
+msgstr ""
+
+#: ../../source/malumat.rst:1
+msgid "ذریعہ"
+msgstr ""
+
+#: ../../source/malumat.rst:1
+msgid "آبوہوا تبدیلی خاکے"
+msgstr ""
+
+#: ../../source/malumat.rst:1
+msgid "دستیاب سال"
+msgstr ""
+
+#: ../../source/malumat.rst:1
+msgid ":class:`~تقدیر.ذرائع.ناسا`"
+msgstr ""
+
+#: ../../source/malumat.rst:1
+msgid "مستقبل"
+msgstr ""
+
+#: ../../source/malumat.rst:1
+msgid "~۱۹۸۳ - آج"
+msgstr ""
+
+#: ../../source/malumat.rst:1
+msgid ":class:`~تقدیر.ذرائع.مرکسم۵`"
+msgstr ""
+
+#: ../../source/malumat.rst:1 ../../source/malumat.rst:1
+msgid "۰، ۲۔۶، ۴۔۵، ۶۔۰، ۸۔۵"
+msgstr ""
+
+#: ../../source/malumat.rst:1 ../../source/malumat.rst:1
+msgid "۲۰۹۵ تک"
+msgstr ""
+
+#: ../../source/malumat.rst:1
+msgid ":class:`~تقدیر.ذرائع.مرکسم۵_جال`"
+msgstr ""
+
+#: ../../source/malumat.rst:16
+msgid ""
+"تقدیر میں اور بھی ذرائع ہیں جو مسل سے کوائف پڈھتے ہیں۔ یہ مشاہدات کے لئے کام"
+" کے ہیں۔"
+msgstr ""
+
+#: ../../source/malumat.rst:18
+msgid ":class:`~تقدیر.ذرائع.جسان`"
+msgstr ""
+
+#: ../../source/malumat.rst:19
+msgid ":class:`~تقدیر.ذرائع.دیسات`"
+msgstr ""
+
+#: ../../source/malumat.rst:20
+msgid ":class:`~تقدیر.ذرائع.سی_اس_وی`"
+msgstr ""
+
+#: ../../source/malumat.rst:21
+msgid ":class:`~تقدیر.ذرائع.دیسات_ماھانہ`"
+msgstr ""
+
+#: ../../source/malumat.rst:27
+msgid "متاغیرات"
+msgstr ""
+
+#: ../../source/malumat.rst:28
+msgid "تقدیر میں ان متاغیرات دستیاب ہیں۔"
+msgstr ""
+
+#: ../../source/malumat.rst:32
+msgid ""
+"خیال رکھنا کہ ہو سکتا ہیے کہ سارے ذرائع میں سارے متاغیرات دستیاب نہ ہو۔"
+msgstr ""
+
+#: ../../source/malumat.rst:1
+msgid "نام"
+msgstr ""
+
+#: ../../source/malumat.rst:1
+msgid "معنی"
+msgstr ""
+
+#: ../../source/malumat.rst:1
+msgid "``تاریخ``"
+msgstr ""
+
+#: ../../source/malumat.rst:1
+msgid "تاریخ"
+msgstr ""
+
+#: ../../source/malumat.rst:1
+msgid "روزنہ (``۲۰۱۸۰۱۰۱``)، مہانہ (``۲۰۱۸۰۱``)، یا سالانہ (``۲۰۱۸``)"
+msgstr ""
+
+#: ../../source/malumat.rst:1
+msgid "``بارش``"
+msgstr ""
+
+#: ../../source/malumat.rst:1
+msgid "بارش"
+msgstr ""
+
+#: ../../source/malumat.rst:1
+msgid "ملیمیٹر"
+msgstr ""
+
+#: ../../source/malumat.rst:1
+msgid "``شمسی_تابکاری``"
+msgstr ""
+
+#: ../../source/malumat.rst:1
+msgid "شمسی_تابکاری"
+msgstr ""
+
+#: ../../source/malumat.rst:1
+msgid "``درجہ_حرارت_زیادہ``"
+msgstr ""
+
+#: ../../source/malumat.rst:1
+msgid "درجہ_حرارت_زیادہ"
+msgstr ""
+
+#: ../../source/malumat.rst:1 ../../source/malumat.rst:1
+#: ../../source/malumat.rst:1
+msgid "سلسیوس"
+msgstr ""
+
+#: ../../source/malumat.rst:1
+msgid "``درجہ_حرارت_کم``"
+msgstr ""
+
+#: ../../source/malumat.rst:1
+msgid "درجہ_حرارت_کم"
+msgstr ""
+
+#: ../../source/malumat.rst:1
+msgid "``درجہ_حرارت_اوسط``"
+msgstr ""
+
+#: ../../source/malumat.rst:1
+msgid "درجہ_حرارت_اوسط"
+msgstr ""
