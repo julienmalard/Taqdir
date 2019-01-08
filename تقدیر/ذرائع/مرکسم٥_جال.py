@@ -4,13 +4,13 @@ import time
 import zipfile
 
 from selenium import webdriver
-from selenium.common.exceptions import WebDriverException, UnexpectedAlertPresentException, SessionNotCreatedException
+from selenium.common.exceptions import WebDriverException
 
 from tradssat import WTHFile
-from .مرکسم۵ import مرکسم۵
+from .مرکسم۵ import marksim5_sancha
 
 
-class مرکسم۵_جال(مرکسم۵):
+class مرکسم۵_جال(marksim5_sancha):
     """
     یہ ذریعہ مرکسم ۵ کے `جلبینی پنے <http://gisweb.ciat.cgiar.org/MarkSimGCM/#tabs-3>`_
     سے آوہوا تبدیلی کے کوائف پاتا ہیے۔
@@ -34,10 +34,7 @@ class مرکسم۵_جال(مرکسم۵):
             اختیار_فایئرفاکس.set_preference('browser.download.dir', راستہ_نتیجہ)
             try:
                 with webdriver.Firefox(firefox_profile=اختیار_فایئرفاکس) as فایئرفاکس:
-                    try:
-                        فایئرفاکس.get("http://gisweb.ciat.cgiar.org/MarkSimGCM/#tabs-3")
-                    except WebDriverException:
-                        return
+                    فایئرفاکس.get("http://gisweb.ciat.cgiar.org/MarkSimGCM/#tabs-3")
 
                     راستہ_کا_نام = خود._راستہ_نتیجہ(چوڑائی, طول, بلندی, سال=سال, خاکے=خاکے, نمونے=خود.نمونے)
                     if خود._راستہ_بھری_ہیے(راستہ_کا_نام):
@@ -75,11 +72,9 @@ class مرکسم۵_جال(مرکسم۵):
 
                     if os.path.isfile(راستہ_مسل):
                         os.remove(راستہ_مسل)
-                    try:
-                        while فایئرفاکس.find_element_by_id('td_results').get_attribute('style') == 'display: none;':
-                            time.sleep(1)
-                    except UnexpectedAlertPresentException:
-                        return
+
+                    while فایئرفاکس.find_element_by_id('td_results').get_attribute('style') == 'display: none;':
+                        time.sleep(1)
 
                     while not فایئرفاکس.find_element_by_xpath('//a[img/@src="images/zip-icon.jpg"]') \
                             .find_element_by_xpath('.').get_attribute('href'):
@@ -93,7 +88,7 @@ class مرکسم۵_جال(مرکسم۵):
 
                     فایئرفاکس.close()
 
-            except SessionNotCreatedException:
+            except WebDriverException:
                 return
 
             with zipfile.ZipFile(راستہ_مسل) as زیپ:
