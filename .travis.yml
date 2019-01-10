@@ -25,6 +25,7 @@ after_success:
   - cd دستاویزات
   - sh .tx/tx.sh push
   - sh .tx/tx.sh pull
+  - cd ..
 
 deploy:
   - provider: pypi
