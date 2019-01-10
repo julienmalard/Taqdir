@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: تقدیر 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-05 18:23+0000\n"
+"POT-Creation-Date: 2019-01-10 22:19+0000\n"
 "PO-Revision-Date: 2019-01-04 17:22+0000\n"
 "Last-Translator: Julien Malard <julien.malard@mail.mcgill.ca>, 2019\n"
 "Language-Team: French (https://www.transifex.com/qatikon/teams/94867/fr/)\n"
@@ -31,11 +31,11 @@ msgstr "Sources (`ذرائع`)"
 
 #: ../../source/malumat.rst:6
 msgid "تقدیر کی بنیاد ذرائع نیچے دی جاتی ہیں۔"
-msgstr ""
+msgstr "Les sources de données suivantes sont inclues avec taqdir."
 
 #: ../../source/malumat.rst:8
 msgid "تقدیر کے بنیاد ذرائع"
-msgstr ""
+msgstr "Sources incluses avec taqdir"
 
 #: ../../source/malumat.rst:1
 msgid "ذریعہ"
@@ -82,6 +82,9 @@ msgid ""
 "تقدیر میں اور بھی ذرائع ہیں جو مسل سے کوائف پڈھتے ہیں۔ یہ مشاہدات کے لئے کام"
 " کے ہیں۔"
 msgstr ""
+"Taqdir offre aussi des sources qui lisent leurs données d'un fichier local. "
+"Celles-ci sont particulièrement utiles pour connecter des observations "
+"climatiques."
 
 #: ../../source/malumat.rst:18
 msgid ":class:`~تقدیر.ذرائع.جسان`"

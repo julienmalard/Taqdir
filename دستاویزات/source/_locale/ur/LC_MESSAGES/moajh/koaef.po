@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: تقدیر 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-05 18:23+0000\n"
+"POT-Creation-Date: 2019-01-10 22:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,8 +33,8 @@ msgstr "آبوہوا کے کوائف۔"
 
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/کوائف.pydocstring
 #: of تقدیر.کوائف.کوائف.روزانہ:1
-msgid "رہزانہ کوائف پانا۔"
-msgstr "رہزانہ کوائف پانا۔"
+msgid "روزانہ کوائف پانا۔"
+msgstr "روزانہ کوائف پانا۔"
 
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/کوائف.pydocstring
 #: of تقدیر.کوائف.کوائف.روزانہ:5
