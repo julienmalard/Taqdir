@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: تقدیر 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-05 18:23+0000\n"
+"POT-Creation-Date: 2019-01-10 22:19+0000\n"
 "PO-Revision-Date: 2019-01-04 17:18+0000\n"
 "Language-Team: Kaqchikel (https://www.transifex.com/qatikon/teams/94867/cak/)\n"
 "MIME-Version: 1.0\n"
@@ -19,4 +19,19 @@ msgstr ""
 
 #: ../../source/moajh/zrae/zriya_nukta.rst:2
 msgid "نکتہ کے ذرائع"
+msgstr ""
+
+#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذرائع/جسان.pydocstring
+#: of تقدیر.ذرائع.جسان:1
+msgid "جسان (.json) مسل سے کوائف پڑھتا ہیے۔"
+msgstr ""
+
+#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذرائع/دیسات.pydocstring
+#: of تقدیر.ذرائع.دیسات:1
+msgid "دیسات کے روزانہ آبو ہوا کوائف کے مسل (``.WTH``) سے کوائف پڑھتا ہیے۔"
+msgstr ""
+
+#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذرائع/دیسات.pydocstring
+#: of تقدیر.ذرائع.دیسات_ماھانہ:1
+msgid "دیسات کے ماہانہ آبو ہوا کوائف کے مسل (``.MTH``) سے کوائف پڑھتا ہیے۔"
 msgstr ""

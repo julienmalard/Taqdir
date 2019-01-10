@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: تقدیر 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-05 18:23+0000\n"
+"POT-Creation-Date: 2019-01-10 22:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,8 +41,8 @@ msgstr ""
 "شاید انسانیت کی خود کی بیوکوف کے علاوہ۔"
 
 #: ../../source/index.rst:36
-msgid "مجھے کیوں تقدیر کی ذرورت ہوگی؟"
-msgstr "مجھے کیوں تقدیر کی ذرورت ہوگی؟"
+msgid "مجھے کیوں تقدیر کی زرورت ہوگی؟"
+msgstr "مجھے کیوں تقدیر کی زرورت ہوگی؟"
 
 #: ../../source/index.rst:37
 msgid ""
@@ -97,8 +97,8 @@ msgid "اشاریہ"
 msgstr "اشاریہ"
 
 #: ../../source/index.rst:49
-msgid "شروعات"
-msgstr "شروعات"
+msgid "تعارف"
+msgstr "تعارف"
 
 #: ../../source/index.rst:57
 msgid "نمونے"
