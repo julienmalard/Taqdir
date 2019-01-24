@@ -1,4 +1,4 @@
-from .جسان import جسان
+from .جےسن import جےسن
 from .جمع import جمع
 from .دیسات import دیسات, دیسات_ماھانہ
 from .سی_اس_وی import سی_اس_وی

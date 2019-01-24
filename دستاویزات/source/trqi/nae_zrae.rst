@@ -2,25 +2,25 @@
 
 نئے ذرائع
 =========
-اگر آپکہ کیسی وضع کے کوائف کا استعمال کرنا ہیے جو تقدیر میں اب تک دستیاب نہیں ہیے، آپ اسکے لئے ایک نئا ذریعہ کے قسم بنا
+اگر آپکو ايسی وضع کے کوائف استعمال کرنے ہیں جو ابھی تک تقدیر میں دستیاب نہیں ہیں،تو آپ اسکے لئے ایک نئے ذریعہ کی قسم بنا
 سکتے ہیں۔
 
 
-نئا قسم میں آپکو ایک ھی نئے فعل کو لیکھنا پڑھیگا، :meth:`~تقدیر.ذریعہ._کوائف_بنانا`.
+نئی قسم کے ليے آپکو ایک نيا فعل لکھنا پڑے گا، :meth:`~تقدیر.ذریعہ._کوائف_بنانا`.
 
-نمونے کے تور پر ناسا نام کا ذریعہ کا _کوائف_بنانا() نام کا فعل نیچے دیئا جاتا ہیے۔
+نمونے کے طور پر ناسا نام کے ذریعے کا _کوائف_بنانا() نام کا فعل نیچے دیا گيا ہے۔
 
 .. code-block:: python
 
    try:
-       ذریعہ_ناسا = NASAPowerWeatherDataProvider(latitude=چوڑائی, longitude=طول, force_update=False)
+       ذریعہ_ناسا = NASAPowerWeatherDataProvider(latitude=‏عرض, longitude=طول, force_update=False)
    except (requests.exceptions.ConnectionError, KeyError, JSONDecodeError):
        return
 
    سے = max(ذریعہ_ناسا.first_date, سے)
    تک = min(ذریعہ_ناسا.last_date, تک)
 
-   اعداد_پاندس = pd.DataFrame(columns=list(متاغیرات), index=pd.period_range(سے, تک), dtype=float)
+   اعداد_پاندس = pd.DataFrame(columns=list(متغیرات), index=pd.period_range(سے, تک), dtype=float)
 
    ستون = {
        'بارش': 'RAIN',

@@ -9,7 +9,7 @@ from تقدیر.ذرائع import ناسا
 
 جگہ = dict(چوڑائی=11.02, طول=76.96, بلندی=1)
 try:
-    NASAPowerWeatherDataProvider(latitude=جگہ['چوڑائی'], longitude=جگہ['طول'], force_update=False)
+    NASAPowerWeatherDataProvider(latitude=جگہ['عرض'], longitude=جگہ['طول'], force_update=False)
     جالبینی_رسائی = True
 except (requests.exceptions.ConnectionError, KeyError, JSONDecodeError):
     جالبینی_رسائی = False

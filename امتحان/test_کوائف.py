@@ -7,7 +7,7 @@ import numpy as np
 import numpy.testing as npt
 import pandas as pd
 
-from تقدیر import متاغیرات
+from تقدیر import متغیرات
 from تقدیر.کوائف import کوائف
 
 
@@ -23,11 +23,11 @@ class امتحان_کوائف(unittest.TestCase):
         قسم.اعداد_تک = date(2001, 2, 15)
         تاریخیں_اعداد = pd.period_range(قسم.اعداد_سے, قسم.اعداد_تک)
         اعداد = pd.DataFrame(
-            data={س: np.random.random(len(تاریخیں_اعداد)) for س in متاغیرات},
-            columns=متاغیرات,
+            data={س: np.random.random(len(تاریخیں_اعداد)) for س in متغیرات},
+            columns=متغیرات,
             index=تاریخیں_اعداد
         )
-        اعداد[متاغیرات[0]].loc[قسم.اعداد_تک] = np.nan
+        اعداد[متغیرات[0]].loc[قسم.اعداد_تک] = np.nan
 
         قسم.کوائف = کوائف(اعداد, قسم.سے, قسم.تک)
 
@@ -40,8 +40,8 @@ class امتحان_کوائف(unittest.TestCase):
     def test_جوڑنا(خود):
         تاریخیں = pd.period_range(خود.اعداد_تک, خود.تک)
         اعداد = pd.DataFrame(
-            data={س: np.random.random(len(تاریخیں)) for س in متاغیرات},
-            columns=متاغیرات,
+            data={س: np.random.random(len(تاریخیں)) for س in متغیرات},
+            columns=متغیرات,
             index=تاریخیں
         )
         کوائف_ = کوائف(اعداد, خود.سے, خود.تک)

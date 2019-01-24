@@ -4,7 +4,7 @@
 .. autoclass:: تقدیر.ذرائع.سی_اس_وی
    :members:
 
-.. autoclass:: تقدیر.ذرائع.جسان
+.. autoclass:: تقدیر.ذرائع.جےسن
    :members:
 
 .. autoclass:: تقدیر.ذرائع.دیسات
