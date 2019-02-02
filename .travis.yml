@@ -18,7 +18,7 @@ script:
   - cd امتحان
   - cd ..
   - cd دستاویزات
-  - if [$TRAVIS_PULL_REQUEST != "false"]; then
+  - if [[$TRAVIS_PULL_REQUEST != "false"]]; then
     sh .tx/tx.sh push;
     sh .tx/tx.sh pull;
     fi
