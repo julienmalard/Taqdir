@@ -21,7 +21,12 @@ script:
 after_success:
   - coveralls --rcfile=.coveragerc
   - codecov
-  - 'if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then bash cd ..دستاویزات; sh .tx/tx.sh push; sh .tx/tx.sh pull; cd ..; fi'
+  - cd ..
+  - cd دستاویزات
+  - if ["$TRAVIS_PULL_REQUEST" != "false"]; then
+    sh .tx/tx.sh push;
+    sh .tx/tx.sh pull;
+    fi
 
 deploy:
   - provider: pypi
