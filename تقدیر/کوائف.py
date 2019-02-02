@@ -31,7 +31,7 @@ class کوائف(object):
         سے = سے or اعداد.index.min()
         تک = تک or اعداد.index.max()
 
-        خود.اعداد = pd.DataFrame(columns=متغیرات, index=pd.period_range(سے, تک))
+        خود.اعداد = pd.DataFrame(columns=متغیرات, index=pd.period_range(سے, تک), dtype=float)
         if اعداد is not None:
             خود.اعداد = خود.اعداد.combine_first(اعداد)
         خود.اعداد = خود.اعداد[سے:تک]
