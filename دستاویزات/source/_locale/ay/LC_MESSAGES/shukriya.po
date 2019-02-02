@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: تقدیر 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-10 22:19+0000\n"
+"POT-Creation-Date: 2019-02-02 21:33+0000\n"
 "PO-Revision-Date: 2019-01-03 20:29+0000\n"
 "Language-Team: Aymara (https://www.transifex.com/qatikon/teams/94867/ay/)\n"
 "MIME-Version: 1.0\n"
@@ -22,7 +22,7 @@ msgid "شکریہ"
 msgstr ""
 
 #: ../../source/shukriya.rst:5
-msgid "تقدیر کی ترقی"
+msgid "تخلیق کار"
 msgstr ""
 
 #: ../../source/shukriya.rst:7 ../../source/shukriya.rst:12
@@ -31,7 +31,7 @@ msgstr ""
 
 #: ../../source/shukriya.rst:8
 msgid ""
-"`محمّد انعام اظہر بیگ <https://www.researchgate.net/profile/Azhar_Baig>`_"
+"`محمّد اظہرانعام بیگ <https://www.researchgate.net/profile/Azhar_Baig>`_"
 msgstr ""
 
 #: ../../source/shukriya.rst:11

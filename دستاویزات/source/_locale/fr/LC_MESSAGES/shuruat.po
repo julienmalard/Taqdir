@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: تقدیر 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-10 22:19+0000\n"
+"POT-Creation-Date: 2019-02-02 21:33+0000\n"
 "PO-Revision-Date: 2019-01-03 20:29+0000\n"
 "Last-Translator: Julien Malard <julien.malard@mail.mcgill.ca>, 2019\n"
 "Language-Team: French (https://www.transifex.com/qatikon/teams/94867/fr/)\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../../source/shuruat.rst:2
-msgid "شروعات"
+msgid "ابتدايئہ"
 msgstr "Où commencer ?"
 
 #: ../../source/shuruat.rst:5
@@ -30,7 +30,7 @@ msgid "تنصیب"
 msgstr "Installation"
 
 #: ../../source/shuruat.rst:7
-msgid "تقدیر کہ تنصیب کرنا بہت اسان ہیے۔"
+msgid "تقدیر کی تنصیب کرنا بہت اسان ہے۔"
 msgstr "C'est assez facile d'installer taqdir :"
 
 #: ../../source/shuruat.rst:9
@@ -38,9 +38,10 @@ msgid ":command:`pip install taqdir`"
 msgstr ":command:`pip install taqdir`"
 
 #: ../../source/shuruat.rst:11
-msgid "سب سے نئا والا تقدیر گتھب سے مل سکتا ہیے:"
+msgid "تازہ ترين تقدیر گٹھب پر دستياب ہے۔ اسے موصول کرنے کے ليے لکھيں:"
 msgstr ""
-"Vous pouvez aussi obtenir la version la plus récente directement de Github :"
+"Vous pouvez aussi obtenir la version de taqdir en développement directement "
+"de GitHub :"
 
 #: ../../source/shuruat.rst:13
 msgid ""
@@ -49,86 +50,59 @@ msgstr ""
 ":command:`pip install git+git://github.com/julienmalard/taqdir.git@master`"
 
 #: ../../source/shuruat.rst:16
-msgid "تقدیر کام کیسا کارتا ہیے؟"
+msgid "تقدیر کیسے کام کرتا ہے؟"
 msgstr "Comment est-ce que ça fonctionne ?"
 
 #: ../../source/shuruat.rst:17
 msgid ""
-"اگر آپکے پاس مشاہدات ہیں، تقدیر پہلہ سے ھی کوائف وہاں سے ئٹھایگا۔ بعاد "
-"مرکسم (مستقبل کے لئے) اور ناسا (ماضی کے لئے) سے کوائف ڈھونڈنے کی کوشیش "
-"کریگا۔"
+"اگر آپکے پاس مشاہدات ہیں تو کوائف ڈھونڈنے کی ترتیب کچھ اس طرح سے ہوگی۔ سب "
+"سے پہلے مطلوبہ جگہ پر لیے گئےآپکے اعدادوشمار، اس کے بعد ناساکے اعدادوشمار "
+"(ماضی کے لئے)اور سب سے آخر میں مرکسم کے اعدادوشمار(مستقبل کے لئے)۔"
 msgstr ""
-"Si vous avez des observations, taqdir y cherchera ses données en premier. "
-"Ensuite, il essaiera d'obtenir les données manquantes soit de la NASA (pour "
-"le passé), soit de Marksim (pour le future)."
 
 #: ../../source/shuruat.rst:21
-msgid "استعمال کیسا کرنا؟"
-msgstr "Comment s'en servir ?"
+msgid "استعمال کرنے کا طريقہ؟"
+msgstr "Comment utiliser taqdir ?"
 
 #: ../../source/shuruat.rst:22
 msgid ""
-"پہلہ ایک مقام بنانا جینکے کوائف ہمہیں چاییئے۔ بعاد اسّے کوائف ماں گنا۔ بس۔"
+"پہلے ایک مقام بنانيں۔ يہ مطلوبہ جگہ کو ظاہر کرے گا جسکے ہمہیں کوائف "
+"چاییئں۔اس کے بعد مدت مت‏عيں کريں۔ تقدیر سے اسّے کوائف مل جائيں گے۔"
 msgstr ""
-"D'abord, on doit spécifier l'endroit duquel on aimerait obtenir les données."
-" Ensuite, on demande les données. Et puis c'est tout !"
 
 #: ../../source/shuruat.rst:24
 msgid ""
 "from تقدیر.مقام import مقام\n"
 "\n"
-"میرا_مقام = مقام(چوڑائی=11.02, طول=76.96, بلندی=1)\n"
+"میرا_مقام = مقام(‏عرض=11.02, طول=76.96, بلندی=1)\n"
 "\n"
 "کو = میرا_مقام.کوائف_پانا(سے='۲۰۱۸۰۱۰۱', تک='۲۰۱۷۰۱۰۱')\n"
 "\n"
-"کو.لاپتہ()  # لاپتہ دنوں کے نام پانا\n"
+"کو.لاپتہ()  # نامعلوم دنوں کے نام پانا\n"
 "کو.روزانہ()  # روزانہ کوائف، پاندس میں\n"
 "\n"
-"# ماہانہ اور سالانہ کوائف بھی میلیں کے۔\n"
+"# ماہانہ اور سالانہ کوائف  کے ليے\n"
 "کو.ماہانہ()\n"
 "کو.سالانہ()\n"
 "\n"
-"# نتیجہ کو مسل کے تور پر بھی لیکھ سکتے ہیں۔\n"
+"# نتیجے کو مسل کے طور پر بھی لکھ سکتے ہیں۔\n"
 "کو.لکھنا('/میرا/راستہ', '.csv')"
 msgstr ""
-"from تقدیر.مقام import مقام as endroit\n"
-"\n"
-"mon_endroit = endroit(چوڑائی=11.02, طول=76.96, بلندی=1)\n"
-"\n"
-"données = endroit.کوائف_پانا(سے='20180101', تک='20170101')\n"
-"\n"
-"données.لاپتہ()  # obtenir les jours avec des données manquantes\n"
-"données.روزانہ()  # données par jour, sous format pandas\n"
-"\n"
-"# On peut aussi obtenir des données mensuelles et annuelles.\n"
-"données.ماہانہ()\n"
-"données.سالانہ()\n"
-"\n"
-"# Et on peut aussi sauvegarder les résultats en tant que fichier.\n"
-"données.لکھنا('/mon/dossier', '.csv')"
 
 #: ../../source/shuruat.rst:43
-msgid "اگر آپکے پاس مشاہدات کے کوائف ہیں تو یہ بھی جوڑی جا سکتی ہیں۔"
+msgid "اگر آپکے پاس مشاہدات کے کوائف ہیں تو یہ بھی جوڑے جا سکتے ہیں۔"
 msgstr ""
-"Et, si vous avec des données observées, on peut bien sûr les ajouter aussi."
 
 #: ../../source/shuruat.rst:45
 msgid ""
 "from تقدیر.مقام import مقام\n"
 "from تقدیر.ذرائع import سی_اس_وی\n"
 "\n"
-"میرا_مقام = مقام(چوڑائی=11.02, طول=76.96, بلندی=1)\n"
-"مشاہدات = سی_اس_وی('مشاہدات.csv', چوڑائی=11.02, طول=76.96, بلندی=1)\n"
+"میرا_مقام = مقام(‏عرض=11.02, طول=76.96, بلندی=1)\n"
+"مشاہدات = سی_اس_وی('مشاہدات.csv', عرض=11.02, طول=76.96, بلندی=1)\n"
 "کو = میرا_مقام.کوائف_پانا(سے='۲۰۱۸۰۱۰۱', تک='۲۰۱۷۰۱۰۱', ذرائع=مشاہدات)"
 msgstr ""
-"from تقدیر.مقام import مقام as endroit\n"
-"from تقدیر.ذرائع import سی_اس_وی as obs_csv\n"
-"\n"
-"mon_endroit = endroit(چوڑائی=11.02, طول=76.96, بلندی=1)\n"
-"obs = obs_csv('مشاہدات.csv', چوڑائی=11.02, طول=76.96, بلندی=1)\n"
-"données = mon_endroit.کوائف_پانا(سے='20180101', تک='20170101', ذرائع=obs)"
 
 #: ../../source/shuruat.rst:55
-msgid "مشاہدات دیسات اور جسان سے بھی پڑی جا سکتی ہیں۔"
+msgid "مشاہدات کو ڈیسيٹ اور  جیسن سے بھی پڑھا جا سکتا ہے۔"
 msgstr ""
-"On peut aussi obtenir les observations de fichiers de format JSON ou DSSAT."

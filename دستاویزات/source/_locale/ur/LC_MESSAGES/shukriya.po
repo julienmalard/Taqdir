@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: تقدیر 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-10 22:19+0000\n"
+"POT-Creation-Date: 2019-02-02 21:33+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,8 +21,8 @@ msgid "شکریہ"
 msgstr "شکریہ"
 
 #: ../../source/shukriya.rst:5
-msgid "تقدیر کی ترقی"
-msgstr "تقدیر کی ترقی"
+msgid "تخلیق کار"
+msgstr "تخلیق کار"
 
 #: ../../source/shukriya.rst:7 ../../source/shukriya.rst:12
 msgid "`ژولیئں ملاغ <https://www.researchgate.net/profile/Julien_Malard>`_"
@@ -30,9 +30,9 @@ msgstr "`ژولیئں ملاغ <https://www.researchgate.net/profile/Julien_Mala
 
 #: ../../source/shukriya.rst:8
 msgid ""
-"`محمّد انعام اظہر بیگ <https://www.researchgate.net/profile/Azhar_Baig>`_"
+"`محمّد اظہرانعام بیگ <https://www.researchgate.net/profile/Azhar_Baig>`_"
 msgstr ""
-"`محمّد انعام اظہر بیگ <https://www.researchgate.net/profile/Azhar_Baig>`_"
+"`محمّد اظہرانعام بیگ <https://www.researchgate.net/profile/Azhar_Baig>`_"
 
 #: ../../source/shukriya.rst:11
 msgid "ترجمہ"

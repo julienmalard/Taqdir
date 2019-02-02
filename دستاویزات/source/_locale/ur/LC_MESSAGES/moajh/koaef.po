@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: تقدیر 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-10 22:19+0000\n"
+"POT-Creation-Date: 2019-02-02 21:33+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,19 +22,19 @@ msgstr "کوائف"
 
 #: ../../source/moajh/koaef.rst:4
 msgid ""
-"تقدیر کے سارے نتیجہ :class:`~تقدیر.کوائف.کوائف` کا قسم میں میل جاتے ہیں۔"
+"تقدیر کے سارے نتائيج :class:`~تقدیر.کوائف.کوائف` کی قسم میں مل جاتے ہیں۔"
 msgstr ""
-"تقدیر کے سارے نتیجہ :class:`~تقدیر.کوائف.کوائف` کا قسم میں میل جاتے ہیں۔"
+"تقدیر کے سارے نتائيج :class:`~تقدیر.کوائف.کوائف` کی قسم میں مل جاتے ہیں۔"
 
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/کوائف.pydocstring
 #: of تقدیر.کوائف.کوائف:1
-msgid "آبوہوا کے کوائف۔"
-msgstr "آبوہوا کے کوائف۔"
+msgid "آب وہوا کے کوائف۔"
+msgstr "آب وہوا کے کوائف۔"
 
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/کوائف.pydocstring
 #: of تقدیر.کوائف.کوائف.روزانہ:1
-msgid "روزانہ کوائف پانا۔"
-msgstr "روزانہ کوائف پانا۔"
+msgid "روزانہ کی ظرز پر کوائف ۔"
+msgstr "روزانہ کی ظرز پر کوائف ۔"
 
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/کوائف.pydocstring
 #: of تقدیر.کوائف.کوائف.روزانہ:5
@@ -47,18 +47,18 @@ msgstr "pd.DataFrame"
 
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/کوائف.pydocstring
 #: of تقدیر.کوائف.کوائف.سالانہ:1
-msgid "سالانہ کوائف پانا۔"
-msgstr "سالانہ کوائف پانا۔"
+msgid "سالانہ کی ظرز پر کوائف ۔"
+msgstr "سالانہ کی ظرز پر کوائف ۔"
 
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/کوائف.pydocstring
 #: of تقدیر.کوائف.کوائف.سالانہ:6
-msgid "کوائف کے سالانہ اوسط۔"
-msgstr "کوائف کے سالانہ اوسط۔"
+msgid "کوائف کی سالانہ اوسط۔"
+msgstr "کوائف کی سالانہ اوسط۔"
 
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/کوائف.pydocstring
 #: of تقدیر.کوائف.کوائف.لاپتہ:1
-msgid "لاپتہ کوائف رکھنے والے دن واپس دیگا۔"
-msgstr "لاپتہ کوائف رکھنے والے دن واپس دیگا۔"
+msgid "نا معلوم دنوں کے کوائف واپس دیگا۔"
+msgstr "نا معلوم دنوں کے کوائف واپس دیگا۔"
 
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/کوائف.pydocstring
 #: of تقدیر.کوائف.کوائف.لاپتہ:6
@@ -67,8 +67,10 @@ msgstr "سارے: bool"
 
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/کوائف.pydocstring
 #: of تقدیر.کوائف.کوائف.لاپتہ:6
-msgid "اگر صرف ان دنوں دینا جینکے سارے ستون کے کوائف لاپتہ ہیں۔"
-msgstr "اگر صرف ان دنوں دینا جینکے سارے ستون کے کوائف لاپتہ ہیں۔"
+msgid ""
+"صرف ان دنوں  کے کوائف دے گا جینکے سارےعمودی ستون کے کوائف نا معلوم ہیں۔"
+msgstr ""
+"صرف ان دنوں  کے کوائف دے گا جینکے سارےعمودی ستون کے کوائف نا معلوم ہیں۔"
 
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/کوائف.pydocstring
 #: of تقدیر.کوائف.کوائف.لاپتہ:10
@@ -107,15 +109,15 @@ msgstr "وضع: str"
 
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/کوائف.pydocstring
 #: of تقدیر.کوائف.کوائف.لکھنا:10
-msgid "مسل کا وضع۔ `.csv` یا `.json` ہو سکتا ہیے۔"
-msgstr "مسل کا وضع۔ `.csv` یا `.json` ہو سکتا ہیے۔"
+msgid "مسل کا وضع۔ `.csv` یا `.json` ہو سکتا ہے۔"
+msgstr "مسل کا وضع۔ `.csv` یا `.json` ہو سکتا ہے۔"
 
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/کوائف.pydocstring
 #: of تقدیر.کوائف.کوائف.ماہانہ:1
-msgid "ماہانہ کوائف پانا۔"
-msgstr "ماہانہ کوائف پانا۔"
+msgid "ماہانہ کی ظرز پر کوائف ۔"
+msgstr "ماہانہ کی ظرز پر کوائف ۔"
 
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/کوائف.pydocstring
 #: of تقدیر.کوائف.کوائف.ماہانہ:6
-msgid "کوائف کے ماہانہ اوسط۔"
-msgstr "کوائف کے ماہانہ اوسط۔"
+msgid "کوائف کی ماہانہ اوسط۔"
+msgstr "کوائف کی ماہانہ اوسط۔"
