@@ -21,7 +21,7 @@ push_translation_files() {
   echo "git remote"
   git remote add origin-travis https://${GHTOKEN}@github.com/$TRAVIS_REPO_SLUG.git > /dev/null 2>&1
   echo "git push"
-  git push --set-upstream origin-travis transifex
+  git push -f --set-upstream origin-travis transifex
 }
 
 tx_init() {
