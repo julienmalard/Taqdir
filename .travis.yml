@@ -5,7 +5,7 @@ os:
   - linux
 env:
   global:
-    - TX_BRANCH="ترقی"
+  - TX_BRANCH="master"
     - TX_TAG="txpull"
 install:
   - pip install --upgrade pip setuptools wheel
@@ -21,11 +21,7 @@ script:
 after_success:
   - coveralls --rcfile=.coveragerc
   - codecov
-  - cd ..
-  - cd دستاویزات
-  - sh .tx/tx.sh push
-  - sh .tx/tx.sh pull
-  - cd ..
+  - 'if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then bash cd ..دستاویزات; sh .tx/tx.sh push; sh .tx/tx.sh pull; cd ..; fi'
 
 deploy:
   - provider: pypi
