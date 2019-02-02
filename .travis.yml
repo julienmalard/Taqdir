@@ -16,6 +16,13 @@ install:
   - pip install taqdir --no-index --find-links=./dist
 script:
   - cd امتحان
+  - cd ..
+  - cd دستاویزات
+  - if [$TRAVIS_PULL_REQUEST != "false"]; then
+    sh .tx/tx.sh push;
+    sh .tx/tx.sh pull;
+    fi
+  - cd ..
   - coverage run -m unittest
 
 after_success:
@@ -27,6 +34,7 @@ after_success:
     sh .tx/tx.sh push;
     sh .tx/tx.sh pull;
     fi
+  - cd ..
 
 deploy:
   - provider: pypi
