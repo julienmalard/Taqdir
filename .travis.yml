@@ -6,7 +6,7 @@ os:
 env:
   global:
   - TX_BRANCH="master"
-    - TX_TAG="txpull"
+  - TX_TAG="txpull"
 install:
   - pip install --upgrade pip setuptools wheel
   - pip install transifex-client sphinx sphinx-intl
