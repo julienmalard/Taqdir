@@ -1,4 +1,4 @@
-ICENCE PUBLIQUE GÉNÉRALE GNU
+LICENCE PUBLIQUE GÉNÉRALE GNU
                          Version 3, du 29 juin 2007.
 
 Copyright (C) 2007 Free Software Foundation, Inc. <http://fsf.org/>
