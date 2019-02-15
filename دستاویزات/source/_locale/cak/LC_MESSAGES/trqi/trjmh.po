@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: تقدیر 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-10 22:20+0000\n"
+"POT-Creation-Date: 2019-02-02 21:33+0000\n"
 "PO-Revision-Date: 2019-01-03 20:34+0000\n"
 "Last-Translator: Julien Malard <julien.malard@mail.mcgill.ca>, 2019\n"
 "Language-Team: Kaqchikel (https://www.transifex.com/qatikon/teams/94867/cak/)\n"
@@ -27,12 +27,20 @@ msgstr "Ruq'axïk tzij"
 
 #: ../../source/trqi/trjmh.rst:4
 msgid ""
-"تقدیر کا ترجمہ `ترانسفکس "
-"<https://www.transifex.com/qatikon/tqdyr/dashboard>`_ پر کیا جاتا ہیے۔"
+"تقدیر کا ترجمہ کسی بھی زبان ميں `ترانسفکس "
+"<https://www.transifex.com/qatikon/tqdyr/dashboard>`_ پر ہو سکتا ہے۔"
 msgstr ""
+"Yattikïr naq'axaj rutzij Taqdir pa konojel taq ch'ab'äl nawajo pa `Transifex"
+" <https://www.transifex.com/qatikon/tqdyr/dashboard>`_."
 
 #: ../../source/trqi/trjmh.rst:6
 msgid ""
-"اگر آپ دوسری زبان جانتی ہیں جسمیں تقدیر کا استعمال کرنا ہیے تو ہمہیں ترجمہ "
-"میں مدد بلکل دیجئے۔"
+"اگر آپ دوسری زبان جانتے ہیں جسمیں تقدیر کا استعمال کرنا ہے تو ہمہیں ترجمہ "
+"میں مدد کيجئے۔"
+msgstr ""
+"We natzijon jun chïk ch'ab'äl achojik'in nawajo nakusaj Taqdir, tab'ana' "
+"utz'il kojato' rik'in ruq'axan tzij."
+
+#: ../../source/trqi/trjmh.rst:8
+msgid "اس سے تقدیر کی ترويج ميں مدد ملے گی۔ آپ کی مدد کا شکريہ۔"
 msgstr ""

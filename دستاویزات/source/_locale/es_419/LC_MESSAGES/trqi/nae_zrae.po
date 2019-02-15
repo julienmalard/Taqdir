@@ -1,0 +1,69 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) ژولیئں ملاغ، محمّد اظہر انعام بیگ، ۲۰۱۸+
+# This file is distributed under the same license as the تقدیر package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: تقدیر 1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-02 21:33+0000\n"
+"PO-Revision-Date: 2019-01-03 20:33+0000\n"
+"Language-Team: Spanish (Latin America) (https://www.transifex.com/qatikon/teams/94867/es_419/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es_419\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../source/trqi/nae_zrae.rst:4
+msgid "نئے ذرائع"
+msgstr ""
+
+#: ../../source/trqi/nae_zrae.rst:5
+msgid ""
+"اگر آپکو ايسی وضع کے کوائف استعمال کرنے ہیں جو ابھی تک تقدیر میں دستیاب "
+"نہیں ہیں،تو آپ اسکے لئے ایک نئے ذریعہ کی قسم بنا سکتے ہیں۔"
+msgstr ""
+
+#: ../../source/trqi/nae_zrae.rst:9
+msgid ""
+"نئی قسم کے ليے آپکو ایک نيا فعل لکھنا پڑے گا، "
+":meth:`~تقدیر.ذریعہ._کوائف_بنانا`."
+msgstr ""
+
+#: ../../source/trqi/nae_zrae.rst:11
+msgid ""
+"نمونے کے طور پر ناسا نام کے ذریعے کا _کوائف_بنانا() نام کا فعل نیچے دیا گيا "
+"ہے۔"
+msgstr ""
+
+#: ../../source/trqi/nae_zrae.rst:13
+msgid ""
+"try:\n"
+"    ذریعہ_ناسا = NASAPowerWeatherDataProvider(latitude=‏عرض, longitude=طول, force_update=False)\n"
+"except (requests.exceptions.ConnectionError, KeyError, JSONDecodeError):\n"
+"    return\n"
+"\n"
+"سے = max(ذریعہ_ناسا.first_date, سے)\n"
+"تک = min(ذریعہ_ناسا.last_date, تک)\n"
+"\n"
+"اعداد_پاندس = pd.DataFrame(columns=list(متغیرات), index=pd.period_range(سے, تک), dtype=float)\n"
+"\n"
+"ستون = {\n"
+"    'بارش': 'RAIN',\n"
+"    'شمسی_تابکاری': 'IRRAD',\n"
+"    'درجہ_حرارت_زیادہ': 'TMAX',\n"
+"    'درجہ_حرارت_کم': 'TMIN',\n"
+"    'درجہ_حرارت_اوسط': 'TEMP'\n"
+"}\n"
+"\n"
+"for تاریخ in اعداد_پاندس.index:\n"
+"    for س, س_ناسا in ستون.items():\n"
+"        اعداد_پاندس.loc[تاریخ][س] = getattr(ذریعہ_ناسا(سے), س_ناسا)\n"
+"\n"
+"اعداد_پاندس.شمسی_تابکاری *= 1e-6\n"
+"\n"
+"return اعداد_پاندس"
+msgstr ""

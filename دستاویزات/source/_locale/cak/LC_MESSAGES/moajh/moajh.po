@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the تقدیر package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Julien Malard <julien.malard@mail.mcgill.ca>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: تقدیر 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-10 22:19+0000\n"
+"POT-Creation-Date: 2019-02-02 21:33+0000\n"
 "PO-Revision-Date: 2019-01-04 17:18+0000\n"
+"Last-Translator: Julien Malard <julien.malard@mail.mcgill.ca>, 2019\n"
 "Language-Team: Kaqchikel (https://www.transifex.com/qatikon/teams/94867/cak/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,10 +23,13 @@ msgstr ""
 
 #: ../../source/moajh/moajh.rst:2
 msgid "مواجہ"
-msgstr ""
+msgstr "Tunüy"
 
 #: ../../source/moajh/moajh.rst:3
 msgid ""
-"تقدیر میں، ایک :class:`~تقدیر.مقام.مقام` موختلف :class:`~تقدیر.ذریعہ.ذریعہ` "
-"سے :class:`~تقدیر.کوائف.کوائف` بناتا ہیے."
+"تقدیر میں، ایک :class:`~تقدیر.مقام.مقام` مختلف :class:`~تقدیر.ذریعہ.ذریعہ` "
+"سے :class:`~تقدیر.کوائف.کوائف` ليتا ہے."
 msgstr ""
+"Chupam Taqdir, jun k'olib'äl (:class:`~تقدیر.مقام.مقام`) nikusaj k'iy "
+"ruxe'el tzij (:class:`~تقدیر.ذریعہ.ذریعہ`) chi nelesaj tzij richin ruwäch "
+"q'ij (:class:`~تقدیر.کوائف.کوائف`)."

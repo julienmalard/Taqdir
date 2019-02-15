@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: تقدیر 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-10 22:19+0000\n"
+"POT-Creation-Date: 2019-02-02 21:33+0000\n"
 "PO-Revision-Date: 2019-01-04 17:18+0000\n"
 "Last-Translator: Julien Malard <julien.malard@mail.mcgill.ca>, 2019\n"
 "Language-Team: Kaqchikel (https://www.transifex.com/qatikon/teams/94867/cak/)\n"
@@ -27,12 +27,12 @@ msgstr "K'olib'äl"
 
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/مقام.pydocstring
 #: of تقدیر.مقام.مقام:1
-msgid "ایک مقام، جیسے آبوہوا کے کوائف چاہئے۔"
+msgid "ایک مقام، جس کے ليے آب وہوا کے کوائف درکار ہيں۔"
 msgstr ""
 
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/مقام.pydocstring
 #: of تقدیر.مقام.مقام.کوائف_پانا:1
-msgid "آبوہوا کے کوائف پانا۔"
+msgid "آبوہوا کے کوائف ليناا۔"
 msgstr ""
 
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/مقام.pydocstring
@@ -42,7 +42,7 @@ msgstr ""
 
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/مقام.pydocstring
 #: of تقدیر.مقام.مقام.کوائف_پانا:6
-msgid "وہ تاریخ جب سے کوائف چاہئے۔"
+msgid "وہ تاریخ جب سے کوائف چاہيں۔"
 msgstr ""
 
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/مقام.pydocstring
@@ -52,7 +52,7 @@ msgstr ""
 
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/مقام.pydocstring
 #: of تقدیر.مقام.مقام.کوائف_پانا:8
-msgid "وہ تاریخ جب تک کوائف چاہئے۔"
+msgid "وہ تاریخ جب تک کوائف چاہيں۔"
 msgstr ""
 
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/مقام.pydocstring
@@ -63,8 +63,8 @@ msgstr ""
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/مقام.pydocstring
 #: of تقدیر.مقام.مقام.کوائف_پانا:10
 msgid ""
-"وہ ذرائع جین میں کہائف ڈھونڈنا ہیے۔ یا :class:`~تقدیر.ذریعہ.ذریعہ`، یا انکے "
-"فرست ہو سکتا ہیے۔"
+"وہ ذرائع جن سے کوائف لينےا ہيں۔ یا :class:`~تقدیر.ذریعہ.ذریعہ`، یا انکی "
+"فہرست ہو سکتی ہے۔"
 msgstr ""
 
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/مقام.pydocstring
@@ -74,15 +74,15 @@ msgstr ""
 
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/مقام.pydocstring
 #: of تقدیر.مقام.مقام.کوائف_پانا:12
-msgid "آبوہوا کی تبدیلی کا خاکے۔"
+msgid "آب وہوا کی تبدیلی کے خاکے۔مثال کے طور پر ۸۔۵"
 msgstr ""
 
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/مقام.pydocstring
 #: of تقدیر.مقام.مقام.کوائف_پانا:16
 msgid "کوائف"
-msgstr ""
+msgstr "Ruxe'el tzij"
 
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/مقام.pydocstring
 #: of تقدیر.مقام.مقام.کوائف_پانا:17
-msgid "آبوہوا کے :class:`~تقدیر.کوائف.کوائف`۔"
+msgid "آب وہوا کے :class:`~تقدیر.کوائف.کوائف`۔"
 msgstr ""

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: تقدیر 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-10 22:19+0000\n"
+"POT-Creation-Date: 2019-02-02 21:33+0000\n"
 "PO-Revision-Date: 2019-01-04 17:22+0000\n"
 "Last-Translator: Julien Malard <julien.malard@mail.mcgill.ca>, 2019\n"
 "Language-Team: Kaqchikel (https://www.transifex.com/qatikon/teams/94867/cak/)\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../source/malumat.rst:2
-msgid "معلمات"
+msgid "معلومات"
 msgstr ""
 
 #: ../../source/malumat.rst:5
@@ -30,11 +30,11 @@ msgid "ذرائع"
 msgstr "Ruxe'el tzij"
 
 #: ../../source/malumat.rst:6
-msgid "تقدیر کی بنیاد ذرائع نیچے دی جاتی ہیں۔"
+msgid "تقدیر کے بنیادی ذرائع نیچے دیے گيے ہیں۔"
 msgstr ""
 
 #: ../../source/malumat.rst:8
-msgid "تقدیر کے بنیاد ذرائع"
+msgid "تقدیر کے بنیادی ذرائع"
 msgstr ""
 
 #: ../../source/malumat.rst:1
@@ -42,7 +42,7 @@ msgid "ذریعہ"
 msgstr "Ruxe'el tzij"
 
 #: ../../source/malumat.rst:1
-msgid "آبوہوا تبدیلی خاکے"
+msgid "آب وہوا تبدیلی کے خاکے"
 msgstr ""
 
 #: ../../source/malumat.rst:1
@@ -54,7 +54,7 @@ msgid ":class:`~تقدیر.ذرائع.ناسا`"
 msgstr ""
 
 #: ../../source/malumat.rst:1
-msgid "مستقبل"
+msgid "ماضی"
 msgstr ""
 
 #: ../../source/malumat.rst:1
@@ -79,37 +79,37 @@ msgstr ""
 
 #: ../../source/malumat.rst:16
 msgid ""
-"تقدیر میں اور بھی ذرائع ہیں جو مسل سے کوائف پڈھتے ہیں۔ یہ مشاہدات کے لئے کام"
-" کے ہیں۔"
-msgstr ""
-
-#: ../../source/malumat.rst:18
-msgid ":class:`~تقدیر.ذرائع.جسان`"
+"اول الذکر ذرائع ماضی اور مستقبل کے لئے مفید ہیں۔ اگر آپ اپنے مشاہدات کے ساتھ"
+" کام کرنا چاہتے ہیں تو درجہ ذيل ذرائع کارآمد ہوسکتے ہیں يہ ذرائع مسل سے "
+"کوائف پڑھتے ہیں۔"
 msgstr ""
 
 #: ../../source/malumat.rst:19
-msgid ":class:`~تقدیر.ذرائع.دیسات`"
+msgid ":class:`~تقدیر.ذرائع. جیسن`"
 msgstr ""
 
 #: ../../source/malumat.rst:20
-msgid ":class:`~تقدیر.ذرائع.سی_اس_وی`"
+msgid ":class:`~تقدیر.ذرائع.ڈیسيٹ`"
 msgstr ""
 
 #: ../../source/malumat.rst:21
-msgid ":class:`~تقدیر.ذرائع.دیسات_ماھانہ`"
+msgid ":class:`~تقدیر.ذرائع.سی_اس_وی`"
 msgstr ""
 
-#: ../../source/malumat.rst:27
-msgid "متاغیرات"
-msgstr "Retal jaloj"
+#: ../../source/malumat.rst:22
+msgid ":class:`~تقدیر.ذرائع.ڈیسيٹ_ماھانہ`"
+msgstr ""
 
 #: ../../source/malumat.rst:28
-msgid "تقدیر میں ان متاغیرات دستیاب ہیں۔"
+msgid "متغیّرات"
 msgstr ""
 
-#: ../../source/malumat.rst:32
-msgid ""
-"خیال رکھنا کہ ہو سکتا ہیے کہ سارے ذرائع میں سارے متاغیرات دستیاب نہ ہو۔"
+#: ../../source/malumat.rst:29
+msgid "تقدیر میں يہ متغیّرات دستیاب ہیں۔"
+msgstr ""
+
+#: ../../source/malumat.rst:33
+msgid "احتیاط کریں ہو سکتا ہے کہ سارے ذرائع میں سارے متغیّرات دستیاب نہ ہوں۔"
 msgstr ""
 
 #: ../../source/malumat.rst:1
@@ -129,7 +129,7 @@ msgid "تاریخ"
 msgstr "Q'ij"
 
 #: ../../source/malumat.rst:1
-msgid "روزنہ (``۲۰۱۸۰۱۰۱``)، مہانہ (``۲۰۱۸۰۱``)، یا سالانہ (``۲۰۱۸``)"
+msgid "روزانہ (``۲۰۱۸۰۱۰۱``)، ماہانہ (``۲۰۱۸۰۱``)، یا سالانہ (``۲۰۱۸``)"
 msgstr ""
 
 #: ../../source/malumat.rst:1
@@ -162,7 +162,7 @@ msgstr ""
 
 #: ../../source/malumat.rst:1 ../../source/malumat.rst:1
 #: ../../source/malumat.rst:1
-msgid "سلسیوس"
+msgid "سیلسیس"
 msgstr ""
 
 #: ../../source/malumat.rst:1

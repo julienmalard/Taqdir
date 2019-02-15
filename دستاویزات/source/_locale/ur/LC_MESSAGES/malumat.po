@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: تقدیر 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-10 22:19+0000\n"
+"POT-Creation-Date: 2019-02-02 21:33+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,28 +17,28 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../source/malumat.rst:2
-msgid "معلمات"
-msgstr "معلمات"
+msgid "معلومات"
+msgstr "معلومات"
 
 #: ../../source/malumat.rst:5
 msgid "ذرائع"
 msgstr "ذرائع"
 
 #: ../../source/malumat.rst:6
-msgid "تقدیر کی بنیاد ذرائع نیچے دی جاتی ہیں۔"
-msgstr "تقدیر کی بنیاد ذرائع نیچے دی جاتی ہیں۔"
+msgid "تقدیر کے بنیادی ذرائع نیچے دیے گيے ہیں۔"
+msgstr "تقدیر کے بنیادی ذرائع نیچے دیے گيے ہیں۔"
 
 #: ../../source/malumat.rst:8
-msgid "تقدیر کے بنیاد ذرائع"
-msgstr "تقدیر کے بنیاد ذرائع"
+msgid "تقدیر کے بنیادی ذرائع"
+msgstr "تقدیر کے بنیادی ذرائع"
 
 #: ../../source/malumat.rst:1
 msgid "ذریعہ"
 msgstr "ذریعہ"
 
 #: ../../source/malumat.rst:1
-msgid "آبوہوا تبدیلی خاکے"
-msgstr "آبوہوا تبدیلی خاکے"
+msgid "آب وہوا تبدیلی کے خاکے"
+msgstr "آب وہوا تبدیلی کے خاکے"
 
 #: ../../source/malumat.rst:1
 msgid "دستیاب سال"
@@ -49,8 +49,8 @@ msgid ":class:`~تقدیر.ذرائع.ناسا`"
 msgstr ":class:`~تقدیر.ذرائع.ناسا`"
 
 #: ../../source/malumat.rst:1
-msgid "مستقبل"
-msgstr "مستقبل"
+msgid "ماضی"
+msgstr "ماضی"
 
 #: ../../source/malumat.rst:1
 msgid "~۱۹۸۳ - آج"
@@ -74,41 +74,41 @@ msgstr ":class:`~تقدیر.ذرائع.مرکسم۵_جال`"
 
 #: ../../source/malumat.rst:16
 msgid ""
-"تقدیر میں اور بھی ذرائع ہیں جو مسل سے کوائف پڈھتے ہیں۔ یہ مشاہدات کے لئے کام"
-" کے ہیں۔"
+"اول الذکر ذرائع ماضی اور مستقبل کے لئے مفید ہیں۔ اگر آپ اپنے مشاہدات کے ساتھ"
+" کام کرنا چاہتے ہیں تو درجہ ذيل ذرائع کارآمد ہوسکتے ہیں يہ ذرائع مسل سے "
+"کوائف پڑھتے ہیں۔"
 msgstr ""
-"تقدیر میں اور بھی ذرائع ہیں جو مسل سے کوائف پڈھتے ہیں۔ یہ مشاہدات کے لئے کام"
-" کے ہیں۔"
-
-#: ../../source/malumat.rst:18
-msgid ":class:`~تقدیر.ذرائع.جسان`"
-msgstr ":class:`~تقدیر.ذرائع.جسان`"
+"اول الذکر ذرائع ماضی اور مستقبل کے لئے مفید ہیں۔ اگر آپ اپنے مشاہدات کے ساتھ"
+" کام کرنا چاہتے ہیں تو درجہ ذيل ذرائع کارآمد ہوسکتے ہیں يہ ذرائع مسل سے "
+"کوائف پڑھتے ہیں۔"
 
 #: ../../source/malumat.rst:19
-msgid ":class:`~تقدیر.ذرائع.دیسات`"
-msgstr ":class:`~تقدیر.ذرائع.دیسات`"
+msgid ":class:`~تقدیر.ذرائع. جیسن`"
+msgstr ":class:`~تقدیر.ذرائع. جیسن`"
 
 #: ../../source/malumat.rst:20
+msgid ":class:`~تقدیر.ذرائع.ڈیسيٹ`"
+msgstr ":class:`~تقدیر.ذرائع.ڈیسيٹ`"
+
+#: ../../source/malumat.rst:21
 msgid ":class:`~تقدیر.ذرائع.سی_اس_وی`"
 msgstr ":class:`~تقدیر.ذرائع.سی_اس_وی`"
 
-#: ../../source/malumat.rst:21
-msgid ":class:`~تقدیر.ذرائع.دیسات_ماھانہ`"
-msgstr ":class:`~تقدیر.ذرائع.دیسات_ماھانہ`"
-
-#: ../../source/malumat.rst:27
-msgid "متاغیرات"
-msgstr "متاغیرات"
+#: ../../source/malumat.rst:22
+msgid ":class:`~تقدیر.ذرائع.ڈیسيٹ_ماھانہ`"
+msgstr ":class:`~تقدیر.ذرائع.ڈیسيٹ_ماھانہ`"
 
 #: ../../source/malumat.rst:28
-msgid "تقدیر میں ان متاغیرات دستیاب ہیں۔"
-msgstr "تقدیر میں ان متاغیرات دستیاب ہیں۔"
+msgid "متغیّرات"
+msgstr "متغیّرات"
 
-#: ../../source/malumat.rst:32
-msgid ""
-"خیال رکھنا کہ ہو سکتا ہیے کہ سارے ذرائع میں سارے متاغیرات دستیاب نہ ہو۔"
-msgstr ""
-"خیال رکھنا کہ ہو سکتا ہیے کہ سارے ذرائع میں سارے متاغیرات دستیاب نہ ہو۔"
+#: ../../source/malumat.rst:29
+msgid "تقدیر میں يہ متغیّرات دستیاب ہیں۔"
+msgstr "تقدیر میں يہ متغیّرات دستیاب ہیں۔"
+
+#: ../../source/malumat.rst:33
+msgid "احتیاط کریں ہو سکتا ہے کہ سارے ذرائع میں سارے متغیّرات دستیاب نہ ہوں۔"
+msgstr "احتیاط کریں ہو سکتا ہے کہ سارے ذرائع میں سارے متغیّرات دستیاب نہ ہوں۔"
 
 #: ../../source/malumat.rst:1
 msgid "نام"
@@ -127,8 +127,8 @@ msgid "تاریخ"
 msgstr "تاریخ"
 
 #: ../../source/malumat.rst:1
-msgid "روزنہ (``۲۰۱۸۰۱۰۱``)، مہانہ (``۲۰۱۸۰۱``)، یا سالانہ (``۲۰۱۸``)"
-msgstr "روزنہ (``۲۰۱۸۰۱۰۱``)، مہانہ (``۲۰۱۸۰۱``)، یا سالانہ (``۲۰۱۸``)"
+msgid "روزانہ (``۲۰۱۸۰۱۰۱``)، ماہانہ (``۲۰۱۸۰۱``)، یا سالانہ (``۲۰۱۸``)"
+msgstr "روزانہ (``۲۰۱۸۰۱۰۱``)، ماہانہ (``۲۰۱۸۰۱``)، یا سالانہ (``۲۰۱۸``)"
 
 #: ../../source/malumat.rst:1
 msgid "``بارش``"
@@ -160,8 +160,8 @@ msgstr "درجہ_حرارت_زیادہ"
 
 #: ../../source/malumat.rst:1 ../../source/malumat.rst:1
 #: ../../source/malumat.rst:1
-msgid "سلسیوس"
-msgstr "سلسیوس"
+msgid "سیلسیس"
+msgstr "سیلسیس"
 
 #: ../../source/malumat.rst:1
 msgid "``درجہ_حرارت_کم``"
