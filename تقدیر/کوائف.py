@@ -124,5 +124,8 @@ class کوائف(object):
         else:
             raise ValueError(وضع)
 
+    def متاغیرات(خود):
+        return list(خود.اعداد.columns)
+
     def __add__(خود, دوسرہ):
         return کوائف(خود.اعداد.combine_first(دوسرہ.اعداد), خود.سے, خود.تک)
