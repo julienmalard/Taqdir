@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: تقدیر 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-02 21:33+0000\n"
+"POT-Creation-Date: 2019-02-27 23:51+0000\n"
 "PO-Revision-Date: 2019-01-03 20:29+0000\n"
 "Last-Translator: Julien Malard <julien.malard@mail.mcgill.ca>, 2019\n"
 "Language-Team: Kaqchikel (https://www.transifex.com/qatikon/teams/94867/cak/)\n"
@@ -27,11 +27,11 @@ msgstr ""
 
 #: ../../source/shuruat.rst:5
 msgid "تنصیب"
-msgstr ""
+msgstr "Nimonem"
 
 #: ../../source/shuruat.rst:7
 msgid "تقدیر کی تنصیب کرنا بہت اسان ہے۔"
-msgstr ""
+msgstr "Chanim yatkowin nanimoj ri Taqdir."
 
 #: ../../source/shuruat.rst:9
 msgid ":command:`pip install taqdir`"
@@ -49,7 +49,7 @@ msgstr ""
 
 #: ../../source/shuruat.rst:16
 msgid "تقدیر کیسے کام کرتا ہے؟"
-msgstr ""
+msgstr "¿Achike rub'eyal nisamaj ri Taqdir?"
 
 #: ../../source/shuruat.rst:17
 msgid ""
@@ -74,7 +74,7 @@ msgid ""
 "\n"
 "میرا_مقام = مقام(‏عرض=11.02, طول=76.96, بلندی=1)\n"
 "\n"
-"کو = میرا_مقام.کوائف_پانا(سے='۲۰۱۸۰۱۰۱', تک='۲۰۱۷۰۱۰۱')\n"
+"کو = میرا_مقام.کوائف_پانا(سے='۲۰۱۷۰۱۰۱', تک='۲۰۱۸۰۱۰۱')\n"
 "\n"
 "کو.لاپتہ()  # نامعلوم دنوں کے نام پانا\n"
 "کو.روزانہ()  # روزانہ کوائف، پاندس میں\n"
@@ -102,5 +102,5 @@ msgid ""
 msgstr ""
 
 #: ../../source/shuruat.rst:55
-msgid "مشاہدات کو ڈیسيٹ اور  جیسن سے بھی پڑھا جا سکتا ہے۔"
+msgid "مشاہدات کو ڈیسيٹ اور جےسن سے بھی پڑھا جا سکتا ہے۔"
 msgstr ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: تقدیر 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-02 21:33+0000\n"
+"POT-Creation-Date: 2019-02-27 23:51+0000\n"
 "PO-Revision-Date: 2019-01-04 17:22+0000\n"
 "Language-Team: Kannada (https://www.transifex.com/qatikon/teams/94867/kn/)\n"
 "MIME-Version: 1.0\n"
@@ -117,6 +117,10 @@ msgid "معنی"
 msgstr ""
 
 #: ../../source/malumat.rst:1
+msgid "وحدت"
+msgstr ""
+
+#: ../../source/malumat.rst:1
 msgid "``تاریخ``"
 msgstr ""
 
@@ -145,7 +149,7 @@ msgid "``شمسی_تابکاری``"
 msgstr ""
 
 #: ../../source/malumat.rst:1
-msgid "شمسی_تابکاری"
+msgid "شمسی تابکاری"
 msgstr ""
 
 #: ../../source/malumat.rst:1
@@ -153,7 +157,7 @@ msgid "``درجہ_حرارت_زیادہ``"
 msgstr ""
 
 #: ../../source/malumat.rst:1
-msgid "درجہ_حرارت_زیادہ"
+msgid "درجہ حرارت زیادہ سے زیادہ"
 msgstr ""
 
 #: ../../source/malumat.rst:1 ../../source/malumat.rst:1
@@ -166,7 +170,7 @@ msgid "``درجہ_حرارت_کم``"
 msgstr ""
 
 #: ../../source/malumat.rst:1
-msgid "درجہ_حرارت_کم"
+msgid "درجہ حرارت کم سے کم"
 msgstr ""
 
 #: ../../source/malumat.rst:1
@@ -174,5 +178,5 @@ msgid "``درجہ_حرارت_اوسط``"
 msgstr ""
 
 #: ../../source/malumat.rst:1
-msgid "درجہ_حرارت_اوسط"
+msgid "درجہ حرارت کا اوسط"
 msgstr ""

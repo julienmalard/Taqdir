@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the تقدیر package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Marco  Ramírez. <marccoramirez.21@gmail.com>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: تقدیر 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-02 21:33+0000\n"
+"POT-Creation-Date: 2019-02-27 23:51+0000\n"
 "PO-Revision-Date: 2019-01-03 16:31+0000\n"
+"Last-Translator: Marco  Ramírez. <marccoramirez.21@gmail.com>, 2019\n"
 "Language-Team: Tz’utujil (https://www.transifex.com/qatikon/teams/94867/tzj/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,7 +35,7 @@ msgstr ""
 
 #: ../../source/index.rst:31
 msgid "اسکا نام تقدیر کیوں  ہے؟"
-msgstr ""
+msgstr "Naq rumak qtzitzij rub'ii'"
 
 #: ../../source/index.rst:32
 msgid ""
@@ -88,15 +92,15 @@ msgstr ""
 
 #: ../../source/index.rst:49
 msgid "تعارف"
-msgstr ""
+msgstr "Mejb'alrij "
 
 #: ../../source/index.rst:57
 msgid "نمونے"
-msgstr ""
+msgstr "Rejtal"
 
 #: ../../source/index.rst:64
 msgid "ترقی"
-msgstr ""
+msgstr "Ju'tb'anem"
 
 #: ../../source/index.rst:71
 msgid "برنامج کاری مواجہ"
@@ -108,8 +112,8 @@ msgstr ""
 
 #: ../../source/index.rst:80
 msgid ":ref:`اشاریہ <genindex>`"
-msgstr ""
+msgstr "Nk'tuw"
 
 #: ../../source/index.rst:81
 msgid ":ref:`کھوج <search>`"
-msgstr ""
+msgstr "Abartza' "

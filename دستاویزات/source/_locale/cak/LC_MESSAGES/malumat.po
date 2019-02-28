@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: تقدیر 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-02 21:33+0000\n"
+"POT-Creation-Date: 2019-02-27 23:51+0000\n"
 "PO-Revision-Date: 2019-01-04 17:22+0000\n"
 "Last-Translator: Julien Malard <julien.malard@mail.mcgill.ca>, 2019\n"
 "Language-Team: Kaqchikel (https://www.transifex.com/qatikon/teams/94867/cak/)\n"
@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../source/malumat.rst:2
 msgid "معلومات"
-msgstr ""
+msgstr "Etamab'äl"
 
 #: ../../source/malumat.rst:5
 msgid "ذرائع"
@@ -31,11 +31,11 @@ msgstr "Ruxe'el tzij"
 
 #: ../../source/malumat.rst:6
 msgid "تقدیر کے بنیادی ذرائع نیچے دیے گيے ہیں۔"
-msgstr ""
+msgstr "Wawe k'o wi ri taq ruxe'el tzij richin Taqdir."
 
 #: ../../source/malumat.rst:8
 msgid "تقدیر کے بنیادی ذرائع"
-msgstr ""
+msgstr "Ruxe'el tzij richin Taqdir"
 
 #: ../../source/malumat.rst:1
 msgid "ذریعہ"
@@ -43,39 +43,39 @@ msgstr "Ruxe'el tzij"
 
 #: ../../source/malumat.rst:1
 msgid "آب وہوا تبدیلی کے خاکے"
-msgstr ""
+msgstr "Chojmil richin jaloj ruwäch q'ij"
 
 #: ../../source/malumat.rst:1
 msgid "دستیاب سال"
-msgstr ""
+msgstr "Junab'"
 
 #: ../../source/malumat.rst:1
 msgid ":class:`~تقدیر.ذرائع.ناسا`"
-msgstr ""
+msgstr ":class:`~تقدیر.ذرائع.ناسا`"
 
 #: ../../source/malumat.rst:1
 msgid "ماضی"
-msgstr ""
+msgstr "Q'ijul kan"
 
 #: ../../source/malumat.rst:1
 msgid "~۱۹۸۳ - آج"
-msgstr ""
+msgstr "~1983-wakamin"
 
 #: ../../source/malumat.rst:1
 msgid ":class:`~تقدیر.ذرائع.مرکسم۵`"
-msgstr ""
+msgstr ":class:`~تقدیر.ذرائع.مرکسم۵`"
 
 #: ../../source/malumat.rst:1 ../../source/malumat.rst:1
 msgid "۰، ۲۔۶، ۴۔۵، ۶۔۰، ۸۔۵"
-msgstr ""
+msgstr "0, 2.6, 4.5, 6.0, 8.5"
 
 #: ../../source/malumat.rst:1 ../../source/malumat.rst:1
 msgid "۲۰۹۵ تک"
-msgstr ""
+msgstr "Pa 2095"
 
 #: ../../source/malumat.rst:1
 msgid ":class:`~تقدیر.ذرائع.مرکسم۵_جال`"
-msgstr ""
+msgstr ":class:`~تقدیر.ذرائع.مرکسم۵_جال`"
 
 #: ../../source/malumat.rst:16
 msgid ""
@@ -86,31 +86,31 @@ msgstr ""
 
 #: ../../source/malumat.rst:19
 msgid ":class:`~تقدیر.ذرائع. جیسن`"
-msgstr ""
+msgstr ":class:`~تقدیر.ذرائع. جیسن`"
 
 #: ../../source/malumat.rst:20
 msgid ":class:`~تقدیر.ذرائع.ڈیسيٹ`"
-msgstr ""
+msgstr ":class:`~تقدیر.ذرائع.ڈیسيٹ`"
 
 #: ../../source/malumat.rst:21
 msgid ":class:`~تقدیر.ذرائع.سی_اس_وی`"
-msgstr ""
+msgstr ":class:`~تقدیر.ذرائع.سی_اس_وی`"
 
 #: ../../source/malumat.rst:22
 msgid ":class:`~تقدیر.ذرائع.ڈیسيٹ_ماھانہ`"
-msgstr ""
+msgstr ":class:`~تقدیر.ذرائع.ڈیسيٹ_ماھانہ`"
 
 #: ../../source/malumat.rst:28
 msgid "متغیّرات"
-msgstr ""
+msgstr "Retal jaloj"
 
 #: ../../source/malumat.rst:29
 msgid "تقدیر میں يہ متغیّرات دستیاب ہیں۔"
-msgstr ""
+msgstr "K'o ri taq retal jaloj re' pa Taqdir."
 
 #: ../../source/malumat.rst:33
 msgid "احتیاط کریں ہو سکتا ہے کہ سارے ذرائع میں سارے متغیّرات دستیاب نہ ہوں۔"
-msgstr ""
+msgstr "Man konojel ta ri ruxe'el tzij k'o konojel ri taq retal jaloj chupam."
 
 #: ../../source/malumat.rst:1
 msgid "نام"
@@ -118,7 +118,11 @@ msgstr "Rub'i'"
 
 #: ../../source/malumat.rst:1
 msgid "معنی"
-msgstr ""
+msgstr "Q'ajatzij"
+
+#: ../../source/malumat.rst:1
+msgid "وحدت"
+msgstr "Junilal"
 
 #: ../../source/malumat.rst:1
 msgid "``تاریخ``"
@@ -130,7 +134,7 @@ msgstr "Q'ij"
 
 #: ../../source/malumat.rst:1
 msgid "روزانہ (``۲۰۱۸۰۱۰۱``)، ماہانہ (``۲۰۱۸۰۱``)، یا سالانہ (``۲۰۱۸``)"
-msgstr ""
+msgstr "Q'ij (``20180101``), ik', (``201801``), chuqa' junab' (``2018``)"
 
 #: ../../source/malumat.rst:1
 msgid "``بارش``"
@@ -142,41 +146,41 @@ msgstr "Jab'"
 
 #: ../../source/malumat.rst:1
 msgid "ملیمیٹر"
-msgstr ""
+msgstr "Puyaj"
 
 #: ../../source/malumat.rst:1
 msgid "``شمسی_تابکاری``"
-msgstr ""
+msgstr "``شمسی_تابکاری``"
 
 #: ../../source/malumat.rst:1
-msgid "شمسی_تابکاری"
-msgstr ""
+msgid "شمسی تابکاری"
+msgstr "Ilob'anem ruch'ab' q'ij"
 
 #: ../../source/malumat.rst:1
 msgid "``درجہ_حرارت_زیادہ``"
-msgstr ""
+msgstr "``درجہ_حرارت_زیادہ``"
 
 #: ../../source/malumat.rst:1
-msgid "درجہ_حرارت_زیادہ"
-msgstr ""
+msgid "درجہ حرارت زیادہ سے زیادہ"
+msgstr "Nimalaxel tewk'atanil"
 
 #: ../../source/malumat.rst:1 ../../source/malumat.rst:1
 #: ../../source/malumat.rst:1
 msgid "سیلسیس"
-msgstr ""
+msgstr "C"
 
 #: ../../source/malumat.rst:1
 msgid "``درجہ_حرارت_کم``"
-msgstr ""
+msgstr "``درجہ_حرارت_کم``"
 
 #: ../../source/malumat.rst:1
-msgid "درجہ_حرارت_کم"
-msgstr ""
+msgid "درجہ حرارت کم سے کم"
+msgstr "Ch'uti' tewk'atanil"
 
 #: ../../source/malumat.rst:1
 msgid "``درجہ_حرارت_اوسط``"
-msgstr ""
+msgstr "``درجہ_حرارت_اوسط``"
 
 #: ../../source/malumat.rst:1
-msgid "درجہ_حرارت_اوسط"
-msgstr ""
+msgid "درجہ حرارت کا اوسط"
+msgstr "Lomanil tewk'atanil"
