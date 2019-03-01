@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the تقدیر package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Julien Malard <julien.malard@mail.mcgill.ca>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: تقدیر 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-02 21:33+0000\n"
+"POT-Creation-Date: 2019-02-27 23:51+0000\n"
 "PO-Revision-Date: 2019-01-03 20:34+0000\n"
+"Last-Translator: Julien Malard <julien.malard@mail.mcgill.ca>, 2019\n"
 "Language-Team: Kaqchikel (https://www.transifex.com/qatikon/teams/94867/cak/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +23,7 @@ msgstr ""
 
 #: ../../source/nmune/mshahdat.rst:2
 msgid "مشاہدات کی تياری"
-msgstr ""
+msgstr "Ruchojmisaxïk tz'etelil"
 
 #: ../../source/nmune/mshahdat.rst:3
 msgid ""
@@ -27,6 +31,10 @@ msgid ""
 "کریگا۔کوائف نہ ملنے کی صورت میں دوسرے ذرائع سے کوائف لےگا۔ آپ کے کوائف  "
 "جیسن، سی اس وی یا ڈیسيٹ کے مطابق (``.WTH``) ہو سکتے ہیں۔"
 msgstr ""
+"We k'o tz'etelil richin ruwäch q'ij awik'in, Taqdir xtikusaj re tzij la' "
+"nab'ey. K'a ri xtikanoj pa jun chïk ruxe'el tzij xaxe ri tzij man xril ta' "
+"chïk chupam atz'etelil. Konojel wuj csv, json, chuqa DSSAT (``.WTH``) "
+"kib'eyal yetikïr ye'ok ruxe'el atzij richin tz'etelil."
 
 #: ../../source/nmune/mshahdat.rst:6
 msgid ""
@@ -41,6 +49,17 @@ msgid ""
 " م = مقام(**جگہ)\n"
 " م.کوائف_پانا(سے='۲۰۰۰۰۱۰۱', تک='۲۰۱۷۰۱۰۱', ذرائع=[مشاہدات۱, مشاہدات۲, مشاہدات۳],  خاکے='۲۔۶')"
 msgstr ""
+"from تقدیر.ذرائع import سی_اس_وی as Csv, جیسن as Json, ڈیسيٹ as Dssat\n"
+"from تقدیر.مقام import مقام as Kolibäl\n"
+"\n"
+"nu_kolibäl = dict(عرض=11.02, طول=76.96, بلندی=1)\n"
+"\n"
+" tzetelil_1 = Csv(\"tz'etelil.csv\", **nu_kolibäl)\n"
+" tzetelil_2 = Json(\"tz'etelil.json\", **nu_kolibäl)\n"
+" tzetelil_3 = Dssat('ACNM1301.WTH')\n"
+"\n"
+" ko = Kolibäl(**nu_kolibäl)\n"
+" ko.کوائف_پانا(سے='20000101', تک='20170101', ذرائع=[tzetelil_1, tzetelil_2, tzetelil_3], خاکے='2.6')"
 
 #: ../../source/nmune/mshahdat.rst:19
 msgid ""
@@ -55,10 +74,12 @@ msgid ""
 "م = مقام(**جگہ)\n"
 "م.کوائف_پانا(سے='۲۰۰۰۰۱۰۱', تک='۲۰۱۷۰۱۰۱', ذرائع=(مشاہدات۱, مشاہدات۲, مشاہدات۳))"
 msgstr ""
+"ko = Kolibäl(**nu_kolibäl)\n"
+"ko.کوائف_پانا(سے='20000101', تک='20170101', ذرائع=(tzetelil_1, tzetelil_2, tzetelil_3))"
 
 #: ../../source/nmune/mshahdat.rst:28
 msgid "اب، نامعلوم کوائف کے جگہ میں ``np.nan`` ھی ہوگا۔"
-msgstr ""
+msgstr "Wakamin k'o ``np.nan`` pa ri kik'olib'äl ri mena'on taq tzij."
 
 #: ../../source/nmune/mshahdat.rst:30
 msgid ""
@@ -71,10 +92,12 @@ msgid ""
 "میرے_متغیّر_کا_نام = {'بارش': 'மழை'}\n"
 "سی_اس_وی('مشاہدات.csv', **جگہ, تبديل_ستون=میرے_متغیّر_کا_نام)"
 msgstr ""
+"rubi_retal_nujaloj = {'بارش': \"jab'\"}\n"
+"Csv(\"Tz'etelil.csv\", **جگہ, تبديل_ستون=rubi_retal_nujaloj)"
 
 #: ../../source/nmune/mshahdat.rst:38
 msgid "ماہانہ اور سالانہ کے مشاہدات"
-msgstr ""
+msgstr "Tz'etelil richin ik' chuqa' richin junab'"
 
 #: ../../source/nmune/mshahdat.rst:39
 msgid ""
@@ -82,6 +105,9 @@ msgid ""
 "  کوائف چاہیں تو تقدیر آپکے لئے انسے روزانہ کی طرز پر کوائف بناے گا۔ تقدیر "
 "ڈیسيٹ کے ماہانہ کوائف کی مسل (``.MTH``) کو بھی پڑھ لیتا ہے۔"
 msgstr ""
+"Taqdir nitikïr nkwaj tz'etelil richin ik' chuqa' richin junab' k'a ri' "
+"yerujal pa tzij richin q'ij. Taqdir nitikïr chuqa' nusik'ij rub'eyal wuj "
+"ruxe'el tzij richin ik' richin DSSAT (``.MTH``)."
 
 #: ../../source/nmune/mshahdat.rst:42
 msgid ""
@@ -91,10 +117,15 @@ msgid ""
 "م = مقام(**جگہ)\n"
 "م.کوائف_پانا(سے='۲۰۰۰۰۱۰۱', تک='۲۰۱۷۰۱۰۱', ذرائع=[مشاہدات۱, مشاہدات۲])"
 msgstr ""
+"tzetelil_1 = Json(\"ik'.json\", **nu_kolibäl)\n"
+"tzetelil_2 = Dssat('ARPE.MTH')\n"
+"\n"
+"ko = Kolibäl(**nu_kolibäl)\n"
+"ko.کوائف_پانا(سے='20000101', تک='20170101', ذرائع=[tzetelil_1, tzetelil_2])"
 
 #: ../../source/nmune/mshahdat.rst:52
 msgid "خاکے کے مشاہدات"
-msgstr ""
+msgstr "Tzetelil richin chojmil"
 
 #: ../../source/nmune/mshahdat.rst:53
 msgid ""
@@ -120,3 +151,17 @@ msgid ""
 "# مشاہدات_۸۵ کے کوائف ھی ملیں گے۔\n"
 "م.کوائف_پانا(سے='۲۰۱۸۰۱۰۱', تک='۲۰۱۷۰۱۰۱', ذرائع=[مشاہدات_۲۶, مشاہدات_۸۵],  خاکے='۸۔۵')"
 msgstr ""
+"from تقدیر.ذرائع import سی_اس_وی as Csv\n"
+"from تقدیر.مقام import مقام as Kolibäl\n"
+"\n"
+"nu_kolibäl = dict(عرض=11.02, طول=76.96, بلندی=1)\n"
+"\n"
+"Tzetelil_26 = Csv(\"Tz'etelil_26.csv\", **nu_kolibäl, خاکے='2.6')\n"
+"Tzetelil_85 = Csv(\"Tz'etelil_85.csv\", **nu_kolibäl, خاکے='8.5')\n"
+"ko = Kolibäl(**nu_kolibäl)\n"
+"\n"
+"# Xaxe xtiya' ri taq tzij richin Tzetelil_26\n"
+"ko.کوائف_پانا(سے='20180101', تک='20170101', ذرائع=[Tzetelil_26, Tzetelil_85],  خاکے='2.6')\n"
+"\n"
+"# Xaxe xtiya' ri taq tzij richin Tzetelil_85\n"
+"ko.کوائف_پانا(سے='20180101', تک='20170101', ذرائع=[Tzetelil_26, Tzetelil_85],  خاکے='8.5')"

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: تقدیر 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-02 21:33+0000\n"
+"POT-Creation-Date: 2019-02-27 23:51+0000\n"
 "PO-Revision-Date: 2019-01-04 17:18+0000\n"
 "Last-Translator: Julien Malard <julien.malard@mail.mcgill.ca>, 2019\n"
 "Language-Team: Kaqchikel (https://www.transifex.com/qatikon/teams/94867/cak/)\n"
@@ -40,7 +40,7 @@ msgstr ""
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ.pydocstring
 #: of تقدیر.ذریعہ.ذریعہ:1
 msgid "آب و ہوا کے کوائف کا ذریعہ۔"
-msgstr ""
+msgstr "Ruxe'el rutzij ruwäch q'ij."
 
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ.pydocstring
 #: of تقدیر.ذریعہ.ذریعہ._کوائف_بنانا:1
@@ -54,7 +54,7 @@ msgstr ""
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ_نکتہ.pydocstring
 #: of تقدیر.ذریعہ_نکتہ.ذریعہ_نکتہ.کوائف_پانا:5
 msgid "سے: datetime.date | str"
-msgstr ""
+msgstr "سے: datetime.date | str"
 
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ.pydocstring
 #: of تقدیر.ذریعہ.ذریعہ._کوائف_بنانا:6
@@ -63,7 +63,7 @@ msgstr ""
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ_نکتہ.pydocstring
 #: of تقدیر.ذریعہ_نکتہ.ذریعہ_نکتہ.کوائف_پانا:6
 msgid "وہ تاریخ جب سے کوائف چاہيں۔"
-msgstr ""
+msgstr "Ri nab'ey q'ij achojoma nawajo tzij."
 
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ.pydocstring
 #: of تقدیر.ذریعہ.ذریعہ._کوائف_بنانا:7
@@ -72,12 +72,12 @@ msgstr ""
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ_نکتہ.pydocstring
 #: of تقدیر.ذریعہ_نکتہ.ذریعہ_نکتہ.کوائف_پانا:7
 msgid "تک: datetime.date | str"
-msgstr ""
+msgstr "تک: datetime.date | str"
 
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ.pydocstring
 #: of تقدیر.ذریعہ.ذریعہ._کوائف_بنانا:8
 msgid "وہ تاریخ جب تک کوائف چاہيں۔"
-msgstr ""
+msgstr "Ri k'isb'äl q'ij achojoma nawajo tzij."
 
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ.pydocstring
 #: of تقدیر.ذریعہ.ذریعہ._کوائف_بنانا:9
@@ -86,7 +86,7 @@ msgstr ""
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ_نکتہ.pydocstring
 #: of تقدیر.ذریعہ_نکتہ.ذریعہ_نکتہ.کوائف_پانا:9
 msgid "عرض: float | int"
-msgstr ""
+msgstr "عرض: float | int"
 
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ.pydocstring
 #: of تقدیر.ذریعہ.ذریعہ._کوائف_بنانا:10
@@ -100,12 +100,12 @@ msgstr ""
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ_نکتہ.pydocstring
 #: of تقدیر.ذریعہ_نکتہ.ذریعہ_نکتہ.کوائف_پانا:11
 msgid "طول: float | int"
-msgstr ""
+msgstr "طول: float | int"
 
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ.pydocstring
 #: of تقدیر.ذریعہ.ذریعہ._کوائف_بنانا:12
 msgid "جگہ کا طول۔"
-msgstr ""
+msgstr "Raqän ri k'olib'äl."
 
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ.pydocstring
 #: of تقدیر.ذریعہ.ذریعہ._کوائف_بنانا:13
@@ -114,7 +114,7 @@ msgstr ""
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ_نکتہ.pydocstring
 #: of تقدیر.ذریعہ_نکتہ.ذریعہ_نکتہ.کوائف_پانا:13
 msgid "بلندی: None | float | int"
-msgstr ""
+msgstr "بلندی: None | float | int"
 
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ.pydocstring
 #: of تقدیر.ذریعہ.ذریعہ._کوائف_بنانا:14
@@ -123,7 +123,7 @@ msgstr ""
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ_نکتہ.pydocstring
 #: of تقدیر.ذریعہ_نکتہ.ذریعہ_نکتہ.کوائف_پانا:14
 msgid "جگہ کی بلندی۔"
-msgstr ""
+msgstr "Rupa'alem ri k'olib'äl."
 
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ.pydocstring
 #: of تقدیر.ذریعہ.ذریعہ._کوائف_بنانا:16
@@ -132,7 +132,7 @@ msgstr ""
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ_نکتہ.pydocstring
 #: of تقدیر.ذریعہ_نکتہ.ذریعہ_نکتہ.کوائف_پانا:16
 msgid "خاکے: None | str"
-msgstr ""
+msgstr "خاکے: None | str"
 
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ.pydocstring
 #: of تقدیر.ذریعہ.ذریعہ._کوائف_بنانا:16
@@ -141,12 +141,12 @@ msgstr ""
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ_نکتہ.pydocstring
 #: of تقدیر.ذریعہ_نکتہ.ذریعہ_نکتہ.کوائف_پانا:16
 msgid "آب وہوا کی تبدیلی کا خاکا۔"
-msgstr ""
+msgstr "Ruchojmil jaloj ruwäch q'ij."
 
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ.pydocstring
 #: of تقدیر.ذریعہ.ذریعہ._کوائف_بنانا:22
 msgid "pd.DataFrame:"
-msgstr ""
+msgstr "pd.DataFrame:"
 
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ.pydocstring
 #: of تقدیر.ذریعہ.ذریعہ._کوائف_بنانا:22
@@ -176,32 +176,32 @@ msgstr ""
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ_نکتہ.pydocstring
 #: of تقدیر.ذریعہ_نکتہ.ذریعہ_نکتہ.کوائف_پانا:8
 msgid "وہ تاریخ جب تک کوائف چاہيں ۔"
-msgstr ""
+msgstr "Ri k'isb'äl q'ij achojoma nawajo tzij."
 
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ.pydocstring
 #: of تقدیر.ذریعہ.ذریعہ.کوائف_پانا:10
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ_نکتہ.pydocstring
 #: of تقدیر.ذریعہ_نکتہ.ذریعہ_نکتہ.کوائف_پانا:10
 msgid "جگہ کی عرض۔"
-msgstr ""
+msgstr "Ruk'ojob'alil ri k'olib'äl."
 
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ.pydocstring
 #: of تقدیر.ذریعہ.ذریعہ.کوائف_پانا:12
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ_نکتہ.pydocstring
 #: of تقدیر.ذریعہ_نکتہ.ذریعہ_نکتہ.کوائف_پانا:12
 msgid "جگہ کی طول۔"
-msgstr ""
+msgstr "Raqan ri k'olib'äl."
 
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ.pydocstring
 #: of تقدیر.ذریعہ.ذریعہ.کوائف_پانا:20
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ_نکتہ.pydocstring
 #: of تقدیر.ذریعہ_نکتہ.ذریعہ_نکتہ.کوائف_پانا:20
 msgid "کوائف:"
-msgstr ""
+msgstr "Tzij:"
 
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ.pydocstring
 #: of تقدیر.ذریعہ.ذریعہ.کوائف_پانا:21
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ_نکتہ.pydocstring
 #: of تقدیر.ذریعہ_نکتہ.ذریعہ_نکتہ.کوائف_پانا:21
 msgid "ہمہارے (روزانہ) کوائف۔"
-msgstr ""
+msgstr "Qatzij, richin q'ij."

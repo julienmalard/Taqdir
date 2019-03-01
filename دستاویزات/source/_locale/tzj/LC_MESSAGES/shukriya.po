@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the تقدیر package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Julien Malard <julien.malard@mail.mcgill.ca>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: تقدیر 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-02 21:33+0000\n"
+"POT-Creation-Date: 2019-02-27 23:51+0000\n"
 "PO-Revision-Date: 2019-01-03 20:29+0000\n"
+"Last-Translator: Julien Malard <julien.malard@mail.mcgill.ca>, 2019\n"
 "Language-Team: Tz’utujil (https://www.transifex.com/qatikon/teams/94867/tzj/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +23,7 @@ msgstr ""
 
 #: ../../source/shukriya.rst:2
 msgid "شکریہ"
-msgstr ""
+msgstr "Maltiöx chawa"
 
 #: ../../source/shukriya.rst:5
 msgid "تخلیق کار"
@@ -27,12 +31,14 @@ msgstr ""
 
 #: ../../source/shukriya.rst:7 ../../source/shukriya.rst:12
 msgid "`ژولیئں ملاغ <https://www.researchgate.net/profile/Julien_Malard>`_"
-msgstr ""
+msgstr "`Julien Malard <https://www.researchgate.net/profile/Julien_Malard>`_"
 
 #: ../../source/shukriya.rst:8
 msgid ""
 "`محمّد اظہرانعام بیگ <https://www.researchgate.net/profile/Azhar_Baig>`_"
 msgstr ""
+"`Muhammad Azhar Inam Baig (محمّد اظہرانعام بیگ) "
+"<https://www.researchgate.net/profile/Azhar_Baig>`_"
 
 #: ../../source/shukriya.rst:11
 msgid "ترجمہ"

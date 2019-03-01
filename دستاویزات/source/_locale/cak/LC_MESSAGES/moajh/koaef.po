@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: تقدیر 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-02 21:33+0000\n"
+"POT-Creation-Date: 2019-02-27 23:51+0000\n"
 "PO-Revision-Date: 2019-01-04 17:18+0000\n"
 "Last-Translator: Julien Malard <julien.malard@mail.mcgill.ca>, 2019\n"
 "Language-Team: Kaqchikel (https://www.transifex.com/qatikon/teams/94867/cak/)\n"
@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../source/moajh/koaef.rst:2
 msgid "کوائف"
-msgstr "Ruxe'el tzij"
+msgstr "Tzij"
 
 #: ../../source/moajh/koaef.rst:4
 msgid ""
@@ -78,17 +78,17 @@ msgstr ""
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/کوائف.pydocstring
 #: of تقدیر.کوائف.کوائف.لاپتہ:10
 msgid "pd.PeriodIndex"
-msgstr ""
+msgstr "pd.PeriodIndex"
 
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/کوائف.pydocstring
 #: of تقدیر.کوائف.کوائف.لکھنا:1
 msgid "کوائف کو مسل میں رکھنا۔"
-msgstr ""
+msgstr "Niyak ri tzij chupam jun wuj."
 
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/کوائف.pydocstring
 #: of تقدیر.کوائف.کوائف.لکھنا:5
 msgid "راستہ: str"
-msgstr ""
+msgstr "راستہ: str"
 
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/کوائف.pydocstring
 #: of تقدیر.کوائف.کوائف.لکھنا:6

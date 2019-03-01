@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: تقدیر 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-02 21:33+0000\n"
+"POT-Creation-Date: 2019-02-27 23:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -119,6 +119,10 @@ msgid "معنی"
 msgstr "معنی"
 
 #: ../../source/malumat.rst:1
+msgid "وحدت"
+msgstr "وحدت"
+
+#: ../../source/malumat.rst:1
 msgid "``تاریخ``"
 msgstr "``تاریخ``"
 
@@ -147,16 +151,16 @@ msgid "``شمسی_تابکاری``"
 msgstr "``شمسی_تابکاری``"
 
 #: ../../source/malumat.rst:1
-msgid "شمسی_تابکاری"
-msgstr "شمسی_تابکاری"
+msgid "شمسی تابکاری"
+msgstr "شمسی تابکاری"
 
 #: ../../source/malumat.rst:1
 msgid "``درجہ_حرارت_زیادہ``"
 msgstr "``درجہ_حرارت_زیادہ``"
 
 #: ../../source/malumat.rst:1
-msgid "درجہ_حرارت_زیادہ"
-msgstr "درجہ_حرارت_زیادہ"
+msgid "درجہ حرارت زیادہ سے زیادہ"
+msgstr "درجہ حرارت زیادہ سے زیادہ"
 
 #: ../../source/malumat.rst:1 ../../source/malumat.rst:1
 #: ../../source/malumat.rst:1
@@ -168,13 +172,13 @@ msgid "``درجہ_حرارت_کم``"
 msgstr "``درجہ_حرارت_کم``"
 
 #: ../../source/malumat.rst:1
-msgid "درجہ_حرارت_کم"
-msgstr "درجہ_حرارت_کم"
+msgid "درجہ حرارت کم سے کم"
+msgstr "درجہ حرارت کم سے کم"
 
 #: ../../source/malumat.rst:1
 msgid "``درجہ_حرارت_اوسط``"
 msgstr "``درجہ_حرارت_اوسط``"
 
 #: ../../source/malumat.rst:1
-msgid "درجہ_حرارت_اوسط"
-msgstr "درجہ_حرارت_اوسط"
+msgid "درجہ حرارت کا اوسط"
+msgstr "درجہ حرارت کا اوسط"
