@@ -1,0 +1,133 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) ژولیئں ملاغ، محمّد اظہر انعام بیگ، ۲۰۱۸+
+# This file is distributed under the same license as the تقدیر package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Julien Malard <julien.malard@mail.mcgill.ca>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: تقدیر 1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-01 17:26+0000\n"
+"PO-Revision-Date: 2019-01-03 16:31+0000\n"
+"Last-Translator: Julien Malard <julien.malard@mail.mcgill.ca>, 2019\n"
+"Language-Team: Spanish (https://www.transifex.com/qatikon/teams/94867/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../source/index.rst:12
+msgid "تقدیر کی دستاویزات پر  خوش آمدید!"
+msgstr "¡Bienvenida a la documentación de Taqdir!"
+
+#: ../../source/index.rst:27
+msgid "تقدیر کیا ہے؟"
+msgstr "¿Qué es Taqdir?"
+
+#: ../../source/index.rst:28
+msgid "تقدیر آب وہوا میں تبدیلی کے کوائف پایتھون کو دیتا ہے۔"
+msgstr "Taqdir trae los datos de cambios climáticos a Python."
+
+#: ../../source/index.rst:31
+msgid "اسکا نام تقدیر کیوں  ہے؟"
+msgstr "¿Por qué se llama Taqdir?"
+
+#: ../../source/index.rst:32
+msgid ""
+"ہم نے اسے تقد ير کا نام ديا ہے کيو نکہ ہم سمجتھے ہيں کہ آب و ہوا کی تبد يلی "
+"ميں تقد ير کو ئی نہيں ہے، سوا ئے انسانيت کی بے و قوفی کے۔"
+msgstr ""
+"Se llama Taqdir (\"destino\" en urdu) para que nunca se nos olvide que no "
+"hay nada del destino en lo de los cambios climáticos, a parte, tal vez, la "
+"estupidez humana."
+
+#: ../../source/index.rst:36
+msgid "مجھے تقدیر کی کیوں ضرورت ہوگی؟"
+msgstr "¿Para qué me sirve Taqdir?"
+
+#: ../../source/index.rst:37
+msgid ""
+"کیا آپکو آب وہواکی تبدیلیوں کے کوائف درکار ہیں، ليکن نہيں جانتے کہ يہ "
+"کوائف کہاں سے ملیں گے؟"
+msgstr ""
+"¿Te servirían predicciones de cambios climáticos, pero no sabes dónde \"\n"
+"\"encontrar los datos?"
+
+#: ../../source/index.rst:38
+msgid ""
+"یا کیا آپکے پاس کوائف ہیں، ليکن ۱۰ مختلف جگہوں اور مختلف اوقات میں ہيں؟"
+msgstr ""
+"O de pronto sí tienes datos, ¿pero en 10 archivos y formatos distintos?"
+
+#: ../../source/index.rst:39
+msgid ""
+"شاید مرکسم کا استعمال کرناچاہتے ہیں، ليکن دستی طريقے سے مرکسم کے۲۰۰ مسل کے "
+"نتائج پڑھناممکن نہیں لگ رہا؟"
+msgstr ""
+"De pronto quieres utilizar Marksim, ¿pero no te dice mucho la idea de "
+"organizar a mano unos 200 archivos de resultados Marksim?"
+
+#: ../../source/index.rst:41
+msgid "تقدیران تينوں معاملات میں سب آسانی مہيا کرتا ہے۔"
+msgstr "Tranquilo, que Taqdir arreglará todo para ti."
+
+#: ../../source/index.rst:43
+msgid ""
+"آپکے پاس کوائف نہیں ہیں؟ تقدیر انہیں آپکے لئے ڈھونڈ پايگا، چاھے کوائف "
+"ماضی، حال يا مستقبل کے ہوں۔"
+msgstr ""
+"¿No tienes datos? Taqdir los buscará para ti, que sean del pasado, presente "
+"o futuro."
+
+#: ../../source/index.rst:44
+msgid ""
+"آپکے پاس مختلف جگہوں اور مختلف اوقات میں کوائف ہیں؟ تقدیر انہیں پہلےمرحلے "
+"ميں جوڑدیگا اور دوسرے مرحلے میں نامعلوم دنوں کے کوائف آپکے لئے ڈھونڈیگا۔"
+msgstr ""
+"¿Tienes datos en varios formatos y archivos? Taqdir los combinará todos y "
+"después, si todavía faltan algunos datos, los buscará para ti."
+
+#: ../../source/index.rst:45
+msgid ""
+"آپکے پاس ماہانہ کوائف ہیں، ليکن آپکو روزانہ کی بنياد پر کوائف درکار ہيں؟ یا"
+" روزانہ ہیں پر ماہانہ چاہئيں؟ تقد ير اس سلسلے ميں بھی مددگار ہے۔"
+msgstr ""
+"¿Tienes datos mensuales pero quieres diarios? ¿O tienes datos diarios pero "
+"te sirven mensuales? Taqdir los procesarán como los quieres."
+
+#: ../../source/index.rst:48
+msgid "اشاریہ"
+msgstr "Índice"
+
+#: ../../source/index.rst:49
+msgid "تعارف"
+msgstr "Información"
+
+#: ../../source/index.rst:57
+msgid "نمونے"
+msgstr "Ejemplos"
+
+#: ../../source/index.rst:64
+msgid "ترقی"
+msgstr "Desarrollo"
+
+#: ../../source/index.rst:71
+msgid "برنامج کاری مواجہ"
+msgstr "Interfaz de programación"
+
+#: ../../source/index.rst:78
+msgid "اشاریہ اور جدول"
+msgstr "Índice y tablas"
+
+#: ../../source/index.rst:80
+msgid ":ref:`اشاریہ <genindex>`"
+msgstr ":ref:`Índice <genindex>`"
+
+#: ../../source/index.rst:81
+msgid ":ref:`کھوج <search>`"
+msgstr ":ref:`Búsqueda<search>`"

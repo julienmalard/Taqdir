@@ -1,0 +1,38 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) ژولیئں ملاغ، محمّد اظہر انعام بیگ، ۲۰۱۸+
+# This file is distributed under the same license as the تقدیر package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: تقدیر 1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-01 17:26+0000\n"
+"PO-Revision-Date: 2019-01-03 20:34+0000\n"
+"Language-Team: Panjabi (Punjabi) (https://www.transifex.com/qatikon/teams/94867/pa/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pa\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../source/trqi/trjmh.rst:2
+msgid "ترجمہ"
+msgstr ""
+
+#: ../../source/trqi/trjmh.rst:4
+msgid ""
+"تقدیر کا ترجمہ کسی بھی زبان ميں `ترانسفکس "
+"<https://www.transifex.com/qatikon/tqdyr/dashboard>`_ پر ہو سکتا ہے۔"
+msgstr ""
+
+#: ../../source/trqi/trjmh.rst:6
+msgid ""
+"اگر آپ دوسری زبان جانتے ہیں جسمیں تقدیر کا استعمال کرنا ہے تو ہمہیں ترجمہ "
+"میں مدد کيجئے۔"
+msgstr ""
+
+#: ../../source/trqi/trjmh.rst:8
+msgid "اس سے تقدیر کی ترويج ميں مدد ملے گی۔ آپ کی مدد کا شکريہ۔"
+msgstr ""
