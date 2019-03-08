@@ -3,7 +3,7 @@ import json
 import pandas as pd
 from chardet import UniversalDetector
 
-from تقدیر import متغیرات
+from تقدیر.کام import متغیرات
 from تقدیر.ذریعہ_نکتہ import ذریعہ_نکتہ
 
 
