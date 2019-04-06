@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the تقدیر package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Julien Malard <julien.malard@mail.mcgill.ca>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: تقدیر 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-01 17:26+0000\n"
+"POT-Creation-Date: 2019-04-06 13:17+0000\n"
 "PO-Revision-Date: 2019-01-03 20:34+0000\n"
+"Last-Translator: Julien Malard <julien.malard@mail.mcgill.ca>, 2019\n"
 "Language-Team: Spanish (https://www.transifex.com/qatikon/teams/94867/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +23,7 @@ msgstr ""
 
 #: ../../source/nmune/mshahdat.rst:2
 msgid "مشاہدات کی تياری"
-msgstr ""
+msgstr "Preparación de observaciones"
 
 #: ../../source/nmune/mshahdat.rst:3
 msgid ""
@@ -94,7 +98,7 @@ msgstr ""
 
 #: ../../source/nmune/mshahdat.rst:52
 msgid "خاکے کے مشاہدات"
-msgstr ""
+msgstr "Observaciones de escenarios"
 
 #: ../../source/nmune/mshahdat.rst:53
 msgid ""
@@ -120,3 +124,17 @@ msgid ""
 "# مشاہدات_۸۵ کے کوائف ھی ملیں گے۔\n"
 "م.کوائف_پانا(سے='۲۰۱۸۰۱۰۱', تک='۲۰۱۷۰۱۰۱', ذرائع=[مشاہدات_۲۶, مشاہدات_۸۵],  خاکے='۸۔۵')"
 msgstr ""
+"from تقدیر.ذرائع import سی_اس_وی as Csv\n"
+"from تقدیر.مقام import مقام as Lugar\n"
+"\n"
+"coords = dict(عرض=11.02, طول=76.96, بلندی=1)\n"
+"\n"
+"Obs_26 = Csv('Obs.csv', **coords, خاکے='2.6')\n"
+"Obs_85= Csv('Obs.csv', **coords, خاکے='8.5')\n"
+"mi_lugar = Lugar(**coords)\n"
+"\n"
+"# Únicamente devolverá los datos de Obs_26\n"
+"mi_lugar.کوائف_پانا(سے='20180101', تک='20170101', ذرائع=[Obs_26, Obs_85],  خاکے='2.6')\n"
+"\n"
+"# Únicamente devolverá los datos de Obs_85\n"
+"mi_lugar.کوائف_پانا(سے='20180101', تک='20170101', ذرائع=[Obs_26, Obs_85],  خاکے='8.5')"

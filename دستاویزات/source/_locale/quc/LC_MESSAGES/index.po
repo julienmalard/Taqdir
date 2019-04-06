@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: تقدیر 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-01 17:26+0000\n"
+"POT-Creation-Date: 2019-04-06 13:17+0000\n"
 "PO-Revision-Date: 2019-01-03 16:31+0000\n"
 "Language-Team: K'iche' (https://www.transifex.com/qatikon/teams/94867/quc/)\n"
 "MIME-Version: 1.0\n"
@@ -16,6 +16,22 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: quc\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../source/index.rst:49 ../../source/index.rst:49
+msgid "تعارف"
+msgstr ""
+
+#: ../../source/index.rst:57 ../../source/index.rst:57
+msgid "نمونے"
+msgstr ""
+
+#: ../../source/index.rst:64 ../../source/index.rst:64
+msgid "ترقی"
+msgstr ""
+
+#: ../../source/index.rst:71 ../../source/index.rst:71
+msgid "برنامج کاری مواجہ"
+msgstr ""
 
 #: ../../source/index.rst:12
 msgid "تقدیر کی دستاویزات پر  خوش آمدید!"
@@ -84,22 +100,6 @@ msgstr ""
 
 #: ../../source/index.rst:48
 msgid "اشاریہ"
-msgstr ""
-
-#: ../../source/index.rst:49
-msgid "تعارف"
-msgstr ""
-
-#: ../../source/index.rst:57
-msgid "نمونے"
-msgstr ""
-
-#: ../../source/index.rst:64
-msgid "ترقی"
-msgstr ""
-
-#: ../../source/index.rst:71
-msgid "برنامج کاری مواجہ"
 msgstr ""
 
 #: ../../source/index.rst:78

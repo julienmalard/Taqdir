@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: تقدیر 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-01 17:26+0000\n"
+"POT-Creation-Date: 2019-04-06 13:17+0000\n"
 "PO-Revision-Date: 2019-01-04 17:18+0000\n"
 "Last-Translator: Julien Malard <julien.malard@mail.mcgill.ca>, 2019\n"
 "Language-Team: French (https://www.transifex.com/qatikon/teams/94867/fr/)\n"
@@ -31,6 +31,8 @@ msgid ""
 "یہ ذریعہ آپکے سنگنک پر ہونے والے مرکسم ۵ سے آوہوا تبدیلی کے کوائف پاتا "
 "ہیے۔"
 msgstr ""
+"Cette source recherche les données climatiques du programme Marksim 5 "
+"installé sur votre ordinateur."
 
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذرائع/مرکسم٥_جال.pydocstring
 #: of تقدیر.ذرائع.مرکسم۵_جال:1
@@ -39,6 +41,8 @@ msgid ""
 "<http://gisweb.ciat.cgiar.org/MarkSimGCM/#tabs-3>`_ سے آوہوا تبدیلی کے "
 "کوائف پاتا ہیے۔"
 msgstr ""
+"Cette source recherche les données de changements climatiques du `portail "
+"internet <http://gisweb.ciat.cgiar.org/MarkSimGCM/#tabs-3>`_ de Marksim 5."
 
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذرائع/ناسا.pydocstring
 #: of تقدیر.ذرائع.ناسا:1
@@ -46,3 +50,5 @@ msgid ""
 "یہ ذریعہ ناسا کے `پنے <https://power.larc.nasa.gov/cgi-"
 "bin/v1/DataAccess.py>`_ سے آوہوا مشاہدات کے کوائف پاتا ہیے۔"
 msgstr ""
+"Cette source recherche les données climatiques historiques du `portail "
+"<https://power.larc.nasa.gov/cgi-bin/v1/DataAccess.py>`_ de la NASA."

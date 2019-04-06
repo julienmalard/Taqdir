@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: تقدیر 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-01 17:26+0000\n"
+"POT-Creation-Date: 2019-04-06 13:17+0000\n"
 "PO-Revision-Date: 2019-01-04 17:18+0000\n"
 "Last-Translator: Julien Malard <julien.malard@mail.mcgill.ca>, 2019\n"
 "Language-Team: Kaqchikel (https://www.transifex.com/qatikon/teams/94867/cak/)\n"
@@ -32,10 +32,15 @@ msgid ""
 "مقام کے کوائف ھی فراہم کرتے ہیں، اور عام ذرائع، جو ایک رقبے یا پوری دنیا کے "
 "کوائف فراہم کرتے ہیں۔"
 msgstr ""
+"E k'iy kiwäch ri taq ruxe'el tzij richin Taqdir. We nawajo, yattikïr "
+":ref:`nab'an <نئے_ذرائع>`  jun ak'ak'a ruxe'el tzij. E ka'i' kiwäch ruxe'el "
+"tzij yattikïr nab'an chupam Taqdir: chuq' ruxe'el tzij, achojupam xaxe "
+"nukanaj ri tzij richin jun k'olib'äl, chuqa' choj ruxe'el tzij. achojupam "
+"yekanaj tzij kichin k'iy taq k'olib'äl."
 
 #: ../../source/moajh/zriya.rst:14
 msgid "ان دونوں کی بنیادی ملومات نیچے دی گئی ہیں۔"
-msgstr ""
+msgstr "Ketamab'äl ri ka'i' e k'o wawe chuxe'."
 
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ.pydocstring
 #: of تقدیر.ذریعہ.ذریعہ:1
@@ -151,18 +156,16 @@ msgid "pd.DataFrame:"
 msgstr "pd.DataFrame:"
 
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ.pydocstring
-#: of تقدیر.ذریعہ.ذریعہ._کوائف_بنانا:22
+#: of تقدیر.ذریعہ.ذریعہ._کوائف_بنانا:21
 msgid ""
 "کوائف، پاندس میں۔ اگر ان تاریخ، جگہ، یا خاکے کے لئے اس ذریعے میں کوائف "
-"دستیاب نہیں ہیں، تو پھر"
+"دستیاب نہیں ہیں، تو پھر ``None`` واپس دینا۔ پاندس کا اشاریہ pd.PeriodIndex "
+"ہونا چاہئے۔ اشاریہ روزانہ، ماہانہ، سا لانہ کا ہو سکتا ہے۔"
 msgstr ""
-
-#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ.pydocstring
-#: of تقدیر.ذریعہ.ذریعہ._کوائف_بنانا:22
-msgid ""
-"``None`` واپس دینا۔ پاندس کا اشاریہ pd.PeriodIndex ہونا چاہئے۔ اشاریہ "
-"روزانہ، ماہانہ، سا لانہ کا ہو سکتا ہے۔"
-msgstr ""
+"Ri tzij, pa rub'eyal Pandas. We man xatikïr nawil tzij richin ri k'olib'äl "
+"chuqa' ri chojmil xawajo' chupam ri ruxe'el tzij re, xaxe taya' ``None``. "
+"Rajwaxïk chi ``pd.PeriodIndex`` (ütz' richin q'ij, ik' chuqa' junab') "
+"rub'eyal ri cholwuj richin Pandas."
 
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ.pydocstring
 #: of تقدیر.ذریعہ.ذریعہ.کوائف_پانا:1
@@ -172,6 +175,8 @@ msgid ""
 "وہ کوائف مہيا کرنا جو ``سے`` اور ``تک`` تاریخ کے درميان اس جگہ اور خاکے کے "
 "ليے دستیاب ہیں۔"
 msgstr ""
+"Nuya' ruxe'el tzij richin ri k'olib'äl chuqa' ri chojmil xawajo (nab'ey "
+"q'ij: ``سے``, k'isb'äl q'ij: ``تک``)."
 
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ.pydocstring
 #: of تقدیر.ذریعہ.ذریعہ.کوائف_پانا:8
@@ -214,3 +219,5 @@ msgid ""
 "نکتہ کے ذرائع اعم ذرائع کے جیسے ہیں، پر انہیں بناتے پر ھی بتانے پڈتا ہیے کہ "
 "کیس جگہ کے ہیں۔"
 msgstr ""
+"Ri chuq' ruxe'el tzij xa junan rik'in ri choj ruxe'el tzij, po toq nab'an "
+"jun ruwachinäq k'o chi nab'ij chire akuchi k'o wi' chuqa' achike ruchojmil."

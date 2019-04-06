@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the تقدیر package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Julien Malard <julien.malard@mail.mcgill.ca>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: تقدیر 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-01 17:26+0000\n"
+"POT-Creation-Date: 2019-04-06 13:17+0000\n"
 "PO-Revision-Date: 2019-01-03 16:31+0000\n"
+"Last-Translator: Julien Malard <julien.malard@mail.mcgill.ca>, 2019\n"
 "Language-Team: Panjabi (Punjabi) (https://www.transifex.com/qatikon/teams/94867/pa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -17,13 +21,29 @@ msgstr ""
 "Language: pa\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+#: ../../source/index.rst:49 ../../source/index.rst:49
+msgid "تعارف"
+msgstr ""
+
+#: ../../source/index.rst:57 ../../source/index.rst:57
+msgid "نمونے"
+msgstr ""
+
+#: ../../source/index.rst:64 ../../source/index.rst:64
+msgid "ترقی"
+msgstr ""
+
+#: ../../source/index.rst:71 ../../source/index.rst:71
+msgid "برنامج کاری مواجہ"
+msgstr ""
+
 #: ../../source/index.rst:12
 msgid "تقدیر کی دستاویزات پر  خوش آمدید!"
 msgstr ""
 
 #: ../../source/index.rst:27
 msgid "تقدیر کیا ہے؟"
-msgstr ""
+msgstr "ਤਕ੍ਦੀਰ ਕੀ ਹੈ।"
 
 #: ../../source/index.rst:28
 msgid "تقدیر آب وہوا میں تبدیلی کے کوائف پایتھون کو دیتا ہے۔"
@@ -86,22 +106,6 @@ msgstr ""
 msgid "اشاریہ"
 msgstr ""
 
-#: ../../source/index.rst:49
-msgid "تعارف"
-msgstr ""
-
-#: ../../source/index.rst:57
-msgid "نمونے"
-msgstr ""
-
-#: ../../source/index.rst:64
-msgid "ترقی"
-msgstr ""
-
-#: ../../source/index.rst:71
-msgid "برنامج کاری مواجہ"
-msgstr ""
-
 #: ../../source/index.rst:78
 msgid "اشاریہ اور جدول"
 msgstr ""
@@ -112,4 +116,4 @@ msgstr ""
 
 #: ../../source/index.rst:81
 msgid ":ref:`کھوج <search>`"
-msgstr ""
+msgstr ":ref:`ਖੋਜ <search>`"

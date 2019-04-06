@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: تقدیر 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-01 17:26+0000\n"
+"POT-Creation-Date: 2019-04-06 13:17+0000\n"
 "PO-Revision-Date: 2019-01-03 16:31+0000\n"
 "Last-Translator: Marco  Ramírez. <marccoramirez.21@gmail.com>, 2019\n"
 "Language-Team: Tz’utujil (https://www.transifex.com/qatikon/teams/94867/tzj/)\n"
@@ -21,31 +21,51 @@ msgstr ""
 "Language: tzj\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+#: ../../source/index.rst:49 ../../source/index.rst:49
+msgid "تعارف"
+msgstr "Mejb'alrij "
+
+#: ../../source/index.rst:57 ../../source/index.rst:57
+msgid "نمونے"
+msgstr "Rejtal"
+
+#: ../../source/index.rst:64 ../../source/index.rst:64
+msgid "ترقی"
+msgstr "Ju'tb'anem"
+
+#: ../../source/index.rst:71 ../../source/index.rst:71
+msgid "برنامج کاری مواجہ"
+msgstr ""
+
 #: ../../source/index.rst:12
 msgid "تقدیر کی دستاویزات پر  خوش آمدید!"
-msgstr ""
+msgstr "¡Utz k'ulbenik chpam taqdir!"
 
 #: ../../source/index.rst:27
 msgid "تقدیر کیا ہے؟"
-msgstr ""
+msgstr "¿Nak'a jaa' Taqdir?"
 
 #: ../../source/index.rst:28
 msgid "تقدیر آب وہوا میں تبدیلی کے کوائف پایتھون کو دیتا ہے۔"
 msgstr ""
+"Taqdir nuk'aj jetaq tzij na'uj rxin k'ayewal rjalbal  q'ij chpaam Python."
 
 #: ../../source/index.rst:31
 msgid "اسکا نام تقدیر کیوں  ہے؟"
-msgstr "Naq rumak qtzitzij rub'ii'"
+msgstr "Naq rumak Tadir rub'i"
 
 #: ../../source/index.rst:32
 msgid ""
 "ہم نے اسے تقد ير کا نام ديا ہے کيو نکہ ہم سمجتھے ہيں کہ آب و ہوا کی تبد يلی "
 "ميں تقد ير کو ئی نہيں ہے، سوا ئے انسانيت کی بے و قوفی کے۔"
 msgstr ""
+"Rumak Taqdir rub'ixik jaa' \"abtza' nb'ipo'nwa\" chpam jun tzojbal rbenan "
+"Urdu, ch utz k'ara' nqaban ch'oboj tzrij jaa' rbeyal rjloon ri' rwach kaj "
+"ulew kamikra, chnqakanoj k'iy rbeyal abatza' nqajo'a nqob'iponwa'."
 
 #: ../../source/index.rst:36
 msgid "مجھے تقدیر کی کیوں ضرورت ہوگی؟"
-msgstr ""
+msgstr "¿Nak'a jaa' rumak xinwajo'a nksaja Taqdir? "
 
 #: ../../source/index.rst:37
 msgid ""
@@ -88,22 +108,6 @@ msgstr ""
 
 #: ../../source/index.rst:48
 msgid "اشاریہ"
-msgstr ""
-
-#: ../../source/index.rst:49
-msgid "تعارف"
-msgstr "Mejb'alrij "
-
-#: ../../source/index.rst:57
-msgid "نمونے"
-msgstr "Rejtal"
-
-#: ../../source/index.rst:64
-msgid "ترقی"
-msgstr "Ju'tb'anem"
-
-#: ../../source/index.rst:71
-msgid "برنامج کاری مواجہ"
 msgstr ""
 
 #: ../../source/index.rst:78

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: تقدیر 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-01 17:26+0000\n"
+"POT-Creation-Date: 2019-04-06 13:17+0000\n"
 "PO-Revision-Date: 2019-01-04 17:18+0000\n"
 "Language-Team: Tamil (https://www.transifex.com/qatikon/teams/94867/ta/)\n"
 "MIME-Version: 1.0\n"
@@ -145,17 +145,11 @@ msgid "pd.DataFrame:"
 msgstr ""
 
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ.pydocstring
-#: of تقدیر.ذریعہ.ذریعہ._کوائف_بنانا:22
+#: of تقدیر.ذریعہ.ذریعہ._کوائف_بنانا:21
 msgid ""
 "کوائف، پاندس میں۔ اگر ان تاریخ، جگہ، یا خاکے کے لئے اس ذریعے میں کوائف "
-"دستیاب نہیں ہیں، تو پھر"
-msgstr ""
-
-#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ.pydocstring
-#: of تقدیر.ذریعہ.ذریعہ._کوائف_بنانا:22
-msgid ""
-"``None`` واپس دینا۔ پاندس کا اشاریہ pd.PeriodIndex ہونا چاہئے۔ اشاریہ "
-"روزانہ، ماہانہ، سا لانہ کا ہو سکتا ہے۔"
+"دستیاب نہیں ہیں، تو پھر ``None`` واپس دینا۔ پاندس کا اشاریہ pd.PeriodIndex "
+"ہونا چاہئے۔ اشاریہ روزانہ، ماہانہ، سا لانہ کا ہو سکتا ہے۔"
 msgstr ""
 
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذریعہ.pydocstring
