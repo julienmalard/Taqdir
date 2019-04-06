@@ -6,4 +6,4 @@ function myFunction() {
 };
 window.onload = function() {
   myFunction();
-};
+}
