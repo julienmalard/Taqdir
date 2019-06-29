@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the تقدیر package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Julien Malard <julien.malard@mail.mcgill.ca>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: تقدیر 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-06 13:17+0000\n"
+"POT-Creation-Date: 2019-06-26 19:41+0000\n"
 "PO-Revision-Date: 2019-01-04 17:18+0000\n"
+"Last-Translator: Julien Malard <julien.malard@mail.mcgill.ca>, 2019\n"
 "Language-Team: Tamil (https://www.transifex.com/qatikon/teams/94867/ta/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +23,7 @@ msgstr ""
 
 #: ../../source/moajh/zrae/zrae.rst:2
 msgid "ذرائع"
-msgstr ""
+msgstr "மூலங்கள்"
 
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذرائع/مرکسم۵.pydocstring
 #: of تقدیر.ذرائع.مرکسم۵:1

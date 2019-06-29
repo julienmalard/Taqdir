@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the تقدیر package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Julien Malard <julien.malard@mail.mcgill.ca>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: تقدیر 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-06 13:17+0000\n"
+"POT-Creation-Date: 2019-06-26 19:41+0000\n"
 "PO-Revision-Date: 2019-01-03 20:29+0000\n"
+"Last-Translator: Julien Malard <julien.malard@mail.mcgill.ca>, 2019\n"
 "Language-Team: Tamil (https://www.transifex.com/qatikon/teams/94867/ta/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,11 +23,11 @@ msgstr ""
 
 #: ../../source/shuruat.rst:2
 msgid "ابتدايئہ"
-msgstr ""
+msgstr "தொடக்கம்"
 
 #: ../../source/shuruat.rst:5
 msgid "تنصیب"
-msgstr ""
+msgstr "நிறுவல்"
 
 #: ../../source/shuruat.rst:7
 msgid "تقدیر کی تنصیب کرنا بہت اسان ہے۔"
@@ -31,7 +35,7 @@ msgstr ""
 
 #: ../../source/shuruat.rst:9
 msgid ":command:`pip install taqdir`"
-msgstr ""
+msgstr ":command:`pip install taqdir`"
 
 #: ../../source/shuruat.rst:11
 msgid "تازہ ترين تقدیر گٹھب پر دستياب ہے۔ اسے موصول کرنے کے ليے لکھيں:"
@@ -41,6 +45,7 @@ msgstr ""
 msgid ""
 ":command:`pip install git+git://github.com/julienmalard/taqdir.git@master`"
 msgstr ""
+":command:`pip install git+git://github.com/julienmalard/taqdir.git@master`"
 
 #: ../../source/shuruat.rst:16
 msgid "تقدیر کیسے کام کرتا ہے؟"
