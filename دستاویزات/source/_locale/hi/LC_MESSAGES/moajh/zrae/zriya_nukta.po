@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the تقدیر package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Julien Malard <julien.malard@mail.mcgill.ca>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: تقدیر 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-26 19:41+0000\n"
+"POT-Creation-Date: 2019-07-03 13:56+0000\n"
 "PO-Revision-Date: 2019-01-04 17:18+0000\n"
+"Last-Translator: Julien Malard <julien.malard@mail.mcgill.ca>, 2019\n"
 "Language-Team: Hindi (https://www.transifex.com/qatikon/teams/94867/hi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,19 +23,21 @@ msgstr ""
 
 #: ../../source/moajh/zrae/zriya_nukta.rst:2
 msgid "نکتہ کے ذرائع"
-msgstr ""
+msgstr "बिंदु के स्रोत"
 
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذرائع/جےسن.pydocstring
 #: of تقدیر.ذرائع.جےسن:1
 msgid "جےسن (.json) مسل سے کوائف پڑھتا ہیے۔"
-msgstr ""
+msgstr "जेसान (.json) संचिकों से आँकड़ों पढ़ता है।"
 
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذرائع/دیسات.pydocstring
 #: of تقدیر.ذرائع.دیسات:1
 msgid "دیسات کے روزانہ آبو ہوا کوائف کے مسل (``.WTH``) سے کوائف پڑھتا ہیے۔"
 msgstr ""
+"दीस्सात के रोज़ाने जलवायु आँकड़ों के संचिकों (``.WTH``) से आँकड़ों पढ़ता है।"
 
 #: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذرائع/دیسات.pydocstring
 #: of تقدیر.ذرائع.دیسات_ماھانہ:1
 msgid "دیسات کے ماہانہ آبو ہوا کوائف کے مسل (``.MTH``) سے کوائف پڑھتا ہیے۔"
 msgstr ""
+"दीस्सात के माहाने जलवायु आँकड़ों के संचिकों (``.MTH``) से आँकड़ों पढ़ता है।"
