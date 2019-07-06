@@ -30,7 +30,7 @@ def push_translation_files():
 
 
 def tx_init():
-    with open('~/.transifexrc', 'w') as d:
+    with open('.transifexrc', 'w') as d:
         d.write(
             "[https://www.transifex.com]"
             "\nhostname = https://www.transifex.com"
