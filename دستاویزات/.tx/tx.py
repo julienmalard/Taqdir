@@ -1,10 +1,10 @@
-#!/usr/bin/env bash
 # Script to exchange translation files between repo and Transifex via Travis CI.
 # It relies on $TXTOKEN and $GHTOKEN being set as env vars for the given repo
 # in Travis CI.
 import os
-from subprocess import run
 import sys
+from subprocess import run
+
 
 def git_setup():
     run('git config --global user.email "bot+travis@transifex.com"')
