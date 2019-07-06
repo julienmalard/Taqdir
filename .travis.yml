@@ -23,7 +23,7 @@ after_success:
   - codecov
   - cd ..
   - cd دستاویزات
-  - if [[ $TRAVIS_PULL_REQUEST == "false" ]]; then python .tx/tx.py push; sh .tx/tx.py pull; fi
+  - if [[ $TRAVIS_PULL_REQUEST == "false" ]]; then python .tx/tx.py push; python .tx/tx.py pull; fi
   - cd ..
 
 deploy:
