@@ -37,8 +37,6 @@ class مقام(object):
 
         """
         # ذرائع کی تیاری
-        if ذرائع is None:
-            ذرائع = []
         if isinstance(ذرائع, ذریعہ):
             ذرائع = [ذرائع]
         if isinstance(ذرائع, list):

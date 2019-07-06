@@ -8,7 +8,7 @@ import pandas as pd
 from pkg_resources import resource_filename as وسائل_کا_نام
 
 from tradssat import WTHFile
-from تقدیر import اختیارہ_پانا, اختیارہ_رکھنا
+from تقدیر.کام import اختیارہ_پانا, اختیارہ_رکھنا
 from تقدیر.ذریعہ import ذریعہ
 from எண்ணிக்கை import எண்ணுக்கு as எ, உரைக்கு as உ
 from .دیسات import دیسات_سے_پڑھنا
@@ -16,7 +16,7 @@ from .دیسات import دیسات_سے_پڑھنا
 _خاکے_مرکسم = [0, 2.6, 4.5, 6.0, 8.5]
 
 
-class marksim5_sancha(ذریعہ):
+class مرکسم۵_سانچہ(ذریعہ):
 
     def __init__(خود, نمونہ='۱۱۱۱۱۱۱۱۱۱۱۱۱۱۱۱۱'):
         """
@@ -76,7 +76,7 @@ class marksim5_sancha(ذریعہ):
         raise NotImplementedError
 
 
-class مرکسم۵(marksim5_sancha):
+class مرکسم۵(مرکسم۵_سانچہ):
     """
     یہ ذریعہ آپکے سنگنک پر ہونے والے مرکسم ۵ سے آوہوا تبدیلی کے کوائف پاتا ہیے۔
     """

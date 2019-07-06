@@ -3,7 +3,7 @@ from datetime import date
 
 import pandas as pd
 
-from تقدیر.کام import متغیرات
+from تقدیر.متغیرات import متغیرات
 
 
 class کوائف(object):

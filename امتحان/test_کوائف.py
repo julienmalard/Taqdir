@@ -7,7 +7,7 @@ import numpy as np
 import numpy.testing as npt
 import pandas as pd
 
-from تقدیر import متغیرات
+from تقدیر.متغیرات import متغیرات, بارش
 from تقدیر.کوائف import کوائف
 
 
@@ -27,7 +27,7 @@ class امتحان_کوائف(unittest.TestCase):
             columns=متغیرات,
             index=تاریخیں_اعداد
         )
-        اعداد[متغیرات[0]].loc[قسم.اعداد_تک] = np.nan
+        اعداد[str(بارش)].loc[قسم.اعداد_تک] = np.nan
 
         قسم.کوائف = کوائف(اعداد, قسم.سے, قسم.تک)
 

@@ -16,7 +16,8 @@ setup(
     author_email='julien.malard@mail.mcgill.ca',
     description='',
     long_description='',
-    install_requires=['numpy', 'pandas', 'ennikkai', 'selenium', 'pcse', 'chardet', 'tradssat', 'requests'],
+    install_requires=['numpy', 'pandas', 'ennikkai', 'selenium', 'pcse', 'chardet', 'tradssat', 'requests', 'pykrige',
+                      'scipy'],
     setup_requires=['ennikkai'],
     classifiers=[
         'Programming Language :: Python :: 3.6',
@@ -24,7 +25,7 @@ setup(
         'Programming Language :: Python :: 3',
     ],
     package_data={
-        '': ['**/*.txt'],
-        'تقدیر': ['*.txt']
+        '': ['**/*.txt', '**/*.csv'],
+        'تقدیر': ['*.txt', '*.csv']
     },
 )

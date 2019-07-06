@@ -4,7 +4,8 @@ from typing import List
 import numpy as np
 import pandas as pd
 
-from تقدیر.کام import متغیرات, تاریخ_بنانا
+from تقدیر.کام import تاریخ_بنانا
+from تقدیر.متغیرات import متغیرات
 from تقدیر.کوائف import کوائف
 
 

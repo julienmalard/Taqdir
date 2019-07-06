@@ -60,6 +60,7 @@
 
    nmune/mrksm5
    nmune/mshahdat
+   nmune/jome
 
 .. toctree::
    :maxdepth: 2

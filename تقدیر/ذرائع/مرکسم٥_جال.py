@@ -7,10 +7,10 @@ from selenium import webdriver
 from selenium.common.exceptions import WebDriverException
 
 from tradssat import WTHFile
-from .مرکسم۵ import marksim5_sancha
+from .مرکسم۵ import مرکسم۵_سانچہ
 
 
-class مرکسم۵_جال(marksim5_sancha):
+class مرکسم۵_جال(مرکسم۵_سانچہ):
     """
     یہ ذریعہ مرکسم ۵ کے `جلبینی پنے <http://gisweb.ciat.cgiar.org/MarkSimGCM/#tabs-3>`_
     سے آوہوا تبدیلی کے کوائف پاتا ہیے۔

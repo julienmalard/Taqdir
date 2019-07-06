@@ -1,4 +1,6 @@
 numpy
+scipy
+matplotlib
 pandas
 ennikkai
 selenium
@@ -6,3 +8,4 @@ pcse
 chardet
 requests
 tradssat
+pykrige

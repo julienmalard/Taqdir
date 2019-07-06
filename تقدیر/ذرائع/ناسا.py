@@ -3,7 +3,7 @@ from json import JSONDecodeError
 import pandas as pd
 import requests
 from pcse.db import NASAPowerWeatherDataProvider
-from تقدیر import متغیرات
+from تقدیر.متغیرات import متغیرات
 from تقدیر.ذریعہ import ذریعہ
 
 
