@@ -43,7 +43,8 @@ def tx_init():
 def update_translations():
     run("make gettext")
     run("rm .tx/config")
-    run("sphinx-intl create-txconfig sphinx-intl update-txconfig-resources --transifex-project-name tqdyr")
+    run("sphinx-intl create-txconfig")
+    run("sphinx-intl update-txconfig-resources --transifex-project-name tqdyr")
 
 
 def tx_push():
