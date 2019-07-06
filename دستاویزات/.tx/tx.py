@@ -70,7 +70,9 @@ def tx_pull():
 
 if __name__ == '__main__':
     arg = sys.argv[1]
-if arg == 'push':
-    tx_push()
-elif arg == 'pull':
-    tx_pull()
+    print(arg)
+    print(sys.argv)
+    if arg == 'push':
+        tx_push()
+    elif arg == 'pull':
+        tx_pull()
