@@ -48,6 +48,9 @@ def update_translations():
 
 
 def tx_push():
+    print(os.environ['TRAVIS_JOB_NUMBER'])
+    print(os.environ['TRAVIS_BRANCH'])
+    print(os.environ['TX_BRANCH'])
     if (os.environ['TRAVIS_BRANCH'] == os.environ['TX_BRANCH']) and (
             not os.environ['TRAVIS_JOB_NUMBER'].endswith(".1")):
         tx_init()
