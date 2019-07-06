@@ -48,19 +48,14 @@ def update_translations():
 
 
 def tx_push():
-    print(os.environ['TRAVIS_JOB_NUMBER'])
-    print(os.environ['TRAVIS_BRANCH'])
-    print(os.environ['TX_BRANCH'])
-    if (os.environ['TRAVIS_BRANCH'] == os.environ['TX_BRANCH']) and (
-            not os.environ['TRAVIS_JOB_NUMBER'].endswith(".1")):
+    if (os.environ['TRAVIS_BRANCH'] == os.environ['TX_BRANCH']) and (os.environ['TRAVIS_JOB_NUMBER'].endswith(".1")):
         tx_init()
         update_translations()
         run('tx push --source --no-interactive')
 
 
 def tx_pull():
-    if (os.environ['TRAVIS_BRANCH'] == os.environ['TX_BRANCH']) and (
-            not os.environ['TRAVIS_JOB_NUMBER'].endswith(".1")):
+    if (os.environ['TRAVIS_BRANCH'] == os.environ['TX_BRANCH']) and (os.environ['TRAVIS_JOB_NUMBER'].endswith(".1")):
         tx_init()
         run('tx pull --all --force')
         fresh_translations = run('git diff-index --name-only HEAD --')
@@ -73,8 +68,6 @@ def tx_pull():
 
 if __name__ == '__main__':
     arg = sys.argv[1]
-    print(arg)
-    print(sys.argv)
     if arg == 'push':
         tx_push()
     elif arg == 'pull':
