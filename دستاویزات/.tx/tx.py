@@ -22,7 +22,9 @@ def commit_translation_files():
 
 def push_translation_files():
     print("git remote")
-    run('git remote add origin-travis https://${GHTOKEN}@github.com/$TRAVIS_REPO_SLUG.git > /dev/null 2>&1')
+    run('git remote add origin-travis https://{GHTOKEN}@github.com/{TRAVIS_REPO_SLUG}.git > /dev/null 2>&1'.format(
+        GHTOKEN=os.environ['GHTOKEN'], TRAVIS_REPO_SLUG=os.environ['TRAVIS_REPO_SLUG'])
+    )
     print("git push")
     run('git push -f --set-upstream origin-travis transifex')
 
@@ -47,7 +49,7 @@ def update_translations():
 
 def tx_push():
     if (os.environ['TRAVIS_BRANCH'] == os.environ['TX_BRANCH']) and (
-            not os.environ['$TRAVIS_JOB_NUMBER'].endswith(".1")):
+            not os.environ['TRAVIS_JOB_NUMBER'].endswith(".1")):
         tx_init()
         update_translations()
         run('tx push --source --no-interactive')
@@ -55,7 +57,7 @@ def tx_push():
 
 def tx_pull():
     if (os.environ['TRAVIS_BRANCH'] == os.environ['TX_BRANCH']) and (
-            not os.environ['$TRAVIS_JOB_NUMBER'].endswith(".1")):
+            not os.environ['TRAVIS_JOB_NUMBER'].endswith(".1")):
         tx_init()
         run('tx pull --all --force')
         fresh_translations = run('git diff-index --name-only HEAD --')

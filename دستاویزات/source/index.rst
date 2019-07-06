@@ -60,6 +60,7 @@
 
    nmune/mrksm5
    nmune/mshahdat
+   nmune/nae_motagerat
    nmune/jome
 
 .. toctree::
