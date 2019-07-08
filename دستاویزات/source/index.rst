@@ -50,7 +50,7 @@
    :maxdepth: 2
    :caption: تعارف
 
-   shuruat
+   ibtadai
    malumat
    shukriya
 

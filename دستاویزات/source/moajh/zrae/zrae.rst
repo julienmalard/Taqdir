@@ -9,3 +9,6 @@
 
 .. autoclass:: تقدیر.ذرائع.ناسا
    :members:
+
+.. autoclass:: تقدیر.ذرائع.جمع
+   :members:
