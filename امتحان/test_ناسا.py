@@ -19,7 +19,7 @@ except (requests.exceptions.ConnectionError, KeyError, JSONDecodeError):
 class امتحان_ناسا(unittest.TestCase):
     @staticmethod
     def _پورا(سے, تک, اعداد):
-        pdt.assert_index_equal(اعداد.روزانہ().dropna(how='all').index, pd.period_range(سے, تک, freq='D'))
+        pdt.assert_index_equal(اعداد.روزانہ().index, pd.period_range(سے, تک, freq='D'))
 
     @unittest.skipUnless(جالبینی_رسائی, وجہ)
     def test_کوائف_پانا(خود):

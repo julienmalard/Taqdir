@@ -4,10 +4,10 @@ import calendar
 import os
 import shutil
 import sys
+from تقدیر.وسائل import وسائل_پانا
 
-راستہ_بنیادی = os.path.split(__file__)[0]
-مسل_۳۶۵ = os.path.join(راستہ_بنیادی, '۳۶۵دن.WTG')
-مسل_۳۶۶ = os.path.join(راستہ_بنیادی, '۳۶۶دن.WTG')
+مسل_۳۶۵ = وسائل_پانا('۳۶۵دن.WTG')
+مسل_۳۶۶ = وسائل_پانا('۳۶۶دن.WTG')
 
 
 def بنیادی(راستہ, سانچے, خاکے, سال, دہرائی):
