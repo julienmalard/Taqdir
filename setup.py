@@ -26,6 +26,6 @@ setup(
     ],
     package_data={
         '': ['**/*.txt', '**/*.csv'],
-        'تقدیر': ['*.txt', '*.csv']
+        'تقدیر': ['*.txt', '*.csv', '*.json', '*.MTH', '*.WTG', '*.WTH']
     },
 )
