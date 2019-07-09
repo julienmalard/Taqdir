@@ -25,7 +25,7 @@ setup(
         'Programming Language :: Python :: 3',
     ],
     package_data={
-        '': ['**/*.txt', '**/*.csv'],
+        '': ['**/*.txt', '**/*.csv', '**/*.json', '**/*.MTH', '**/*.WTG', '**/*.WTH'],
         'تقدیر': ['*.txt', '*.csv', '*.json', '*.MTH', '*.WTG', '*.WTH']
     },
 )
