@@ -1,11 +1,14 @@
 import numpy as np
 import pandas as pd
-from pykrige.uk import UniversalKriging as krigUniversal
 from scipy import stats as estad
 
 from تقدیر.ذریعہ import ذریعہ
 from تقدیر.متغیرات import متغیرات
 
+try:
+    from pykrige.uk import UniversalKriging as krigUniversal
+except ImportError:
+    krigUniversal = None
 
 class جمع(ذریعہ):
     """
@@ -43,6 +46,9 @@ class جمع(ذریعہ):
 
 
 def کریج(سے, تک, عرض, طول, بلندی, خاکے, دوسرے_ذرائع):
+    if krigUniversal is None:
+        raise ImportError('کریج کی استعمال کرنے کے لیے پہلے pykridge کو تنصیب کرنا ہیے۔')
+
     عرض_دوسرے = np.array([ج.عرض for ج in دوسرے_ذرائع])
     طول_دوسرے = np.array([ج.طول for ج in دوسرے_ذرائع])
     بلندی_دوسرے = np.array([ج.بلندی for ج in دوسرے_ذرائع])
