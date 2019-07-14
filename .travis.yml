@@ -9,7 +9,6 @@ env:
 install:
 - pip install --upgrade pip setuptools wheel
 - pip install transifex-client sphinx sphinx-intl
-- pip install numpy scipy matplotlib
 - pip install -r زروریاں.txt
 - pip install -r زروریاں_اختیاری.txt
 - pip install coveralls codecov
@@ -27,12 +26,11 @@ after_success:
   fi
 - cd ..
 deploy:
-  matrix:
-  - provider: pypi
-    user: julien.malard
-    password:
-      secure: uJWCK+ES2mEbL7FdBgUZoFiu9KpDmm7U3xZwjqqqWf/LKy59u3vwQ/K2PSWOSJyco5MjvtcriqL3QgzxkWHxUUnbY+EE1g4IOC00f4rih/13/pxOc1nATDy+3uzr136VC7P9jjMSSFFCXk16c1qK8BGEme/voTBFLQ9andG9FAfQvtbiYM4uFNH48S+pDDG5PIFY45VWHTk1vLG707UPgpXQpKl+fKCdht6YoNmS4Dtm2FZGWQXEPnzJ9Z0LaSnINgGW0Scxt46JW4vNLjW++YSZ3ZUgpGbYdEH8VYdc81E3qG4u8bwg92D2eZzxp3zyZZnDmJytC6U9Z4G+3V1G9wcXMDAGc0MQr8iraozzT8jd39XC/iqmWdByo+VUbyAWfteCgE+MWvZ6M2Onqed1edKZn8QbsNRWKQVdo9igQLUiFhNuMEBKvBg9ghJe7G1b753pCPoyM30I8ArsBEgS2AgWlJeg2k/h1BZGQa9er0Xaqe5yYM0oQG40GAyl+aOZP2nUwZdM3CGKiIR8+JzkVZW0J952L6qm8nNmsR8SWOlEctJhLpp3ct/p/Coec5fBd0dHomTExlO3iZzMrYHLZbuIty5PCcg2xgarRHSn/R5JpY7rAfORNkHaE7WmqdvhyvP52rflg6qA2MlLUB3Pz850mm4tDzWKsE/keCQG7rc=
-    distributions: sdist bdist_wheel
-    skip_existing: true
-    on:
-      tags: true
+  provider: pypi
+  user: julien.malard
+  password:
+    secure: uJWCK+ES2mEbL7FdBgUZoFiu9KpDmm7U3xZwjqqqWf/LKy59u3vwQ/K2PSWOSJyco5MjvtcriqL3QgzxkWHxUUnbY+EE1g4IOC00f4rih/13/pxOc1nATDy+3uzr136VC7P9jjMSSFFCXk16c1qK8BGEme/voTBFLQ9andG9FAfQvtbiYM4uFNH48S+pDDG5PIFY45VWHTk1vLG707UPgpXQpKl+fKCdht6YoNmS4Dtm2FZGWQXEPnzJ9Z0LaSnINgGW0Scxt46JW4vNLjW++YSZ3ZUgpGbYdEH8VYdc81E3qG4u8bwg92D2eZzxp3zyZZnDmJytC6U9Z4G+3V1G9wcXMDAGc0MQr8iraozzT8jd39XC/iqmWdByo+VUbyAWfteCgE+MWvZ6M2Onqed1edKZn8QbsNRWKQVdo9igQLUiFhNuMEBKvBg9ghJe7G1b753pCPoyM30I8ArsBEgS2AgWlJeg2k/h1BZGQa9er0Xaqe5yYM0oQG40GAyl+aOZP2nUwZdM3CGKiIR8+JzkVZW0J952L6qm8nNmsR8SWOlEctJhLpp3ct/p/Coec5fBd0dHomTExlO3iZzMrYHLZbuIty5PCcg2xgarRHSn/R5JpY7rAfORNkHaE7WmqdvhyvP52rflg6qA2MlLUB3Pz850mm4tDzWKsE/keCQG7rc=
+  distributions: sdist bdist_wheel
+  skip_existing: true
+  on:
+    tags: true

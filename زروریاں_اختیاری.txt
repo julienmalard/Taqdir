@@ -1,1 +1,1 @@
-pykridge
+pykrige

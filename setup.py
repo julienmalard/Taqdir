@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 from எண்ணிக்கை import உரைக்கு as உ
 
 with open('تقدیر/تبدیل.txt', 'r', encoding='utf8') as تبدیل_کی_دستاویز:
-    تبدیل = உ(تبدیل_کی_دستاویز.read().strip(), 'latin', 'ار')
+    تبدیل = '.'.join(உ(ش, 'latin', 'ار') for ش in تبدیل_کی_دستاویز.read().strip().split('.'))
 
 setup(
     name='taqdir',
