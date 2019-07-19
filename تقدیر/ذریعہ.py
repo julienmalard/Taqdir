@@ -76,9 +76,10 @@ class ذریعہ(object):
         if کوائف_پاندس.index.freq == 'D':
             اعداد.fillna(کوائف_پاندس, inplace=True)
         elif کوائف_پاندس.index.freq == 'M':
+            générateur = dGen(کوائف_پاندس)
             for م in کوائف_پاندس.index:
                 جہاں = np.logical_and(اعداد.index.month == م.month, اعداد.index.year == م.year)
-                اعداد.loc[جہاں, کوائف_پاندس.columns] = کوائف_پاندس.loc[م].values
+                اعداد.loc[جہاں, کوائف_پاندس.columns] = générateur.gen(م)
         elif کوائف_پاندس.index.freq == 'Y':
             for س in کوائف_پاندس.index:
                 جہاں = اعداد.index.year == س.year
@@ -134,9 +135,31 @@ class ذریعہ(object):
 
         Returns
         -------
-        pd.DataFrame:
+        pd.DataFrame
             کوائف، پاندس میں۔ اگر ان تاریخ، جگہ، یا خاکے کے لئے اس ذریعے میں کوائف
             دستیاب نہیں ہیں، تو پھر ``None`` واپس دینا۔ پاندس کا اشاریہ
             pd.PeriodIndex ہونا چاہئے۔ اشاریہ روزانہ، ماہانہ، سا لانہ کا ہو سکتا ہے۔
         """
         raise NotImplementedError
+
+class MahanaSeRozana(object):
+    def __init__(símismo, bd):
+        símismo.bd = bd
+
+    def gen(self, var):
+        getattr(self, var, default=self.auto)()
+
+    def auto(símismo):
+        for م in کوائف_پاندس.index:
+            جہاں = np.logical_and(اعداد.index.month == م.month, اعداد.index.year == م.year)
+            اعداد.loc[جہاں, کوائف_پاندس.columns] = کوائف_پاندس.loc[س].values
+
+class dGen(MahanaSeRozana):
+    """
+    References
+    ----------
+    J. Schuol, K.C. Abbaspour. 2007. Using monthly weather statistics to generate daily data in a SWAT model
+        application to West Africa. Ecological Modelling, 201(3–4): 301-311.
+        https://doi.org/10.1016/j.ecolmodel.2006.09.028
+    """
+    def gen(self, var):
