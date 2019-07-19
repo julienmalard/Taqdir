@@ -112,7 +112,7 @@ def setup(app):
 # 'searchbox.html']``.
 #
 # html_sidebars = {}
-html_logo = "source/_static/تسویر_چھوٹی.png"
+html_logo = "_static/تسویر_چھوٹی.png"
 
 # -- Options for HTMLHelp output ---------------------------------------------
 
