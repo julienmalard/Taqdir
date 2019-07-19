@@ -56,7 +56,7 @@
 
 .. toctree::
    :maxdepth: 2
-   :caption:  نمونے
+   :caption:  مثال
 
    nmune/mrksm5
    nmune/mshahdat
