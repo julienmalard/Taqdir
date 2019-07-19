@@ -11,7 +11,7 @@ from تقدیر.ذریعہ import ذریعہ
 
 class ناسا(ذریعہ):
     """
-    یہ ذریعہ ناسا کے `پنے <https://power.larc.nasa.gov/cgi-bin/v1/DataAccess.py>`_ سے آوہوا مشاہدات کے کوائف پاتا ہیے۔
+    یہ ذریعہ ناسا کے `صفحہ <https://power.larc.nasa.gov/cgi-bin/v1/DataAccess.py>`_ سے آوہوا مشاہدات کے کوائف پاتا ہیے۔
     """
 
     def _کوائف_بنانا(خود, سے, تک, عرض, طول, بلندی, خاکے):

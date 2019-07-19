@@ -12,7 +12,7 @@ from .مرکسم۵ import مرکسم۵_سانچہ
 
 class مرکسم۵_جال(مرکسم۵_سانچہ):
     """
-    یہ ذریعہ مرکسم ۵ کے `جلبینی پنے <http://gisweb.ciat.cgiar.org/MarkSimGCM/#tabs-3>`_
+    یہ ذریعہ مرکسم ۵ کے `جلبینی صفحہ <http://gisweb.ciat.cgiar.org/MarkSimGCM/#tabs-3>`_
     سے آوہوا تبدیلی کے کوائف پاتا ہیے۔
     """
 
