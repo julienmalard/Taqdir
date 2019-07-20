@@ -4,7 +4,7 @@ from typing import List
 import numpy as np
 import pandas as pd
 
-from تقدیر.کام import تاریخ_بنانا
+from تقدیر.کام import تاریخ_بنانا, بلندی_پانا
 from تقدیر.متغیرات import متغیرات
 from تقدیر.کوائف import کوائف
 
@@ -41,6 +41,8 @@ class ذریعہ(object):
 
         سے = تاریخ_بنانا(سے)
         تک = تاریخ_بنانا(تک)
+
+        بلندی = بلندی if بلندی is not None else بلندی_پانا(عرض, طول)
 
         if تک <= سے:
             raise ValueError("آخری تاریخ پہلی تاریخ سے بڑا ہونے چاہئے")

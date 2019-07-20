@@ -13,7 +13,7 @@ try:
     جالبینی_رسائی = True
 except (requests.exceptions.ConnectionError, KeyError, JSONDecodeError):
     جالبینی_رسائی = False
-وجہ = 'ناسا کا جالبین پنہ اب دستیاب نہیں۔'
+وجہ = 'ناسا کا جالبین صفھہ اب دستیاب نہیں۔'
 
 
 class امتحان_ناسا(unittest.TestCase):

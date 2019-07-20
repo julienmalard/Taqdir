@@ -1,13 +1,22 @@
-import os
 import unittest
+from json import JSONDecodeError
+
+import requests
 
 from تقدیر.ذرائع import سی_اس_وی
 from تقدیر.مقام import مقام
 from تقدیر.وسائل import وسائل_پانا
+from تقدیر.کام import بلندی_پانا
 
 مسل_سی_اس_وی = وسائل_پانا('روزانہ.csv')
 
 تبدل = {'شمسی_تابکاری': 'شمسی تابکاری'}
+
+try:
+    بلندی_پانا(عرض=11.02, طول=76.96)
+    جالبینی_دستیاب = True
+except (requests.exceptions.RequestException, KeyError, JSONDecodeError):
+    جالبینی_دستیاب = False
 
 
 class امتحان_مقام(unittest.TestCase):
@@ -37,3 +46,10 @@ class امتحان_مقام(unittest.TestCase):
         ذر = سی_اس_وی(مسل_سی_اس_وی, **خود.جگہ, تبديل_ستون=تبدل, خاکے='۲.۶')
         with خود.assertRaises(ValueError):
             خود.مقام.کوائف_پانا(خود.تک, خود.سے, ذرائع=(ذر,), خاکے='۲.۶')
+
+    @unittest.skipUnless(جالبینی_دستیاب, 'کھلی بلندی کا جالبین صفھہ اب دستیاب نہیں۔')
+    def test_بلندی_بغیر(خود):
+        جگہ = {'عرض': خود.جگہ['عرض'], 'طول': خود.جگہ['طول']}
+        ذر = سی_اس_وی(مسل_سی_اس_وی, **جگہ, تبديل_ستون=تبدل, خاکے='۲.۶')
+        اعداد = مقام(**جگہ).کوائف_پانا(خود.سے, خود.تک, ذرائع=(ذر,))
+        خود.assertEqual(len(اعداد.لاپتہ()), 9)

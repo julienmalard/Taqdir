@@ -5,6 +5,7 @@ import shutil
 import tempfile
 
 import pandas as pd
+import requests
 
 راستہ_اختیارے = os.path.join(os.path.split(__file__)[0], 'اختیارے.json')
 try:
@@ -82,3 +83,14 @@ def تاریخ_بنانا(تاریخ):
     if isinstance(تاریخ, datetime.date):
         return تاریخ
     return pd.to_datetime(تاریخ).date()
+
+
+def بلندی_پانا(عرض, طول):
+    try:
+        جواب = requests.get(
+            'https://api.open-elevation.com/api/v1/lookup?locations={},{}'.format(عرض, طول),
+            timeout=30
+        ).json()
+        return جواب['results'][0]['elevation']
+    except requests.exceptions.RequestException:
+        raise requests.exceptions.RequestException('بلندی ضرور ہیے، اور جالبین سے ملی نہیں۔')
