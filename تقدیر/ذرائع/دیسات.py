@@ -1,9 +1,9 @@
 import datetime
 
 import pandas as pd
-from تقدیر.ذریعہ_نکتہ import ذریعہ_نکتہ
-
 from tradssat import WTHFile, MTHFile
+
+from تقدیر.ذریعہ_نکتہ import ذریعہ_نکتہ
 
 
 class دیسات(ذریعہ_نکتہ):
@@ -11,7 +11,6 @@ class دیسات(ذریعہ_نکتہ):
     دیسات کے روزانہ آبو ہوا کوائف کے مسل (``.WTH``) سے کوائف پڑھتا ہیے۔
     """
     def __init__(خود, مسل, خاکے=None):
-        
         خود.مسل = مسل
         خود.کوائف_دیسات = WTHFile(خود.مسل)
 

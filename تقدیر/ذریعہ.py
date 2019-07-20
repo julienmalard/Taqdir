@@ -44,7 +44,7 @@ class ذریعہ(object):
 
         بلندی = بلندی if بلندی is not None else بلندی_پانا(عرض, طول)
 
-        if تک <= سے:
+        if تک < سے:
             raise ValueError("آخری تاریخ پہلی تاریخ سے بڑا ہونے چاہئے")
 
         اعداد = خود._کوائف_روزانہ(سے, تک, خود._کوائف_بنانا(سے, تک, عرض, طول, بلندی, خاکے))
@@ -97,7 +97,7 @@ class ذریعہ(object):
         
         Parameters
         ----------
-        تاریخیں: List
+        تاریخیں: List or pd.Index
             ہمہارے تاریخ کا فرست۔
 
         Returns
@@ -105,6 +105,12 @@ class ذریعہ(object):
         pd.PeriodIndex:
             روزانہ، ماہانہ یا سالانہ اشاریہ۔
         """
+        if isinstance(تاریخیں, pd.DatetimeIndex):
+            return تاریخیں.to_period()
+
+        if isinstance(تاریخیں, pd.PeriodIndex):
+            return تاریخیں
+
         تاریخ = تاریخیں[0]
         لمبای = len(str(تاریخ))
         if لمبای == 4:
