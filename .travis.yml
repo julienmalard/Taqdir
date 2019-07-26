@@ -9,8 +9,8 @@ env:
 install:
 - pip install --upgrade pip setuptools wheel
 - pip install transifex-client sphinx sphinx-intl
-- pip install -r زروریاں.txt
-- pip install -r زروریاں_اختیاری.txt
+- pip install -r ضروریاں.txt
+- pip install -r ضروریاں_اختیاری.txt
 - pip install coveralls codecov
 - python setup.py sdist bdist_wheel
 - pip install taqdir --no-index --find-links=./dist
