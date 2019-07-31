@@ -1,12 +1,17 @@
+import logging
 from json import JSONDecodeError
 
 import pandas as pd
 import requests
+
+from تقدیر.ذریعہ import ذریعہ
+from تقدیر.متغیرات import متغیرات
+
+# پی سی اس ای کے مختلف انتاباہ نہیں دیکھنا مجھے
+logging.getLogger("pcse").setLevel(logging.ERROR)
+
 from pcse.db import NASAPowerWeatherDataProvider
 from pcse.exceptions import WeatherDataProviderError
-
-from تقدیر.متغیرات import متغیرات
-from تقدیر.ذریعہ import ذریعہ
 
 
 class ناسا(ذریعہ):
@@ -40,7 +45,7 @@ class ناسا(ذریعہ):
                 continue
             for س, س_ناسا in ستون.items():
                 اعداد_پاندس.loc[تاریخ, س] = getattr(ناسا_دن, س_ناسا)
-                 
+
         اعداد_پاندس.شمسی_تابکاری *= 1e-6
 
         return اعداد_پاندس
