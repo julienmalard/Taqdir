@@ -6,10 +6,8 @@ environment:
 
 install:
 - "set PATH=%PATH%;%PYTHON%\\Scripts"
-- "%PYTHON%\\python.exe -m pip install --upgrade pip"
-- "%PYTHON%\\python.exe -m pip install --upgrade setuptools"
-- "%PYTHON%\\python.exe -m pip install --upgrade wheel"
-- "%PYTHON%\\python.exe setup.py install"
+- "pip install --upgrade pip setuptools wheel"
+- "pip install ."
 
 build: false
 
