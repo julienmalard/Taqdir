@@ -19,9 +19,8 @@ setup(
     install_requires=['numpy', 'pandas', 'ennikkai', 'selenium', 'pcse', 'chardet', 'tradssat', 'requests', 'scipy'],
     setup_requires=['ennikkai'],
     classifiers=[
-        'Programming Language :: Python :: 3.6',
-        'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3',
+        'Natural Language :: Urdu'
     ],
     package_data={
         '': ['**/*.txt', '**/*.csv', '**/*.json', '**/*.MTH', '**/*.WTG', '**/*.WTH'],
