@@ -1,3 +1,4 @@
+import numpy as np
 from تقدیر import ذریعہ
 from تقدیر.کام import بلندی_پانا
 
@@ -15,12 +16,16 @@ class ذریعہ_نکتہ(ذریعہ):
         خود.تبدیل_عمودی_ستون = تبدیل_عمودی_ستون or {}
 
     def کوائف_پانا(خود, سے, تک, عرض, طول, بلندی, خاکے='۸.۵'):
-        if خود.عرض != عرض or خود.طول != طول or (بلندی is not None and بلندی != خود.بلندی):
+        if خود.عرض != عرض or خود.طول != طول or (بلندی is not None and np.isfinite(بلندی) and بلندی != خود.بلندی):
             return
         if خود.خاکے is not None and خاکے is not None and خود.خاکے != خاکے:
             return
 
         return super().کوائف_پانا(سے, تک, عرض, طول, بلندی, خاکے='۸.۵')
+
+    @property
+    def متغیرات(خود):
+        raise NotImplementedError
 
     def _نام_عمودی_ستون(خود, ستون):
         try:
