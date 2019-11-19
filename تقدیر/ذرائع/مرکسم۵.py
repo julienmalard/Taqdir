@@ -6,17 +6,18 @@ from subprocess import run as چلاو
 import numpy as np
 import pandas as pd
 from pkg_resources import resource_filename as وسائل_کا_نام
-
 from tradssat import WTHFile
-from تقدیر.کام import اختیارہ_پانا, اختیارہ_رکھنا
 from تقدیر.ذریعہ import ذریعہ
+from تقدیر.کام import اختیارہ_پانا, اختیارہ_رکھنا
 from எண்ணிக்கை import எண்ணுக்கு as எ, உரைக்கு as உ
+
 from .دیسات import دیسات_سے_پڑھنا
 
 _خاکے_مرکسم = [0, 2.6, 4.5, 6.0, 8.5]
 
 
 class مرکسم۵_سانچہ(ذریعہ):
+    متغیرات = ['بارش', 'شمسی_تابکاری', 'درجہ_حرارت_زیادہ', 'درجہ_حرارت_کم']
 
     def __init__(خود, نمونہ='۱۱۱۱۱۱۱۱۱۱۱۱۱۱۱۱۱'):
         """
@@ -27,7 +28,7 @@ class مرکسم۵_سانچہ(ذریعہ):
 
         """
 
-        نمونہ = ''.join([உ(ن, 'ار') for ن in نمونہ])
+        نمونہ = ''.join([உ(ن, 'فارسی') for ن in نمونہ])
         if len(نمونہ) != 17 or نمونہ.replace('۰', '').replace('۱', ''):
             raise ValueError(نمونہ)
         خود.نمونے = نمونہ

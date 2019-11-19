@@ -5,7 +5,6 @@ import numpy as np
 import pandas as pd
 
 from تقدیر.کام import تاریخ_بنانا, بلندی_پانا
-from تقدیر.متغیرات import متغیرات
 from تقدیر.کوائف import کوائف
 
 
@@ -51,8 +50,11 @@ class ذریعہ(object):
 
         return کوائف(اعداد)
 
-    @staticmethod
-    def _کوائف_روزانہ(سے, تک, کوائف_پاندس):
+    @property
+    def متغیرات(خود):
+        raise NotImplementedError
+
+    def _کوائف_روزانہ(خود, سے, تک, کوائف_پاندس):
         """
         پاندس کے کوائف سے روزانہ کوائف بناتا ہیے۔
 
@@ -70,7 +72,7 @@ class ذریعہ(object):
         pd.DataFrame:
             ``سے`` اور ``تک`` کے بیچ میں روزانہ کوائف۔
         """
-        اعداد = pd.DataFrame(columns=list(متغیرات), index=pd.period_range(سے, تک), dtype=float)
+        اعداد = pd.DataFrame(columns=خود.متغیرات, index=pd.period_range(سے, تک), dtype=float)
 
         if کوائف_پاندس is None or not len(کوائف_پاندس):
             return اعداد
@@ -142,7 +144,7 @@ class ذریعہ(object):
 
         Returns
         -------
-        pd.DataFrame:
+        pd.DataFrame
             کوائف، پاندس میں۔ اگر ان تاریخ، جگہ، یا خاکے کے لئے اس ذریعے میں کوائف
             دستیاب نہیں ہیں، تو پھر ``None`` واپس دینا۔ پاندس کا اشاریہ
             pd.PeriodIndex ہونا چاہئے۔ اشاریہ روزانہ، ماہانہ، سا لانہ کا ہو سکتا ہے۔

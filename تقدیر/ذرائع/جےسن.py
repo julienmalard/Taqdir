@@ -2,8 +2,6 @@ import json
 
 import pandas as pd
 from chardet import UniversalDetector
-
-from تقدیر.متغیرات import متغیرات
 from تقدیر.ذریعہ_نکتہ import ذریعہ_نکتہ
 
 
@@ -22,13 +20,16 @@ class جےسن(ذریعہ_نکتہ):
         else:
             خود.جےسن = مسل
 
+    @property
+    def متغیرات(خود):
+        return [ب for ب in [خود._نام_عمودی_ستون(س) for س in خود.جےسن] if ب != 'تاریخ']
+
     def _کوائف_بنانا(خود, سے, تک, عرض, طول, بلندی, خاکے):
 
-        ستون_تاریخ = خود._نام_عمودی_ستون('تاریخ')
-
+        کو = {خود._نام_عمودی_ستون(س): قیمت for س, قیمت in خود.جےسن.items()}
         اعداد_جےسن = pd.DataFrame(
-            data={س: خود.جےسن[خود._نام_عمودی_ستون(س)] for س in متغیرات if خود._نام_عمودی_ستون(س) in خود.جےسن},
-            index=خود._اشاریہ_پانڈا_بنانا(خود.جےسن[ستون_تاریخ])
+            data={م: ق for م, ق in کو.items() if م != 'تاریخ'},
+            index=خود._اشاریہ_پانڈا_بنانا(کو['تاریخ'])
         )
         return اعداد_جےسن
 
@@ -37,12 +38,9 @@ def _ضابطہ_بندی(مسل):
     آلہ = UniversalDetector()
     with open(مسل, 'rb') as م:
         for لکیر in م.readlines():
-
             آلہ.feed(لکیر)
-
             if آلہ.done:
                 break
-
     آلہ.close()
 
     return آلہ.result['encoding']

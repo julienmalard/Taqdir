@@ -3,7 +3,6 @@ from json import JSONDecodeError
 
 import pandas as pd
 import requests
-
 from تقدیر.ذریعہ import ذریعہ
 from تقدیر.متغیرات import متغیرات
 
@@ -18,6 +17,7 @@ class ناسا(ذریعہ):
     """
     یہ ذریعہ ناسا کے `صفحہ <https://power.larc.nasa.gov/cgi-bin/v1/DataAccess.py>`_ سے آوہوا مشاہدات کے کوائف پاتا ہیے۔
     """
+    متغیرات = ['بارش', 'شمسی_تابکاری', 'درجہ_حرارت_زیادہ', 'درجہ_حرارت_کم', 'درجہ_حرارت_اوسط']
 
     def _کوائف_بنانا(خود, سے, تک, عرض, طول, بلندی, خاکے):
         try:
