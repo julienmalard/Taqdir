@@ -1,0 +1,81 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) ژولیئں ملاغ، محمّد اظہر انعام بیگ، ۲۰۱۸+
+# This file is distributed under the same license as the تقدیر package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: تقدیر 2.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-26 19:45+0000\n"
+"PO-Revision-Date: 2019-07-05 11:48+0000\n"
+"Language-Team: Kaqchikel (https://www.transifex.com/qatikon/teams/94867/cak/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: cak\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/nmune/jome.rst:2
+msgid "جمع"
+msgstr ""
+
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/nmune/jome.rst:4
+msgid "تقدیر میں ذرائع کے جمع بنا سکتے ہیں جین میں مختلف ذرائع جوڑی جاتی ہیں۔"
+msgstr ""
+
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/nmune/jome.rst:6
+msgid "بعاد میں کریدج سے لاپتہ جگے کے کوائف بنا سکتے ہیں۔"
+msgstr ""
+
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/nmune/jome.rst:2
+msgid ""
+"from تقدیر.ذرائع import سی_اس_وی, جمع\n"
+"from تقدیر.مقام import مقام\n"
+"from تقدیر.وسائل import وسائل_پانا\n"
+"\n"
+"\n"
+"مسلیں_جمع = {\n"
+"    'جھنگ': {'مسل': 'جھنگ.csv', 'عرض': 71.83329773, 'طول': 30.83329964, 'بلندی': 158},\n"
+"    'سرکودھا': {'مسل': 'سرگودھا.csv', 'عرض': 72.66670227, 'طول': 32.08330154, 'بلندی': 193},\n"
+"    'فیصل آباد': {'مسل': 'فیصل آباد.csv', 'عرض': 73.09999847, 'طول': 31.43330002, 'بلندی': 184},\n"
+"    'لاہور': {'مسل': 'لاہور.csv', 'عرض': 74.33329773, 'طول': 31.54999924, 'بلندی': 217},\n"
+"    'ملتان': {'مسل': 'ملتان.csv', 'عرض': 71.43329620, 'طول': 30.20000076, 'بلندی': 122}\n"
+"}\n"
+"\n"
+"for ج in مسلیں_جمع.values():\n"
+"    ج['مسل'] = وسائل_پانا('جمع/' + ج['مسل'])\n"
+"\n"
+"ذرائع = [سی_اس_وی(**ل) for ل in مسلیں_جمع.values()]\n"
+"ذریعہ_جمع = جمع(ذرائع)\n"
+"\n"
+"کو = مقام(عرض=74, طول=33, بلندی=190).کوائف_پانا('۲۰۰۵-۰۱-۰۱', '۲۰۰۶-۰۲-۰۱', (ذریعہ_جمع,))\n"
+"\n"
+"روزانہ = کو.روزانہ()\n"
+"روزانہ.dropna(how='all').plot(kind='line')"
+msgstr ""
+
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/nmune/jome.rst:31
+msgid ""
+"(`Source code <../nmune/jome-1.py>`__, `png <../nmune/jome-1.png>`__, "
+"`hires.png <../nmune/jome-1.hires.png>`__, `pdf <../nmune/jome-1.pdf>`__)"
+msgstr ""
+
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/nmune/jome.rst:37
+msgid "دستیاب جگے کے لحاص سے لاپتے دینوں کے کوائف بھی توسیع کر دیگا۔"
+msgstr ""
+
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/nmune/jome.rst:2
+msgid ""
+"کو = مقام(عرض=72.66670227, طول=32.08330154, بلندی=193).کوائف_پانا('۲۰۰۵-۰۱-۰۱', '۲۰۰۶-۰۲-۰۱', (ذریعہ_جمع,))\n"
+"\n"
+"روزانہ = کو.روزانہ()\n"
+"روزانہ.dropna(how='all').plot(kind='line')"
+msgstr ""
+
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/nmune/jome.rst:12
+msgid ""
+"(`Source code <../nmune/jome-2.py>`__, `png <../nmune/jome-2.png>`__, "
+"`hires.png <../nmune/jome-2.hires.png>`__, `pdf <../nmune/jome-2.pdf>`__)"
+msgstr ""

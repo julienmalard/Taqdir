@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: تقدیر 1\n"
+"Project-Id-Version: تقدیر 2.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-03 13:56+0000\n"
+"POT-Creation-Date: 2020-01-26 19:45+0000\n"
 "PO-Revision-Date: 2019-01-04 17:18+0000\n"
 "Last-Translator: Julien Malard <julien.malard@mail.mcgill.ca>, 2019\n"
 "Language-Team: Kaqchikel (https://www.transifex.com/qatikon/teams/94867/cak/)\n"
@@ -21,36 +21,35 @@ msgstr ""
 "Language: cak\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../source/moajh/zrae/zrae.rst:2
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/moajh/zrae/zrae.rst:2
 msgid "ذرائع"
 msgstr "Ruxe'el tzij"
 
-#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذرائع/مرکسم۵.pydocstring
+#: /home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages/تقدیر/ذرائع/مرکسم۵.pydocstring
 #: of تقدیر.ذرائع.مرکسم۵:1
 msgid ""
-"یہ ذریعہ آپکے سنگنک پر ہونے والے مرکسم ۵ سے آوہوا تبدیلی کے کوائف پاتا "
-"ہیے۔"
+"یہ ذریعہ آپکے تخمینہ کار پر ہونے والے` مرکسم ۵ <http://www.ccafs-"
+"climate.org/pattern_scaling/>`_ سے آوہوا تبدیلی کے کوائف پاتا ہیے۔"
 msgstr ""
-"Ri ruxe'el tzij re' nukanoj rutzij rujaloj ruwäch q'ij pa ri cholkema' "
-"Marksim 5 rub'i' we nimoxïk chïk pa akematz'ib'."
 
-#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذرائع/مرکسم٥_جال.pydocstring
+#: /home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages/تقدیر/ذرائع/مرکسم٥_جال.pydocstring
 #: of تقدیر.ذرائع.مرکسم۵_جال:1
 msgid ""
-"یہ ذریعہ مرکسم ۵ کے `جلبینی پنے "
+"یہ ذریعہ مرکسم ۵ کے `جلبینی صفحہ "
 "<http://gisweb.ciat.cgiar.org/MarkSimGCM/#tabs-3>`_ سے آوہوا تبدیلی کے "
 "کوائف پاتا ہیے۔"
 msgstr ""
-"Ri ruxe'el tzij re' nukanoj rutzij rujaloj ruwäch q'ij pa ruxaq ruya'l "
-"kematz'ib' ri `Marksim 5 "
-"<http://gisweb.ciat.cgiar.org/MarkSimGCM/#tabs-3>`_."
 
-#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذرائع/ناسا.pydocstring
+#: /home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages/تقدیر/ذرائع/ناسا.pydocstring
 #: of تقدیر.ذرائع.ناسا:1
 msgid ""
-"یہ ذریعہ ناسا کے `پنے <https://power.larc.nasa.gov/cgi-"
+"یہ ذریعہ ناسا کے `صفحہ <https://power.larc.nasa.gov/cgi-"
 "bin/v1/DataAccess.py>`_ سے آوہوا مشاہدات کے کوائف پاتا ہیے۔"
 msgstr ""
-"Ri ruxe'el tzij re' nukanoj rutz'etelil ruwäch q'ij pa ruxaq ruya'l "
-"kematz'ib' ri `NASA <https://power.larc.nasa.gov/cgi-"
-"bin/v1/DataAccess.py>`_."
+
+#: /home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages/تقدیر/ذرائع/جمع.pydocstring
+#: of تقدیر.ذرائع.جمع:1
+msgid ""
+"مختلف :class:`~تقدیر.ذریعہ_نکتہ.ذریعہ_نکتہ` کو جمع کرکے کوائف کی توسیع کر "
+"دیتا ہیے۔"
+msgstr ""

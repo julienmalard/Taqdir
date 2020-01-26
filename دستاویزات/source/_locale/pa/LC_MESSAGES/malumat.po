@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: تقدیر 1\n"
+"Project-Id-Version: تقدیر 2.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-03 13:56+0000\n"
+"POT-Creation-Date: 2020-01-26 19:45+0000\n"
 "PO-Revision-Date: 2019-01-04 17:22+0000\n"
 "Language-Team: Panjabi (Punjabi) (https://www.transifex.com/qatikon/teams/94867/pa/)\n"
 "MIME-Version: 1.0\n"
@@ -17,166 +17,175 @@ msgstr ""
 "Language: pa\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../source/malumat.rst:2
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/malumat.rst:2
 msgid "معلومات"
 msgstr ""
 
-#: ../../source/malumat.rst:5
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/malumat.rst:5
 msgid "ذرائع"
 msgstr ""
 
-#: ../../source/malumat.rst:6
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/malumat.rst:6
 msgid "تقدیر کے بنیادی ذرائع نیچے دیے گيے ہیں۔"
 msgstr ""
 
-#: ../../source/malumat.rst:8
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/malumat.rst:8
 msgid "تقدیر کے بنیادی ذرائع"
 msgstr ""
 
-#: ../../source/malumat.rst:1
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/malumat.rst:1
 msgid "ذریعہ"
 msgstr ""
 
-#: ../../source/malumat.rst:1
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/malumat.rst:1
 msgid "آب وہوا تبدیلی کے خاکے"
 msgstr ""
 
-#: ../../source/malumat.rst:1
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/malumat.rst:1
 msgid "دستیاب سال"
 msgstr ""
 
-#: ../../source/malumat.rst:1
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/malumat.rst:1
 msgid ":class:`~تقدیر.ذرائع.ناسا`"
 msgstr ""
 
-#: ../../source/malumat.rst:1
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/malumat.rst:1
 msgid "ماضی"
 msgstr ""
 
-#: ../../source/malumat.rst:1
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/malumat.rst:1
 msgid "~۱۹۸۳ - آج"
 msgstr ""
 
-#: ../../source/malumat.rst:1
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/malumat.rst:1
 msgid ":class:`~تقدیر.ذرائع.مرکسم۵`"
 msgstr ""
 
-#: ../../source/malumat.rst:1 ../../source/malumat.rst:1
-msgid "۰، ۲۔۶، ۴۔۵، ۶۔۰، ۸۔۵"
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/malumat.rst:1
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/malumat.rst:1
+msgid "۰، ۲.۶، ۴.۵، ۶.۰، ۸.۵"
 msgstr ""
 
-#: ../../source/malumat.rst:1 ../../source/malumat.rst:1
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/malumat.rst:1
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/malumat.rst:1
 msgid "۲۰۹۵ تک"
 msgstr ""
 
-#: ../../source/malumat.rst:1
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/malumat.rst:1
 msgid ":class:`~تقدیر.ذرائع.مرکسم۵_جال`"
 msgstr ""
 
-#: ../../source/malumat.rst:16
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/malumat.rst:16
 msgid ""
 "اول الذکر ذرائع ماضی اور مستقبل کے لئے مفید ہیں۔ اگر آپ اپنے مشاہدات کے ساتھ"
 " کام کرنا چاہتے ہیں تو درجہ ذيل ذرائع کارآمد ہوسکتے ہیں يہ ذرائع مسل سے "
 "کوائف پڑھتے ہیں۔"
 msgstr ""
 
-#: ../../source/malumat.rst:19
-msgid ":class:`~تقدیر.ذرائع. جیسن`"
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/malumat.rst:19
+msgid ":class:`~تقدیر.ذرائع.جےسن`: جےسن کے مسل پڑھتا ہیے۔"
 msgstr ""
 
-#: ../../source/malumat.rst:20
-msgid ":class:`~تقدیر.ذرائع.ڈیسيٹ`"
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/malumat.rst:20
+msgid ":class:`~تقدیر.ذرائع.دیسات`: دیسات کے مسل پڑھتا ہیے۔"
 msgstr ""
 
-#: ../../source/malumat.rst:21
-msgid ":class:`~تقدیر.ذرائع.سی_اس_وی`"
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/malumat.rst:21
+msgid ":class:`~تقدیر.ذرائع.سی_اس_وی`: سے اس وی کع مسل پڑھتا ہیے۔"
 msgstr ""
 
-#: ../../source/malumat.rst:22
-msgid ":class:`~تقدیر.ذرائع.ڈیسيٹ_ماھانہ`"
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/malumat.rst:22
+msgid ":class:`~تقدیر.ذرائع.دیسات_ماھانہ`: دیسات کے ماھانہ کوائف پڑھتا ہیے۔"
 msgstr ""
 
-#: ../../source/malumat.rst:28
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/malumat.rst:23
+msgid ""
+":class:`~تقدیر.ذرائع.جمع`: مختلف نکتے کے ذرائع ایک ساتھ جمع کرکے لاپتہ کوائف"
+" کی توسیع کریگا۔"
+msgstr ""
+
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/malumat.rst:28
 msgid "متغیّرات"
 msgstr ""
 
-#: ../../source/malumat.rst:29
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/malumat.rst:29
 msgid "تقدیر میں يہ متغیّرات دستیاب ہیں۔"
 msgstr ""
 
-#: ../../source/malumat.rst:33
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/malumat.rst:33
 msgid "احتیاط کریں ہو سکتا ہے کہ سارے ذرائع میں سارے متغیّرات دستیاب نہ ہوں۔"
 msgstr ""
 
-#: ../../source/malumat.rst:1
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/malumat.rst:1
 msgid "نام"
 msgstr ""
 
-#: ../../source/malumat.rst:1
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/malumat.rst:1
 msgid "معنی"
 msgstr ""
 
-#: ../../source/malumat.rst:1
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/malumat.rst:1
 msgid "وحدت"
 msgstr ""
 
-#: ../../source/malumat.rst:1
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/malumat.rst:1
 msgid "``تاریخ``"
 msgstr ""
 
-#: ../../source/malumat.rst:1
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/malumat.rst:1
 msgid "تاریخ"
 msgstr ""
 
-#: ../../source/malumat.rst:1
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/malumat.rst:1
 msgid "روزانہ (``۲۰۱۸۰۱۰۱``)، ماہانہ (``۲۰۱۸۰۱``)، یا سالانہ (``۲۰۱۸``)"
 msgstr ""
 
-#: ../../source/malumat.rst:1
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/malumat.rst:1
 msgid "``بارش``"
 msgstr ""
 
-#: ../../source/malumat.rst:1
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/malumat.rst:1
 msgid "بارش"
 msgstr ""
 
-#: ../../source/malumat.rst:1
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/malumat.rst:1
 msgid "ملیمیٹر"
 msgstr ""
 
-#: ../../source/malumat.rst:1
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/malumat.rst:1
 msgid "``شمسی_تابکاری``"
 msgstr ""
 
-#: ../../source/malumat.rst:1
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/malumat.rst:1
 msgid "شمسی تابکاری"
 msgstr ""
 
-#: ../../source/malumat.rst:1
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/malumat.rst:1
 msgid "``درجہ_حرارت_زیادہ``"
 msgstr ""
 
-#: ../../source/malumat.rst:1
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/malumat.rst:1
 msgid "درجہ حرارت زیادہ سے زیادہ"
 msgstr ""
 
-#: ../../source/malumat.rst:1 ../../source/malumat.rst:1
-#: ../../source/malumat.rst:1
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/malumat.rst:1
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/malumat.rst:1
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/malumat.rst:1
 msgid "سیلسیس"
 msgstr ""
 
-#: ../../source/malumat.rst:1
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/malumat.rst:1
 msgid "``درجہ_حرارت_کم``"
 msgstr ""
 
-#: ../../source/malumat.rst:1
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/malumat.rst:1
 msgid "درجہ حرارت کم سے کم"
 msgstr ""
 
-#: ../../source/malumat.rst:1
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/malumat.rst:1
 msgid "``درجہ_حرارت_اوسط``"
 msgstr ""
 
-#: ../../source/malumat.rst:1
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/malumat.rst:1
 msgid "درجہ حرارت کا اوسط"
 msgstr ""

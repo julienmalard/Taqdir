@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: تقدیر 1\n"
+"Project-Id-Version: تقدیر 2.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-03 13:56+0000\n"
+"POT-Creation-Date: 2020-01-26 19:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,21 +16,26 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../source/moajh/zrae/zriya_nukta.rst:2
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/moajh/zrae/zriya_nukta.rst:2
 msgid "نکتہ کے ذرائع"
 msgstr "نکتہ کے ذرائع"
 
-#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذرائع/جےسن.pydocstring
-#: of تقدیر.ذرائع.جےسن:1
-msgid "جےسن (.json) مسل سے کوائف پڑھتا ہیے۔"
-msgstr "جےسن (.json) مسل سے کوائف پڑھتا ہیے۔"
+#: /home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages/تقدیر/ذرائع/سی_اس_وی.pydocstring
+#: of تقدیر.ذرائع.سی_اس_وی:1
+msgid "سی اس وی (``.csv``) مسل سے کوائف پڑھتا ہیے۔"
+msgstr "سی اس وی (``.csv``) مسل سے کوائف پڑھتا ہیے۔"
 
-#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذرائع/دیسات.pydocstring
+#: /home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages/تقدیر/ذرائع/جےسن.pydocstring
+#: of تقدیر.ذرائع.جےسن:1
+msgid "جےسن (``.json``) مسل سے کوائف پڑھتا ہیے۔"
+msgstr "جےسن (``.json``) مسل سے کوائف پڑھتا ہیے۔"
+
+#: /home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages/تقدیر/ذرائع/دیسات.pydocstring
 #: of تقدیر.ذرائع.دیسات:1
 msgid "دیسات کے روزانہ آبو ہوا کوائف کے مسل (``.WTH``) سے کوائف پڑھتا ہیے۔"
 msgstr "دیسات کے روزانہ آبو ہوا کوائف کے مسل (``.WTH``) سے کوائف پڑھتا ہیے۔"
 
-#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/ذرائع/دیسات.pydocstring
+#: /home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages/تقدیر/ذرائع/دیسات.pydocstring
 #: of تقدیر.ذرائع.دیسات_ماھانہ:1
 msgid "دیسات کے ماہانہ آبو ہوا کوائف کے مسل (``.MTH``) سے کوائف پڑھتا ہیے۔"
 msgstr "دیسات کے ماہانہ آبو ہوا کوائف کے مسل (``.MTH``) سے کوائف پڑھتا ہیے۔"

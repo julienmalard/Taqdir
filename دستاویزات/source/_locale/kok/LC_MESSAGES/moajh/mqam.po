@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: تقدیر 1\n"
+"Project-Id-Version: تقدیر 2.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-03 13:56+0000\n"
+"POT-Creation-Date: 2020-01-26 19:45+0000\n"
 "PO-Revision-Date: 2019-01-04 17:18+0000\n"
 "Language-Team: Konkani (https://www.transifex.com/qatikon/teams/94867/kok/)\n"
 "MIME-Version: 1.0\n"
@@ -17,68 +17,58 @@ msgstr ""
 "Language: kok\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../source/moajh/mqam.rst:2
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/moajh/mqam.rst:2
 msgid "مقام"
 msgstr ""
 
-#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/مقام.pydocstring
+#: /home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages/تقدیر/مقام.pydocstring
 #: of تقدیر.مقام.مقام:1
 msgid "ایک مقام، جس کے ليے آب وہوا کے کوائف درکار ہيں۔"
 msgstr ""
 
-#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/مقام.pydocstring
+#: /home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages/تقدیر/مقام.pydocstring
 #: of تقدیر.مقام.مقام.کوائف_پانا:1
 msgid "آبوہوا کے کوائف ليناا۔"
 msgstr ""
 
-#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/مقام.pydocstring
-#: of تقدیر.مقام.مقام.کوائف_پانا:5
-msgid "سے: str | datetime.date"
+#: /home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages/تقدیر/مقام.pydocstring
+#: of تقدیر.مقام.مقام.کوائف_پانا:0
+msgid "Parameters"
 msgstr ""
 
-#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/مقام.pydocstring
-#: of تقدیر.مقام.مقام.کوائف_پانا:6
+#: /home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages/تقدیر/مقام.pydocstring
+#: of تقدیر.مقام.مقام.کوائف_پانا:3
 msgid "وہ تاریخ جب سے کوائف چاہيں۔"
 msgstr ""
 
-#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/مقام.pydocstring
-#: of تقدیر.مقام.مقام.کوائف_پانا:7
-msgid "تک: str | datetime.date"
-msgstr ""
-
-#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/مقام.pydocstring
-#: of تقدیر.مقام.مقام.کوائف_پانا:8
+#: /home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages/تقدیر/مقام.pydocstring
+#: of تقدیر.مقام.مقام.کوائف_پانا:5
 msgid "وہ تاریخ جب تک کوائف چاہيں۔"
 msgstr ""
 
-#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/مقام.pydocstring
-#: of تقدیر.مقام.مقام.کوائف_پانا:9
-msgid "ذرائع: ذریعہ | list"
-msgstr ""
-
-#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/مقام.pydocstring
-#: of تقدیر.مقام.مقام.کوائف_پانا:10
+#: /home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages/تقدیر/مقام.pydocstring
+#: of تقدیر.مقام.مقام.کوائف_پانا:7
 msgid ""
 "وہ ذرائع جن سے کوائف لينےا ہيں۔ یا :class:`~تقدیر.ذریعہ.ذریعہ`، یا انکی "
 "فہرست ہو سکتی ہے۔"
 msgstr ""
 
-#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/مقام.pydocstring
-#: of تقدیر.مقام.مقام.کوائف_پانا:12
-msgid "خاکے: str | float"
-msgstr ""
-
-#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/مقام.pydocstring
-#: of تقدیر.مقام.مقام.کوائف_پانا:12
+#: /home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages/تقدیر/مقام.pydocstring
+#: of تقدیر.مقام.مقام.کوائف_پانا:9
 msgid "آب وہوا کی تبدیلی کے خاکے۔مثال کے طور پر ۸۔۵"
 msgstr ""
 
-#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/مقام.pydocstring
-#: of تقدیر.مقام.مقام.کوائف_پانا:16
-msgid "کوائف"
+#: /home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages/تقدیر/مقام.pydocstring
+#: of تقدیر.مقام.مقام.کوائف_پانا:0
+msgid "Returns"
 msgstr ""
 
-#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/مقام.pydocstring
-#: of تقدیر.مقام.مقام.کوائف_پانا:17
+#: /home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages/تقدیر/مقام.pydocstring
+#: of تقدیر.مقام.مقام.کوائف_پانا:12
 msgid "آب وہوا کے :class:`~تقدیر.کوائف.کوائف`۔"
+msgstr ""
+
+#: /home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages/تقدیر/مقام.pydocstring
+#: of تقدیر.مقام.مقام.کوائف_پانا:0
+msgid "Return type"
 msgstr ""

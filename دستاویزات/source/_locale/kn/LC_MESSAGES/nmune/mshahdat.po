@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: تقدیر 1\n"
+"Project-Id-Version: تقدیر 2.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-03 13:56+0000\n"
+"POT-Creation-Date: 2020-01-26 19:45+0000\n"
 "PO-Revision-Date: 2019-01-03 20:34+0000\n"
 "Language-Team: Kannada (https://www.transifex.com/qatikon/teams/94867/kn/)\n"
 "MIME-Version: 1.0\n"
@@ -17,32 +17,44 @@ msgstr ""
 "Language: kn\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: ../../source/nmune/mshahdat.rst:2
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/nmune/mshahdat.rst:2
 msgid "مشاہدات کی تياری"
 msgstr ""
 
-#: ../../source/nmune/mshahdat.rst:3
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/nmune/mshahdat.rst:3
 msgid ""
 "اگر آپکے پاس آب وہوا کے مشاہدات ہیں، تقدیر ان سے کوائف لينے کی کوشش "
 "کریگا۔کوائف نہ ملنے کی صورت میں دوسرے ذرائع سے کوائف لےگا۔ آپ کے کوائف  "
-"جیسن، سی اس وی یا ڈیسيٹ کے مطابق (``.WTH``) ہو سکتے ہیں۔"
+"جےسن، سی اس وی یا دیسات کے مطابق (``.WTH``) ہو سکتے ہیں۔"
 msgstr ""
 
-#: ../../source/nmune/mshahdat.rst:6
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/nmune/mshahdat.rst:2
 msgid ""
-"from تقدیر.ذرائع import سی_اس_وی, ڈیسيٹ, جیسن\n"
+"import matplotlib.pyplot as plt\n"
+"\n"
+"from تقدیر.ذرائع import سی_اس_وی, دیسات, جےسن\n"
 "from تقدیر.مقام import مقام\n"
-"جگہ = dict(عرض=11.02, طول=76.96, بلندی=1)\n"
+"from تقدیر.وسائل import وسائل_پانا\n"
 "\n"
-" مشاہدات۱ = سی_اس_وی('مشاہدات.csv', **جگہ)\n"
-" مشاہدات۲ = جیسن('مشاہدات.json', **جگہ)\n"
-" مشاہدات۳ = ڈیسيٹ('ACNM1301.WTH')\n"
+"جگہ = dict(عرض=47.275, طول=-77.617, بلندی=375)\n"
+"مشاہدات۱ = دیسات(وسائل_پانا('۳۶۵دن.WTG'))\n"
+"مشاہدات۲ = دیسات(وسائل_پانا('۳۶۶دن.WTG'))\n"
 "\n"
-" م = مقام(**جگہ)\n"
-" م.کوائف_پانا(سے='۲۰۰۰۰۱۰۱', تک='۲۰۱۷۰۱۰۱', ذرائع=[مشاہدات۱, مشاہدات۲, مشاہدات۳],  خاکے='۲۔۶')"
+"م = مقام(**جگہ)\n"
+"کو = م.کوائف_پانا(سے='۲۰۰۳۰۱۰۱', تک='۲۰۰۴۱۲۳۱', ذرائع=[مشاہدات۱, مشاہدات۲])\n"
+"\n"
+"روزانہ = کو.روزانہ()\n"
+"روزانہ.dropna().plot(kind='line')"
 msgstr ""
 
-#: ../../source/nmune/mshahdat.rst:19
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/nmune/mshahdat.rst:23
+msgid ""
+"(`Source code <../nmune/mshahdat-1.py>`__, `png "
+"<../nmune/mshahdat-1.png>`__, `hires.png <../nmune/mshahdat-1.hires.png>`__,"
+" `pdf <../nmune/mshahdat-1.pdf>`__)"
+msgstr ""
+
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/nmune/mshahdat.rst:26
 msgid ""
 "کوائف ڈھونڈنے کی ترتیب کچھ اس طرح سے ہوگی۔ سب سے پہلے مطلوبہ جگہ پر لیے گئے "
 "اعدادوشمار، اس کے بعد ناساکے اعدادوشمار اور سب سے آخر میں مرکسم کے "
@@ -50,73 +62,81 @@ msgid ""
 "ذرائع توپل میں دینا:"
 msgstr ""
 
-#: ../../source/nmune/mshahdat.rst:23
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/nmune/mshahdat.rst:30
 msgid ""
+"from تقدیر.ذرائع import سی_اس_وی, دیسات, جےسن\n"
+"from تقدیر.مقام import مقام\n"
+"from تقدیر.وسائل import وسائل_پانا\n"
+"\n"
+"مشاہدات۱ = سی_اس_وی(وسائل_پانا('روزانہ.csv'), **جگہ)\n"
+"مشاہدات۲ = جےسن(وسائل_پانا('روزانہ.json'), **جگہ)\n"
+"مشاہدات۳ = دیسات(وسائل_پانا('ACNM1301.WTH'))\n"
+"\n"
 "م = مقام(**جگہ)\n"
 "م.کوائف_پانا(سے='۲۰۰۰۰۱۰۱', تک='۲۰۱۷۰۱۰۱', ذرائع=(مشاہدات۱, مشاہدات۲, مشاہدات۳))"
 msgstr ""
 
-#: ../../source/nmune/mshahdat.rst:28
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/nmune/mshahdat.rst:43
 msgid "اب، نامعلوم کوائف کے جگہ میں ``np.nan`` ھی ہوگا۔"
 msgstr ""
 
-#: ../../source/nmune/mshahdat.rst:30
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/nmune/mshahdat.rst:45
 msgid ""
 "اگر آپکے جیسن اور سی اس وی کےعمودی ستونوں کے نام :ref:`تقدیر کے متغیّرات کے"
 " نام <متغیّرات>` سے مختلف ہیں، تو کوئی مسئلہ نہیں ہے ۔"
 msgstr ""
 
-#: ../../source/nmune/mshahdat.rst:32
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/nmune/mshahdat.rst:47
 msgid ""
 "میرے_متغیّر_کا_نام = {'بارش': 'மழை'}\n"
 "سی_اس_وی('مشاہدات.csv', **جگہ, تبديل_ستون=میرے_متغیّر_کا_نام)"
 msgstr ""
 
-#: ../../source/nmune/mshahdat.rst:38
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/nmune/mshahdat.rst:53
 msgid "ماہانہ اور سالانہ کے مشاہدات"
 msgstr ""
 
-#: ../../source/nmune/mshahdat.rst:39
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/nmune/mshahdat.rst:54
 msgid ""
 "اگر آپکے مشاھدات ماہانہ یا سالانہ کی طرز پر ہیں،اور آپ کو روزانہ کی طرز پر"
 "  کوائف چاہیں تو تقدیر آپکے لئے انسے روزانہ کی طرز پر کوائف بناے گا۔ تقدیر "
 "ڈیسيٹ کے ماہانہ کوائف کی مسل (``.MTH``) کو بھی پڑھ لیتا ہے۔"
 msgstr ""
 
-#: ../../source/nmune/mshahdat.rst:42
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/nmune/mshahdat.rst:57
 msgid ""
 "مشاہدات۱ = جیسن('ماہانہ.json', **جگہ)\n"
-"مشاہدات۲ = ڈیسيٹ('ARPE.MTH')\n"
+"مشاہدات۲ = دیسات('ARPE.MTH')\n"
 "\n"
 "م = مقام(**جگہ)\n"
 "م.کوائف_پانا(سے='۲۰۰۰۰۱۰۱', تک='۲۰۱۷۰۱۰۱', ذرائع=[مشاہدات۱, مشاہدات۲])"
 msgstr ""
 
-#: ../../source/nmune/mshahdat.rst:52
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/nmune/mshahdat.rst:67
 msgid "خاکے کے مشاہدات"
 msgstr ""
 
-#: ../../source/nmune/mshahdat.rst:53
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/nmune/mshahdat.rst:68
 msgid ""
 "عام طور پر، مشاہدات ماضی کے ھوتے ہیں۔ پر اگر آپکے پاس مستقبل کے کوائف ہیں، "
 "تو خاکے کے طور پر بھی مشاھدات بنا سکتے ہیں۔ اس طرخ کے مشاھدات اہم ہو سکتے "
 "ہیں جب آپکے پاس مطلوبہ جگہ کی آب وہواکی تبدیلی کے نمونے کے نتائج ہوں۔"
 msgstr ""
 
-#: ../../source/nmune/mshahdat.rst:56
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/nmune/mshahdat.rst:71
 msgid ""
 "from تقدیر.ذرائع import سی_اس_وی\n"
 "from تقدیر.مقام import مقام\n"
 "\n"
 "جگہ = dict(عرض=11.02, طول=76.96, بلندی=1)\n"
 "\n"
-"مشاہدات_۲۶ = سی_اس_وی('مشاہدات.csv', **جگہ, خاکے='۲۔۶')\n"
-"مشاہدات_۸۵ = سی_اس_وی('مشاہدات.csv', **جگہ, خاکے='۸۔۵')\n"
+"مشاہدات_۲۶ = سی_اس_وی('مشاہدات.csv', **جگہ, خاکے='۲.۶')\n"
+"مشاہدات_۸۵ = سی_اس_وی('مشاہدات.csv', **جگہ, خاکے='۸.۵')\n"
 "م = مقام(**جگہ)\n"
 "\n"
 "# مشاہدات_۲۶ کے کوائف ھی ملیں گے۔\n"
-"م.کوائف_پانا(سے='۲۰۱۸۰۱۰۱', تک='۲۰۱۷۰۱۰۱', ذرائع=[مشاہدات_۲۶, مشاہدات_۸۵],  خاکے='۲۔۶')\n"
+"م.کوائف_پانا(سے='۲۰۱۸۰۱۰۱', تک='۲۰۱۷۰۱۰۱', ذرائع=[مشاہدات_۲۶, مشاہدات_۸۵],  خاکے='۲.۶')\n"
 "\n"
 "# مشاہدات_۸۵ کے کوائف ھی ملیں گے۔\n"
-"م.کوائف_پانا(سے='۲۰۱۸۰۱۰۱', تک='۲۰۱۷۰۱۰۱', ذرائع=[مشاہدات_۲۶, مشاہدات_۸۵],  خاکے='۸۔۵')"
+"م.کوائف_پانا(سے='۲۰۱۸۰۱۰۱', تک='۲۰۱۷۰۱۰۱', ذرائع=[مشاہدات_۲۶, مشاہدات_۸۵],  خاکے='۸.۵')"
 msgstr ""

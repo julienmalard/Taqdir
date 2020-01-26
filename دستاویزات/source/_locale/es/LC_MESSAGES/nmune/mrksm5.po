@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: تقدیر 1\n"
+"Project-Id-Version: تقدیر 2.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-03 13:56+0000\n"
+"POT-Creation-Date: 2020-01-26 19:45+0000\n"
 "PO-Revision-Date: 2019-01-03 20:34+0000\n"
 "Last-Translator: Julien Malard <julien.malard@mail.mcgill.ca>, 2019\n"
 "Language-Team: Spanish (https://www.transifex.com/qatikon/teams/94867/es/)\n"
@@ -21,55 +21,73 @@ msgstr ""
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../source/nmune/mrksm5.rst:2
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/nmune/mrksm5.rst:2
 msgid "مرکسم ۵ کا استعمال"
 msgstr "Uso de Marksim 5"
 
-#: ../../source/nmune/mrksm5.rst:4
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/nmune/mrksm5.rst:3
 msgid ""
-"مرکسم ۵ آب وہوا کی تبدیلیوں کے خاکے کے لحاص سے آب وہوا کے کوائف دیتا ہے۔ "
-"مرکسم جالبین میں ہے اور آپ اسکو اپنے تخمینہ کار پر بھی تنصیب کر سکتے ہیں۔"
+"`مرکسم ۵ <http://www.ccafs-climate.org/pattern_scaling/>`_ آب وہوا کی "
+"تبدیلیوں کے خاکے کے لحاص سے آب وہوا کے کوائف دیتا ہے۔ مرکسم جالبین میں ہے "
+"اور آپ اسکو اپنے تخمینہ کار پر بھی تنصیب کر سکتے ہیں۔"
 msgstr ""
 
-#: ../../source/nmune/mrksm5.rst:7
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/nmune/mrksm5.rst:7
 msgid ""
 "تقدیر دونوں سے کوائف ڈھونڈ سکتا ہے، پر تخمینہ کار پر موجود مرکسم ھمیشہ "
 "جالبین کے مرکسم سے تيز ہو گا۔ اسی لئے، اگر آپ مرکسم پر زيادہ کام کرنے والے "
 "ہیں،تو بہتر ہوگا کےآپ اپنے  تخمینہ کار پر مرکسم تنصیب کریں۔"
 msgstr ""
 
-#: ../../source/nmune/mrksm5.rst:11
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/nmune/mrksm5.rst:11
 msgid "جالبین مرکسم کا استعمال"
 msgstr ""
 
-#: ../../source/nmune/mrksm5.rst:12
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/nmune/mrksm5.rst:12
 msgid ""
 "آپ کو کچھ کرنے کی ضرورت نہیں۔آّپ صرف مقام اور خاکوں کا ت‏عين کريں۔ اگر آپ کا"
 " تخمینہ کار جالبین سے منسلک ہے،تو تقدیر خود ہی اعدادوشمار لے گا۔"
 msgstr ""
 
-#: ../../source/nmune/mrksm5.rst:15
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/nmune/mrksm5.rst:15
+msgid ""
+"اسکا استعمال کرنے سے پہلے اپکو `فائرفاکس کا گکو "
+"<https://github.com/mozilla/geckodriver/releases>`_  کی تنصیب کرنے کی ضرورت "
+"پڈھیگی۔"
+msgstr ""
+
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/nmune/mrksm5.rst:17
+msgid ""
+"from تقدیر.ذرائع import مرکسم۵\n"
+"from تقدیر.مقام import مقام\n"
+"\n"
+"میرا_مقام = مقام(عرض=11.02, طول=76.96, بلندی=1)\n"
+"\n"
+"کو = میرا_مقام.کوائف_پانا(سے='۲۰۵۰۰۱۰۱', تک='۲۰۶۰۰۱۰۱', ذرائع=مرکسم۵(نمونہ=نمونہ))"
+msgstr ""
+
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/nmune/mrksm5.rst:28
 msgid "تخمینہ کار پر مرکسم کا استعمال"
 msgstr ""
 
-#: ../../source/nmune/mrksm5.rst:16
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/nmune/mrksm5.rst:29
 msgid ""
 "پہلے مرحلہ ميں آپکو اپنے تخمینہ کار پرمرکسم کی تنصیب کرنی پڑیگی۔ بعد میں "
 "تقدیر کو مرکسم کا راستہ بتانا ہے تاکہ وہ جان سکے کہ آپکا مرکسم کہاں رکھا "
 "ہے:"
 msgstr ""
 
-#: ../../source/nmune/mrksm5.rst:18
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/nmune/mrksm5.rst:31
 msgid ""
 "from تقدیر.ذرائع.مرکسم۵ import راستہ_مرکسم_بتانا\n"
 "راستہ_مرکسم_بتانا('~میرا/مرکسم/ہے/یہاں/marksim.exe')"
 msgstr ""
 
-#: ../../source/nmune/mrksm5.rst:24
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/nmune/mrksm5.rst:37
 msgid "مرکسم کے خاص نمونے"
 msgstr ""
 
-#: ../../source/nmune/mrksm5.rst:25
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/nmune/mrksm5.rst:38
 msgid ""
 "مرکسم ۵ میں ۱۷ مختلف آب وہوا تبدیلیوں کے نمونے ہیں۔ عام طور پر ہم تمام کا "
 "استعمال کریں گے۔ پر اگر آپکو خاص نمونوں کا استعمال کرنا ہے تو آپ مرکسم کے "
@@ -77,7 +95,7 @@ msgid ""
 "تخمینہ کار کے مرکسم دونوں کے لئے کارآمد ہے۔"
 msgstr ""
 
-#: ../../source/nmune/mrksm5.rst:29
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/nmune/mrksm5.rst:42
 msgid ""
 "from تقدیر.ذرائع import مرکسم۵, مرکسم۵_جال, ناسا\n"
 "from تقدیر.مقام import مقام\n"

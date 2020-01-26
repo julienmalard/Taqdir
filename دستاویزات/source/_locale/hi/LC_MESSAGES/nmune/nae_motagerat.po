@@ -1,0 +1,52 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) ژولیئں ملاغ، محمّد اظہر انعام بیگ، ۲۰۱۸+
+# This file is distributed under the same license as the تقدیر package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Julien Malard <julien.malard@mail.mcgill.ca>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: تقدیر 2.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-26 19:45+0000\n"
+"PO-Revision-Date: 2019-07-07 03:58+0000\n"
+"Last-Translator: Julien Malard <julien.malard@mail.mcgill.ca>, 2019\n"
+"Language-Team: Hindi (https://www.transifex.com/qatikon/teams/94867/hi/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hi\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/nmune/nae_motagerat.rst:2
+msgid "نئے متغیرات"
+msgstr "नये परिवर्तनशील"
+
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/nmune/nae_motagerat.rst:4
+msgid ""
+"تقدیر مختلف :ref:`متغیّرات <متغیّرات>`  کے ساتھ آتا ہیے۔ اگر آپکو دوسرے "
+"متغیرات کا یستمعال کرنا ہیے تو آپکو انہیں خود جوڑانے پڑیگا۔"
+msgstr ""
+"तकदीर विभिन्न :ref:`परिवर्तनशील <متغیّرات>`  के साथ आता है। अगर आपको दुसरे "
+"परिवर्तनशील का प्रयोग करना है तो आपको उनहें खुद जोड़ाने पड़ेगा।"
+
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/nmune/nae_motagerat.rst:7
+msgid ""
+"``کم`` اور ``زیادہ`` نام کے اختیارات تقدیر کو بتاتے ہیں کے یہ متغیر کاونسی "
+"قیمت لے سکتا ہیے۔ یہ کوائف کی توسیع کے فعلیت لیے اہم ہیے۔"
+msgstr ""
+"``کم`` और ``زیادہ`` नाम के विकल्प तकदीर को बताते हैं के यह परिवर्तनसील कौनसी"
+" मुल्य ले सकता है। यह आँकड़ों के विस्तार के कार्य के लिये महत्वपूर्ण है।"
+
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/nmune/nae_motagerat.rst:10
+msgid ""
+"from تقدیر.متغیرات import متغیرات, متغیر\n"
+"رشتہ_دار_نمی =  متغیر('رشتہ_دار_نمی', وحدت='فیصد', کم=0)\n"
+"متغیرات.جوڑانا(رشتہ_دار_نمی)"
+msgstr ""
+"from تقدیر.متغیرات import متغیرات as परिवर्तनशील, متغیر as परि\n"
+"सापेक्षिक_आद्रता =  परि('सापेक्षिक_आद्रता', وحدت='प्रतिशत', کم=0)\n"
+"परिवर्तनशील.جوڑانا(सापेक्षिक_आद्रता)"

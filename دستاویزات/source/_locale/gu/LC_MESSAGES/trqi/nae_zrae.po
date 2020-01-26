@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: تقدیر 1\n"
+"Project-Id-Version: تقدیر 2.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-03 13:56+0000\n"
+"POT-Creation-Date: 2020-01-26 19:45+0000\n"
 "PO-Revision-Date: 2019-01-03 20:33+0000\n"
 "Language-Team: Gujarati (https://www.transifex.com/qatikon/teams/94867/gu/)\n"
 "MIME-Version: 1.0\n"
@@ -17,23 +17,23 @@ msgstr ""
 "Language: gu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../source/trqi/nae_zrae.rst:4
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/trqi/nae_zrae.rst:4
 msgid "نئے ذرائع"
 msgstr ""
 
-#: ../../source/trqi/nae_zrae.rst:5
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/trqi/nae_zrae.rst:5
 msgid ""
 "اگر آپکو ايسی وضع کے کوائف استعمال کرنے ہیں جو ابھی تک تقدیر میں دستیاب "
 "نہیں ہیں، تو آپ اسکے لئے ایک نئے ذریعہ کی قسم بنا سکتے ہیں۔"
 msgstr ""
 
-#: ../../source/trqi/nae_zrae.rst:8
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/trqi/nae_zrae.rst:8
 msgid ""
 "تقدیر میں دو قسم کے ‍‌ذرائع ہیں، اعم ذرائع (:class:`~تقدیر.ذریعہ.ذریعہ`) اور"
 " نکتہ کے ذرائع (:class:`~تقدیر.ذریعہ_نکتہ.ذریعہ_نکتہ`)۔"
 msgstr ""
 
-#: ../../source/trqi/nae_zrae.rst:10
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/trqi/nae_zrae.rst:10
 msgid ""
 "نکتہ کے ذرائع وہ ‌ذرائع ہیں جنکو بناتے پر ھی پتا ھو جاتا ہیے کے انکے کوائف "
 "نکشہ پر کس نکتے سے ایں گے۔ نکتہ کے ذرائے کا ایک نمونہ ہیے دیسات کے مسل کا "
@@ -42,25 +42,29 @@ msgid ""
 "سکتے ہیں۔"
 msgstr ""
 
-#: ../../source/trqi/nae_zrae.rst:14
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/trqi/nae_zrae.rst:14
 msgid ""
 "نئی قسم کے ليے، اعم ذریع ہو یا نکتہ کا بھی، آپکو ایک نيا فعل لکھنا پڑے گا: "
 ":meth:`~تقدیر.ذریعہ.ذریعہ._کوائف_بنانا`۔"
 msgstr ""
 
-#: ../../source/trqi/nae_zrae.rst:17
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/trqi/nae_zrae.rst:17
 msgid "اعم ذرائع"
 msgstr ""
 
-#: ../../source/trqi/nae_zrae.rst:18
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/trqi/nae_zrae.rst:18
 msgid ""
 "نمونے کے طور پر ناسا نام کے ذریعے کا :meth:`~تقدیر.ذریعہ.ذریعہ._کوائف_بنانا`"
 " نام کا فعل نیچے دیا گيا ہے۔"
 msgstr ""
 
-#: ../../source/trqi/nae_zrae.rst:20
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/trqi/nae_zrae.rst:20
 msgid ""
 "class ناسا(ذریعہ):\n"
+"    \"\"\"\n"
+"    یہ ذریعہ ناسا کے `صفحہ <https://power.larc.nasa.gov/cgi-bin/v1/DataAccess.py>`_ سے آوہوا مشاہدات کے کوائف پاتا ہیے۔\n"
+"    \"\"\"\n"
+"    متغیرات = ['بارش', 'شمسی_تابکاری', 'درجہ_حرارت_زیادہ', 'درجہ_حرارت_کم', 'درجہ_حرارت_اوسط']\n"
 "\n"
 "    def _کوائف_بنانا(خود, سے, تک, عرض, طول, بلندی, خاکے):\n"
 "        try:\n"
@@ -82,19 +86,23 @@ msgid ""
 "        }\n"
 "\n"
 "        for تاریخ in اعداد_پاندس.index:\n"
+"            try:\n"
+"                ناسا_دن = ذریعہ_ناسا(تاریخ.start_time)\n"
+"            except WeatherDataProviderError:\n"
+"                continue\n"
 "            for س, س_ناسا in ستون.items():\n"
-"                اعداد_پاندس.loc[تاریخ][س] = getattr(ذریعہ_ناسا(سے), س_ناسا)\n"
+"                اعداد_پاندس.loc[تاریخ, س] = getattr(ناسا_دن, س_ناسا)\n"
 "\n"
 "        اعداد_پاندس.شمسی_تابکاری *= 1e-6\n"
 "\n"
-"        return اعداد_پاندس"
+"        return اعداد_پاندس\n"
 msgstr ""
 
-#: ../../source/trqi/nae_zrae.rst:52
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/trqi/nae_zrae.rst:24
 msgid "نکتہ کا ذرائع"
 msgstr ""
 
-#: ../../source/trqi/nae_zrae.rst:53
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/trqi/nae_zrae.rst:25
 msgid ""
 "نکتہ کا ذرائع کو بناتے پر ھی بتانے پڑھتا ہیے کے کہاں کا ہیے اور کس خاکے سے۔ "
 "اسی لیے آپکا :meth:`~تقدیر.ذریعہ_نکتہ.ذریعہ_نکتہ._کوائف_بنانا` نام کا فعل "
@@ -103,34 +111,40 @@ msgid ""
 "کا جانچ کریگا۔"
 msgstr ""
 
-#: ../../source/trqi/nae_zrae.rst:57
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/trqi/nae_zrae.rst:29
 msgid ""
 "نمونے کے طور پر جےسن نام کے ذریعے کا "
 ":meth:`~تقدیر.ذریعہ_نکتہ.ذریعہ_نکتہ._کوائف_بنانا` نام کا فعل نیچے دیا گيا "
 "ہے۔"
 msgstr ""
 
-#: ../../source/trqi/nae_zrae.rst:59
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/trqi/nae_zrae.rst:31
 msgid ""
 "class جےسن(ذریعہ_نکتہ):\n"
+"    \"\"\"\n"
+"    جےسن (``.json``) مسل سے کوائف پڑھتا ہیے۔\n"
+"    \"\"\"\n"
 "\n"
-" def __init__(خود, مسل, عرض, طول, بلندی=None, خاکے=None, تبديل_عمودی_ستون=None):\n"
-"     super().__init__(عرض, طول, بلندی, خاکے, تبديل_عمودی_ستون)\n"
+"    def __init__(خود, مسل, عرض, طول, بلندی=None, خاکے=None, تبديل_عمودی_ستون=None):\n"
+"        super().__init__(عرض, طول, بلندی, خاکے, تبديل_عمودی_ستون)\n"
 "\n"
-"     if isinstance(مسل, str):\n"
-"         ضابطہ = _ضابطہ_بندی(مسل)\n"
-"         with open(مسل, 'r', encoding=ضابطہ) as م:\n"
-"             خود.جےسن = json.load(م)\n"
-"     else:\n"
-"         خود.جےسن = مسل\n"
+"        if isinstance(مسل, str):\n"
+"            ضابطہ = _ضابطہ_بندی(مسل)\n"
+"            with open(مسل, 'r', encoding=ضابطہ) as م:\n"
+"                خود.جےسن = json.load(م)\n"
+"        else:\n"
+"            خود.جےسن = مسل\n"
 "\n"
-" def _کوائف_بنانا(خود, سے, تک, عرض, طول, بلندی, خاکے):\n"
+"    @property\n"
+"    def متغیرات(خود):\n"
+"        return [ب for ب in [خود._نام_عمودی_ستون(س) for س in خود.جےسن] if ب != 'تاریخ']\n"
 "\n"
-"     ستون_تاریخ = خود._نام_عمودی_ستون('تاریخ')\n"
+"    def _کوائف_بنانا(خود, سے, تک, عرض, طول, بلندی, خاکے):\n"
 "\n"
-"     اعداد_جےسن = pd.DataFrame(\n"
-"         data={س: خود.جےسن[خود._نام_عمودی_ستون(س)] for س in متغیرات if خود._نام_عمودی_ستون(س) in خود.جےسن},\n"
-"         index=خود._اشاریہ_پانڈا_بنانا(خود.جےسن[ستون_تاریخ])\n"
-"     )\n"
-"     return اعداد_جےسن"
+"        کو = {خود._نام_عمودی_ستون(س): قیمت for س, قیمت in خود.جےسن.items()}\n"
+"        اعداد_جےسن = pd.DataFrame(\n"
+"            data={م: ق for م, ق in کو.items() if م != 'تاریخ'},\n"
+"            index=خود._اشاریہ_پانڈا_بنانا(کو['تاریخ'])\n"
+"        )\n"
+"        return اعداد_جےسن\n"
 msgstr ""

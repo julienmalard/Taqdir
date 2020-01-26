@@ -1,0 +1,121 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) ژولیئں ملاغ، محمّد اظہر انعام بیگ، ۲۰۱۸+
+# This file is distributed under the same license as the تقدیر package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Julien Malard <julien.malard@mail.mcgill.ca>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: تقدیر 2.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-26 19:45+0000\n"
+"PO-Revision-Date: 2019-07-05 11:48+0000\n"
+"Last-Translator: Julien Malard <julien.malard@mail.mcgill.ca>, 2019\n"
+"Language-Team: Hindi (https://www.transifex.com/qatikon/teams/94867/hi/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hi\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/nmune/jome.rst:2
+msgid "جمع"
+msgstr "समूह"
+
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/nmune/jome.rst:4
+msgid "تقدیر میں ذرائع کے جمع بنا سکتے ہیں جین میں مختلف ذرائع جوڑی جاتی ہیں۔"
+msgstr ""
+"तकदीर में स्रोतों के समूह बना सकते हैं जिन में विभिन्न स्रोते जोड़ी जाती "
+"हैं।"
+
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/nmune/jome.rst:6
+msgid "بعاد میں کریدج سے لاپتہ جگے کے کوائف بنا سکتے ہیں۔"
+msgstr "बाद में क्रिज से अज्ञात जगह के आँकड़ों बना सकते हैं।"
+
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/nmune/jome.rst:2
+msgid ""
+"from تقدیر.ذرائع import سی_اس_وی, جمع\n"
+"from تقدیر.مقام import مقام\n"
+"from تقدیر.وسائل import وسائل_پانا\n"
+"\n"
+"\n"
+"مسلیں_جمع = {\n"
+"    'جھنگ': {'مسل': 'جھنگ.csv', 'عرض': 71.83329773, 'طول': 30.83329964, 'بلندی': 158},\n"
+"    'سرکودھا': {'مسل': 'سرگودھا.csv', 'عرض': 72.66670227, 'طول': 32.08330154, 'بلندی': 193},\n"
+"    'فیصل آباد': {'مسل': 'فیصل آباد.csv', 'عرض': 73.09999847, 'طول': 31.43330002, 'بلندی': 184},\n"
+"    'لاہور': {'مسل': 'لاہور.csv', 'عرض': 74.33329773, 'طول': 31.54999924, 'بلندی': 217},\n"
+"    'ملتان': {'مسل': 'ملتان.csv', 'عرض': 71.43329620, 'طول': 30.20000076, 'بلندی': 122}\n"
+"}\n"
+"\n"
+"for ج in مسلیں_جمع.values():\n"
+"    ج['مسل'] = وسائل_پانا('جمع/' + ج['مسل'])\n"
+"\n"
+"ذرائع = [سی_اس_وی(**ل) for ل in مسلیں_جمع.values()]\n"
+"ذریعہ_جمع = جمع(ذرائع)\n"
+"\n"
+"کو = مقام(عرض=74, طول=33, بلندی=190).کوائف_پانا('۲۰۰۵-۰۱-۰۱', '۲۰۰۶-۰۲-۰۱', (ذریعہ_جمع,))\n"
+"\n"
+"روزانہ = کو.روزانہ()\n"
+"روزانہ.dropna(how='all').plot(kind='line')"
+msgstr ""
+"from تقدیر.ذرائع import سی_اس_وی as सी_एस_वी, جمع as समूह\n"
+"from تقدیر.مقام import مقام as जगह\n"
+"from تقدیر.وسائل import وسائل_پانا as संसाधन_पाना\n"
+"\n"
+"\n"
+"संचिके_समूह = {\n"
+"    'झंग': {'संचिका': 'جھنگ.csv', 'عرض': 71.83329773, 'طول': 30.83329964, 'بلندی': 158},\n"
+"    'सरगोधा': {'संचिका': 'سرگودھا.csv', 'عرض': 72.66670227, 'طول': 32.08330154, 'بلندی': 193},\n"
+"    'फ़ैसलाबाद': {'संचिका': 'فیصل آباد.csv', 'عرض': 73.09999847, 'طول': 31.43330002, 'بلندی': 184},\n"
+"    'लाहौर': {'संचिका': 'لاہور.csv', 'عرض': 74.33329773, 'طول': 31.54999924, 'بلندی': 217},\n"
+"    'मुल्तान': {'संचिका': 'ملتان.csv', 'عرض': 71.43329620, 'طول': 30.20000076, 'بلندی': 122}\n"
+"}\n"
+"\n"
+"for ज in संचिके_समूह.values():\n"
+"    ज['مسل'] = संसाधन_पाना('جمع/' + ज['संचिका'])\n"
+"\n"
+"स्रोतें = [سی_اس_وی(**ل) for ل in مسلیں_جمع.values()]\n"
+"स्रोत_समूह = समूह(स्रोतें)\n"
+"\n"
+"आँ = जगह(عرض=74, طول=33, بلندی=190).کوائف_پانا('२००५-०१-०१', '२००६-०२-०१', (स्रोत_समूह,))\n"
+"\n"
+"रोज़ाना = आँ.روزانہ()\n"
+"रोज़ाना.dropna(how='all').plot(kind='line')"
+
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/nmune/jome.rst:31
+msgid ""
+"(`Source code <../nmune/jome-1.py>`__, `png <../nmune/jome-1.png>`__, "
+"`hires.png <../nmune/jome-1.hires.png>`__, `pdf <../nmune/jome-1.pdf>`__)"
+msgstr ""
+"(`स्रोत <../nmune/jome-1.py>`__, `पी एन जी <../nmune/jome-1.png>`__, "
+"`hires.png <../nmune/jome-1.hires.png>`__, `पी डी एफ़ "
+"<../nmune/jome-1.pdf>`__)"
+
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/nmune/jome.rst:37
+msgid "دستیاب جگے کے لحاص سے لاپتے دینوں کے کوائف بھی توسیع کر دیگا۔"
+msgstr ""
+"उपलब्ध जगह के अनुसार अज्ञात दिनों के आँकड़ों का विस्तार भी किया जा सकता है।"
+
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/nmune/jome.rst:2
+msgid ""
+"کو = مقام(عرض=72.66670227, طول=32.08330154, بلندی=193).کوائف_پانا('۲۰۰۵-۰۱-۰۱', '۲۰۰۶-۰۲-۰۱', (ذریعہ_جمع,))\n"
+"\n"
+"روزانہ = کو.روزانہ()\n"
+"روزانہ.dropna(how='all').plot(kind='line')"
+msgstr ""
+"आँ = जगह(عرض=72.66670227, طول=32.08330154, بلندی=193).کوائف_پانا('२००५-०१-०१', '२००६-०२-०१', (स्रोत_समूह,))\n"
+"\n"
+"रोज़ाना = आँ.روزانہ()\n"
+"रोज़ाना.dropna(how='all').plot(kind='line')"
+
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/nmune/jome.rst:12
+msgid ""
+"(`Source code <../nmune/jome-2.py>`__, `png <../nmune/jome-2.png>`__, "
+"`hires.png <../nmune/jome-2.hires.png>`__, `pdf <../nmune/jome-2.pdf>`__)"
+msgstr ""
+"(`स्रोत <../nmune/jome-2.py>`__, `पी एन जी <../nmune/jome-2.png>`__, "
+"`hires.png <../nmune/jome-2.hires.png>`__, `पी डी एफ़ "
+"<../nmune/jome-2.pdf>`__)"

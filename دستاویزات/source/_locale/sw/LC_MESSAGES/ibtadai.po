@@ -1,0 +1,129 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) ژولیئں ملاغ، محمّد اظہر انعام بیگ، ۲۰۱۸+
+# This file is distributed under the same license as the تقدیر package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: تقدیر 2.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-26 19:45+0000\n"
+"PO-Revision-Date: 2019-07-08 17:36+0000\n"
+"Language-Team: Swahili (https://www.transifex.com/qatikon/teams/94867/sw/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sw\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/ibtadai.rst:2
+msgid "ابتدايئہ"
+msgstr ""
+
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/ibtadai.rst:5
+msgid "تنصیب"
+msgstr ""
+
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/ibtadai.rst:7
+msgid "تقدیر کی تنصیب کرنا بہت اسان ہے۔"
+msgstr ""
+
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/ibtadai.rst:9
+msgid ":command:`pip install taqdir`"
+msgstr ""
+
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/ibtadai.rst:11
+msgid "تازہ ترين تقدیر گٹھب پر دستياب ہے۔ اسے موصول کرنے کے ليے لکھيں:"
+msgstr ""
+
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/ibtadai.rst:13
+msgid ""
+":command:`pip install git+git://github.com/julienmalard/taqdir.git@master`"
+msgstr ""
+
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/ibtadai.rst:16
+msgid "تقدیر کیسے کام کرتا ہے؟"
+msgstr ""
+
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/ibtadai.rst:17
+msgid ""
+"اگر آپکے پاس مشاہدات ہیں تو کوائف ڈھونڈنے کی ترتیب کچھ اس طرح سے ہوگی۔ سب "
+"سے پہلے مطلوبہ جگہ پر لیے گئےآپکے اعدادوشمار، اس کے بعد ناساکے اعدادوشمار "
+"(ماضی کے لئے) اور سب سے آخر میں مرکسم کے اعدادوشمار (مستقبل کے لئے)۔"
+msgstr ""
+
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/ibtadai.rst:21
+msgid "استعمال کرنے کا طريقہ؟"
+msgstr ""
+
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/ibtadai.rst:22
+msgid ""
+"پہلے ایک مقام بنانيں۔ يہ مطلوبہ جگہ کو ظاہر کرے گا جسکے ہمہیں کوائف "
+"چاییئں۔اس کے بعد مدت مت‏عيں کريں۔ تقدیر سے اسّے کوائف مل جائيں گے۔"
+msgstr ""
+
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/ibtadai.rst:2
+msgid ""
+"import matplotlib.pyplot as plt\n"
+"\n"
+"from تقدیر.ذرائع import سی_اس_وی, دیسات, جےسن\n"
+"from تقدیر.مقام import مقام\n"
+"\n"
+"جگہ = dict(عرض=11.02, طول=76.96, بلندی=1)\n"
+"\n"
+"م = مقام(**جگہ)\n"
+"کو = م.کوائف_پانا(سے='۲۰۰۰۰۱۰۱', تک='۲۰۰۱۰۱۰۱',  خاکے='۲.۶')\n"
+"\n"
+"روزانہ = کو.روزانہ()\n"
+"روزانہ.plot(kind='line')"
+msgstr ""
+
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/ibtadai.rst:20
+msgid ""
+"(`Source code <.//ibtadai-1.py>`__, `png <.//ibtadai-1.png>`__, `hires.png "
+"<.//ibtadai-1.hires.png>`__, `pdf <.//ibtadai-1.pdf>`__)"
+msgstr ""
+
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/ibtadai.rst:2
+msgid ""
+"کو.لاپتہ()  # نامعلوم دنوں کے نام پانا\n"
+"\n"
+"# ماہانہ اور سالانہ کوائف  کے ليے\n"
+"ماہانہ = کو.ماہانہ()\n"
+"کو.سالانہ()\n"
+"\n"
+"ماہانہ.plot(kind='line')"
+msgstr ""
+
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/ibtadai.rst:15
+msgid ""
+"(`Source code <.//ibtadai-2.py>`__, `png <.//ibtadai-2.png>`__, `hires.png "
+"<.//ibtadai-2.hires.png>`__, `pdf <.//ibtadai-2.pdf>`__)"
+msgstr ""
+
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/ibtadai.rst:53
+msgid "نتیجے کو مسل کے طور پر بھی لکھ سکتے ہیں۔"
+msgstr ""
+
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/ibtadai.rst:55
+msgid "کو.لکھنا('/میرا/راستہ', '.csv')"
+msgstr ""
+
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/ibtadai.rst:60
+msgid "اگر آپکے پاس مشاہدات کے کوائف ہیں تو یہ بھی جوڑے جا سکتے ہیں۔"
+msgstr ""
+
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/ibtadai.rst:62
+msgid ""
+"from تقدیر.مقام import مقام\n"
+"from تقدیر.ذرائع import سی_اس_وی\n"
+"\n"
+"میرا_مقام = مقام(‏عرض=11.02, طول=76.96, بلندی=1)\n"
+"مشاہدات = سی_اس_وی('مشاہدات.csv', عرض=11.02, طول=76.96, بلندی=1)\n"
+"کو = میرا_مقام.کوائف_پانا(سے='۲۰۱۸۰۱۰۱', تک='۲۰۱۷۰۱۰۱', ذرائع=مشاہدات)"
+msgstr ""
+
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/ibtadai.rst:72
+msgid "مشاہدات کو دیسات اور جےسن سے بھی پڑھا جا سکتا ہے۔"
+msgstr ""

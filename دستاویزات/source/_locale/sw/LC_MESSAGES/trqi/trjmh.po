@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: تقدیر 1\n"
+"Project-Id-Version: تقدیر 2.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-03 13:56+0000\n"
+"POT-Creation-Date: 2020-01-26 19:45+0000\n"
 "PO-Revision-Date: 2019-01-03 20:34+0000\n"
 "Language-Team: Swahili (https://www.transifex.com/qatikon/teams/94867/sw/)\n"
 "MIME-Version: 1.0\n"
@@ -17,22 +17,22 @@ msgstr ""
 "Language: sw\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../source/trqi/trjmh.rst:2
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/trqi/trjmh.rst:2
 msgid "ترجمہ"
 msgstr ""
 
-#: ../../source/trqi/trjmh.rst:4
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/trqi/trjmh.rst:4
 msgid ""
 "تقدیر کا ترجمہ کسی بھی زبان ميں `ترانسفکس "
 "<https://www.transifex.com/qatikon/tqdyr/dashboard>`_ پر ہو سکتا ہے۔"
 msgstr ""
 
-#: ../../source/trqi/trjmh.rst:6
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/trqi/trjmh.rst:6
 msgid ""
 "اگر آپ دوسری زبان جانتے ہیں جسمیں تقدیر کا استعمال کرنا ہے تو ہمہیں ترجمہ "
 "میں مدد کيجئے۔"
 msgstr ""
 
-#: ../../source/trqi/trjmh.rst:8
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/trqi/trjmh.rst:8
 msgid "اس سے تقدیر کی ترويج ميں مدد ملے گی۔ آپ کی مدد کا شکريہ۔"
 msgstr ""

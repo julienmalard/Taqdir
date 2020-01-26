@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: تقدیر 1\n"
+"Project-Id-Version: تقدیر 2.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-03 13:56+0000\n"
+"POT-Creation-Date: 2020-01-26 19:45+0000\n"
 "PO-Revision-Date: 2019-01-03 20:29+0000\n"
 "Last-Translator: Julien Malard <julien.malard@mail.mcgill.ca>, 2019\n"
 "Language-Team: Spanish (https://www.transifex.com/qatikon/teams/94867/es/)\n"
@@ -21,25 +21,26 @@ msgstr ""
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../source/shukriya.rst:2
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/shukriya.rst:2
 msgid "شکریہ"
 msgstr "Agradecimientos"
 
-#: ../../source/shukriya.rst:5
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/shukriya.rst:5
 msgid "تخلیق کار"
 msgstr "Autores"
 
-#: ../../source/shukriya.rst:7 ../../source/shukriya.rst:12
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/shukriya.rst:7
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/shukriya.rst:12
 msgid "`ژولیئں ملاغ <https://www.researchgate.net/profile/Julien_Malard>`_"
 msgstr "`Julien Malard <https://www.researchgate.net/profile/Julien_Malard>`_"
 
-#: ../../source/shukriya.rst:8
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/shukriya.rst:8
 msgid ""
 "`محمّد اظہرانعام بیگ <https://www.researchgate.net/profile/Azhar_Baig>`_"
 msgstr ""
 "`محمّد اظہرانعام بیگ (Muhammad Azhar Inam Baig) "
 "<https://www.researchgate.net/profile/Azhar_Baig>`_"
 
-#: ../../source/shukriya.rst:11
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/shukriya.rst:11
 msgid "ترجمہ"
 msgstr "Traducciones"

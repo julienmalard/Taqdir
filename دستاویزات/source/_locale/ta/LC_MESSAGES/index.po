@@ -9,10 +9,10 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: تقدیر 1\n"
+"Project-Id-Version: تقدیر 2.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-03 13:56+0000\n"
-"PO-Revision-Date: 2019-01-03 16:31+0000\n"
+"POT-Creation-Date: 2020-01-26 19:45+0000\n"
+"PO-Revision-Date: 2019-07-05 11:48+0000\n"
 "Last-Translator: Julien Malard <julien.malard@mail.mcgill.ca>, 2019\n"
 "Language-Team: Tamil (https://www.transifex.com/qatikon/teams/94867/ta/)\n"
 "MIME-Version: 1.0\n"
@@ -21,99 +21,103 @@ msgstr ""
 "Language: ta\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../source/index.rst:49 ../../source/index.rst:49
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/index.rst:49
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/index.rst:49
 msgid "تعارف"
 msgstr "தகவல்கள்"
 
-#: ../../source/index.rst:57 ../../source/index.rst:57
-msgid "نمونے"
-msgstr "உதாரணங்கள்"
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/index.rst:57
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/index.rst:57
+msgid "مثال"
+msgstr ""
 
-#: ../../source/index.rst:64 ../../source/index.rst:64
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/index.rst:66
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/index.rst:66
 msgid "ترقی"
 msgstr "மேம்பாடு"
 
-#: ../../source/index.rst:71 ../../source/index.rst:71
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/index.rst:73
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/index.rst:73
 msgid "برنامج کاری مواجہ"
 msgstr "செய்நிரல் இடைமுகம்"
 
-#: ../../source/index.rst:12
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/index.rst:12
 msgid "تقدیر کی دستاویزات پر  خوش آمدید!"
 msgstr "தக்தீரின் ஆவணங்களுக்கு வரவேற்பு!"
 
-#: ../../source/index.rst:27
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/index.rst:27
 msgid "تقدیر کیا ہے؟"
 msgstr "தக்தீர் என்பது என்ன?"
 
-#: ../../source/index.rst:28
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/index.rst:28
 msgid "تقدیر آب وہوا میں تبدیلی کے کوائف پایتھون کو دیتا ہے۔"
 msgstr "தக்தீரால் காலநிலை மாற்றம் தகவல்கள் பைத்தானில் சுலபமாக கிடைக்கும்."
 
-#: ../../source/index.rst:31
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/index.rst:31
 msgid "اسکا نام تقدیر کیوں  ہے؟"
 msgstr "இதின் பெயர் ஏன் தக்தீர்?"
 
-#: ../../source/index.rst:32
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/index.rst:32
 msgid ""
 "ہم نے اسے تقد ير کا نام ديا ہے کيو نکہ ہم سمجتھے ہيں کہ آب و ہوا کی تبد يلی "
 "ميں تقد ير کو ئی نہيں ہے، سوا ئے انسانيت کی بے و قوفی کے۔"
 msgstr ""
 
-#: ../../source/index.rst:36
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/index.rst:36
 msgid "مجھے تقدیر کی کیوں ضرورت ہوگی؟"
 msgstr "எனக்கு என் தக்தீரின் தேவை இருக்கும்?"
 
-#: ../../source/index.rst:37
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/index.rst:37
 msgid ""
 "کیا آپکو آب وہواکی تبدیلیوں کے کوائف درکار ہیں، ليکن نہيں جانتے کہ يہ "
 "کوائف کہاں سے ملیں گے؟"
 msgstr ""
 
-#: ../../source/index.rst:38
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/index.rst:38
 msgid ""
 "یا کیا آپکے پاس کوائف ہیں، ليکن ۱۰ مختلف جگہوں اور مختلف اوقات میں ہيں؟"
 msgstr ""
 
-#: ../../source/index.rst:39
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/index.rst:39
 msgid ""
 "شاید مرکسم کا استعمال کرناچاہتے ہیں، ليکن دستی طريقے سے مرکسم کے۲۰۰ مسل کے "
 "نتائج پڑھناممکن نہیں لگ رہا؟"
 msgstr ""
 
-#: ../../source/index.rst:41
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/index.rst:41
 msgid "تقدیران تينوں معاملات میں سب آسانی مہيا کرتا ہے۔"
 msgstr ""
 
-#: ../../source/index.rst:43
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/index.rst:43
 msgid ""
 "آپکے پاس کوائف نہیں ہیں؟ تقدیر انہیں آپکے لئے ڈھونڈ پايگا، چاھے کوائف "
 "ماضی، حال يا مستقبل کے ہوں۔"
 msgstr ""
 
-#: ../../source/index.rst:44
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/index.rst:44
 msgid ""
 "آپکے پاس مختلف جگہوں اور مختلف اوقات میں کوائف ہیں؟ تقدیر انہیں پہلےمرحلے "
 "ميں جوڑدیگا اور دوسرے مرحلے میں نامعلوم دنوں کے کوائف آپکے لئے ڈھونڈیگا۔"
 msgstr ""
 
-#: ../../source/index.rst:45
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/index.rst:45
 msgid ""
 "آپکے پاس ماہانہ کوائف ہیں، ليکن آپکو روزانہ کی بنياد پر کوائف درکار ہيں؟ یا"
 " روزانہ ہیں پر ماہانہ چاہئيں؟ تقد ير اس سلسلے ميں بھی مددگار ہے۔"
 msgstr ""
 
-#: ../../source/index.rst:48
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/index.rst:48
 msgid "اشاریہ"
 msgstr "குறியீட்டு"
 
-#: ../../source/index.rst:78
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/index.rst:80
 msgid "اشاریہ اور جدول"
 msgstr "குறியீட்டு மற்றும் அட்டவணைகள்"
 
-#: ../../source/index.rst:80
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/index.rst:82
 msgid ":ref:`اشاریہ <genindex>`"
 msgstr ":ref:`குறியீட்டு <genindex>`"
 
-#: ../../source/index.rst:81
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/index.rst:83
 msgid ":ref:`کھوج <search>`"
 msgstr ":ref:`தேடல் <search>`"

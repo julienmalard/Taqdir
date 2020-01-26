@@ -9,10 +9,10 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: تقدیر 1\n"
+"Project-Id-Version: تقدیر 2.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-03 13:56+0000\n"
-"PO-Revision-Date: 2019-01-03 16:31+0000\n"
+"POT-Creation-Date: 2020-01-26 19:45+0000\n"
+"PO-Revision-Date: 2019-07-05 11:48+0000\n"
 "Last-Translator: Julien Malard <julien.malard@mail.mcgill.ca>, 2019\n"
 "Language-Team: French (https://www.transifex.com/qatikon/teams/94867/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -21,39 +21,43 @@ msgstr ""
 "Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: ../../source/index.rst:49 ../../source/index.rst:49
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/index.rst:49
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/index.rst:49
 msgid "تعارف"
 msgstr "Information"
 
-#: ../../source/index.rst:57 ../../source/index.rst:57
-msgid "نمونے"
-msgstr "Exemples"
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/index.rst:57
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/index.rst:57
+msgid "مثال"
+msgstr ""
 
-#: ../../source/index.rst:64 ../../source/index.rst:64
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/index.rst:66
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/index.rst:66
 msgid "ترقی"
 msgstr "Développement"
 
-#: ../../source/index.rst:71 ../../source/index.rst:71
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/index.rst:73
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/index.rst:73
 msgid "برنامج کاری مواجہ"
 msgstr "IPA"
 
-#: ../../source/index.rst:12
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/index.rst:12
 msgid "تقدیر کی دستاویزات پر  خوش آمدید!"
 msgstr "Bienvenue à la documentation de Taqdir !"
 
-#: ../../source/index.rst:27
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/index.rst:27
 msgid "تقدیر کیا ہے؟"
 msgstr "Qu'est-ce que Taqdir ?"
 
-#: ../../source/index.rst:28
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/index.rst:28
 msgid "تقدیر آب وہوا میں تبدیلی کے کوائف پایتھون کو دیتا ہے۔"
 msgstr "Taqdir apporte les données de changements climatiques à Python."
 
-#: ../../source/index.rst:31
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/index.rst:31
 msgid "اسکا نام تقدیر کیوں  ہے؟"
 msgstr "Pourquoi est-ce que ça s'appelle Taqdir ?"
 
-#: ../../source/index.rst:32
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/index.rst:32
 msgid ""
 "ہم نے اسے تقد ير کا نام ديا ہے کيو نکہ ہم سمجتھے ہيں کہ آب و ہوا کی تبد يلی "
 "ميں تقد ير کو ئی نہيں ہے، سوا ئے انسانيت کی بے و قوفی کے۔"
@@ -62,11 +66,11 @@ msgstr ""
 "n'oublie jamais qu'il n'y a rien du destin dans les changements climatiques,"
 " sauf peut-être la stupidité humaine."
 
-#: ../../source/index.rst:36
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/index.rst:36
 msgid "مجھے تقدیر کی کیوں ضرورت ہوگی؟"
 msgstr "Pourquoi aurais-je besoin de taqdir ?"
 
-#: ../../source/index.rst:37
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/index.rst:37
 msgid ""
 "کیا آپکو آب وہواکی تبدیلیوں کے کوائف درکار ہیں، ليکن نہيں جانتے کہ يہ "
 "کوائف کہاں سے ملیں گے؟"
@@ -74,14 +78,14 @@ msgstr ""
 "Avez-vous eu besoin d'utiliser des données de changements climatiques, mais "
 "vous ne saviez pas par où commencer ?"
 
-#: ../../source/index.rst:38
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/index.rst:38
 msgid ""
 "یا کیا آپکے پاس کوائف ہیں، ليکن ۱۰ مختلف جگہوں اور مختلف اوقات میں ہيں؟"
 msgstr ""
 "Ou peut-être que vous avez déjà trouvé des données, mais elles sont dans 10 "
 "endroits et formats différents ?"
 
-#: ../../source/index.rst:39
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/index.rst:39
 msgid ""
 "شاید مرکسم کا استعمال کرناچاہتے ہیں، ليکن دستی طريقے سے مرکسم کے۲۰۰ مسل کے "
 "نتائج پڑھناممکن نہیں لگ رہا؟"
@@ -89,11 +93,11 @@ msgstr ""
 "Peut-être aimeriez-vous utiliser Marksim, mais vous n'avez pas trop le goût "
 "de gérer 200 fichiers de résultats à la main ?"
 
-#: ../../source/index.rst:41
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/index.rst:41
 msgid "تقدیران تينوں معاملات میں سب آسانی مہيا کرتا ہے۔"
 msgstr "Taqdir réglera ces problèmes pour vous !"
 
-#: ../../source/index.rst:43
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/index.rst:43
 msgid ""
 "آپکے پاس کوائف نہیں ہیں؟ تقدیر انہیں آپکے لئے ڈھونڈ پايگا، چاھے کوائف "
 "ماضی، حال يا مستقبل کے ہوں۔"
@@ -101,7 +105,7 @@ msgstr ""
 "Vous n'avez pas de données ? Pas de problème ! Taqdir les trouvera pour "
 "vous, qu'il s'agisse du passé, du présent ou même du future."
 
-#: ../../source/index.rst:44
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/index.rst:44
 msgid ""
 "آپکے پاس مختلف جگہوں اور مختلف اوقات میں کوائف ہیں؟ تقدیر انہیں پہلےمرحلے "
 "ميں جوڑدیگا اور دوسرے مرحلے میں نامعلوم دنوں کے کوائف آپکے لئے ڈھونڈیگا۔"
@@ -110,7 +114,7 @@ msgstr ""
 " différents ? Taqdir les combinera pour vous, et puis, s'il reste toujours "
 "des données manquantes, ira les rechercher pour vous aussi."
 
-#: ../../source/index.rst:45
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/index.rst:45
 msgid ""
 "آپکے پاس ماہانہ کوائف ہیں، ليکن آپکو روزانہ کی بنياد پر کوائف درکار ہيں؟ یا"
 " روزانہ ہیں پر ماہانہ چاہئيں؟ تقد ير اس سلسلے ميں بھی مددگار ہے۔"
@@ -119,18 +123,18 @@ msgstr ""
 "quotidiennes ? Ou peut-être s'agit-il de l'inverse ? Taqdir les convertira "
 "aussi pour vous."
 
-#: ../../source/index.rst:48
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/index.rst:48
 msgid "اشاریہ"
 msgstr "Index"
 
-#: ../../source/index.rst:78
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/index.rst:80
 msgid "اشاریہ اور جدول"
 msgstr "Index et tableaux"
 
-#: ../../source/index.rst:80
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/index.rst:82
 msgid ":ref:`اشاریہ <genindex>`"
 msgstr ":ref:`Index <genindex>`"
 
-#: ../../source/index.rst:81
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/index.rst:83
 msgid ":ref:`کھوج <search>`"
 msgstr ":ref:`Recherche <search>`"

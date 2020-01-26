@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: تقدیر 1\n"
+"Project-Id-Version: تقدیر 2.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-03 13:56+0000\n"
+"POT-Creation-Date: 2020-01-26 19:45+0000\n"
 "PO-Revision-Date: 2019-01-04 17:18+0000\n"
 "Last-Translator: Julien Malard <julien.malard@mail.mcgill.ca>, 2019\n"
 "Language-Team: Spanish (https://www.transifex.com/qatikon/teams/94867/es/)\n"
@@ -21,108 +21,103 @@ msgstr ""
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../source/moajh/koaef.rst:2
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/moajh/koaef.rst:2
 msgid "کوائف"
 msgstr "Datos"
 
-#: ../../source/moajh/koaef.rst:4
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/moajh/koaef.rst:4
 msgid ""
 "تقدیر کے سارے نتائيج :class:`~تقدیر.کوائف.کوائف` کی قسم میں مل جاتے ہیں۔"
 msgstr ""
 "Todos los resultados de Taqdir se devuelven en el formato "
 ":class:`~تقدیر.کوائف.کوائف`."
 
-#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/کوائف.pydocstring
+#: /home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages/تقدیر/کوائف.pydocstring
 #: of تقدیر.کوائف.کوائف:1
 msgid "آب وہوا کے کوائف۔"
 msgstr "Datos climáticos."
 
-#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/کوائف.pydocstring
+#: /home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages/تقدیر/کوائف.pydocstring
 #: of تقدیر.کوائف.کوائف.روزانہ:1
 msgid "روزانہ کی ظرز پر کوائف ۔"
 msgstr "Datos diarios."
 
-#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/کوائف.pydocstring
-#: of تقدیر.کوائف.کوائف.روزانہ:5
-#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/کوائف.pydocstring
-#: of تقدیر.کوائف.کوائف.سالانہ:5
-#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/کوائف.pydocstring
-#: of تقدیر.کوائف.کوائف.ماہانہ:5
-msgid "pd.DataFrame"
-msgstr "pd.DataFrame"
+#: /home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages/تقدیر/کوائف.pydocstring
+#: of تقدیر.کوائف.کوائف.روزانہ:0
+#: /home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages/تقدیر/کوائف.pydocstring
+#: of تقدیر.کوائف.کوائف.سالانہ:0
+#: /home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages/تقدیر/کوائف.pydocstring
+#: of تقدیر.کوائف.کوائف.لاپتہ:0
+#: /home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages/تقدیر/کوائف.pydocstring
+#: of تقدیر.کوائف.کوائف.ماہانہ:0
+msgid "Returns"
+msgstr ""
 
-#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/کوائف.pydocstring
+#: /home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages/تقدیر/کوائف.pydocstring
+#: of تقدیر.کوائف.کوائف.روزانہ:0
+#: /home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages/تقدیر/کوائف.pydocstring
+#: of تقدیر.کوائف.کوائف.سالانہ:0
+#: /home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages/تقدیر/کوائف.pydocstring
+#: of تقدیر.کوائف.کوائف.لاپتہ:0
+#: /home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages/تقدیر/کوائف.pydocstring
+#: of تقدیر.کوائف.کوائف.ماہانہ:0
+msgid "Return type"
+msgstr ""
+
+#: /home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages/تقدیر/کوائف.pydocstring
 #: of تقدیر.کوائف.کوائف.سالانہ:1
 msgid "سالانہ کی ظرز پر کوائف ۔"
 msgstr "Datos anuales."
 
-#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/کوائف.pydocstring
-#: of تقدیر.کوائف.کوائف.سالانہ:6
+#: /home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages/تقدیر/کوائف.pydocstring
+#: of تقدیر.کوائف.کوائف.سالانہ:3
 msgid "کوائف کی سالانہ اوسط۔"
 msgstr "El promedio anual de los datos."
 
-#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/کوائف.pydocstring
+#: /home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages/تقدیر/کوائف.pydocstring
 #: of تقدیر.کوائف.کوائف.لاپتہ:1
 msgid "نا معلوم دنوں کے کوائف واپس دیگا۔"
 msgstr ""
 
-#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/کوائف.pydocstring
-#: of تقدیر.کوائف.کوائف.لاپتہ:6
-msgid "سارے: bool"
-msgstr "سارے: bool"
+#: /home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages/تقدیر/کوائف.pydocstring
+#: of تقدیر.کوائف.کوائف.لاپتہ:0
+#: /home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages/تقدیر/کوائف.pydocstring
+#: of تقدیر.کوائف.کوائف.لکھنا:0
+msgid "Parameters"
+msgstr ""
 
-#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/کوائف.pydocstring
-#: of تقدیر.کوائف.کوائف.لاپتہ:6
+#: /home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages/تقدیر/کوائف.pydocstring
+#: of تقدیر.کوائف.کوائف.لاپتہ:3
 msgid ""
 "صرف ان دنوں  کے کوائف دے گا جینکے سارےعمودی ستون کے کوائف نا معلوم ہیں۔"
 msgstr ""
 
-#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/کوائف.pydocstring
-#: of تقدیر.کوائف.کوائف.لاپتہ:10
-msgid "pd.PeriodIndex"
-msgstr "pd.PeriodIndex"
-
-#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/کوائف.pydocstring
+#: /home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages/تقدیر/کوائف.pydocstring
 #: of تقدیر.کوائف.کوائف.لکھنا:1
 msgid "کوائف کو مسل میں رکھنا۔"
 msgstr ""
 
-#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/کوائف.pydocstring
-#: of تقدیر.کوائف.کوائف.لکھنا:5
-msgid "راستہ: str"
-msgstr "راستہ: str"
-
-#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/کوائف.pydocstring
-#: of تقدیر.کوائف.کوائف.لکھنا:6
+#: /home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages/تقدیر/کوائف.pydocstring
+#: of تقدیر.کوائف.کوائف.لکھنا:3
 msgid "مسل کا راستہ۔"
 msgstr "La dirección del archivo."
 
-#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/کوائف.pydocstring
-#: of تقدیر.کوائف.کوائف.لکھنا:7
-msgid "نام: str"
-msgstr "نام: str"
-
-#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/کوائف.pydocstring
-#: of تقدیر.کوائف.کوائف.لکھنا:8
+#: /home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages/تقدیر/کوائف.pydocstring
+#: of تقدیر.کوائف.کوائف.لکھنا:5
 msgid "مسل کا نام۔"
 msgstr "El nombre del archivo."
 
-#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/کوائف.pydocstring
-#: of تقدیر.کوائف.کوائف.لکھنا:9
-msgid "وضع: str"
-msgstr "وضع: str"
-
-#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/کوائف.pydocstring
-#: of تقدیر.کوائف.کوائف.لکھنا:10
+#: /home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages/تقدیر/کوائف.pydocstring
+#: of تقدیر.کوائف.کوائف.لکھنا:7
 msgid "مسل کا وضع۔ `.csv` یا `.json` ہو سکتا ہے۔"
 msgstr ""
 
-#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/کوائف.pydocstring
+#: /home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages/تقدیر/کوائف.pydocstring
 #: of تقدیر.کوائف.کوائف.ماہانہ:1
 msgid "ماہانہ کی ظرز پر کوائف ۔"
 msgstr "Datos mensuales."
 
-#: ../../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/تقدیر/کوائف.pydocstring
-#: of تقدیر.کوائف.کوائف.ماہانہ:6
+#: /home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages/تقدیر/کوائف.pydocstring
+#: of تقدیر.کوائف.کوائف.ماہانہ:3
 msgid "کوائف کی ماہانہ اوسط۔"
 msgstr "El promedo mensual de los datos."

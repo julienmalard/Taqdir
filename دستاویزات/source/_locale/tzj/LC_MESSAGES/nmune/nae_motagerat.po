@@ -1,0 +1,41 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) ژولیئں ملاغ، محمّد اظہر انعام بیگ، ۲۰۱۸+
+# This file is distributed under the same license as the تقدیر package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: تقدیر 2.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-26 19:45+0000\n"
+"PO-Revision-Date: 2019-07-07 03:58+0000\n"
+"Language-Team: Tz’utujil (https://www.transifex.com/qatikon/teams/94867/tzj/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tzj\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/nmune/nae_motagerat.rst:2
+msgid "نئے متغیرات"
+msgstr ""
+
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/nmune/nae_motagerat.rst:4
+msgid ""
+"تقدیر مختلف :ref:`متغیّرات <متغیّرات>`  کے ساتھ آتا ہیے۔ اگر آپکو دوسرے "
+"متغیرات کا یستمعال کرنا ہیے تو آپکو انہیں خود جوڑانے پڑیگا۔"
+msgstr ""
+
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/nmune/nae_motagerat.rst:7
+msgid ""
+"``کم`` اور ``زیادہ`` نام کے اختیارات تقدیر کو بتاتے ہیں کے یہ متغیر کاونسی "
+"قیمت لے سکتا ہیے۔ یہ کوائف کی توسیع کے فعلیت لیے اہم ہیے۔"
+msgstr ""
+
+#: /home/travis/build/julienmalard/Taqdir/دستاویزات/source/nmune/nae_motagerat.rst:10
+msgid ""
+"from تقدیر.متغیرات import متغیرات, متغیر\n"
+"رشتہ_دار_نمی =  متغیر('رشتہ_دار_نمی', وحدت='فیصد', کم=0)\n"
+"متغیرات.جوڑانا(رشتہ_دار_نمی)"
+msgstr ""
